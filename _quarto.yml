@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+
+execute:
+  freeze: auto    # Don't re-run code unless source changes
+
+website:
+  title: "Pandelis Perakakis"
+  site-url: https://perakakis.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: software/index.qmd
+        text: Software
+      - href: publications/index.qmd
+        text: Publications
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: blog/index.qmd
+        text: Blog
+      - href: music/index.qmd
+        text: Music
+    right:
+      - icon: github
+        href: https://github.com/perakakis
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=5S-EVSAAAAAJ
+      - icon: globe
+        href: https://orcid.org/0000-0002-9130-3247
+
+  page-footer:
+    left: "© 2025 Pandelis Perakakis"
+    right: "Built with [Quarto](https://quarto.org)"
+
+  search: true        # Built-in search
+  reader-mode: true   # Clean reading mode toggle
+
+format:
+  html:
+    theme:
+      light: flatly    # Or cosmo, litera, etc. — preview at https://bootswatch.com
+      dark: darkly
+    css: styles.css
+    toc: true

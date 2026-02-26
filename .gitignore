@@ -1,2 +1,18 @@
+# Quarto rendered output
+_site/
 /.quarto/
 **/*.quarto_ipynb
+
+# Python virtual environment
+.venv/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/

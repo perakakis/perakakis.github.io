@@ -3,92 +3,44 @@ title: "Publications"
 toc: true
 ---
 
-## 2025
+```{r}
+#| echo: false
+#| output: asis
+#| warning: false
+#| message: false
 
-Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S. G., & **Perakakis, P.** (2025). Bistability and affect shift dynamics in the prediction of psychological well-being. *Emotion*, 25(4), 982–996. <span class="badge oa-badge">Open Access</span>
+library(RefManageR)
 
----
+BibOptions(
+  check.entries   = FALSE,
+  style           = "html",
+  bib.style       = "authoryear",
+  sorting         = "ydnt",
+  no.print.fields = c("file", "urldate", "keywords", "abstract",
+                      "copyright", "issn", "language", "publisher")
+)
 
-## 2024
+bib <- ReadBib("references.bib", check = FALSE)
 
-Yoris, A. E., Cira, L. F., Luque-Casado, A., Salvotti, C., Tajadura-Jiménez, A., Avancini, C., Zarza-Rebollo, J. A., Sanabria, D., & **Perakakis, P.** (2024). Delving into the relationship between regular physical exercise and cardiac interoception in two cross-sectional studies. *Neuropsychologia*, 198, 108867. [https://doi.org/10.31234/osf.io/42gcm](https://doi.org/10.31234/osf.io/42gcm)
+# Extract year for each entry (NULL/missing becomes "n.d.")
+get_year <- function(i) {
+  yr <- bib[[i]]$year
+  if (is.null(yr) || nchar(trimws(yr)) == 0) "n.d." else trimws(yr)
+}
 
----
+all_years <- sapply(seq_along(bib), get_year)
 
-## 2023
+# Numeric years descending, then "n.d." last
+numeric_years <- sort(unique(as.integer(all_years[all_years != "n.d."])),
+                      decreasing = TRUE)
+year_order    <- c(as.character(numeric_years),
+                   if (any(all_years == "n.d.")) "n.d.")
 
-Bernal, I., & **Perakakis, P.** (2023). No-pay publishing: use institutional repositories. *Nature*, 619(7971), 698. [https://doi.org/10.1038/d41586-023-02315-z](https://doi.org/10.1038/d41586-023-02315-z) <span class="badge oa-badge">Open Access</span>
-
-Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., **Perakakis, P.**, Trachana, V., Ma, L., & Rodriguez-Cuadrado, S. (2023). Replacing academic journals. *Royal Society Open Science*, 10(7), 230206. [https://doi.org/10.1098/rsos.230206](https://doi.org/10.1098/rsos.230206) <span class="badge oa-badge">Open Access</span>
-
-Ciria, L. F., Román-Caballero, R., Vadillo, M. A., Holgado, D., Luque-Casado, A., **Perakakis, P.**, & Sanabria, D. (2023). An umbrella review of randomized control trials on the effects of physical exercise on cognition. *Nature Human Behaviour*, 7, 928–941. <span class="badge oa-badge">Open Access</span>
-
----
-
-## 2022
-
-Bogdány, T., **Perakakis, P.**, Bódizs, R., & Simor, P. (2022). The heartbeat evoked potential is a questionable biomarker in nightmare disorder: A replication study. *NeuroImage: Clinical*, 33, 102933. [https://doi.org/10.1016/j.nicl.2021.102933](https://doi.org/10.1016/j.nicl.2021.102933)
-
----
-
-## 2021
-
-Wallman-Jones, A., **Perakakis, P.**, Tsakiris, M., & Schmidt, M. (2021). Physical activity and interoceptive processing: Theoretical considerations for future research. *International Journal of Psychophysiology*, 166, 38–49.
-
-Simor, P., Bogdány, T., Bódizs, R., & **Perakakis, P.** (2021). Cortical monitoring of cardiac activity during rapid eye movement sleep: the heartbeat evoked potential in phasic and tonic rapid-eye-movement microstates. *Sleep*, 44(9).
-
----
-
-## 2020
-
-Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanabria, D., & **Perakakis, P.** (2020). CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain. *Scientific Data*, 7, 365. <span class="badge oa-badge">Open Access</span>
-
-Luque-Casado, A., Ciria, L., Sanabria, D., & **Perakakis, P.** (2020). Exercise practice associates with different brain rhythmic patterns during vigilance. *Physiology & Behavior*, 224, 113033.
-
----
-
-## 2019
-
-Bailon, C., Damas, M., Pomares, H., Sanabria, D., **Perakakis, P.**, Goicoechea, C., & Banos, O. (2019). Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods. *Sensors*, 19(15), 3430. <span class="badge oa-badge">Open Access</span>
-
-Sanabria, D., Luque-Casado, A., Perales, J. C., Ballester, R., Ciria, L. F., Huertas, F., & **Perakakis, P.** (2019). The relationship between vigilance capacity and physical exercise: a mixed-effects multistudy analysis. *PeerJ*, 7, e7118. [https://doi.org/10.7717/peerj.7118](https://doi.org/10.7717/peerj.7118)
-
-Ciria, L., Luque‐Casado, A., Sanabria, D., Holgado, D., Ivanov, P., & **Perakakis, P.** (2019). Oscillatory brain activity during acute exercise: Tonic and transient neural response to an oddball task. *Psychophysiology*, e13326.
-
-**Perakakis, P.**, Guinot-Saporta, J., Jaber-Lopez, T., García-Gallego, A., & Georgantzis, N. (2019). A technical note on the precise timing of behavioral events in economic experiments. *Journal of Behavioral and Experimental Finance*, 21, 10–14.
-
----
-
-## 2018
-
-Bailon, C., Damas, M., Pomares, H., Sanabria, D., **Perakakis, P.**, Goicoechea, C., & Baños, O. (2018). Intelligent monitoring of affective factors underlying sport performance by means of wearable and mobile technology. *Proceedings*, 2(19), 1202.
-
-Ciria, L., **Perakakis, P.**, Luque-Casado, A., & Sanabria, D. (2018). Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults. *NeuroImage*, 181, 203–210.
-
-Holgado, D., Zandonai, T., Zabala, M., Hopker, J., **Perakakis, P.**, Luque-Casado, A., Ciria, L., Guerra-Hernandez, E., & Sanabria, D. (2018). Tramadol effects on physical performance and sustained attention during a 20-min indoor cycling time-trial. *Journal of Science and Medicine in Sport*, 21, 654–660.
-
----
-
-## 2017
-
-Ciria, L., **Perakakis, P.**, Luque-Casado, A., Morato, C., & Sanabria, D. (2017). The relationship between sustained attention and aerobic fitness in a group of young adults. *PeerJ*, 5, e3831. [https://doi.org/10.7717/peerj.3831](https://doi.org/10.7717/peerj.3831)
-
-Rodriguez, A., **Perakakis, P.**, Garrido, A., Mata, J., Fernandez-Santaella, M. C., & Vila, J. (2017). Mathematical detection of aortic valve opening (B point) in impedance cardiography. *Psychophysiology*, 54(3), 350–357.
-
-**Perakakis, P.**, Ponsati, A., Bernal, I., Sierra, C., Osman, N., Mosquera-de-Arancibia, C., & Lorenzo, E. (2017). OPRM: Challenges to including open peer review in open access repositories. *Code4Lib*, 35. [https://doi.org/10.5281/zenodo.3611402](https://doi.org/10.5281/zenodo.3611402)
-
----
-
-## 2016
-
-Luque-Casado, A., **Perakakis, P.**, Ciria, L. F., & Sanabria, D. (2016). Transient autonomic responses during sustained attention in high and low fit young adults. *Scientific Reports*, 6, 27556. <span class="badge oa-badge">Open Access</span>
-
-Luque-Casado, A., **Perakakis, P.**, Hillman, C. H., Kao, S. C., Llorens, F., Guerra, P., & Sanabria, D. (2016). Differences in sustained attention capacity as a function of aerobic fitness. *Medicine & Science in Sports & Exercise*, 48(5), 887–895.
-
----
-
-## 2010
-
-**Perakakis, P.**, Joffily, M., Taylor, M., Guerra, P., & Vila, J. (2010). KARDIA: a Matlab software for the analysis of cardiac interbeat intervals. *Computer Methods and Programs in Biomedicine*, 98, 83–89.
-
-**Perakakis, P.**, Taylor, M., Vila, J., & Bhuvaneswara, S. (2010). Natural selection of academic papers. *Scientometrics*, 85(2), 553–559.
+for (yr in year_order) {
+  idx    <- which(all_years == yr)
+  label  <- if (yr == "n.d.") "No date" else yr
+  cat(paste0("\n## ", label, "\n\n"))
+  PrintBibliography(bib[idx])
+  cat("\n\n---\n\n")
+}
+```

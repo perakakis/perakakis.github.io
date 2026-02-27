@@ -3,6 +3,7 @@ title: "Publications"
 bibliography: references.bib
 nocite: '@*'
 csl: apa-date-desc.csl
-suppress-bibliography: false
-reference-section-title: ""
 ---
+
+::: {#refs}
+:::

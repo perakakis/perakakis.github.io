@@ -1,0 +1,19 @@
+---
+title: "Teaching"
+toc: true
+---
+
+I teach at the [Complutense University of Madrid](https://www.ucm.es) in the Department of Social, Work and Differential Psychology.
+
+## Current Courses
+
+### Individual Differences
+*Undergraduate — Faculty of Psychology, Complutense University of Madrid*
+
+This course provides an introduction to the scientific study of psychological differences between individuals. Topics include the history and theoretical foundations of differential psychology, psychometric methods, intelligence and cognitive abilities, personality, and the interplay of genetic and environmental factors.
+
+---
+
+::: {.callout-note}
+Teaching materials and course resources will be added here.
+:::

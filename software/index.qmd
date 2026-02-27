@@ -1,0 +1,54 @@
+---
+title: "Software"
+toc: true
+---
+
+I develop open-source software tools for psychophysiological data analysis. Both tools are freely available under open licenses.
+
+---
+
+## KARDIA
+
+**KARDIA** (*καρδιά* — "heart" in Greek) is a MATLAB software for the analysis of cardiac interbeat interval data. It provides a graphical user interface with functions for examining phasic cardiac responses triggered by environmental stimuli and calculating standard heart rate variability parameters.
+
+### Features
+
+- Analysis of phasic cardiac responses to environmental stimuli
+- Time and frequency domain Heart Rate Variability (HRV) measures
+- Detrended Fluctuation Analysis (DFA) for scaling exponents
+- Grand average and individual subject result visualization
+- Data export to spreadsheets for statistical analysis
+- Free distribution under GNU Public License
+
+### Download
+
+::: {.button-row}
+[<i class="bi bi-github"></i> GitHub](https://github.com/perakakis/KARDIA){.btn .btn-outline-primary target="_blank"}
+[SourceForge](https://sourceforge.net/projects/mykardia/){.btn .btn-outline-secondary target="_blank"}
+[Zenodo](https://doi.org/10.5281/zenodo.2638856){.btn .btn-outline-secondary target="_blank"}
+:::
+
+### Citation
+
+Perakakis, P., Joffily, M., Taylor, M., Guerra, P., & Vila, J. (2010). KARDIA: a Matlab software for the analysis of cardiac interbeat intervals. *Computer Methods and Programs in Biomedicine*, 98, 83–89.
+
+---
+
+## HEPLAB
+
+**HEPLAB** is an EEGLAB plugin and standalone MATLAB toolbox for the analysis of the Heartbeat-Evoked Potential (HEP). It automates the detection of cardiac-related events from raw ECG signals and integrates with EEGLAB for downstream EEG analysis.
+
+### Features
+
+- Three R wave detection algorithms
+- One T wave detection algorithm
+- Graphical user interface for displaying cardiac events and manually correcting artifacts
+- Export of events to EEGLAB's EEG structure for HEP analysis
+- Usable as an EEGLAB plugin or standalone MATLAB toolbox
+
+### Download
+
+::: {.button-row}
+[<i class="bi bi-github"></i> GitHub](https://github.com/perakakis/HEPLAB){.btn .btn-outline-primary target="_blank"}
+[Zenodo](https://doi.org/10.5281/zenodo.2650275){.btn .btn-outline-secondary target="_blank"}
+:::

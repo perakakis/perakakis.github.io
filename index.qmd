@@ -1,7 +1,93 @@
 ---
-title: "Pandelis Perakakis"
+title: ""
+page-layout: full
+toc: false
 ---
 
-This is a Quarto website.
+```{=html}
+<div class="hero-section">
+  <div class="hero-content">
+    <div class="hero-photo">
+      <img src="images/profile.jpg"
+           alt="Pandelis Perakakis"
+           class="profile-photo">
+    </div>
+    <div class="hero-text">
+      <h1 class="hero-name">Pandelis Perakakis</h1>
+      <p class="hero-title">Associate Professor of Psychology</p>
+      <p class="hero-affiliation">Complutense University of Madrid<br>
+      Dept. of Social, Work and Differential Psychology</p>
+      <p class="hero-bio">
+        I am an associate professor of psychology at the Complutense University of Madrid,
+        teaching Individual Differences. My research encompasses human psychophysiology and
+        affective science, with a particular interest in affect shift dynamics and their
+        significance for psychological well-being.
+      </p>
+      <div class="hero-links">
+        <a href="https://orcid.org/0000-0002-9130-3247" class="btn btn-outline-secondary btn-sm" target="_blank">
+          <i class="bi bi-globe"></i> ORCID
+        </a>
+        <a href="https://scholar.google.com/citations?user=5S-EVSAAAAAJ" class="btn btn-outline-secondary btn-sm" target="_blank">
+          <i class="bi bi-mortarboard-fill"></i> Google Scholar
+        </a>
+        <a href="https://github.com/perakakis" class="btn btn-outline-secondary btn-sm" target="_blank">
+          <i class="bi bi-github"></i> GitHub
+        </a>
+        <a href="https://x.com/ppandelis" class="btn btn-outline-secondary btn-sm" target="_blank">
+          <i class="bi bi-twitter-x"></i> X
+        </a>
+        <a href="https://www.linkedin.com/in/pandelis-perakakis-1369402a/" class="btn btn-outline-secondary btn-sm" target="_blank">
+          <i class="bi bi-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Research Interests
+
+::: {.card-grid}
+
+::: {.research-card}
+### Affect Dynamics
+Exploring the relation between affect shifts and psychological well-being. Most people don't gradually drift between emotional states — they remain in one state before suddenly tipping into another. Understanding these bistable dynamics has implications for how we measure and predict psychological health.
+:::
+
+::: {.research-card}
+### Scholarly Communication
+Developing models and tools to promote scholar-governed academic publishing. Co-founded [Open Scholar](https://openscholar.org.uk) in 2012. Research on replacing commercial journals with community-owned, open-access infrastructure.
+:::
+
+::: {.research-card}
+### Exercise, Brain & Cognition
+Investigating whether and how physical exercise improves cognitive performance. Studies focus on sustained attention, brain oscillatory activity, cardiac interoception, and the neural mechanisms underlying exercise-cognition links.
+:::
+
+:::
+
+## Recent Publications
+
+| Year | Reference |
+|------|-----------|
+| 2025 | Goicoechea et al. **Bistability and affect shift dynamics in the prediction of psychological well-being.** *Emotion*, 25(4), 982–996. |
+| 2024 | Yoris et al. **Delving into the relationship between regular physical exercise and cardiac interoception.** *Neuropsychologia*, 198, 108867. |
+| 2023 | Ciria et al. **An umbrella review of randomized control trials on the effects of physical exercise on cognition.** *Nature Human Behaviour*, 7, 928–941. |
+| 2023 | Brembs et al. **Replacing academic journals.** *Royal Society Open Science*, 10(7), 230206. |
+| 2023 | Bernal & Perakakis. **No-pay publishing: use institutional repositories.** *Nature*, 619(7971), 698. |
+
+[See all publications →](publications/index.qmd)
+
+## Latest News
+
+::: {.news-list}
+
+**February 5, 2025** — [Rethinking how we measure affect: new insights into psychological well-being](blog/rethinking-affect.qmd)
+
+**October 28, 2023** — [How to sell your journal: The secret business of academic journal acquisitions](blog/journal-acquisitions.qmd)
+
+**September 2, 2023** — [Djokovic vs Science](blog/djokovic-vs-science.qmd)
+
+:::
+
+[See all posts →](blog/index.qmd)

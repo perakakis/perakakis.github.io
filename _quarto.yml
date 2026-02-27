@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
 
 execute:
   freeze: auto    # Don't re-run code unless source changes
@@ -22,8 +25,7 @@ website:
         text: Teaching
       - href: blog/index.qmd
         text: Blog
-      - href: music/index.qmd
-        text: Music
+
     right:
       - icon: github
         href: https://github.com/perakakis

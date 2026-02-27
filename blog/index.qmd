@@ -1,0 +1,11 @@
+---
+title: "Blog"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+page-layout: full
+toc: false
+---

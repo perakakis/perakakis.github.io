@@ -136,31 +136,6 @@
 }
 
 /* =============================================
-   PUBLICATIONS PAGE
-   ============================================= */
-
-/* Tighten up the year headings */
-.publications h2 {
-  border-bottom: 1px solid var(--bs-border-color);
-  padding-bottom: 0.25rem;
-  margin-top: 2rem;
-}
-
-/* =============================================
-   OPEN ACCESS BADGE
-   ============================================= */
-
-.oa-badge {
-  background-color: #c8a200;
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 500;
-  vertical-align: middle;
-  padding: 0.2em 0.5em;
-  border-radius: 0.3rem;
-}
-
-/* =============================================
    GENERAL TYPOGRAPHY
    ============================================= */
 

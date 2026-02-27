@@ -1,64 +1,8 @@
 ---
 title: "Publications"
-toc: true
+bibliography: references.bib
+nocite: '@*'
+csl: apa-date-desc.csl
+suppress-bibliography: false
+reference-section-title: ""
 ---
-
-## 2016
-
-::: {=html}
-<p><cite><a id='bib-luque-casado_transient_2016'></a><a href="#cite-luque-casado_transient_2016">Luque-Casado, A., P. Perakakis, L. F. Ciria, et al.</a>
-(2016NA).
-&ldquo;Transient autonomic responses during sustained attention in high and low fit young adults&rdquo;.
-In: <em>Sci. Rep.</em> 6.</cite></p>
-:::
-
----
-
-## 2011
-
-::: {=html}
-<p><cite><a id='bib-viedmadeljesus_sketching_2011'></a><a href="#cite-viedmadeljesus_sketching_2011">Viedma‐Del‐Jesus, M. I., P. Perakakis, M. Á. Muñoz, et al.</a>
-(2011NA).
-&ldquo;Sketching the first 45 years of the journal Psychophysiology (1964–2008): A co‐word‐based analysis&rdquo;.
-En.
-In: <em>Psychophysiology</em> 48.8, pp. 1029&ndash;1036.
-DOI: <a href="https://doi.org/10.1111/j.1469-8986.2011.01171.x">10.1111/j.1469-8986.2011.01171.x</a>.
-URL: <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-8986.2011.01171.x">https://onlinelibrary.wiley.com/doi/10.1111/j.1469-8986.2011.01171.x</a>.</cite></p>
-:::
-
----
-
-## 2010
-
-::: {=html}
-<p><cite><a id='bib-perakakis_kardia_2010'></a><a href="#cite-perakakis_kardia_2010">Perakakis, P., M. Joffily, M. Taylor, et al.</a>
-(2010).
-&ldquo;KARDIA: A Matlab software for the analysis of cardiac interbeat intervals&rdquo;.
-En.
-In: <em>Computer Methods and Programs in Biomedicine</em> 98.1, pp. 83&ndash;89.
-DOI: <a href="https://doi.org/10.1016/j.cmpb.2009.10.002">10.1016/j.cmpb.2009.10.002</a>.
-URL: <a href="https://linkinghub.elsevier.com/retrieve/pii/S0169260709002867">https://linkinghub.elsevier.com/retrieve/pii/S0169260709002867</a>.</cite></p>
-
-<p><cite><a id='bib-perakakis_natural_2010'></a><a href="#cite-perakakis_natural_2010">Perakakis, P., M. Taylor, M. Mazza, et al.</a>
-(2010).
-&ldquo;Natural selection of academic papers&rdquo;.
-In: <em>Scientometrics</em> 85.2, pp. 553&ndash;559.
-DOI: <a href="https://doi.org/10.1007/s11192-010-0253-1">10.1007/s11192-010-0253-1</a>.
-URL: <a href="https://akademiai.com/doi/abs/10.1007/s11192-010-0253-1">https://akademiai.com/doi/abs/10.1007/s11192-010-0253-1</a>.</cite></p>
-:::
-
----
-
-## 2008
-
-::: {=html}
-<p><cite><a id='bib-taylor_siege_2008'></a><a href="#cite-taylor_siege_2008">Taylor, M., P. Perakakis, and V. Trachana</a>
-(2008).
-&ldquo;The siege of science&rdquo;.
-In: <em>Ethics Sci. Environ. Polit.</em> 8, pp. 17&ndash;40.
-DOI: <a href="https://doi.org/10.3354/esep00086">10.3354/esep00086</a>.
-URL: <a href="http://www.int-res.com/abstracts/esep/v8/n1/p17-40/">http://www.int-res.com/abstracts/esep/v8/n1/p17-40/</a>.</cite></p>
-:::
-
----
-

@@ -1,0 +1,51 @@
+---
+title: "Research"
+toc: true
+---
+
+My research sits at the intersection of human psychophysiology, affective science, and scholarly communication. Below are the three main lines of investigation I am currently pursuing.
+
+---
+
+## Affect Dynamics
+
+Emotions are not static — they fluctuate over time, and the *pattern* of those fluctuations may matter as much as their average level for psychological well-being. Drawing on concepts from dynamical systems theory, this research line investigates how affect shifts over hours and days, and what those dynamics reveal about a person's psychological health.
+
+A key finding from recent work is that emotional experience often behaves like a **bistable system**: rather than drifting gradually between positive and negative states, most people tend to remain in one state before abruptly tipping into another. This bistability — the tendency to occupy distinct emotional attractors — predicts well-being above and beyond traditional affect measures.
+
+**Key publications:**
+
+- Goicoechea, C., Dakos, V., Sanabria, D., et al. (2025). Bistability and affect shift dynamics in the prediction of psychological well-being. *Emotion*, 25(4), 982–996.
+- Bailon et al. (2020). CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain. *Scientific Data*, 7, 365.
+- Bailon et al. (2019). Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods. *Sensors*, 19(15), 3430.
+
+---
+
+## Scholarly Communication
+
+The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward **scholar-governed, open-access publishing**.
+
+In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.
+
+**Key publications:**
+
+- Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al. (2023). Replacing academic journals. *Royal Society Open Science*, 10(7), 230206.
+- Bernal, I., & Perakakis, P. (2023). No-pay publishing: use institutional repositories. *Nature*, 619(7971), 698.
+- Perakakis, P., et al. (2017). OPRM: Challenges to including open peer review in open access repositories. *Code4Lib*, 35.
+- Perakakis, P., et al. (2010). Natural selection of academic papers. *Scientometrics*, 85(2), 553–559.
+
+---
+
+## Exercise, Brain & Cognition
+
+Does physical exercise improve cognitive performance? If so, how? This research line uses neuroimaging (EEG), psychophysiological measures, and rigorous experimental designs to investigate the acute and chronic effects of exercise on brain function and cognition — with a focus on **sustained attention** and **cardiac interoception**.
+
+Key questions include: How does aerobic fitness modulate brain oscillations during demanding cognitive tasks? What is the relationship between exercise, autonomic regulation, and the perception of internal bodily signals?
+
+**Key publications:**
+
+- Ciria, L.F., Román-Caballero, R., et al. (2023). An umbrella review of randomized control trials on the effects of physical exercise on cognition. *Nature Human Behaviour*, 7, 928–941.
+- Yoris, A.E., Cira, L.F., Luque-Casado, A., et al. (2024). Delving into the relationship between regular physical exercise and cardiac interoception. *Neuropsychologia*, 198, 108867.
+- Ciria, L., Perakakis, P., et al. (2018). Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults. *NeuroImage*, 181, 203–210.
+- Luque-Casado, A., Perakakis, P., et al. (2016). Transient autonomic responses during sustained attention in high and low fit young adults. *Scientific Reports*, 6, 27556.
+- Sanabria, D., et al. (2019). The relationship between vigilance capacity and physical exercise: a mixed-effects multistudy analysis. *PeerJ*, 7, e7118.

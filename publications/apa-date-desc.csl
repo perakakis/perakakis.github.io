@@ -2245,9 +2245,8 @@
   </macro>
   <bibliography entry-spacing="0" et-al-min="21" et-al-use-first="19" et-al-use-last="true" hanging-indent="true" line-spacing="2">
     <sort>
+      <key macro="date-sort" sort="descending"/>
       <key macro="author-sort"/>
-      <key macro="date-sort-group"/>
-      <key macro="date-sort"/>
       <key variable="status"/>
       <key macro="title"/>
       <key variable="volume"/>
@@ -2267,6 +2266,7 @@
           <text macro="bibliography"/>
         </else>
       </choose>
+      <text variable="note" prefix="&lt;br/&gt;"/>
     </layout>
   </bibliography>
 </style>

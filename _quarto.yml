@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "**/*.qmd"
+  post-render: publications/fix-note-links.sh
 
 execute:
   freeze: auto    # Don't re-run code unless source changes

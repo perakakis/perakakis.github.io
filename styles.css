@@ -152,9 +152,9 @@
   font-weight: 500;
   line-height: 1.4;
   border-radius: 4px;
-  border: 1.5px solid #2780e3;
+  border: 1.5px solid var(--bs-primary);
   background-color: transparent;
-  color: #2780e3 !important;
+  color: var(--bs-primary) !important;
   text-decoration: none;
   white-space: nowrap;
   letter-spacing: 0.02em;

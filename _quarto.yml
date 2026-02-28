@@ -11,6 +11,7 @@ execute:
 
 website:
   title: "Pandelis Perakakis"
+  description: "Associate Professor of Psychology at Complutense University of Madrid. Research on affect dynamics, psychophysiology, and scholarly communication."
   site-url: https://perakakis.github.io
   navbar:
     left:
@@ -27,16 +28,16 @@ website:
       - href: blog/index.qmd
         text: Blog
 
-    right:
-      - icon: github
-        href: https://github.com/perakakis
-      - icon: mortarboard-fill
-        href: https://scholar.google.com/citations?user=5S-EVSAAAAAJ
-      - icon: globe
-        href: https://orcid.org/0000-0002-9130-3247
+    # right:
+    #   - icon: github
+    #     href: https://github.com/perakakis
+    #   - icon: mortarboard-fill
+    #     href: https://scholar.google.com/citations?user=5S-EVSAAAAAJ
+    #   - icon: person-badge
+    #     href: https://orcid.org/0000-0002-9130-3247
 
   page-footer:
-    left: "© 2025 Pandelis Perakakis"
+    left: "© 2026 Pandelis Perakakis"
     right: "Built with [Quarto](https://quarto.org)"
 
   search: true        # Built-in search

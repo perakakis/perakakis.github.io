@@ -136,6 +136,37 @@
 }
 
 /* =============================================
+   PUBLICATIONS PAGE
+   ============================================= */
+
+.oa-button-wrap {
+  margin-top: 0.5em;
+  text-indent: 0;
+}
+
+.oa-button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.3em 1em;
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.4;
+  border-radius: 4px;
+  border: 1.5px solid #2780e3;
+  background-color: transparent;
+  color: #2780e3 !important;
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.oa-button:hover {
+  background-color: #2780e3;
+  color: #fff !important;
+}
+
+/* =============================================
    GENERAL TYPOGRAPHY
    ============================================= */
 

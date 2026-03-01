@@ -261,23 +261,28 @@
   margin: 1rem 0 1.5rem;
 }
 
-/* Programme page hero figure */
-.research-hero-img {
-  width: 100%;
-  max-height: 280px;
-  object-fit: cover;
+/* Research & programme figures — flexible defaults.
+   Size is controlled per-image via Quarto's width= attribute.
+   Add .figure-square for a forced 1:1 crop.
+   Add .figure-banner for a wide cropped banner. */
+.research-hero-img,
+.programme-figure {
+  max-width: 100%;
+  height: auto;
   border-radius: 0.5rem;
   margin: 1.5rem 0;
   border: 1px solid var(--bs-border-color);
 }
 
-.programme-figure {
-  width: 100%;
-  max-height: 300px;
+.figure-square {
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 0.5rem;
-  margin: 1rem 0 1.5rem;
-  border: 1px solid var(--bs-border-color);
+}
+
+.figure-banner {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
 }
 
 /* =============================================

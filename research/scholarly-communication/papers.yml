@@ -1,10 +1,12 @@
 - title: "Replacing academic journals"
   date: "2023-07-01"
-  reference: >-
-    Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al. (2023).
-    <strong>Replacing academic journals.</strong>
-    <em>Royal Society Open Science</em>, 10(7), 230206.
-    doi: <a href="https://doi.org/10.1098/rsos.230206">10.1098/rsos.230206</a>
+  authors: "Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al."
+  year: 2023
+  journal: "Royal Society Open Science"
+  volume: "10(7)"
+  pages: "230206"
+  doi: "10.1098/rsos.230206"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Open access
@@ -17,11 +19,13 @@
 
 - title: "No-pay publishing: use institutional repositories"
   date: "2023-07-01"
-  reference: >-
-    Bernal, I., & Perakakis, P. (2023).
-    <strong>No-pay publishing: use institutional repositories.</strong>
-    <em>Nature</em>, 619(7971), 698.
-    doi: <a href="https://doi.org/10.1038/d41586-023-02391-9">10.1038/d41586-023-02391-9</a>
+  authors: "Bernal, I., & Perakakis, P."
+  year: 2023
+  journal: "Nature"
+  volume: "619(7971)"
+  pages: "698"
+  doi: "10.1038/d41586-023-02391-9"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Open access
@@ -33,10 +37,11 @@
 
 - title: "OPRM: Challenges to including open peer review in open access repositories"
   date: "2017-01-01"
-  reference: >-
-    Perakakis, P., Taylor, M., Mazza, M., & Trachana, V. (2017).
-    <strong>OPRM: Challenges to including open peer review in open access repositories.</strong>
-    <em>Code4Lib</em>, 35.
+  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
+  year: 2017
+  journal: "Code4Lib"
+  volume: "35"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Open access
@@ -45,11 +50,13 @@
 
 - title: "Natural selection of academic papers"
   date: "2010-11-01"
-  reference: >-
-    Perakakis, P., Taylor, M., Mazza, M., & Trachana, V. (2010).
-    <strong>Natural selection of academic papers.</strong>
-    <em>Scientometrics</em>, 85(2), 553–559.
-    doi: <a href="https://doi.org/10.1007/s11192-010-0253-3">10.1007/s11192-010-0253-3</a>
+  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
+  year: 2010
+  journal: "Scientometrics"
+  volume: "85(2)"
+  pages: "553–559"
+  doi: "10.1007/s11192-010-0253-3"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Scientometrics

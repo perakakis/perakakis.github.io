@@ -5,8 +5,6 @@ toc: false
 
 My research sits at the intersection of human psychophysiology, affective science, and scholarly communication. Below are the three main programmes I am currently pursuing.
 
-![](../images/research-placeholder.png){.research-hero-img}
-
 ::: {.card-grid}
 
 ::: {.research-card}

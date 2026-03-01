@@ -1,0 +1,84 @@
+- title: "Delving into the relationship between regular physical exercise and cardiac interoception"
+  date: "2024-05-01"
+  reference: >-
+    Yoris, A. E., Ciria, L. F., Luque-Casado, A., Sanabria, D., & Perakakis, P. (2024).
+    <strong>Delving into the relationship between regular physical exercise and cardiac interoception.</strong>
+    <em>Neuropsychologia</em>, 198, 108867.
+    doi: <a href="https://doi.org/10.1016/j.neuropsychologia.2024.108867">10.1016/j.neuropsychologia.2024.108867</a>
+  section: "Journal Articles"
+  categories:
+    - Interoception
+    - Exercise
+    - Cardiac
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1016/j.neuropsychologia.2024.108867"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "An umbrella review of randomized control trials on the effects of physical exercise on cognition"
+  date: "2023-05-01"
+  reference: >-
+    Ciria, L. F., Román-Caballero, R., Vadillo, M. A., Holgado, D., Luque-Casado, A., Perakakis, P., & Sanabria, D. (2023).
+    <strong>An umbrella review of randomized control trials on the effects of physical exercise on cognition.</strong>
+    <em>Nature Human Behaviour</em>, 7, 928–941.
+    doi: <a href="https://doi.org/10.1038/s41562-023-01554-4">10.1038/s41562-023-01554-4</a>
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Cognition
+    - Meta-analysis
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1038/s41562-023-01554-4"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "The relationship between vigilance capacity and physical exercise: a mixed-effects multistudy analysis"
+  date: "2019-06-01"
+  reference: >-
+    Sanabria, D., Morales, E., Luque-Casado, A., González-García, C., Huertas, F., Ciria, L. F., Perakakis, P., & Salillas, E. (2019).
+    <strong>The relationship between vigilance capacity and physical exercise: a mixed-effects multistudy analysis.</strong>
+    <em>PeerJ</em>, 7, e7118.
+    doi: <a href="https://doi.org/10.7717/peerj.7118">10.7717/peerj.7118</a>
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Attention
+    - Vigilance
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.7717/peerj.7118"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults"
+  date: "2018-10-01"
+  reference: >-
+    Ciria, L. F., Perakakis, P., Luque-Casado, A., & Sanabria, D. (2018).
+    <strong>Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults.</strong>
+    <em>NeuroImage</em>, 181, 203–210.
+    doi: <a href="https://doi.org/10.1016/j.neuroimage.2018.07.009">10.1016/j.neuroimage.2018.07.009</a>
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - EEG
+    - Inhibitory control
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1016/j.neuroimage.2018.07.009"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "Transient autonomic responses during sustained attention in high and low fit young adults"
+  date: "2016-06-01"
+  reference: >-
+    Luque-Casado, A., Perakakis, P., Ciria, L. F., & Sanabria, D. (2016).
+    <strong>Transient autonomic responses during sustained attention in high and low fit young adults.</strong>
+    <em>Scientific Reports</em>, 6, 27556.
+    doi: <a href="https://doi.org/10.1038/srep27556">10.1038/srep27556</a>
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Attention
+    - Autonomic
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1038/srep27556"
+      icon: "bi bi-file-earmark-pdf"

@@ -1,0 +1,47 @@
+---
+title: "Exercise, Brain & Cognition"
+toc: true
+listing:
+  - id: journal-articles
+    contents: papers.yml
+    include:
+      section: "Journal Articles"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+  - id: preprints
+    contents: papers.yml
+    include:
+      section: "Preprints"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+  - id: in-progress
+    contents: papers.yml
+    include:
+      section: "In Progress"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+---
+
+Does physical exercise improve cognitive performance? If so, how? This research line uses neuroimaging (EEG), psychophysiological measures, and rigorous experimental designs to investigate the acute and chronic effects of exercise on brain function and cognition — with a focus on **sustained attention** and **cardiac interoception**.
+
+Key questions include: How does aerobic fitness modulate brain oscillations during demanding cognitive tasks? What is the relationship between exercise, autonomic regulation, and the perception of internal bodily signals?
+
+::: {.programme-links}
+[<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+[<i class="bi bi-github"></i> GitHub](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
+
+## Journal Articles
+
+:::{#journal-articles}
+:::
+
+## Preprints
+
+:::{#preprints}
+:::
+
+## In Progress
+
+:::{#in-progress}
+:::

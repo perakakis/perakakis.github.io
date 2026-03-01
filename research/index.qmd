@@ -8,24 +8,30 @@ My research sits at the intersection of human psychophysiology, affective scienc
 ::: {.card-grid}
 
 ::: {.research-card}
+![](affect-dynamics/figure-placeholder.png){.card-img-top}
+
 ### [Affect Dynamics](affect-dynamics/index.qmd)
 How do affect shifts over hours and days relate to psychological well-being? This programme draws on dynamical systems theory to investigate bistable emotional dynamics.
 
-[View programme →](affect-dynamics/index.qmd){.btn .btn-outline-primary .btn-sm}
+[Learn more →](affect-dynamics/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 ::: {.research-card}
+![](scholarly-communication/figure-placeholder.png){.card-img-top}
+
 ### [Scholarly Communication](scholarly-communication/index.qmd)
 Developing models and tools for scholar-governed, open-access publishing. Co-founded Open Scholar in 2012.
 
-[View programme →](scholarly-communication/index.qmd){.btn .btn-outline-primary .btn-sm}
+[Learn more →](scholarly-communication/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 ::: {.research-card}
+![](exercise-brain-cognition/figure-placeholder.png){.card-img-top}
+
 ### [Exercise, Brain & Cognition](exercise-brain-cognition/index.qmd)
 Does physical exercise improve cognition? This programme uses EEG, psychophysiology, and experimental designs to investigate exercise-brain links.
 
-[View programme →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
+[Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 :::

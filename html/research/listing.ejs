@@ -1,0 +1,33 @@
+```{=html}
+<div class="pub-list">
+<ul class="list">
+    <% for (const item of items) { %>
+        <li class="pub-item" <%= metadataAttrs(item) %>>
+            <div class="pub-content listing-pub-info">
+                <p><%- item.reference %></p>
+            </div>
+
+            <% if(item.categories) { %>
+            <div class="pub-categories">
+                <% for (const cat of item.categories) { %>
+                    <span class="pub-category badge rounded-pill">
+                        <%= cat %>
+                    </span>
+                <% } %>
+            </div>
+            <% } %>
+
+            <% if (item.links) { %>
+            <div class="pub-links">
+                <% for (const link of item.links) { %>
+                <a href="<%- link.url %>" class="btn btn-outline-primary btn-sm pub-link-btn" target="_blank">
+                    <i class="<%- link.icon %>"></i> <%= link.name %>
+                </a>
+                <% } %>
+            </div>
+            <% } %>
+        </li>
+    <% } %>
+</ul>
+</div>
+```

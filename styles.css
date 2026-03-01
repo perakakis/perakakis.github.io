@@ -180,6 +180,61 @@
 }
 
 /* =============================================
+   PUBLICATION LISTINGS (programme pages)
+   ============================================= */
+
+.pub-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2em;
+}
+
+.pub-list li.pub-item {
+  margin-bottom: 2em;
+  padding-left: 0.75em;
+  border-left: 4px solid var(--bs-primary);
+}
+
+.pub-content p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.pub-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.5em 0;
+}
+
+.pub-category {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.5em;
+}
+
+.pub-link-btn {
+  font-size: 0.8rem;
+}
+
+/* Programme page header links (OSF, GitHub) */
+.programme-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+/* =============================================
    GENERAL TYPOGRAPHY
    ============================================= */
 

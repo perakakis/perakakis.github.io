@@ -45,24 +45,4 @@ toc: false
 </div>
 ```
 
-## Research Interests
-
-::: {.card-grid}
-
-::: {.research-card}
-### [Affect Dynamics](research/affect-dynamics/index.qmd)
-Exploring the relation between affect shifts and psychological well-being. Most people don't gradually drift between emotional states — they remain in one state before suddenly tipping into another. Understanding these bistable dynamics has implications for how we measure and predict psychological health.
-:::
-
-::: {.research-card}
-### [Scholarly Communication](research/scholarly-communication/index.qmd)
-Developing models and tools to promote scholar-governed academic publishing. Co-founded [Open Scholar](https://openscholar.org.uk) in 2012. Research on replacing commercial journals with community-owned, open-access infrastructure.
-:::
-
-::: {.research-card}
-### [Exercise, Brain & Cognition](research/exercise-brain-cognition/index.qmd)
-Investigating whether and how physical exercise improves cognitive performance. Studies focus on sustained attention, brain oscillatory activity, cardiac interoception, and the neural mechanisms underlying exercise-cognition links.
-:::
-
-:::
 

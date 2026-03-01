@@ -17,16 +17,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Research
-        menu:
-          - text: Overview
-            href: research/index.qmd
-          - text: Affect Dynamics
-            href: research/affect-dynamics/index.qmd
-          - text: Scholarly Communication
-            href: research/scholarly-communication/index.qmd
-          - text: "Exercise, Brain & Cognition"
-            href: research/exercise-brain-cognition/index.qmd
+      - href: research/index.qmd
+        text: Research
       - href: software/index.qmd
         text: Software
       - href: publications/index.qmd

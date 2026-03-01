@@ -1,0 +1,50 @@
+- title: "Bistability and affect shift dynamics in the prediction of psychological well-being"
+  date: "2025-01-01"
+  reference: >-
+    Goicoechea, C., Dakos, V., Sanabria, D., Ciria, L. F., & Perakakis, P. (2025).
+    <strong>Bistability and affect shift dynamics in the prediction of psychological well-being.</strong>
+    <em>Emotion</em>, 25(4), 982–996.
+    doi: <a href="https://doi.org/10.1037/emo0001441">10.1037/emo0001441</a>
+  section: "Journal Articles"
+  categories:
+    - Affect dynamics
+    - Bistability
+    - Well-being
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1037/emo0001441"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain"
+  date: "2020-11-01"
+  reference: >-
+    Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., & Banos, O. (2020).
+    <strong>CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain.</strong>
+    <em>Scientific Data</em>, 7, 365.
+    doi: <a href="https://doi.org/10.1038/s41597-020-00700-1">10.1038/s41597-020-00700-1</a>
+  section: "Journal Articles"
+  categories:
+    - Affect dynamics
+    - COVID-19
+    - ESM
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1038/s41597-020-00700-1"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods"
+  date: "2019-08-01"
+  reference: >-
+    Bailon, C., Damas, M., Pomares, H., & Perakakis, P. (2019).
+    <strong>Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods.</strong>
+    <em>Sensors</em>, 19(15), 3430.
+    doi: <a href="https://doi.org/10.3390/s19153430">10.3390/s19153430</a>
+  section: "Journal Articles"
+  categories:
+    - Affect dynamics
+    - ESM
+    - Methodology
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.3390/s19153430"
+      icon: "bi bi-file-earmark-pdf"

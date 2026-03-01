@@ -116,6 +116,19 @@
 }
 
 /* =============================================
+   RESEARCH CARDS — CLICKABLE LINKS
+   ============================================= */
+
+.research-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.research-card h3 a:hover {
+  color: var(--bs-primary);
+}
+
+/* =============================================
    NEWS / BLOG LIST ON HOME
    ============================================= */
 

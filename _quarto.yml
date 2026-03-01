@@ -4,7 +4,6 @@ project:
   render:
     - "*.qmd"
     - "**/*.qmd"
-  post-render: publications/fix-note-links.sh
 
 execute:
   freeze: auto    # Don't re-run code unless source changes
@@ -28,13 +27,15 @@ website:
       - href: blog/index.qmd
         text: Blog
 
-    # right:
-    #   - icon: github
-    #     href: https://github.com/perakakis
-    #   - icon: mortarboard-fill
-    #     href: https://scholar.google.com/citations?user=5S-EVSAAAAAJ
-    #   - icon: person-badge
-    #     href: https://orcid.org/0000-0002-9130-3247
+    right:
+      - icon: github
+        href: https://github.com/perakakis
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=5S-EVSAAAAAJ
+      - icon: globe
+        href: https://orcid.org/0000-0002-9130-3247
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pandelis-perakakis-1369402a/
 
   page-footer:
     left: "© 2026 Pandelis Perakakis"

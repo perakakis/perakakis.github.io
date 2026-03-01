@@ -7,6 +7,7 @@
   pages: "982–996"
   doi: "10.1037/emo0001441"
   image: figure-placeholder.png
+  description: "We apply bistability metrics from dynamical systems theory to experience-sampling data and show that the tendency to occupy distinct emotional attractors predicts well-being beyond traditional affect measures."
   section: "Journal Articles"
   categories:
     - Affect dynamics
@@ -26,6 +27,7 @@
   pages: "365"
   doi: "10.1038/s41597-020-00700-1"
   image: figure-placeholder.png
+  description: "An open dataset capturing daily mood fluctuations across thousands of participants during the first wave of the COVID-19 pandemic in Spain."
   section: "Journal Articles"
   categories:
     - Affect dynamics
@@ -45,6 +47,7 @@
   pages: "3430"
   doi: "10.3390/s19153430"
   image: figure-placeholder.png
+  description: "A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
   section: "Journal Articles"
   categories:
     - Affect dynamics

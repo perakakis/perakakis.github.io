@@ -1,0 +1,47 @@
+---
+title: "Scholarly Communication"
+toc: true
+listing:
+  - id: journal-articles
+    contents: papers.yml
+    include:
+      section: "Journal Articles"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+  - id: preprints
+    contents: papers.yml
+    include:
+      section: "Preprints"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+  - id: in-progress
+    contents: papers.yml
+    include:
+      section: "In Progress"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+---
+
+The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward **scholar-governed, open-access publishing**.
+
+In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.
+
+::: {.programme-links}
+[<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+[<i class="bi bi-github"></i> GitHub](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
+
+## Journal Articles
+
+:::{#journal-articles}
+:::
+
+## Preprints
+
+:::{#preprints}
+:::
+
+## In Progress
+
+:::{#in-progress}
+:::

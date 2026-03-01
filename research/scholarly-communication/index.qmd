@@ -24,15 +24,17 @@ listing:
     template: ../../html/research/listing.ejs
 ---
 
+::: {.programme-overview}
+![](figure-placeholder.png){.programme-overview-img}
+
+::: {.programme-overview-text}
 The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward **scholar-governed, open-access publishing**.
 
 In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.
 
-![](figure-placeholder.png){.programme-figure}
-
-::: {.programme-links}
 [<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}
 [<i class="bi bi-github"></i> GitHub](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
 :::
 
 ## Journal Articles

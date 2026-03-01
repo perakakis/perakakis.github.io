@@ -7,6 +7,7 @@
   pages: "108867"
   doi: "10.1016/j.neuropsychologia.2024.108867"
   image: figure-placeholder.png
+  description: "Investigates whether regular aerobic exercise enhances the ability to perceive internal cardiac signals, using heartbeat detection tasks and psychophysiological measures."
   section: "Journal Articles"
   categories:
     - Interoception
@@ -26,6 +27,7 @@
   pages: "928–941"
   doi: "10.1038/s41562-023-01554-4"
   image: figure-placeholder.png
+  description: "A comprehensive umbrella review showing that the evidence for cognitive benefits of exercise is weaker and more heterogeneous than commonly assumed."
   section: "Journal Articles"
   categories:
     - Exercise
@@ -45,6 +47,7 @@
   pages: "e7118"
   doi: "10.7717/peerj.7118"
   image: figure-placeholder.png
+  description: "Pools data from multiple experiments to examine whether aerobic fitness is associated with superior sustained attention performance."
   section: "Journal Articles"
   categories:
     - Exercise
@@ -64,6 +67,7 @@
   pages: "203–210"
   doi: "10.1016/j.neuroimage.2018.07.009"
   image: figure-placeholder.png
+  description: "EEG evidence that chronic exercise increases global brain oscillatory power without selectively enhancing inhibitory control processes."
   section: "Journal Articles"
   categories:
     - Exercise
@@ -83,6 +87,7 @@
   pages: "27556"
   doi: "10.1038/srep27556"
   image: figure-placeholder.png
+  description: "Shows that aerobically fit individuals exhibit distinct autonomic response patterns during prolonged vigilance tasks compared to sedentary controls."
   section: "Journal Articles"
   categories:
     - Exercise

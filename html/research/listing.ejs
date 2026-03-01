@@ -20,6 +20,9 @@
                             doi: <a href="https://doi.org/<%= item.doi %>"><%= item.doi %></a>
                             <% } %>
                         </p>
+                        <% if (item.description) { %>
+                        <p class="pub-description"><%= item.description %></p>
+                        <% } %>
                     </div>
 
                     <% if(item.categories) { %>

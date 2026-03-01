@@ -296,18 +296,15 @@
   margin-right: 0.25em;
 }
 
-/* Programme overview: figure left, text right */
+/* Programme overview: image floats left, text wraps around it */
 .programme-overview {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
   margin-bottom: 2rem;
 }
 
-/* Quarto wraps the img in a <p>, so target the wrapper too */
+/* Quarto wraps the img in a <p> — remove its margin and float it */
 .programme-overview > p:has(.programme-overview-img) {
-  flex-shrink: 0;
-  margin: 0;
+  float: left;
+  margin: 0 1.5rem 1rem 0;
 }
 
 .programme-overview-img {
@@ -317,15 +314,15 @@
   border: 1px solid var(--bs-border-color);
 }
 
+/* Let the text div flow naturally around the float */
 .programme-overview-text {
-  flex: 1;
-  min-width: 0;
+  overflow: visible;
 }
 
 @media (max-width: 640px) {
-  .programme-overview {
-    flex-direction: column;
-    gap: 1rem;
+  .programme-overview > p:has(.programme-overview-img) {
+    float: none;
+    margin: 0 0 1rem 0;
   }
   .programme-overview-img {
     width: 140px;

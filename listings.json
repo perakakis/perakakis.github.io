@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/research/scholarly-communication/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/exercise-brain-cognition/index.html",
+    "items": []
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/rethinking-affect.html",
@@ -10,5 +18,9 @@
       "/blog/coar-annual-meeting.html",
       "/blog/how-researchers-in-spain-wish-to-be-evaluated.html"
     ]
+  },
+  {
+    "listing": "/research/affect-dynamics/index.html",
+    "items": []
   }
 ]

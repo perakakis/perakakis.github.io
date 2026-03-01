@@ -39,7 +39,7 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.25rem;
   margin: 1.5rem 0;
 }
@@ -69,6 +69,11 @@
   color: var(--bs-secondary-color, var(--bs-secondary));
 }
 
+.research-card p:last-child {
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
 /* =============================================
    RESEARCH CARDS — CLICKABLE LINKS
    ============================================= */
@@ -80,6 +85,20 @@
 
 .research-card h3 a:hover {
   color: var(--bs-primary);
+}
+
+/* Quarto wraps the img in a <p> — collapse it and use it for centering */
+.research-card > p:first-child {
+  margin: -1.25rem -1.5rem 1rem -1.5rem;
+  line-height: 0;
+  text-align: center;
+}
+
+.research-card .card-img-top {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 /* =============================================

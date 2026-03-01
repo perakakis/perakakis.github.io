@@ -1,6 +1,7 @@
 ---
 title: "Affect Dynamics"
 toc: true
+toc-location: right
 listing:
   - id: journal-articles
     contents: papers.yml
@@ -8,6 +9,7 @@ listing:
       section: "Journal Articles"
     sort: "date desc"
     template: ../../html/research/listing.ejs
+    categories: true
   - id: preprints
     contents: papers.yml
     include:
@@ -25,6 +27,8 @@ listing:
 Emotions are not static — they fluctuate over time, and the *pattern* of those fluctuations may matter as much as their average level for psychological well-being. Drawing on concepts from dynamical systems theory, this research line investigates how affect shifts over hours and days, and what those dynamics reveal about a person's psychological health.
 
 A key finding from recent work is that emotional experience often behaves like a **bistable system**: rather than drifting gradually between positive and negative states, most people tend to remain in one state before abruptly tipping into another. This bistability — the tendency to occupy distinct emotional attractors — predicts well-being above and beyond traditional affect measures.
+
+![](figure-placeholder.png){.programme-figure}
 
 ::: {.programme-links}
 [<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}

@@ -10,17 +10,17 @@
             <% if(item.categories) { %>
             <div class="pub-categories">
                 <% for (const cat of item.categories) { %>
-                    <span class="pub-category badge rounded-pill">
+                    <span class="pub-category"><a href="#category=<%= cat %>">
                         <%= cat %>
-                    </span>
+                    </a></span>
                 <% } %>
             </div>
             <% } %>
 
-            <% if (item.links) { %>
-            <div class="pub-links">
+            <% if (item.links && item.links.length > 0) { %>
+            <div class="pub-links-bar">
                 <% for (const link of item.links) { %>
-                <a href="<%- link.url %>" class="btn btn-outline-primary btn-sm pub-link-btn" target="_blank">
+                <a href="<%- link.url %>" class="pub-link" target="_blank">
                     <i class="<%- link.icon %>"></i> <%= link.name %>
                 </a>
                 <% } %>

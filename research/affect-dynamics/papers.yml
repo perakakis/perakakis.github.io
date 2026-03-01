@@ -1,10 +1,12 @@
 - title: "Bistability and affect shift dynamics in the prediction of psychological well-being"
   date: "2025-01-01"
-  reference: >-
-    Goicoechea, C., Dakos, V., Sanabria, D., Ciria, L. F., & Perakakis, P. (2025).
-    <strong>Bistability and affect shift dynamics in the prediction of psychological well-being.</strong>
-    <em>Emotion</em>, 25(4), 982–996.
-    doi: <a href="https://doi.org/10.1037/emo0001441">10.1037/emo0001441</a>
+  authors: "Goicoechea, C., Dakos, V., Sanabria, D., Ciria, L. F., & Perakakis, P."
+  year: 2025
+  journal: "Emotion"
+  volume: "25(4)"
+  pages: "982–996"
+  doi: "10.1037/emo0001441"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Affect dynamics
@@ -17,11 +19,13 @@
 
 - title: "CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain"
   date: "2020-11-01"
-  reference: >-
-    Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., & Banos, O. (2020).
-    <strong>CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain.</strong>
-    <em>Scientific Data</em>, 7, 365.
-    doi: <a href="https://doi.org/10.1038/s41597-020-00700-1">10.1038/s41597-020-00700-1</a>
+  authors: "Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., & Banos, O."
+  year: 2020
+  journal: "Scientific Data"
+  volume: "7"
+  pages: "365"
+  doi: "10.1038/s41597-020-00700-1"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Affect dynamics
@@ -34,11 +38,13 @@
 
 - title: "Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods"
   date: "2019-08-01"
-  reference: >-
-    Bailon, C., Damas, M., Pomares, H., & Perakakis, P. (2019).
-    <strong>Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods.</strong>
-    <em>Sensors</em>, 19(15), 3430.
-    doi: <a href="https://doi.org/10.3390/s19153430">10.3390/s19153430</a>
+  authors: "Bailon, C., Damas, M., Pomares, H., & Perakakis, P."
+  year: 2019
+  journal: "Sensors"
+  volume: "19(15)"
+  pages: "3430"
+  doi: "10.3390/s19153430"
+  image: figure-placeholder.png
   section: "Journal Articles"
   categories:
     - Affect dynamics

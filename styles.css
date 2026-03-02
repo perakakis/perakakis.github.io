@@ -272,6 +272,20 @@
   margin-right: 0.25em;
 }
 
+/* Funding metadata (listing-funding.ejs) */
+.pub-funding-meta {
+  font-size: 0.9rem !important;
+  line-height: 1.8 !important;
+  color: var(--bs-secondary);
+}
+
+.pub-funding-meta i {
+  width: 1.2em;
+  text-align: center;
+  margin-right: 0.3em;
+  color: var(--bs-primary);
+}
+
 /* Programme overview: image floats left, text wraps around it */
 .programme-overview {
   margin-bottom: 2rem;

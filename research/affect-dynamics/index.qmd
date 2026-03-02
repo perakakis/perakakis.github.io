@@ -16,25 +16,29 @@ listing:
       section: "Preprints"
     sort: "date desc"
     template: ../../html/research/listing.ejs
+  - id: conferences
+    contents: papers.yml
+    include:
+      section: "Conferences"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
   - id: funding
     contents: papers.yml
     include:
       section: "Funding"
     sort: "date desc"
-    template: ../../html/research/listing.ejs
+    template: ../../html/research/listing-funding.ejs
 ---
 
 ::: {.programme-overview}
-![](metrics.png){.programme-overview-img}
+![](assets/metrics.png){.programme-overview-img}
 
 ::: {.programme-overview-text}
-Emotions are not static — they fluctuate over time, and the *pattern* of those fluctuations may matter as much as their average level for psychological well-being. Drawing on concepts from dynamical systems theory, this research line investigates how affect shifts over hours and days, and what those dynamics reveal about a person's psychological health.
+Complex natural systems do not always change gradually — lakes can flip from clear to turbid, and savannas can shift abruptly into desert. We hypothesised that human affect behaves similarly, exhibiting abrupt transitions between positive and negative states rather than smooth fluctuations around a single emotional baseline. Our work confirms that this dynamical pattern — called **bistability** — is common in community samples: roughly half of the participants in our studies experience sudden jumps between positive and negative states rather than gradual drift.
 
-We introduce concepts and tools from ecology and the study of natural complex systems to investigate the structure and function of human affect. Using Ecological Momentary Assessment (ESM), we acquire longitudinal data to explore the relation between affect shifts and psychological well-being. We explore novel network analysis and visualisation methods to map psychological processes to clinically relevant outcomes and enhance idiographic assessment and psychological treatment.
+Drawing on concepts from dynamical systems theory and ecology, this line of research investigates the *pattern* of affective fluctuations over hours and days and what those dynamics reveal about psychological health. We develop novel metrics that capture how people shift between emotional states and show that these **affect shift dynamics** predict well-being above and beyond traditional intensity-based measures.
 
-We introduce concepts and tools from ecology and the study of natural systems to investigate the structure and function of the human affect system. Using Ecological Momentary Assessment, we acquire longitudinal data to explore the relation between affect shifts and psychological well-being. We explore novel network analysis and visualisation methods to map psychological processes to clinically relevant outcomes and enhance idiographic assessment and psychological treatment.
-
-A key finding from recent work is that emotional experience often behaves like a **bistable system**: rather than drifting gradually between positive and negative states, most people tend to remain in one state before abruptly tipping into another. This bistability — the tendency to occupy distinct emotional attractors — predicts well-being above and beyond traditional affect measures.
+Having established that shift dynamics are robust predictors of well-being, we now aim to understand what drives these transitions at the individual level. We use process-based assessment to map the psychological processes underlying affect shifts, with the goal of informing tailored therapeutic interventions.
 
 [<i class="bi bi-box-arrow-up-right"></i> OSF Project](https://osf.io/w8e72/overview){.btn .btn-outline-primary .btn-sm target="_blank"}
 [<i class="bi bi-github"></i> GitHub](https://github.com/perakakis/affect-dynamics){.btn .btn-outline-primary .btn-sm target="_blank"}
@@ -51,11 +55,12 @@ A key finding from recent work is that emotional experience often behaves like a
 :::{#preprints}
 :::
 
+## Conferences
+
+:::{#conferences}
+:::
+
 ## Funded projects
 
 :::{#funding}
 :::
-
-
-<!-- :::{#in-progress}
-::: -->

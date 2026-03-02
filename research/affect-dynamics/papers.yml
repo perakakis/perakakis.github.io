@@ -6,7 +6,7 @@
   volume: "25(4)"
   pages: "982–996"
   doi: "10.1037/emo0001441"
-  image: bistability.png
+  image: assets/bistability.png
   description: "We show that bistability is a prevalent phenomenon in human affect dynamics and develop 10 novel metrics to characterise affect shift dynamics. The Positive-to-Negative Affect Shift Ratio (P2N-ASR) is a better predictor of psychological well-being compared to traditional intensity metrics."
   section: "Journal Articles"
   categories:
@@ -37,7 +37,7 @@
   volume: "7"
   pages: "365"
   doi: "10.1038/s41597-020-00700-1"
-  image: covidaffect.png
+  image: assets/covidaffect.png
   description: "An open dataset capturing daily mood fluctuations during the first wave of the COVID-19 pandemic in Spain."
   section: "Journal Articles"
   categories:
@@ -65,7 +65,7 @@
   volume: "19(15)"
   pages: "3430"
   doi: "10.3390/s19153430"
-  image: smartphone.jpg
+  image: assets/smartphone.jpg
   description: "A smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
   section: "Journal Articles"
   categories:
@@ -85,7 +85,7 @@
   volume: ""
   pages: ""
   doi: "https://doi.org/10.31234/osf.io/gmkc8_v1"
-  image: regressions.png
+  image: assets/regressions.png
   description: "We replicate and extend our previous findings, providing robust evidence that how individuals move between affective states may be more diagnostic of psychological functioning than the typical intensity or variability of those states."
   section: "Preprints"
   categories:
@@ -109,7 +109,7 @@
   volume: ""
   pages: ""
   doi: "https://doi.org/10.31234/osf.io/sxhwt_v1"
-  image: spain-net.png
+  image: assets/spain-net.png
   description: "Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US."
   section: "Preprints"
   categories:
@@ -130,31 +130,47 @@
       url: "https://osf.io/uj65z"
       icon: "bi bi-box-arrow-up-right"
 
-- title: "Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)"
-  date: "2022"
-  authors: "Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., Perakakis, P."
-  year: 2022–2026
-  journal: "Preprint"
-  volume: ""
-  pages: ""
-  doi: "https://doi.org/10.31234/osf.io/sxhwt_v1"
-  image: bad.png
-  description: "Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US."
-  section: "Funding"
+- title: "Análisis de casos con la herramienta de evaluación basada en procesos: predicción de cambios afectivos en el trastorno depresivo persistente y el trastorno límite de la personalidad"
+  date: "2025-04-05"
+  authors: "Baldock Trotter, T. B., Fernández Morente, G., Fernández Castañeda, E. C."
+  year: 2025
+  journal: "XVII Congreso de Investigación de Estudiantes de Grado de Ciencias de la Salud"
+  volume: "Madrid, Spain"
+  description: "Poster presentation."
+  section: "Conferences"
   categories:
     - PBAT
-    - Boruta
-    - Methodology
-    - Linked communities
-    - Network analysis
-    - Cross-cultural
+    - Affect dynamics
+  links: []
+
+- title: "Affect shift dynamics in the prediction of psychological flexibility and well-being"
+  date: "2024-09-03"
+  authors: "Perakakis, P., Goicoechea, C."
+  year: 2024
+  journal: "38th Annual Conference of the European Health Psychology Society"
+  volume: "Cascais, Portugal"
+  description: "Invited talk."
+  section: "Conferences"
+  categories:
+    - Affect dynamics
+    - Well-being
   links:
-    - name: "Preprint PDF"
-      url: "https://doi.org/10.31234/osf.io/sxhwt_v1"
-      icon: "bi bi-file-earmark-pdf"    
-    - name: "Data and Code"
-      url: "https://github.com/perakakis/spanish-pbat"
-      icon: "bi bi-github"
-    - name: "OSF Project"
-      url: "https://osf.io/uj65z"
-      icon: "bi bi-box-arrow-up-right"
+  - name: "Presentation Slides"
+    url: "assets/Cascais_2024_EHPS.pdf"
+    icon: "bi bi-file-earmark-slides"
+
+- title: "Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)"
+  date: "2022"
+  funder: "Spanish Ministry of Science and Innovation"
+  grant-id: "PID2021-122271NA-I00"
+  role: "PI"
+  period: "2022–2026"
+  # image: bad.png
+  description: "This project applies dynamical systems theory and ecological momentary assessment to investigate bistability in human affect and its relationship with psychological well-being and mental health."
+  section: "Funding"
+  categories:
+    - Affect dynamics
+    - Bistability
+    - Well-being
+    - Mental health
+  links: []

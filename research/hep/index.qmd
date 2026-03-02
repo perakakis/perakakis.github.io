@@ -16,12 +16,6 @@ listing:
       section: "Preprints"
     sort: "date desc"
     template: ../../html/research/listing.ejs
-  - id: in-progress
-    contents: papers.yml
-    include:
-      section: "In Progress"
-    sort: "date desc"
-    template: ../../html/research/listing.ejs
 ---
 
 ::: {.programme-overview}
@@ -45,9 +39,4 @@ In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit i
 ## Preprints
 
 :::{#preprints}
-:::
-
-## In Progress
-
-:::{#in-progress}
 :::

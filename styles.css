@@ -72,22 +72,23 @@
   color: var(--bs-secondary-color, var(--bs-secondary));
 }
 
-.research-card p:last-child {
-  text-align: center;
-  margin-top: 0.75rem;
-}
 
 /* =============================================
    RESEARCH CARDS — CLICKABLE LINKS
    ============================================= */
 
+.research-card {
+  cursor: pointer;
+}
+
 .research-card h3 a {
-  color: inherit;
+  color: var(--bs-primary);
   text-decoration: none;
 }
 
 .research-card h3 a:hover {
-  color: var(--bs-primary);
+  color: var(--bs-link-hover-color, var(--bs-primary));
+  text-decoration: underline;
 }
 
 /* Quarto wraps the img in a <p> — collapse it and use it for centering */

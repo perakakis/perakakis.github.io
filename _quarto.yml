@@ -42,12 +42,12 @@ website:
     right: "Built with [Quarto](https://quarto.org)"
 
   search: true        # Built-in search
-  reader-mode: true   # Clean reading mode toggle
+  # reader-mode: true   # Clean reading mode toggle
 
 format:
   html:
     theme:
       light: cosmo    # Or cosmo, litera, etc. — preview at https://bootswatch.com
-      dark: darkly
+      # dark: darkly
     css: styles.css
     toc: true

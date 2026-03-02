@@ -112,9 +112,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-pages','listing-doi','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-pages","listing-doi","listing-image","listing-description","listing-section","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -440,12 +440,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
+  <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal articles</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
   <li><a href="#in-progress" id="toc-in-progress" class="nav-link" data-scroll-target="#in-progress">In Progress</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RVNN">ESM <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RVNN">ESM <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -473,12 +473,14 @@ window.Quarto = {
 <p><img src="metrics.png" class="programme-overview-img img-fluid"></p>
 <div class="programme-overview-text">
 <p>Emotions are not static — they fluctuate over time, and the <em>pattern</em> of those fluctuations may matter as much as their average level for psychological well-being. Drawing on concepts from dynamical systems theory, this research line investigates how affect shifts over hours and days, and what those dynamics reveal about a person’s psychological health.</p>
+<p>We introduce concepts and tools from ecology and the study of natural complex systems to investigate the structure and function of human affect. Using Ecological Momentary Assessment (ESM), we acquire longitudinal data to explore the relation between affect shifts and psychological well-being. We explore novel network analysis and visualisation methods to map psychological processes to clinically relevant outcomes and enhance idiographic assessment and psychological treatment.</p>
+<p>We introduce concepts and tools from ecology and the study of natural systems to investigate the structure and function of the human affect system. Using Ecological Momentary Assessment, we acquire longitudinal data to explore the relation between affect shifts and psychological well-being. We explore novel network analysis and visualisation methods to map psychological processes to clinically relevant outcomes and enhance idiographic assessment and psychological treatment.</p>
 <p>A key finding from recent work is that emotional experience often behaves like a <strong>bistable system</strong>: rather than drifting gradually between positive and negative states, most people tend to remain in one state before abruptly tipping into another. This bistability — the tendency to occupy distinct emotional attractors — predicts well-being above and beyond traditional affect measures.</p>
-<p><a href="#" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-box-arrow-up-right"></i> OSF Project</a> <a href="#" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
+<p><a href="https://osf.io/w8e72/overview" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-box-arrow-up-right"></i> OSF Project</a> <a href="https://github.com/perakakis/affect-dynamics" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
 </div>
 </div>
 <section id="journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="journal-articles">Journal Articles</h2>
+<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
 <div id="listing-journal-articles" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
@@ -494,7 +496,7 @@ window.Quarto = {
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Goicoechea, C., Dakos, V., Sanabria, D., Ciria, L. F., &amp; Perakakis, P. (2025).
+                            Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., &amp; Perakakis, P. (2025).
                             <strong>Bistability and affect shift dynamics in the prediction of psychological well-being.</strong>
                             <em>Emotion</em>, 25(4), 982–996.
                             
@@ -531,6 +533,10 @@ window.Quarto = {
                             <i class="bi bi-file-earmark-pdf"></i> PDF
                         </a>
                         
+                        <a href="https://doi.org/10.1037/emo0001441" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
                     </div>
                     
                 </div>
@@ -541,7 +547,7 @@ window.Quarto = {
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain">
+                    <img src="bistability.png" alt="CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain">
                 </div>
                 
 
@@ -655,6 +661,60 @@ window.Quarto = {
 <div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNFU00lMkNNZXRob2RvbG9neQ==" data-listing-date-sort="1564617600000">
+            <div class="pub-row">
+                
+                <div class="pub-thumbnail">
+                    <img src="figure-placeholder.png" alt="Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods">
+                </div>
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Bailon, C., Damas, M., Pomares, H., &amp; Perakakis, P. (2019).
+                            <strong>Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods.</strong>
+                            <em>Sensors</em>, 19(15), 3430.
+                            
+                            doi: <a href="https://doi.org/10.3390/s19153430">10.3390/s19153430</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Affect dynamics">
+                                Affect dynamics
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=ESM">
+                                ESM
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Methodology">
+                                Methodology
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.3390/s19153430" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
     
 </ul>
 </div>

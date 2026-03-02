@@ -325,6 +325,14 @@ body {
   line-height: 1.7;
 }
 
+/* Remove default underline on links; show on hover */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 /* Make the navbar brand/title a bit bolder */
 .navbar-brand {
   font-weight: 600;

@@ -16,10 +16,10 @@ listing:
       section: "Preprints"
     sort: "date desc"
     template: ../../html/research/listing.ejs
-  - id: in-progress
+  - id: funding
     contents: papers.yml
     include:
-      section: "In Progress"
+      section: "Funding"
     sort: "date desc"
     template: ../../html/research/listing.ejs
 ---
@@ -51,7 +51,11 @@ A key finding from recent work is that emotional experience often behaves like a
 :::{#preprints}
 :::
 
-## In Progress
+## Funded projects
 
-:::{#in-progress}
+:::{#funding}
 :::
+
+
+<!-- :::{#in-progress}
+::: -->

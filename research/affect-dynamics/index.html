@@ -133,6 +133,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-conferences .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-description","listing-section","listing-categories","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-conferences'] = new List('listing-conferences', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-funding .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -140,9 +168,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-pages','listing-doi','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-funder','listing-grant-id','listing-role','listing-period','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-pages","listing-doi","listing-image","listing-description","listing-section","listing-categories","listing-links"],
+      searchColumns: ["listing-title","listing-date","listing-funder","listing-grant-id","listing-role","listing-period","listing-description","listing-section","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -442,10 +470,11 @@ window.Quarto = {
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal articles</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#conferences" id="toc-conferences" class="nav-link" data-scroll-target="#conferences">Conferences</a></li>
   <li><a href="#funded-projects" id="toc-funded-projects" class="nav-link" data-scroll-target="#funded-projects">Funded projects</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGlua2VkJTIwY29tbXVuaXRpZXM=">Linked communities <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGlua2VkJTIwY29tbXVuaXRpZXM=">Linked communities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsJTIwaGVhbHRo">Mental health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -470,12 +499,11 @@ window.Quarto = {
 
 
 <div class="programme-overview">
-<p><img src="metrics.png" class="programme-overview-img img-fluid"></p>
+<p><img src="assets/metrics.png" class="programme-overview-img img-fluid"></p>
 <div class="programme-overview-text">
-<p>Emotions are not static — they fluctuate over time, and the <em>pattern</em> of those fluctuations may matter as much as their average level for psychological well-being. Drawing on concepts from dynamical systems theory, this research line investigates how affect shifts over hours and days, and what those dynamics reveal about a person’s psychological health.</p>
-<p>We introduce concepts and tools from ecology and the study of natural complex systems to investigate the structure and function of human affect. Using Ecological Momentary Assessment (ESM), we acquire longitudinal data to explore the relation between affect shifts and psychological well-being. We explore novel network analysis and visualisation methods to map psychological processes to clinically relevant outcomes and enhance idiographic assessment and psychological treatment.</p>
-<p>We introduce concepts and tools from ecology and the study of natural systems to investigate the structure and function of the human affect system. Using Ecological Momentary Assessment, we acquire longitudinal data to explore the relation between affect shifts and psychological well-being. We explore novel network analysis and visualisation methods to map psychological processes to clinically relevant outcomes and enhance idiographic assessment and psychological treatment.</p>
-<p>A key finding from recent work is that emotional experience often behaves like a <strong>bistable system</strong>: rather than drifting gradually between positive and negative states, most people tend to remain in one state before abruptly tipping into another. This bistability — the tendency to occupy distinct emotional attractors — predicts well-being above and beyond traditional affect measures.</p>
+<p>Complex natural systems do not always change gradually — lakes can flip from clear to turbid, and savannas can shift abruptly into desert. We hypothesised that human affect behaves similarly, exhibiting abrupt transitions between positive and negative states rather than smooth fluctuations around a single emotional baseline. Our work confirms that this dynamical pattern — called <strong>bistability</strong> — is common in community samples: roughly half of the participants in our studies experience sudden jumps between positive and negative states rather than gradual drift.</p>
+<p>Drawing on concepts from dynamical systems theory and ecology, this line of research investigates the <em>pattern</em> of affective fluctuations over hours and days and what those dynamics reveal about psychological health. We develop novel metrics that capture how people shift between emotional states and show that these <strong>affect shift dynamics</strong> predict well-being above and beyond traditional intensity-based measures.</p>
+<p>Having established that shift dynamics are robust predictors of well-being, we now aim to understand what drives these transitions at the individual level. We use process-based assessment to map the psychological processes underlying affect shifts, with the goal of informing tailored therapeutic interventions.</p>
 <p><a href="https://osf.io/w8e72/overview" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-box-arrow-up-right"></i> OSF Project</a> <a href="https://github.com/perakakis/affect-dynamics" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
 </div>
 </div>
@@ -489,7 +517,7 @@ window.Quarto = {
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="bistability.png" alt="Bistability and affect shift dynamics in the prediction of psychological well-being">
+                    <img src="assets/bistability.png" alt="Bistability and affect shift dynamics in the prediction of psychological well-being">
                 </div>
                 
 
@@ -559,7 +587,7 @@ window.Quarto = {
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="covidaffect.png" alt="CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain">
+                    <img src="assets/covidaffect.png" alt="CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain">
                 </div>
                 
 
@@ -621,7 +649,7 @@ window.Quarto = {
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="smartphone.jpg" alt="Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods">
+                    <img src="assets/smartphone.jpg" alt="Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods">
                 </div>
                 
 
@@ -686,7 +714,7 @@ window.Quarto = {
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="regressions.png" alt="“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors Of Psychological Well-Being">
+                    <img src="assets/regressions.png" alt="“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors Of Psychological Well-Being">
                 </div>
                 
 
@@ -748,7 +776,7 @@ window.Quarto = {
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="spain-net.png" alt="PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives">
+                    <img src="assets/spain-net.png" alt="PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives">
                 </div>
                 
 
@@ -823,32 +851,26 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="funded-projects" class="level2">
-<h2 class="anchored" data-anchor-id="funded-projects">Funded projects</h2>
-<div id="listing-funding" class="quarto-listing quarto-listing-container-custom">
+<section id="conferences" class="level2">
+<h2 class="anchored" data-anchor-id="conferences">Conferences</h2>
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="UEJBVCUyQ0JvcnV0YSUyQ01ldGhvZG9sb2d5JTJDTGlua2VkJTIwY29tbXVuaXRpZXMlMkNOZXR3b3JrJTIwYW5hbHlzaXMlMkNDcm9zcy1jdWx0dXJhbA==" data-listing-date-sort="1640995200000">
+        <li class="pub-item" data-index="0" data-categories="UEJBVCUyQ0FmZmVjdCUyMGR5bmFtaWNz" data-listing-date-sort="1743811200000">
             <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="bad.png" alt="Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)">
-                </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., Perakakis, P. (2022–2026).
-                            <strong>Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD).</strong>
-                            <em>Preprint</em>.
-                            
-                            doi: <a href="https://doi.org/https://doi.org/10.31234/osf.io/sxhwt_v1">https://doi.org/10.31234/osf.io/sxhwt_v1</a>
+                            Baldock Trotter, T. B., Fernández Morente, G., Fernández Castañeda, E. C. (2025).
+                            <strong>Análisis de casos con la herramienta de evaluación basada en procesos: predicción de cambios afectivos en el trastorno depresivo persistente y el trastorno límite de la personalidad.</strong>
+                            <em>XVII Congreso de Investigación de Estudiantes de Grado de Ciencias de la Salud</em>, Madrid, Spain.
                             
                         </p>
                         
-                        <p class="pub-description">Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US.</p>
+                        <p class="pub-description">Poster presentation.</p>
                         
                     </div>
 
@@ -859,24 +881,44 @@ window.Quarto = {
                                 PBAT
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Boruta">
-                                Boruta
+                            <span class="pub-category"><a href="#category=Affect dynamics">
+                                Affect dynamics
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Methodology">
-                                Methodology
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="1" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNXZWxsLWJlaW5n" data-listing-date-sort="1725321600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., Goicoechea, C. (2024).
+                            <strong>Affect shift dynamics in the prediction of psychological flexibility and well-being.</strong>
+                            <em>38th Annual Conference of the European Health Psychology Society</em>, Cascais, Portugal.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Affect dynamics">
+                                Affect dynamics
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Linked communities">
-                                Linked communities
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Network analysis">
-                                Network analysis
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Cross-cultural">
-                                Cross-cultural
+                            <span class="pub-category"><a href="#category=Well-being">
+                                Well-being
                             </a></span>
                         
                     </div>
@@ -885,16 +927,8 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.31234/osf.io/sxhwt_v1" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> Preprint PDF
-                        </a>
-                        
-                        <a href="https://github.com/perakakis/spanish-pbat" class="pub-link" target="_blank">
-                            <i class="bi bi-github"></i> Data and Code
-                        </a>
-                        
-                        <a href="https://osf.io/uj65z" class="pub-link" target="_blank">
-                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
+                        <a href="assets/Cascais_2024_EHPS.pdf" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Presentation Slides
                         </a>
                         
                     </div>
@@ -907,8 +941,72 @@ window.Quarto = {
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!-- :::{#in-progress}
-::: -->
+</section>
+<section id="funded-projects" class="level2">
+<h2 class="anchored" data-anchor-id="funded-projects">Funded projects</h2>
+<div id="listing-funding" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-list">
+<ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNCaXN0YWJpbGl0eSUyQ1dlbGwtYmVpbmclMkNNZW50YWwlMjBoZWFsdGg=" data-listing-date-sort="1640995200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            <strong>Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)</strong>
+                        </p>
+                        <p class="pub-funding-meta">
+                            
+                            <span><i class="bi bi-bank"></i> Spanish Ministry of Science and Innovation</span><br>
+                            
+                            
+                            <span><i class="bi bi-hash"></i> PID2021-122271NA-I00</span><br>
+                            
+                            
+                            <span><i class="bi bi-person"></i> PI</span><br>
+                            
+                            
+                            <span><i class="bi bi-calendar-range"></i> 2022–2026</span>
+                            
+                        </p>
+                        
+                        <p class="pub-description">This project applies dynamical systems theory and ecological momentary assessment to investigate bistability in human affect and its relationship with psychological well-being and mental health.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Affect dynamics">
+                                Affect dynamics
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Bistability">
+                                Bistability
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Well-being">
+                                Well-being
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Mental health">
+                                Mental health
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+</ul>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 

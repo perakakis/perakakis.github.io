@@ -130,34 +130,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-in-progress .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-in-progress'] = new List('listing-in-progress', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -442,7 +414,6 @@ window.Quarto = {
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
-  <li><a href="#in-progress" id="toc-in-progress" class="nav-link" data-scroll-target="#in-progress">In Progress</a></li>
   </ul>
 </nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QXR0ZW50aW9u">Attention <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QXV0b25vbWlj">Autonomic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2FyZGlhYw==">Cardiac <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29nbml0aW9u">Cognition <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RUVH">EEG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhlcmNpc2U=">Exercise <span class="quarto-category-count">(5)</span></div><div class="category" data-category="SW5oaWJpdG9yeSUyMGNvbnRyb2w=">Inhibitory control <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW50ZXJvY2VwdGlvbg==">Interoception <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWV0YS1hbmFseXNpcw==">Meta-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlnaWxhbmNl">Vigilance <span class="quarto-category-count">(1)</span></div></div></div>
@@ -761,17 +732,6 @@ window.Quarto = {
 <section id="preprints" class="level2">
 <h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
 <div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
-<div class="pub-list">
-<ul class="list">
-    
-</ul>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="in-progress">In Progress</h2>
-<div id="listing-in-progress" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
     

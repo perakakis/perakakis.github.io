@@ -133,20 +133,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-in-progress .list');
+    const listingTargetEl = window.document.querySelector('#listing-funding .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-pages','listing-doi','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-pages","listing-doi","listing-image","listing-description","listing-section","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-in-progress'] = new List('listing-in-progress', options);
+    window['quarto-listings']['listing-funding'] = new List('listing-funding', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -442,10 +442,10 @@ window.Quarto = {
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal articles</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
-  <li><a href="#in-progress" id="toc-in-progress" class="nav-link" data-scroll-target="#in-progress">In Progress</a></li>
+  <li><a href="#funded-projects" id="toc-funded-projects" class="nav-link" data-scroll-target="#funded-projects">Funded projects</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RVNN">ESM <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGlua2VkJTIwY29tbXVuaXRpZXM=">Linked communities <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -485,7 +485,7 @@ window.Quarto = {
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNCaXN0YWJpbGl0eSUyQ1dlbGwtYmVpbmc=" data-listing-date-sort="1735689600000">
+        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNCaXN0YWJpbGl0eSUyQ0FmZmVjdCUyMHNoaWZ0JTIwcmF0aW8lMkNXZWxsLWJlaW5n" data-listing-date-sort="1735689600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -496,7 +496,7 @@ window.Quarto = {
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., &amp; Perakakis, P. (2025).
+                            Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., Perakakis, P. (2025).
                             <strong>Bistability and affect shift dynamics in the prediction of psychological well-being.</strong>
                             <em>Emotion</em>, 25(4), 982–996.
                             
@@ -504,7 +504,7 @@ window.Quarto = {
                             
                         </p>
                         
-                        <p class="pub-description">We apply bistability metrics from dynamical systems theory to experience-sampling data and show that the tendency to occupy distinct emotional attractors predicts well-being beyond traditional affect measures.</p>
+                        <p class="pub-description">We show that bistability is a prevalent phenomenon in human affect dynamics and develop 10 novel metrics to characterise affect shift dynamics. The Positive-to-Negative Affect Shift Ratio (P2N-ASR) is a better predictor of psychological well-being compared to traditional intensity metrics.</p>
                         
                     </div>
 
@@ -519,6 +519,10 @@ window.Quarto = {
                                 Bistability
                             </a></span>
                         
+                            <span class="pub-category"><a href="#category=Affect shift ratio">
+                                Affect shift ratio
+                            </a></span>
+                        
                             <span class="pub-category"><a href="#category=Well-being">
                                 Well-being
                             </a></span>
@@ -530,11 +534,19 @@ window.Quarto = {
                     <div class="pub-links-bar">
                         
                         <a href="https://doi.org/10.1037/emo0001441" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                            <i class="bi bi-journal-text"></i> Journal Article
                         </a>
                         
-                        <a href="https://doi.org/10.1037/emo0001441" class="pub-link" target="_blank">
-                            <i class="bi bi-journal-text"></i> Journal Article
+                        <a href="https://docta.ucm.es/rest/api/core/bitstreams/79b03994-8738-4b6c-9adb-7290d6ebd43d/content" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> OA PDF
+                        </a>
+                        
+                        <a href="https://github.com/perakakis/AffectShifts" class="pub-link" target="_blank">
+                            <i class="bi bi-github"></i> Data and Code
+                        </a>
+                        
+                        <a href="https://doi.org/10.17605/OSF.IO/XQM84" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
                         </a>
                         
                     </div>
@@ -543,18 +555,18 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="1" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNDT1ZJRC0xOSUyQ0VTTQ==" data-listing-date-sort="1604188800000">
+        <li class="pub-item" data-index="1" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNDT1ZJRC0xOQ==" data-listing-date-sort="1604188800000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="bistability.png" alt="CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain">
+                    <img src="covidaffect.png" alt="CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain">
                 </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., &amp; Banos, O. (2020).
+                            Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanabria, D., Perakakis, P. (2020).
                             <strong>CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain.</strong>
                             <em>Scientific Data</em>, 7, 365.
                             
@@ -562,7 +574,7 @@ window.Quarto = {
                             
                         </p>
                         
-                        <p class="pub-description">An open dataset capturing daily mood fluctuations across thousands of participants during the first wave of the COVID-19 pandemic in Spain.</p>
+                        <p class="pub-description">An open dataset capturing daily mood fluctuations during the first wave of the COVID-19 pandemic in Spain.</p>
                         
                     </div>
 
@@ -577,10 +589,6 @@ window.Quarto = {
                                 COVID-19
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=ESM">
-                                ESM
-                            </a></span>
-                        
                     </div>
                     
 
@@ -588,7 +596,19 @@ window.Quarto = {
                     <div class="pub-links-bar">
                         
                         <a href="https://doi.org/10.1038/s41597-020-00700-1" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                        <a href="https://github.com/perakakis/CoVidAffect" class="pub-link" target="_blank">
+                            <i class="bi bi-github"></i> Data and Code
+                        </a>
+                        
+                        <a href="https://doi.org/10.17605/OSF.IO/5CQZK" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
+                        </a>
+                        
+                        <a href="https://public.tableau.com/views/MoodvariationsduringquarantineinSpainandgendereffects/Story1" class="pub-link" target="_blank">
+                            <i class="bi bi-bar-chart"></i> Tableau Viz
                         </a>
                         
                     </div>
@@ -597,18 +617,18 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="2" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNFU00lMkNNZXRob2RvbG9neQ==" data-listing-date-sort="1564617600000">
+        <li class="pub-item" data-index="2" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNNZXRob2RvbG9neSUyQ1NtYXJ0cGhvbmUlMjBhcHA=" data-listing-date-sort="1564617600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods">
+                    <img src="smartphone.jpg" alt="Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods">
                 </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Bailon, C., Damas, M., Pomares, H., &amp; Perakakis, P. (2019).
+                            Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., Banos, O. (2019).
                             <strong>Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods.</strong>
                             <em>Sensors</em>, 19(15), 3430.
                             
@@ -616,7 +636,7 @@ window.Quarto = {
                             
                         </p>
                         
-                        <p class="pub-description">A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies.</p>
+                        <p class="pub-description">A smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies.</p>
                         
                     </div>
 
@@ -627,12 +647,12 @@ window.Quarto = {
                                 Affect dynamics
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=ESM">
-                                ESM
-                            </a></span>
-                        
                             <span class="pub-category"><a href="#category=Methodology">
                                 Methodology
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Smartphone app">
+                                Smartphone app
                             </a></span>
                         
                     </div>
@@ -642,7 +662,7 @@ window.Quarto = {
                     <div class="pub-links-bar">
                         
                         <a href="https://doi.org/10.3390/s19153430" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                            <i class="bi bi-journal-text"></i> Journal Article
                         </a>
                         
                     </div>
@@ -662,26 +682,26 @@ window.Quarto = {
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNFU00lMkNNZXRob2RvbG9neQ==" data-listing-date-sort="1564617600000">
+        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNBZmZlY3QlMjBzaGlmdCUyMHJhdGlvJTJDV2VsbC1iZWluZyUyQ0Jpc3RhYmlsaXR5" data-listing-date-sort="1767225600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods">
+                    <img src="regressions.png" alt="“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors Of Psychological Well-Being">
                 </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Bailon, C., Damas, M., Pomares, H., &amp; Perakakis, P. (2019).
-                            <strong>Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods.</strong>
-                            <em>Sensors</em>, 19(15), 3430.
+                            Goicoechea, C., Perakakis, P. (2026).
+                            <strong>“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors Of Psychological Well-Being.</strong>
+                            <em>Preprint</em>.
                             
-                            doi: <a href="https://doi.org/10.3390/s19153430">10.3390/s19153430</a>
+                            doi: <a href="https://doi.org/https://doi.org/10.31234/osf.io/gmkc8_v1">https://doi.org/10.31234/osf.io/gmkc8_v1</a>
                             
                         </p>
                         
-                        <p class="pub-description">A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies.</p>
+                        <p class="pub-description">We replicate and extend our previous findings, providing robust evidence that how individuals move between affective states may be more diagnostic of psychological functioning than the typical intensity or variability of those states.</p>
                         
                     </div>
 
@@ -692,12 +712,16 @@ window.Quarto = {
                                 Affect dynamics
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=ESM">
-                                ESM
+                            <span class="pub-category"><a href="#category=Affect shift ratio">
+                                Affect shift ratio
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Methodology">
-                                Methodology
+                            <span class="pub-category"><a href="#category=Well-being">
+                                Well-being
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Bistability">
+                                Bistability
                             </a></span>
                         
                     </div>
@@ -706,8 +730,86 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.3390/s19153430" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        <a href="https://doi.org/10.31234/osf.io/gmkc8_v1" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> Preprint PDF
+                        </a>
+                        
+                        <a href="https://osf.io/qfkhj" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="1" data-categories="UEJBVCUyQ0JvcnV0YSUyQ01ldGhvZG9sb2d5JTJDTGlua2VkJTIwY29tbXVuaXRpZXMlMkNOZXR3b3JrJTIwYW5hbHlzaXMlMkNDcm9zcy1jdWx0dXJhbA==" data-listing-date-sort="1735689600000">
+            <div class="pub-row">
+                
+                <div class="pub-thumbnail">
+                    <img src="spain-net.png" alt="PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives">
+                </div>
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., Perakakis, P. (2025).
+                            <strong>PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives.</strong>
+                            <em>Preprint</em>.
+                            
+                            doi: <a href="https://doi.org/https://doi.org/10.31234/osf.io/sxhwt_v1">https://doi.org/10.31234/osf.io/sxhwt_v1</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=PBAT">
+                                PBAT
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Boruta">
+                                Boruta
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Methodology">
+                                Methodology
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Linked communities">
+                                Linked communities
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Network analysis">
+                                Network analysis
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Cross-cultural">
+                                Cross-cultural
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.31234/osf.io/sxhwt_v1" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> Preprint PDF
+                        </a>
+                        
+                        <a href="https://github.com/perakakis/spanish-pbat" class="pub-link" target="_blank">
+                            <i class="bi bi-github"></i> Data and Code
+                        </a>
+                        
+                        <a href="https://osf.io/uj65z" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
                         </a>
                         
                     </div>
@@ -721,16 +823,92 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="in-progress">In Progress</h2>
-<div id="listing-in-progress" class="quarto-listing quarto-listing-container-custom">
+<section id="funded-projects" class="level2">
+<h2 class="anchored" data-anchor-id="funded-projects">Funded projects</h2>
+<div id="listing-funding" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="UEJBVCUyQ0JvcnV0YSUyQ01ldGhvZG9sb2d5JTJDTGlua2VkJTIwY29tbXVuaXRpZXMlMkNOZXR3b3JrJTIwYW5hbHlzaXMlMkNDcm9zcy1jdWx0dXJhbA==" data-listing-date-sort="1640995200000">
+            <div class="pub-row">
+                
+                <div class="pub-thumbnail">
+                    <img src="bad.png" alt="Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)">
+                </div>
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., Perakakis, P. (2022–2026).
+                            <strong>Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD).</strong>
+                            <em>Preprint</em>.
+                            
+                            doi: <a href="https://doi.org/https://doi.org/10.31234/osf.io/sxhwt_v1">https://doi.org/10.31234/osf.io/sxhwt_v1</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=PBAT">
+                                PBAT
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Boruta">
+                                Boruta
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Methodology">
+                                Methodology
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Linked communities">
+                                Linked communities
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Network analysis">
+                                Network analysis
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Cross-cultural">
+                                Cross-cultural
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.31234/osf.io/sxhwt_v1" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> Preprint PDF
+                        </a>
+                        
+                        <a href="https://github.com/perakakis/spanish-pbat" class="pub-link" target="_blank">
+                            <i class="bi bi-github"></i> Data and Code
+                        </a>
+                        
+                        <a href="https://osf.io/uj65z" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
     
 </ul>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<!-- :::{#in-progress}
+::: -->
 
 
 

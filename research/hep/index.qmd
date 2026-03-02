@@ -1,5 +1,5 @@
 ---
-title: "Affect Dynamics"
+title: "Heartbeat-Evoked Potential"
 toc: true
 toc-location: right
 listing:
@@ -25,12 +25,12 @@ listing:
 ---
 
 ::: {.programme-overview}
-![](metrics.png){.programme-overview-img}
+![](figure-placeholder.png){.programme-overview-img}
 
 ::: {.programme-overview-text}
-Emotions are not static — they fluctuate over time, and the *pattern* of those fluctuations may matter as much as their average level for psychological well-being. Drawing on concepts from dynamical systems theory, this research line investigates how affect shifts over hours and days, and what those dynamics reveal about a person's psychological health.
+The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward **scholar-governed, open-access publishing**.
 
-A key finding from recent work is that emotional experience often behaves like a **bistable system**: rather than drifting gradually between positive and negative states, most people tend to remain in one state before abruptly tipping into another. This bistability — the tendency to occupy distinct emotional attractors — predicts well-being above and beyond traditional affect measures.
+In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.
 
 [<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}
 [<i class="bi bi-github"></i> GitHub](#){.btn .btn-outline-primary .btn-sm target="_blank"}

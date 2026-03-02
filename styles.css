@@ -24,12 +24,15 @@
 }
 
 @media (max-width: 576px) {
+  .home-about > p:first-child {
+    text-align: center;
+  }
   .home-photo {
     float: none;
     width: 140px;
     height: 140px;
     max-width: 140px;
-    margin: 0 0 1rem 0;
+    margin: 0 auto 1rem auto;
   }
 }
 

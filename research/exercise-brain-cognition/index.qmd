@@ -16,12 +16,6 @@ listing:
       section: "Preprints"
     sort: "date desc"
     template: ../../html/research/listing.ejs
-  - id: in-progress
-    contents: papers.yml
-    include:
-      section: "In Progress"
-    sort: "date desc"
-    template: ../../html/research/listing.ejs
 ---
 
 ::: {.programme-overview}
@@ -45,9 +39,4 @@ Key questions include: How does aerobic fitness modulate brain oscillations duri
 ## Preprints
 
 :::{#preprints}
-:::
-
-## In Progress
-
-:::{#in-progress}
 :::

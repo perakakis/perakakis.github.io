@@ -10,7 +10,7 @@ An overview of my past and current research programs organized into four main ar
 ![](affect-dynamics/metrics.png){.card-img-top}
 
 ### [Affect Dynamics](affect-dynamics/index.qmd)
-How we shift between positive and negative emotional states is related to our psychological well-being. Understanding what causes these transitions can help us develop tailored therapeutic interventions to improve mental health.
+How we shift between positive and negative emotional states is closely linked to our psychological well-being. Understanding what drives these transitions can help develop tailored therapeutic interventions to improve mental health.
 
 [Learn more →](affect-dynamics/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::

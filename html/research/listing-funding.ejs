@@ -1,0 +1,62 @@
+```{=html}
+<div class="pub-list">
+<ul class="list">
+    <% for (const item of items) { %>
+        <li class="pub-item" <%= metadataAttrs(item) %>>
+            <div class="pub-row">
+                <% if (item.image) { %>
+                <div class="pub-thumbnail">
+                    <img src="<%= item.image %>" alt="<%= item.title %>">
+                </div>
+                <% } %>
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            <strong><%= item.title %></strong>
+                        </p>
+                        <p class="pub-funding-meta">
+                            <% if (item.funder) { %>
+                            <span><i class="bi bi-bank"></i> <%= item.funder %></span><br>
+                            <% } %>
+                            <% if (item['grant-id']) { %>
+                            <span><i class="bi bi-hash"></i> <%= item['grant-id'] %></span><br>
+                            <% } %>
+                            <% if (item.role) { %>
+                            <span><i class="bi bi-person"></i> <%= item.role %></span><br>
+                            <% } %>
+                            <% if (item.period) { %>
+                            <span><i class="bi bi-calendar-range"></i> <%= item.period %></span>
+                            <% } %>
+                        </p>
+                        <% if (item.description) { %>
+                        <p class="pub-description"><%= item.description %></p>
+                        <% } %>
+                    </div>
+
+                    <% if(item.categories) { %>
+                    <div class="pub-categories">
+                        <% for (const cat of item.categories) { %>
+                            <span class="pub-category"><a href="#category=<%= cat %>">
+                                <%= cat %>
+                            </a></span>
+                        <% } %>
+                    </div>
+                    <% } %>
+
+                    <% if (item.links && item.links.length > 0) { %>
+                    <div class="pub-links-bar">
+                        <% for (const link of item.links) { %>
+                        <a href="<%- link.url %>" class="pub-link" target="_blank">
+                            <i class="<%- link.icon %>"></i> <%= link.name %>
+                        </a>
+                        <% } %>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+        </li>
+    <% } %>
+</ul>
+</div>
+```

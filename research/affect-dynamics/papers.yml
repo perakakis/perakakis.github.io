@@ -1,6 +1,6 @@
 - title: "Bistability and affect shift dynamics in the prediction of psychological well-being"
-  date: "2025-01-01"
-  authors: "Goicoechea, C., Dakos, V., Sanabria, D., Ciria, L. F., & Perakakis, P."
+  date: "2025"
+  authors: "Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., & Perakakis, P."
   year: 2025
   journal: "Emotion"
   volume: "25(4)"
@@ -17,6 +17,9 @@
     - name: "PDF"
       url: "https://doi.org/10.1037/emo0001441"
       icon: "bi bi-file-earmark-pdf"
+    - name: "Journal Article"
+      url: "https://doi.org/10.1037/emo0001441"
+      icon: "bi bi-journal-text"
 
 - title: "CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain"
   date: "2020-11-01"
@@ -26,7 +29,7 @@
   volume: "7"
   pages: "365"
   doi: "10.1038/s41597-020-00700-1"
-  image: figure-placeholder.png
+  image: bistability.png
   description: "An open dataset capturing daily mood fluctuations across thousands of participants during the first wave of the COVID-19 pandemic in Spain."
   section: "Journal Articles"
   categories:
@@ -49,6 +52,26 @@
   image: figure-placeholder.png
   description: "A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
   section: "Journal Articles"
+  categories:
+    - Affect dynamics
+    - ESM
+    - Methodology
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.3390/s19153430"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods"
+  date: "2019-08-01"
+  authors: "Bailon, C., Damas, M., Pomares, H., & Perakakis, P."
+  year: 2019
+  journal: "Sensors"
+  volume: "19(15)"
+  pages: "3430"
+  doi: "10.3390/s19153430"
+  image: figure-placeholder.png
+  description: "A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
+  section: "Preprints"
   categories:
     - Affect dynamics
     - ESM

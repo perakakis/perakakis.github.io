@@ -1,82 +1,160 @@
 - title: "Bistability and affect shift dynamics in the prediction of psychological well-being"
   date: "2025"
-  authors: "Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., & Perakakis, P."
+  authors: "Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., Perakakis, P."
   year: 2025
   journal: "Emotion"
   volume: "25(4)"
   pages: "982–996"
   doi: "10.1037/emo0001441"
   image: bistability.png
-  description: "We apply bistability metrics from dynamical systems theory to experience-sampling data and show that the tendency to occupy distinct emotional attractors predicts well-being beyond traditional affect measures."
+  description: "We show that bistability is a prevalent phenomenon in human affect dynamics and develop 10 novel metrics to characterise affect shift dynamics. The Positive-to-Negative Affect Shift Ratio (P2N-ASR) is a better predictor of psychological well-being compared to traditional intensity metrics."
   section: "Journal Articles"
   categories:
     - Affect dynamics
     - Bistability
+    - Affect shift ratio
     - Well-being
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.1037/emo0001441"
-      icon: "bi bi-file-earmark-pdf"
-    - name: "Journal Article"
-      url: "https://doi.org/10.1037/emo0001441"
-      icon: "bi bi-journal-text"
+  - name: "Journal Article"
+    url: "https://doi.org/10.1037/emo0001441"
+    icon: "bi bi-journal-text"
+  - name: "OA PDF"
+    url: "https://docta.ucm.es/rest/api/core/bitstreams/79b03994-8738-4b6c-9adb-7290d6ebd43d/content"
+    icon: "bi bi-file-earmark-pdf"
+  - name: "Data and Code"
+    url: "https://github.com/perakakis/AffectShifts"
+    icon: "bi bi-github"
+  - name: "OSF Project"
+    url: "https://doi.org/10.17605/OSF.IO/XQM84"
+    icon: "bi bi-box-arrow-up-right"
+    
 
 - title: "CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain"
   date: "2020-11-01"
-  authors: "Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., & Banos, O."
+  authors: "Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanabria, D., Perakakis, P."
   year: 2020
   journal: "Scientific Data"
   volume: "7"
   pages: "365"
   doi: "10.1038/s41597-020-00700-1"
-  image: bistability.png
-  description: "An open dataset capturing daily mood fluctuations across thousands of participants during the first wave of the COVID-19 pandemic in Spain."
+  image: covidaffect.png
+  description: "An open dataset capturing daily mood fluctuations during the first wave of the COVID-19 pandemic in Spain."
   section: "Journal Articles"
   categories:
     - Affect dynamics
     - COVID-19
-    - ESM
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.1038/s41597-020-00700-1"
-      icon: "bi bi-file-earmark-pdf"
+      icon: "bi bi-journal-text"
+    - name: "Data and Code"
+      url: "https://github.com/perakakis/CoVidAffect"
+      icon: "bi bi-github"
+    - name: "OSF Project"
+      url: "https://doi.org/10.17605/OSF.IO/5CQZK"
+      icon: "bi bi-box-arrow-up-right"
+    - name: "Tableau Viz"
+      url: "https://public.tableau.com/views/MoodvariationsduringquarantineinSpainandgendereffects/Story1"
+      icon: "bi bi-bar-chart"
 
 - title: "Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods"
   date: "2019-08-01"
-  authors: "Bailon, C., Damas, M., Pomares, H., & Perakakis, P."
+  authors: "Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., Banos, O."
   year: 2019
   journal: "Sensors"
   volume: "19(15)"
   pages: "3430"
   doi: "10.3390/s19153430"
-  image: figure-placeholder.png
-  description: "A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
+  image: smartphone.jpg
+  description: "A smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
   section: "Journal Articles"
   categories:
-    - Affect dynamics
-    - ESM
+    - Affect dynamics    
     - Methodology
+    - Smartphone app
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.3390/s19153430"
-      icon: "bi bi-file-earmark-pdf"
+      icon: "bi bi-journal-text"
 
-- title: "Smartphone-based platform for affect monitoring through flexibly managed experience sampling methods"
-  date: "2019-08-01"
-  authors: "Bailon, C., Damas, M., Pomares, H., & Perakakis, P."
-  year: 2019
-  journal: "Sensors"
-  volume: "19(15)"
-  pages: "3430"
-  doi: "10.3390/s19153430"
-  image: figure-placeholder.png
-  description: "A flexible smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
+- title: "“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors Of Psychological Well-Being"
+  date: "2026"
+  authors: "Goicoechea, C., Perakakis, P."
+  year: 2026
+  journal: "Preprint"
+  volume: ""
+  pages: ""
+  doi: "https://doi.org/10.31234/osf.io/gmkc8_v1"
+  image: regressions.png
+  description: "We replicate and extend our previous findings, providing robust evidence that how individuals move between affective states may be more diagnostic of psychological functioning than the typical intensity or variability of those states."
   section: "Preprints"
   categories:
     - Affect dynamics
-    - ESM
-    - Methodology
+    - Affect shift ratio
+    - Well-being
+    - Bistability
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.3390/s19153430"
-      icon: "bi bi-file-earmark-pdf"
+    - name: "Preprint PDF"
+      url: "https://doi.org/10.31234/osf.io/gmkc8_v1"
+      icon: "bi bi-file-earmark-pdf"    
+    - name: "OSF Project"
+      url: "https://osf.io/qfkhj"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives"
+  date: "2025"
+  authors: "Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., Perakakis, P."
+  year: 2025
+  journal: "Preprint"
+  volume: ""
+  pages: ""
+  doi: "https://doi.org/10.31234/osf.io/sxhwt_v1"
+  image: spain-net.png
+  description: "Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US."
+  section: "Preprints"
+  categories:
+    - PBAT
+    - Boruta
+    - Methodology
+    - Linked communities
+    - Network analysis
+    - Cross-cultural
+  links:
+    - name: "Preprint PDF"
+      url: "https://doi.org/10.31234/osf.io/sxhwt_v1"
+      icon: "bi bi-file-earmark-pdf"    
+    - name: "Data and Code"
+      url: "https://github.com/perakakis/spanish-pbat"
+      icon: "bi bi-github"
+    - name: "OSF Project"
+      url: "https://osf.io/uj65z"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)"
+  date: "2022"
+  authors: "Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., Perakakis, P."
+  year: 2022–2026
+  journal: "Preprint"
+  volume: ""
+  pages: ""
+  doi: "https://doi.org/10.31234/osf.io/sxhwt_v1"
+  image: bad.png
+  description: "Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US."
+  section: "Funding"
+  categories:
+    - PBAT
+    - Boruta
+    - Methodology
+    - Linked communities
+    - Network analysis
+    - Cross-cultural
+  links:
+    - name: "Preprint PDF"
+      url: "https://doi.org/10.31234/osf.io/sxhwt_v1"
+      icon: "bi bi-file-earmark-pdf"    
+    - name: "Data and Code"
+      url: "https://github.com/perakakis/spanish-pbat"
+      icon: "bi bi-github"
+    - name: "OSF Project"
+      url: "https://osf.io/uj65z"
+      icon: "bi bi-box-arrow-up-right"

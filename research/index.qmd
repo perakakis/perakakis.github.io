@@ -11,6 +11,8 @@ An overview of my past and current research programs organized into four main ar
 
 ### [Affect Dynamics](affect-dynamics/index.qmd)
 How we shift between positive and negative emotional states is closely linked to our psychological well-being. Understanding what drives these transitions can help develop tailored therapeutic interventions to improve mental health.
+
+[Learn more →](affect-dynamics/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 ::: {.research-card}
@@ -18,6 +20,8 @@ How we shift between positive and negative emotional states is closely linked to
 
 ### [Scholarly Communication](scholarly-communication/index.qmd)
 Academic knowledge creation and communication has been hijacked by large commercial publishers. We develop models and tools for scholar-governed publishing using existing public infrastructure.
+
+[Learn more →](scholarly-communication/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 
@@ -26,6 +30,8 @@ Academic knowledge creation and communication has been hijacked by large commerc
 
 ### [Exercise, Brain & Cognition](exercise-brain-cognition/index.qmd)
 Does physical exercise improve cognition? We measure neurophysiological signals during physical exercise to investigate exercise-brain links.
+
+[Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 
@@ -34,6 +40,8 @@ Does physical exercise improve cognition? We measure neurophysiological signals 
 
 ### [Heartbeat-Evoked Potential](exercise-brain-cognition/index.qmd)
 The heartbeat-evoked potential (HEP) is a neural signal that reflects the brain's processing of cardiac signals. We investigate its psychophysiological origins and its relation to physical exercise and interoception.
+
+[Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 :::

@@ -2,7 +2,7 @@
 title: "Research"
 toc: false
 ---
-This page provides an overview of my past and current research programs organized into four main areas:
+An overview of my past and current research programs organized into four main areas:
 
 ::: {.card-grid}
 

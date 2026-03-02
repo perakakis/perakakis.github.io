@@ -1,0 +1,71 @@
+- title: "Replacing academic journals"
+  date: "2023-07-01"
+  authors: "Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al."
+  year: 2023
+  journal: "Royal Society Open Science"
+  volume: "10(7)"
+  pages: "230206"
+  doi: "10.1098/rsos.230206"
+  image: figure-placeholder.png
+  description: "A blueprint for replacing traditional journals with a modular, scholar-governed infrastructure built on institutional repositories and open peer review."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Publishing reform
+    - Infrastructure
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1098/rsos.230206"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "No-pay publishing: use institutional repositories"
+  date: "2023-07-01"
+  authors: "Bernal, I., & Perakakis, P."
+  year: 2023
+  journal: "Nature"
+  volume: "619(7971)"
+  pages: "698"
+  doi: "10.1038/d41586-023-02391-9"
+  image: figure-placeholder.png
+  description: "A correspondence arguing that institutional repositories already provide the infrastructure for free, immediate open-access dissemination without APCs."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Repositories
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1038/d41586-023-02391-9"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "OPRM: Challenges to including open peer review in open access repositories"
+  date: "2017-01-01"
+  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
+  year: 2017
+  journal: "Code4Lib"
+  volume: "35"
+  image: figure-placeholder.png
+  description: "Examines the technical and social challenges of integrating transparent peer review workflows into existing open-access repository platforms."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Peer review
+  links: []
+
+- title: "Natural selection of academic papers"
+  date: "2010-11-01"
+  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
+  year: 2010
+  journal: "Scientometrics"
+  volume: "85(2)"
+  pages: "553–559"
+  doi: "10.1007/s11192-010-0253-3"
+  image: figure-placeholder.png
+  description: "Proposes an evolutionary model of scientific publishing in which open post-publication review acts as a selection mechanism for scholarly work."
+  section: "Journal Articles"
+  categories:
+    - Scientometrics
+    - Publishing reform
+  links:
+    - name: "PDF"
+      url: "https://doi.org/10.1007/s11192-010-0253-3"
+      icon: "bi bi-file-earmark-pdf"

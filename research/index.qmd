@@ -16,7 +16,7 @@ How we shift between positive and negative emotional states is closely linked to
 :::
 
 ::: {.research-card}
-![](scholarly-communication/replacing.png){.card-img-top}
+![](scholarly-communication/assets/replacing.png){.card-img-top}
 
 ### [Scholarly Communication](scholarly-communication/index.qmd)
 Academic knowledge creation and communication has been hijacked by large commercial publishers. We develop models and tools for scholar-governed publishing using existing public infrastructure.

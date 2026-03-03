@@ -1,0 +1,42 @@
+```{=html}
+<div class="pub-list">
+<ul class="list">
+    <% for (const item of items) { %>
+        <li class="pub-item" <%= metadataAttrs(item) %>>
+            <div class="pub-row">
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <% if (item.url) { %>
+                        <p><strong><a href="<%= item.url %>" target="_blank"><%= item.title %></a></strong></p>
+                        <% } else { %>
+                        <p><strong><%= item.title %></strong></p>
+                        <% } %>
+                        <p class="news-meta">
+                            <% if (item.source) { %>
+                            <span><i class="bi bi-newspaper"></i><%= item.source %></span>
+                            <% } %>
+                            <% if (item.year) { %>
+                            <span class="ms-2"><i class="bi bi-calendar3"></i><%= item.year %></span>
+                            <% } %>
+                        </p>
+                        <% if (item.description) { %>
+                        <p class="pub-description"><%= item.description %></p>
+                        <% } %>
+                    </div>
+
+                    <% if (item.categories) { %>
+                    <div class="pub-categories">
+                        <% for (const cat of item.categories) { %>
+                            <span class="pub-category"><a href="#category=<%= cat %>">
+                                <%= cat %>
+                            </a></span>
+                        <% } %>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+        </li>
+    <% } %>
+</ul>
+</div>
+```

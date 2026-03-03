@@ -26,7 +26,7 @@ Academic knowledge creation and communication has been hijacked by large commerc
 
 
 ::: {.research-card}
-![](exercise-brain-cognition/exercise.png){.card-img-top}
+![](exercise-brain-cognition/assets/exercise.png){.card-img-top}
 
 ### [Exercise, Brain & Cognition](exercise-brain-cognition/index.qmd)
 Does physical exercise improve cognition? We measure neurophysiological signals during physical exercise to investigate exercise-brain links.

@@ -18,6 +18,14 @@ listing:
     sort: "date desc"
     template: ../../html/research/listing.ejs
     page-size: 100
+  - id: news
+    contents: papers.yml
+    include:
+      section: "News"
+    sort: "date desc"
+    template: ../../html/research/listing-news.ejs
+    categories: true
+    page-size: 100
 ---
 
 ::: {.programme-overview}
@@ -42,11 +50,18 @@ A long engagement with scholarly communication and research evaluation led to th
 :::{#conferences}
 :::
 
-## Selected News
+## News
+
+:::{#news}
+:::
+
+
+
+<!-- ## Selected News
 
 1. [Are University ratings useful?](http://www.tovima.gr/science/article/?aid=610392) To Vima, 2014.
 2. [New forms of open peer review will allow academics to separate scholarly evaluation from academic journals.](http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/) Impact of Social Sciences, London School of Economics.
 3. [Open Scientists in the shoes of frustrated academics part I: Open-minded scepticism.](https://www.euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/) Euroscientist.
 4. [Open-access platform Libre launched.](http://www.timeshighereducation.co.uk/news/open-access-platform-libre-launched/2005548.article) The Times Higher Education, by Paul Jump.
 5. [Too complex for the jury?](http://www.timeshighereducation.co.uk/414431.article) The Times Higher Education, by Paul Jump.
-6. [Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against flawed academic publishing model.](http://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/) Journalism.co.uk.
+6. [Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against flawed academic publishing model.](http://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/) Journalism.co.uk. -->

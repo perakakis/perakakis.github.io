@@ -526,9 +526,9 @@
     - Open science
     - Replicability
   links:
-    - name: "Blog post"
-      url: "https://pandelisperakakis.info/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/"
-      icon: "bi bi-box-arrow-up-right"
+    # - name: "Blog post"
+    #   url: "https://pandelisperakakis.info/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/"
+    #   icon: "bi bi-box-arrow-up-right"
 
 - title: "Open Science in an Open World"
   date: "2017-05-16"
@@ -572,9 +572,9 @@
     - Open access
     - Publishing reform
   links:
-    - name: "Event page"
-      url: "https://www.gate.cnrs.fr/spip.php?article1022"
-      icon: "bi bi-box-arrow-up-right"
+    # - name: "Event page"
+    #   url: "https://www.gate.cnrs.fr/spip.php?article1022"
+    #   icon: "bi bi-box-arrow-up-right"
 
 - title: "Next generation repositories"
   date: "2016-04-11"
@@ -589,12 +589,12 @@
     - Open access
     - Video
   links:
-    - name: "Program"
-      url: "https://www.coar-repositories.org/community/events/archive/annual-meeting-2016/programme/"
-      icon: "bi bi-calendar-event"
-    - name: "Video"
-      url: "https://phaidra.univie.ac.at/detail_object/o:440670"
-      icon: "bi bi-play-circle"
+    - name: "Blog post"
+      url: "https://coar-repositories.org/next-generation-repositories/"
+      icon: "bi bi-box-arrow-up-right"
+    # - name: "Video"
+    #   url: "https://phaidra.univie.ac.at/detail_object/o:440670"
+    #   icon: "bi bi-play-circle"
 
 - title: "Presenting the first Open Peer Review Module for Open Access Repositories"
   date: "2016-04-27"
@@ -608,10 +608,11 @@
     - Peer review
     - Repositories
     - Open access
+    - Slides
   links:
-    - name: "Project page"
-      url: "http://proyectos.bibliotecas.csic.es/digitalcsic/oprm/index_eng.html"
-      icon: "bi bi-box-arrow-up-right"
+    - name: "Slides"
+      url: "http://hdl.handle.net/10261/133952"
+      icon: "bi bi-file-earmark-slides"
 
 - title: "Open Peer Review workshop"
   date: "2016-06-07"
@@ -655,9 +656,9 @@
     - Peer review
     - Open access
   links:
-    - name: "Event page"
-      url: "http://www.eui.eu/SeminarsAndEvents/Events/2013/October/EUIRoundTableonOpenAccessPublishingRethinkingimpactanddissemination.aspx"
-      icon: "bi bi-box-arrow-up-right"
+    # - name: "Event page"
+    #   url: "http://www.eui.eu/SeminarsAndEvents/Events/2013/October/EUIRoundTableonOpenAccessPublishingRethinkingimpactanddissemination.aspx"
+    #   icon: "bi bi-box-arrow-up-right"
 
 - title: "Current academic publishing and the LIBRE alternative"
   date: "2013-06-19"
@@ -683,6 +684,7 @@
   categories:
     - Open access
     - Publishing reform
+    - Slides
     - Video
   links:
     - name: "Slides"
@@ -717,3 +719,20 @@
     - Scientometrics
     - Research evaluation
   links: []
+
+
+# ── News ───────────────────────────────────────────────
+- title: "New forms of open peer review will allow academics to separate scholarly evaluation from academic journals"
+  date: "2013"
+  year: 2013
+  url: "http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis"
+  source: "LSE Impact Blog"
+  description: "Optional summary sentence."
+  section: "News"
+  categories:
+    - Open access
+    - Peer review
+
+
+#     [New forms of open peer review will allow academics to separate scholarly evaluation from academic journals.](http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/) Impact of Social Sciences, London School of Economics.
+# 3. [Open Scientists in the shoes of frustrated academics part I: Open-minded scepticism.](https://www.euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/) Euroscientist.

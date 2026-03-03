@@ -292,6 +292,18 @@
   color: var(--bs-primary);
 }
 
+/* News listing (listing-news.ejs) */
+.news-meta {
+  font-size: 0.85rem;
+  color: var(--bs-secondary);
+  margin-bottom: 0.3rem;
+}
+
+.news-meta i {
+  margin-right: 0.3em;
+  color: var(--bs-primary);
+}
+
 /* Programme overview: image floats left, text wraps around it */
 .programme-overview {
   margin-bottom: 2rem;

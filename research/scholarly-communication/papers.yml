@@ -1,12 +1,14 @@
+# ── Journal Articles ──────────────────────────────────────────────────────────
+
 - title: "Replacing academic journals"
   date: "2023-07-01"
-  authors: "Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al."
+  authors: "Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., Trachana, V., Ma, L., & Rodriguez-Cuadrado, S."
   year: 2023
   journal: "Royal Society Open Science"
   volume: "10(7)"
   pages: "230206"
   doi: "10.1098/rsos.230206"
-  image: figure-placeholder.png
+  image: ""
   description: "A blueprint for replacing traditional journals with a modular, scholar-governed infrastructure built on institutional repositories and open peer review."
   section: "Journal Articles"
   categories:
@@ -14,9 +16,9 @@
     - Publishing reform
     - Infrastructure
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.1098/rsos.230206"
-      icon: "bi bi-file-earmark-pdf"
+      icon: "bi bi-journal-text"
 
 - title: "No-pay publishing: use institutional repositories"
   date: "2023-07-01"
@@ -25,31 +27,97 @@
   journal: "Nature"
   volume: "619(7971)"
   pages: "698"
-  doi: "10.1038/d41586-023-02391-9"
-  image: figure-placeholder.png
+  doi: "10.1038/d41586-023-02315-z"
+  image: ""
   description: "A correspondence arguing that institutional repositories already provide the infrastructure for free, immediate open-access dissemination without APCs."
   section: "Journal Articles"
   categories:
     - Open access
     - Repositories
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.1038/d41586-023-02391-9"
-      icon: "bi bi-file-earmark-pdf"
+    - name: "Journal Article"
+      url: "https://doi.org/10.1038/d41586-023-02315-z"
+      icon: "bi bi-journal-text"
+
+- title: "Rankings are the sorcerer's new apprentice"
+  date: "2014-01-01"
+  authors: "Taylor, M., Perakakis, P., Trachana, V., & Gialis, S."
+  year: 2014
+  journal: "Ethics in Science and Environmental Politics"
+  volume: "13(2)"
+  pages: "73–99"
+  doi: "10.3354/esep00137"
+  image: ""
+  description: "A critical analysis of university ranking systems, arguing that they function more as tools of power than as meaningful measures of academic quality."
+  section: "Journal Articles"
+  categories:
+    - Scientometrics
+    - University rankings
+    - Research evaluation
+  links:
+    - name: "Journal Article"
+      url: "http://www.int-res.com/abstracts/esep/v13/n2/p73-99/"
+      icon: "bi bi-journal-text"
+
+- title: "Academic self-publishing: a not-so-distant future"
+  date: "2013-01-01"
+  authors: "Perakakis, P., & Taylor, M."
+  year: 2013
+  journal: "Prometheus"
+  volume: "31(3)"
+  pages: "257–263"
+  doi: "10.1080/08109028.2014.891712"
+  image: ""
+  description: "Explores a near-future scenario in which scholars bypass traditional publishers altogether using open repositories and community-driven peer review."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Publishing reform
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1080/08109028.2014.891712"
+      icon: "bi bi-journal-text"
 
 - title: "OPRM: Challenges to including open peer review in open access repositories"
   date: "2017-01-01"
-  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
+  authors: "Mosquera-de-Arancibia, C., & Lorenzo, E."
   year: 2017
   journal: "Code4Lib"
   volume: "35"
-  image: figure-placeholder.png
+  image: ""
   description: "Examines the technical and social challenges of integrating transparent peer review workflows into existing open-access repository platforms."
   section: "Journal Articles"
   categories:
     - Open access
     - Peer review
-  links: []
+    - Repositories
+  links:
+    - name: "Journal Article"
+      url: "https://journal.code4lib.org/articles/12171"
+      icon: "bi bi-journal-text"
+
+- title: "Understanding the role of open peer review and dynamic academic articles"
+  date: "2011-11-01"
+  authors: "Perakakis, P., Taylor, M., Mazza, G. M., & Trachana, V."
+  year: 2011
+  journal: "Scientometrics"
+  volume: "88(2)"
+  pages: "669–673"
+  doi: "10.1007/s11192-011-0402-1"
+  image: ""
+  description: "Introduces the concept of dynamic academic articles that evolve through open post-publication peer review, replacing static PDF-based publishing."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Peer review
+    - Publishing reform
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1007/s11192-011-0402-1"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "/assets/Perakakis_SCI_2011.pdf"
+      icon: "bi bi-journal-text"
 
 - title: "Natural selection of academic papers"
   date: "2010-11-01"
@@ -58,14 +126,594 @@
   journal: "Scientometrics"
   volume: "85(2)"
   pages: "553–559"
-  doi: "10.1007/s11192-010-0253-3"
-  image: figure-placeholder.png
+  doi: "10.1007/s11192-010-0253-1"
+  image: ""
   description: "Proposes an evolutionary model of scientific publishing in which open post-publication review acts as a selection mechanism for scholarly work."
   section: "Journal Articles"
   categories:
     - Scientometrics
     - Publishing reform
+    - Peer review
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.1007/s11192-010-0253-3"
+    - name: "Journal Article"
+      url: "https://doi.org/10.1007/s11192-010-0253-1"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "/assets/NSAP_Perakakis_2010.pdf"
       icon: "bi bi-file-earmark-pdf"
+
+- title: "The siege of science"
+  date: "2007-01-01"
+  authors: "Taylor, M., Perakakis, P., & Trachana, V."
+  year: 2007
+  journal: "Ethics in Science and Environmental Politics"
+  volume: "8(1)"
+  pages: "17–40"
+  doi: "10.3354/esep00086"
+  image: ""
+  description: "A foundational critique of the commercial takeover of academic publishing and its effects on the free circulation of scientific knowledge."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Publishing reform
+    - Research evaluation
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.3354/esep00086"
+      icon: "bi bi-journal-text"
+
+- title: "The roads to open access"
+  date: "2010-01-01"
+  authors: "Perakakis, P., Taylor, M., & Trachana, V."
+  year: 2010
+  journal: "World Social Science Report 2010"
+  volume: "UNESCO Publishing, Paris"
+  image: ""
+  description: "An overview of open-access publishing models and their prospects, contributed to the UNESCO World Social Science Report."
+  section: "Journal Articles"
+  categories:
+    - Open access
+    - Publishing reform
+  links:
+    - name: "Book Chapter"
+      url: "assets/Perakakis_UNESCO_Report.pdf"
+      icon: "bi bi-book"
+
+- title: "A neuro-fuzzy system to calculate a journal internationality index"
+  date: "2005-09-01"
+  authors: "Perakakis, P., Taylor, M., Buela-Casal, G., & Checa, P."
+  year: 2005
+  journal: "CEDI Proceedings"
+  volume: "Granada, Spain"
+  image: ""
+  description: "Introduces a fuzzy-logic approach to quantifying the international reach of academic journals based on multiple bibliometric indicators."
+  section: "Journal Articles"
+  categories:
+    - Scientometrics
+    - Methodology
+  links:
+    - name: "Proceedings"
+      url: "https://zenodo.org/record/45541"
+      icon: "bi bi-journal-text"
+
+# ── Conferences / Invited Talks ───────────────────────────────────────────────
+
+- title: "Reforma de la evaluación impulsada por CoARA en la UCM"
+  date: "2025-11-18"
+  authors: "Perakakis, P."
+  year: 2025
+  journal: "International Open Access Week 2025, UCM Library"
+  volume: "Madrid, Spain"
+  description: "Invited talk on CoARA-driven research evaluation reform."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Open access
+    - Video
+  links:
+    - name: "Video"
+      url: "https://youtu.be/_HotbWfrZfY?si=aNw2bMVBBk7TWWTw"
+      icon: "bi bi-play-circle"
+
+- title: "El negocio de las editoriales académicas y modelos alternativos"
+  date: "2025-11-06"
+  authors: "Perakakis, P."
+  year: 2025
+  journal: "Jornadas de Cultura Laboral en Investigación (DigniMad)"
+  volume: "Madrid, Spain"
+  description: "Invited lecture on the business model of academic publishers and non-commercial alternatives."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+  links: []
+
+- title: "Guía del autoestopista hacia la libertad académica"
+  date: "2024-03-05"
+  authors: "Perakakis, P."
+  year: 2024
+  journal: "Open Science Course, SEPNECA/SEPEX/SEPSICOBIO/UAM"
+  volume: "Madrid, Spain"
+  description: "Invited talk on navigating academic freedom in the context of open science."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Open science
+    - Video
+  links:
+    - name: "Video"
+      url: "https://youtu.be/azrC3AuwcS4?si=7ZNskzGZ3eW6T8jz"
+      icon: "bi bi-play-circle"
+
+- title: "DeMéritos de la investigación científica"
+  date: "2023-01-01"
+  authors: "Perakakis, P."
+  year: 2023
+  journal: "Jornada Inter-CRECS 2023"
+  volume: "Madrid, Spain"
+  description: "Invited round-table discussion on perverse incentives in scientific research evaluation."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Open science
+    - Video
+  links:
+    - name: "Video"
+      url: "https://youtu.be/9XeVaAlTE0M?si=W_u-a3AWVOz_S96s&t=4674"
+      icon: "bi bi-play-circle"
+
+- title: "Innovación en prácticas de revisión por pares"
+  date: "2023-10-26"
+  authors: "Perakakis, P."
+  year: 2023
+  journal: "International Open Access Week, REBIUN"
+  volume: "Spain"
+  description: "Invited talk on innovations in peer review practices for open access publishing."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Open access
+    - Video
+  links:
+    - name: "Video"
+      url: "https://youtu.be/XLdX7t6RT-0"
+      icon: "bi bi-play-circle"
+
+- title: "Open Science with public infrastructure"
+  date: "2023-04-25"
+  authors: "Perakakis, P."
+  year: 2023
+  journal: "Eötvös Loránd University"
+  volume: "Budapest, Hungary"
+  description: "Talk arguing for publicly-owned, scholar-governed infrastructure as the foundation for open science."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Infrastructure
+    - Video
+  links:
+    - name: "Video"
+      url: "https://www.youtube.com/watch?v=UQvoYo_jsbo"
+      icon: "bi bi-play-circle"
+
+- title: "The Hitchhiker's Guide to Academic Publishing"
+  date: "2021-07-01"
+  authors: "Perakakis, P."
+  year: 2021
+  journal: "New York University (NYU), Psychology Department"
+  volume: "Online"
+  description: "Invited talk surveying the history, problems, and alternatives to commercial academic publishing."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+    - Video
+  links:
+    # - name: "Blog post"
+    #   url: "https://pandelisperakakis.info/2021/07/05/the-hitchhikers-guide-to-academic-publishing/"
+    #   icon: "bi bi-box-arrow-up-right"
+    - name: "Video"
+      url: "https://youtu.be/TgTsgbbdUog"
+      icon: "bi bi-play-circle"
+
+- title: "Science Collaboration and Open Science"
+  date: "2021-06-15"
+  authors: "Perakakis, P."
+  year: 2021
+  journal: "1st Crowdfight Symposium on the Science of Collaboration"
+  volume: "Online"
+  description: "Roundtable panelist on the role of open science in fostering scientific collaboration."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Open science
+    - Video
+  links:
+    - name: "Program"
+      url: "https://doi.org/10.5281/zenodo.4972567"
+      icon: "bi bi-file-earmark-text"
+    - name: "Video"
+      url: "https://youtu.be/QS-94RHUkj4"
+      icon: "bi bi-play-circle"
+
+- title: "¿Hay vida más allá de las editoriales? La revista Psicológica y la nueva generación de comunicación científica"
+  date: "2021-04-21"
+  authors: "Perakakis, P."
+  year: 2021
+  journal: "Annual Conference of the Sociedad Española de Psicología Experimental (SEPEX)"
+  volume: "Online"
+  description: "Keynote address on the future of scholar-owned journals and the next generation of scholarly communication."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+  links:
+    # - name: "Presentation"
+    #   url: "https://pandelisperakakis.info/2021/04/21/is-there-life-beyond-publishers/"
+    #   icon: "bi bi-file-earmark-slides"
+
+- title: "Open Science: What, Why, How?"
+  date: "2017-05-19"
+  authors: "Perakakis, P."
+  year: 2017
+  journal: "Hot Topic Lecture, Ghent University"
+  volume: "Ghent, Belgium"
+  description: "Hot Topic Lecture introducing open science principles, motivations, and practical tools."
+  section: "Conferences"
+  categories:
+    - Open science
+    - Open access
+    - Slides
+  links:
+    - name: "Slides"
+      url: "https://www.slideshare.net/PandelisPerakakis/open-science-what-why-how-76291597"
+      icon: "bi bi-file-earmark-slides"
+
+- title: "Open, Portable, Decoupled – How should Peer Review change?"
+  date: "2013-11-08"
+  authors: "Perakakis, P."
+  year: 2013
+  journal: "SpotOn London 2013"
+  volume: "London, UK"
+  description: "Presentation advocating for peer review decoupled from journals and portable across platforms."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Publishing reform
+  links:
+    # - name: "Event page"
+    #   url: "http://www.nature.com/spoton/2013/11/spoton-london-2013-open-portable-decoupled-how-should-peer-review-change/"
+    #   icon: "bi bi-box-arrow-up-right"
+
+- title: "An Open Peer Review Module for Open Access Repositories"
+  date: "2016-06-13"
+  authors: "Perakakis, P."
+  year: 2016
+  journal: "Open Repositories 2016"
+  volume: "Dublin, Ireland"
+  description: "Presentation of the OPRM — a software module integrating structured open peer review into open-access repositories."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Repositories
+    - Open access
+    - Slides
+  links:
+    - name: "Slides"
+      url: "https://digital.csic.es/handle/10261/133952"
+      icon: "bi bi-file-earmark-slides"
+
+- title: "New systems for scientific evaluation, peer-review and open access"
+  date: "2014-10-22"
+  authors: "Perakakis, P."
+  year: 2014
+  journal: "CSIC Open Access Week"
+  volume: "Madrid, Spain"
+  description: "Invited workshop presenting emerging alternative systems for scholarly evaluation and open-access dissemination."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Peer review
+    - Open access
+    - Slides
+  links:
+    - name: "Slides"
+      url: "http://digital.csic.es/handle/10261/103993"
+      icon: "bi bi-file-earmark-slides"
+
+- title: "Prácticas para una ciencia más abierta, ética y reproducible"
+  date: "2024-01-01"
+  authors: "Perakakis, P."
+  year: 2024
+  journal: "PhD Course 2024–2025, University of Malaga"
+  volume: "Malaga, Spain"
+  description: "PhD course on open, ethical and reproducible science practices."
+  section: "Conferences"
+  categories:
+    - Open science
+  links: []
+
+- title: "Ética e integridad en la Investigación Científica"
+  date: "2024-05-22"
+  authors: "Perakakis, P."
+  year: 2024
+  journal: "PhD Courses, Complutense University of Madrid"
+  volume: "Madrid, Spain"
+  description: "PhD course on ethics and integrity in scientific research. May 22–23, 2024 and March 7 & 14, 2024."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Open science
+  links: []
+
+- title: "Ciencia abierta: contexto histórico y cambios actuales en la validación, evaluación y comunicación de la producción científica"
+  date: "2023-01-01"
+  authors: "Perakakis, P."
+  year: 2023
+  journal: "PhD Course 2023–2024, University of Malaga"
+  volume: "Malaga, Spain"
+  description: "PhD course covering the historical context and current changes in scholarly validation, evaluation, and communication."
+  section: "Conferences"
+  categories:
+    - Open science
+    - Research evaluation
+  links: []
+
+- title: "Introducción a la Ciencia Abierta: Transformando la Investigación para un Futuro Sostenible"
+  date: "2023-01-02"
+  authors: "Perakakis, P."
+  year: 2023
+  journal: "PhD Course 2023–2024, University of Jaen"
+  volume: "Jaen, Spain"
+  description: "PhD course introducing open science and its role in building a more sustainable research ecosystem."
+  section: "Conferences"
+  categories:
+    - Open science
+  links: []
+
+- title: "Innovación en prácticas de revisión por pares"
+  date: "2023-09-04"
+  authors: "Perakakis, P."
+  year: 2023
+  journal: "Conference on the Foundations for the Advancement of Open Science, CSIC"
+  volume: "Cuenca, Spain"
+  description: "Invited talk on innovations in peer review at the CSIC open science conference."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Open access
+    - Slides
+  links:
+    - name: "Slides"
+      url: "https://digital.csic.es/handle/10261/335107"
+      icon: "bi bi-file-earmark-slides"
+
+- title: "Ciencia abierta y su implicación en la evaluación de la investigación"
+  date: "2022-09-06"
+  authors: "Perakakis, P."
+  year: 2022
+  journal: "44th Annual Congress of the Sociedad Española de Bioquímica y Biología Molecular"
+  volume: "Malaga, Spain"
+  description: "Round-table on open science and its implications for research evaluation."
+  section: "Conferences"
+  categories:
+    - Open science
+    - Research evaluation
+  links: []
+
+- title: "Open Science: El papel de las revistas académicas"
+  date: "2022-06-22"
+  authors: "Perakakis, P."
+  year: 2022
+  journal: "Colegio Oficial de Psicólogos"
+  volume: "Madrid, Spain"
+  description: "Invited conference on the role of academic journals in open science."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+  links: []
+
+- title: "La crisis de replicabilidad en Psicología: problemática y propuestas"
+  date: "2019-06-11"
+  authors: "Perakakis, P."
+  year: 2019
+  journal: "Programa de doctorado en Psicología: Ciencia abierta, replicabilidad y evidencia científica, University of Seville"
+  volume: "Sevilla, Spain"
+  description: "PhD course lecture on the replicability crisis in psychology and proposed solutions."
+  section: "Conferences"
+  categories:
+    - Open science
+    - Replicability
+  links:
+    - name: "Blog post"
+      url: "https://pandelisperakakis.info/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "Open Science in an Open World"
+  date: "2017-05-16"
+  authors: "Perakakis, P."
+  year: 2017
+  journal: "2nd Homo Scientificus Europaeus Meeting"
+  volume: "Barcelona, Spain"
+  description: "Invited talk on the relationship between open science and wider societal openness."
+  section: "Conferences"
+  categories:
+    - Open science
+    - Open access
+  links: []
+
+- title: "Why True Science is only Open Science"
+  date: "2017-04-26"
+  authors: "Perakakis, P."
+  year: 2017
+  journal: "EURODOC2017"
+  volume: "Oslo, Norway"
+  description: "Presentation arguing that openness is a precondition for genuine scientific practice."
+  section: "Conferences"
+  categories:
+    - Open science
+    - Open access
+    - Slides
+  links:
+    - name: "Slides"
+      url: "http://www.openscholar.org.uk/wp-content/uploads/2017/04/Oslo_Eurodoc_2017.pdf"
+      icon: "bi bi-file-earmark-slides"
+
+- title: "\"One damned thing after another\": The journal monopoly, how it came to be, what it means for science and what we can do about it"
+  date: "2016-10-10"
+  authors: "Perakakis, P."
+  year: 2016
+  journal: "GATE CNRS"
+  volume: "Lyon, France"
+  description: "Invited lecture tracing the history of the commercial journal monopoly and paths toward reform."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+  links:
+    - name: "Event page"
+      url: "https://www.gate.cnrs.fr/spip.php?article1022"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "Next generation repositories"
+  date: "2016-04-11"
+  authors: "Perakakis, P."
+  year: 2016
+  journal: "COAR Annual Meeting"
+  volume: "Vienna, Austria"
+  description: "Presentation on the vision for next-generation open-access repositories."
+  section: "Conferences"
+  categories:
+    - Repositories
+    - Open access
+    - Video
+  links:
+    - name: "Program"
+      url: "https://www.coar-repositories.org/community/events/archive/annual-meeting-2016/programme/"
+      icon: "bi bi-calendar-event"
+    - name: "Video"
+      url: "https://phaidra.univie.ac.at/detail_object/o:440670"
+      icon: "bi bi-play-circle"
+
+- title: "Presenting the first Open Peer Review Module for Open Access Repositories"
+  date: "2016-04-27"
+  authors: "Perakakis, P."
+  year: 2016
+  journal: "CSIC"
+  volume: "Madrid, Spain"
+  description: "Presentation of the OPRM software at CSIC, the first open peer review module designed for integration with open-access repositories."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Repositories
+    - Open access
+  links:
+    - name: "Project page"
+      url: "http://proyectos.bibliotecas.csic.es/digitalcsic/oprm/index_eng.html"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "Open Peer Review workshop"
+  date: "2016-06-07"
+  authors: "Perakakis, P."
+  year: 2016
+  journal: "Goettingen University"
+  volume: "Goettingen, Germany"
+  description: "Workshop on open peer review models, their benefits and limitations."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Open access
+  links:
+    - name: "Event page"
+      url: "https://www.openaire.eu/open-peer-review-models-benefits-and-limitations"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "Modelos alternativos de validación y evaluación de la producción académica"
+  date: "2015-02-05"
+  authors: "Perakakis, P."
+  year: 2015
+  journal: "Seminario sobre visibilidad y divulgación de la producción científica, University of Granada"
+  volume: "Granada, Spain"
+  description: "Invited seminar on alternative models for the validation and evaluation of academic production."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Peer review
+    - Open access
+  links: []
+
+- title: "Open Access to Scientific Reviews: Quantifying the opinion of peers"
+  date: "2013-10-22"
+  authors: "Perakakis, P."
+  year: 2013
+  journal: "EUI Roundtable on Open Access Publishing, European University Institute"
+  volume: "Florence, Italy"
+  description: "Talk at the EUI Open Access Week roundtable on making peer review outputs openly accessible and quantifiable."
+  section: "Conferences"
+  categories:
+    - Peer review
+    - Open access
+  links:
+    - name: "Event page"
+      url: "http://www.eui.eu/SeminarsAndEvents/Events/2013/October/EUIRoundTableonOpenAccessPublishingRethinkingimpactanddissemination.aspx"
+      icon: "bi bi-box-arrow-up-right"
+
+- title: "Current academic publishing and the LIBRE alternative"
+  date: "2013-06-19"
+  authors: "Perakakis, P."
+  year: 2013
+  journal: "CERN Workshop on Innovations in Scholarly Communication (OAI8), University of Geneva"
+  volume: "Geneva, Switzerland"
+  description: "Presentation introducing the LIBRE platform as an alternative to the current academic publishing model."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+  links: []
+
+- title: "Beyond Open Access: facing the real problems"
+  date: "2013-12-05"
+  authors: "Perakakis, P."
+  year: 2013
+  journal: "Ludwig Maximilian University"
+  volume: "Munich, Germany"
+  description: "Invited lecture arguing that open access alone is insufficient and addressing the deeper structural problems of academic publishing."
+  section: "Conferences"
+  categories:
+    - Open access
+    - Publishing reform
+    - Video
+  links:
+    - name: "Slides"
+      url: "http://www.slideshare.net/PandelisPerakakis/beyond-open-access-facing-the-real-problems"
+      icon: "bi bi-file-earmark-slides"
+    - name: "Video"
+      url: "https://videoonline.edu.lmu.de/en/wintersemester-2013-2014/4900"
+      icon: "bi bi-play-circle"
+
+- title: "How the impact factor power law came to be and the new alternatives"
+  date: "2007-05-14"
+  authors: "Perakakis, P."
+  year: 2007
+  journal: "European Association of Science Editors (EASE)"
+  volume: "Barcelona, Spain"
+  description: "Talk on the history of the impact factor and emerging bibliometric alternatives."
+  section: "Conferences"
+  categories:
+    - Scientometrics
+    - Research evaluation
+  links: []
+
+- title: "Putting the impact factor in its place with a new approach in bibliometry"
+  date: "2006-10-27"
+  authors: "Perakakis, P."
+  year: 2006
+  journal: "Mediterranean Editors & Translators (METM)"
+  volume: "Barcelona, Spain"
+  description: "Presentation proposing a new bibliometric approach to contextualise and replace the impact factor."
+  section: "Conferences"
+  categories:
+    - Scientometrics
+    - Research evaluation
+  links: []

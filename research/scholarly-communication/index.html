@@ -126,6 +126,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-year','listing-url','listing-source','listing-description','listing-section','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-year","listing-url","listing-source","listing-description","listing-section","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -242,10 +270,10 @@ window.Quarto = {
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
   <li><a href="#invited-talks" id="toc-invited-talks" class="nav-link" data-scroll-target="#invited-talks">Invited Talks</a></li>
-  <li><a href="#selected-news" id="toc-selected-news" class="nav-link" data-scroll-target="#selected-news">Selected News</a></li>
+  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(43)</span></div><div class="category" data-category="SW5mcmFzdHJ1Y3R1cmU=">Infrastructure <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMGFjY2Vzcw==">Open access <span class="quarto-category-count">(30)</span></div><div class="category" data-category="T3BlbiUyMHNjaWVuY2U=">Open science <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UGVlciUyMHJldmlldw==">Peer review <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UHVibGlzaGluZyUyMHJlZm9ybQ==">Publishing reform <span class="quarto-category-count">(14)</span></div><div class="category" data-category="UmVwbGljYWJpbGl0eQ==">Replicability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwb3NpdG9yaWVz">Repositories <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVzZWFyY2glMjBldmFsdWF0aW9u">Research evaluation <span class="quarto-category-count">(11)</span></div><div class="category" data-category="U2NpZW50b21ldHJpY3M=">Scientometrics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U2xpZGVz">Slides <span class="quarto-category-count">(5)</span></div><div class="category" data-category="VW5pdmVyc2l0eSUyMHJhbmtpbmdz">University rankings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW8=">Video <span class="quarto-category-count">(9)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(44)</span></div><div class="category" data-category="SW5mcmFzdHJ1Y3R1cmU=">Infrastructure <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMGFjY2Vzcw==">Open access <span class="quarto-category-count">(31)</span></div><div class="category" data-category="T3BlbiUyMHNjaWVuY2U=">Open science <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UGVlciUyMHJldmlldw==">Peer review <span class="quarto-category-count">(13)</span></div><div class="category" data-category="UHVibGlzaGluZyUyMHJlZm9ybQ==">Publishing reform <span class="quarto-category-count">(14)</span></div><div class="category" data-category="UmVwbGljYWJpbGl0eQ==">Replicability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwb3NpdG9yaWVz">Repositories <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVzZWFyY2glMjBldmFsdWF0aW9u">Research evaluation <span class="quarto-category-count">(11)</span></div><div class="category" data-category="U2NpZW50b21ldHJpY3M=">Scientometrics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U2xpZGVz">Slides <span class="quarto-category-count">(7)</span></div><div class="category" data-category="VW5pdmVyc2l0eSUyMHJhbmtpbmdz">University rankings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW8=">Video <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -1479,14 +1507,6 @@ window.Quarto = {
                     
 
                     
-                    <div class="pub-links-bar">
-                        
-                        <a href="https://pandelisperakakis.info/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/" class="pub-link" target="_blank">
-                            <i class="bi bi-box-arrow-up-right"></i> Blog post
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
         </li>
@@ -1655,14 +1675,6 @@ window.Quarto = {
                     
 
                     
-                    <div class="pub-links-bar">
-                        
-                        <a href="https://www.gate.cnrs.fr/spip.php?article1022" class="pub-link" target="_blank">
-                            <i class="bi bi-box-arrow-up-right"></i> Event page
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
         </li>
@@ -1763,7 +1775,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="23" data-categories="UGVlciUyMHJldmlldyUyQ1JlcG9zaXRvcmllcyUyQ09wZW4lMjBhY2Nlc3M=" data-listing-date-sort="1461715200000">
+        <li class="pub-item" data-index="23" data-categories="UGVlciUyMHJldmlldyUyQ1JlcG9zaXRvcmllcyUyQ09wZW4lMjBhY2Nlc3MlMkNTbGlkZXM=" data-listing-date-sort="1461715200000">
             <div class="pub-row">
                 
 
@@ -1795,14 +1807,18 @@ window.Quarto = {
                                 Open access
                             </a></span>
                         
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
+                            </a></span>
+                        
                     </div>
                     
 
                     
                     <div class="pub-links-bar">
                         
-                        <a href="http://proyectos.bibliotecas.csic.es/digitalcsic/oprm/index_eng.html" class="pub-link" target="_blank">
-                            <i class="bi bi-box-arrow-up-right"></i> Project page
+                        <a href="http://hdl.handle.net/10261/133952" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
                         </a>
                         
                     </div>
@@ -1849,12 +1865,8 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://www.coar-repositories.org/community/events/archive/annual-meeting-2016/programme/" class="pub-link" target="_blank">
-                            <i class="bi bi-calendar-event"></i> Program
-                        </a>
-                        
-                        <a href="https://phaidra.univie.ac.at/detail_object/o:440670" class="pub-link" target="_blank">
-                            <i class="bi bi-play-circle"></i> Video
+                        <a href="https://coar-repositories.org/next-generation-repositories/" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> Blog post
                         </a>
                         
                     </div>
@@ -1955,7 +1967,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="27" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNWaWRlbw==" data-listing-date-sort="1386201600000">
+        <li class="pub-item" data-index="27" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNTbGlkZXMlMkNWaWRlbw==" data-listing-date-sort="1386201600000">
             <div class="pub-row">
                 
 
@@ -1981,6 +1993,10 @@ window.Quarto = {
                         
                             <span class="pub-category"><a href="#category=Publishing reform">
                                 Publishing reform
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
                             </a></span>
                         
                             <span class="pub-category"><a href="#category=Video">
@@ -2074,14 +2090,6 @@ window.Quarto = {
                     </div>
                     
 
-                    
-                    <div class="pub-links-bar">
-                        
-                        <a href="http://www.eui.eu/SeminarsAndEvents/Events/2013/October/EUIRoundTableonOpenAccessPublishingRethinkingimpactanddissemination.aspx" class="pub-link" target="_blank">
-                            <i class="bi bi-box-arrow-up-right"></i> Event page
-                        </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -2200,16 +2208,61 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="selected-news" class="level2">
-<h2 class="anchored" data-anchor-id="selected-news">Selected News</h2>
-<ol type="1">
-<li><a href="http://www.tovima.gr/science/article/?aid=610392">Are University ratings useful?</a> To Vima, 2014.</li>
-<li><a href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/">New forms of open peer review will allow academics to separate scholarly evaluation from academic journals.</a> Impact of Social Sciences, London School of Economics.</li>
-<li><a href="https://www.euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/">Open Scientists in the shoes of frustrated academics part I: Open-minded scepticism.</a> Euroscientist.</li>
-<li><a href="http://www.timeshighereducation.co.uk/news/open-access-platform-libre-launched/2005548.article">Open-access platform Libre launched.</a> The Times Higher Education, by Paul Jump.</li>
-<li><a href="http://www.timeshighereducation.co.uk/414431.article">Too complex for the jury?</a> The Times Higher Education, by Paul Jump.</li>
-<li><a href="http://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/">Non-profit organisation ‘Open Scholar C.I.C.’ urges scientists to join their forces against flawed academic publishing model.</a> Journalism.co.uk.</li>
-</ol>
+<section id="news" class="level2">
+<h2 class="anchored" data-anchor-id="news">News</h2>
+<div id="listing-news" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-list">
+<ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="T3BlbiUyMGFjY2VzcyUyQ1BlZXIlMjByZXZpZXc=" data-listing-date-sort="1356998400000">
+            <div class="pub-row">
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        
+                        <p><strong><a href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis" target="_blank">New forms of open peer review will allow academics to separate scholarly evaluation from academic journals</a></strong></p>
+                        
+                        <p class="news-meta">
+                            
+                            <span><i class="bi bi-newspaper"></i>LSE Impact Blog</span>
+                            
+                            
+                            <span class="ms-2"><i class="bi bi-calendar3"></i>2013</span>
+                            
+                        </p>
+                        
+                        <p class="pub-description">Optional summary sentence.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+</ul>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<!-- ## Selected News
+
+1. [Are University ratings useful?](http://www.tovima.gr/science/article/?aid=610392) To Vima, 2014.
+2. [New forms of open peer review will allow academics to separate scholarly evaluation from academic journals.](http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/) Impact of Social Sciences, London School of Economics.
+3. [Open Scientists in the shoes of frustrated academics part I: Open-minded scepticism.](https://www.euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/) Euroscientist.
+4. [Open-access platform Libre launched.](http://www.timeshighereducation.co.uk/news/open-access-platform-libre-launched/2005548.article) The Times Higher Education, by Paul Jump.
+5. [Too complex for the jury?](http://www.timeshighereducation.co.uk/414431.article) The Times Higher Education, by Paul Jump.
+6. [Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against flawed academic publishing model.](http://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/) Journalism.co.uk. -->
 
 
 

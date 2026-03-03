@@ -1,0 +1,190 @@
+# Old WordPress Posts
+
+61 published posts from pandelisperakakis.info (WordPress export, 2026-03-03).
+
+> **URL preservation note:** Set `path: /YYYY/MM/DD/slug/` in each post's YAML frontmatter to replicate WordPress URLs exactly once the custom domain is configured.
+
+---
+
+1. [2012-11-12] **Universidad a la Calle**
+   https://pandelisperakakis.info/2012/11/12/universidad-a-la-calle/
+
+2. [2013-03-11] **Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against flawed academic publishing model**
+   https://pandelisperakakis.info/2013/03/11/non-profit-organisation-open-scholar-c-i-c-urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/
+
+3. [2013-03-17] **La enseñanza a la calle.... (La Barraca Incendiada)**
+   https://pandelisperakakis.info/2013/03/17/universidad-a-la-calle-ii/
+
+4. [2013-03-22] **Psychophysiological Measures of Emotion: Application in Experimental Economics**
+   https://pandelisperakakis.info/2013/03/22/psychophysiological-measures-of-emotion-application-in-experimental-economics/
+
+5. [2013-11-12] **On the future of peer review: LIBRE presentation at SpotOn London 2013**
+   https://pandelisperakakis.info/2013/11/12/on-the-future-of-peer-review-libre-presentation-at-spoton-london-2013/
+
+6. [2013-12-10] **Beyond open access: facing academia's real problems**
+   https://pandelisperakakis.info/2013/12/10/beyond-open-access-facing-academias-real-problems/
+
+7. [2014-02-14] **LIBRE presentation for Horizon 2020**
+   https://pandelisperakakis.info/2014/02/14/libre-presentation-for-horizon-2020/
+
+8. [2014-02-25] **Europe's unpreparedness to support peer review innovation**
+   https://pandelisperakakis.info/2014/02/25/europes-unpreparedness-to-support-peer-review-innovation/
+
+9. [2014-02-25] **In a complex world is it always meaningful to ask why?**
+   https://pandelisperakakis.info/2014/02/25/in-a-complex-world-is-it-always-meaningful-to-ask-why/
+
+10. [2014-03-27] **Our article on University Rankings published in the Journal of Ethics in Science and Environmental Politics**
+    https://pandelisperakakis.info/2014/03/27/our-article-on-university-rankings-published-in-the-journal-of-ethics-in-science-and-environmental-politics/
+
+11. [2014-04-11] **New article published in PLoS ONE: Impact of Stock Market Structure on Intertrade Time and Price Dynamics**
+    https://pandelisperakakis.info/2014/04/11/new-article-published-in-plosone-impact-of-stock-market-structure-on-intertrade-time-and-price-dynamics/
+
+12. [2014-05-16] **Audio de mi charla introductoria sobre educación respiratoria en el centro sanitario MENSANA**
+    https://pandelisperakakis.info/2014/05/16/audio-file-of-my-introductory-talk-on-breathing-training-for-asthma-at-the-mensana-health-center-in-spanish/
+
+13. [2014-05-29] **Diapositivas de mi presentación sobre educación respiratoria en pacientes de Asma en la Universidad de Granada**
+    https://pandelisperakakis.info/2014/05/29/slides-of-my-presentation-on-breathing-training-for-asthma-at-the-psychology-faculty-of-granada-university/
+
+14. [2014-06-26] **New article published at Prometheus: Academic self-publishing: a not-so-distant future**
+    https://pandelisperakakis.info/2014/06/26/new-article-published-at-prometheus-critical-studies-in-innovation-academic-self-publishing-a-not-so-distant-future/
+
+15. [2014-07-01] **Our paper on University rankings makes the headlines of "Vima Science"**
+    https://pandelisperakakis.info/2014/07/01/our-paper-on-university-rankings-makes-the-headlines-of-vima-science/
+
+16. [2014-09-30] **Asthma revisited: is it really chronic and incurable?**
+    https://pandelisperakakis.info/2014/09/30/asthma-revisited-is-it-really-chronic-and-incurable/
+
+17. [2015-02-07] **Losing money is more stressful than bribing! Our new Frontiers article explores the physiology of corrupt behavior**
+    https://pandelisperakakis.info/2015/02/07/is-being-unethical-more-stressful-than-losing-money-our-new-frontiers-article-explores-the-physiology-of-corrupt-behavior/
+
+18. [2015-03-04] **The Laboratory for Network Physiology launches its official website**
+    https://pandelisperakakis.info/2015/03/04/the-laboratory-for-network-physiology-launches-its-official-website/
+
+19. [2015-03-22] **Diapositivas de mi curso de Educación Respiratoria en el Colegio de Psicólogos**
+    https://pandelisperakakis.info/2015/03/22/diapositivas-de-mi-curso-de-educacion-respiratoria-en-el-colegio-de-psicologos/
+
+20. [2015-05-04] **Reconsiderando el asma: ¿es realmente crónico e incurable?**
+    https://pandelisperakakis.info/2015/05/04/reconsiderando-el-asma-es-realmente-cronico-e-incurable/
+
+21. [2015-08-09] **Our new paper about stress in crisis managers published in the Journal of Behavioral Medicine**
+    https://pandelisperakakis.info/2015/08/09/our-new-paper-about-stress-in-crisis-managers-published-in-the-journal-of-behavioral-medicine/
+
+22. [2015-09-09] **How to negotiate with publishers: an example of immediate self-archiving despite publisher's embargo policy**
+    https://pandelisperakakis.info/2015/09/09/how-to-negotiate-with-publishers-an-example-of-immediate-self-archiving-despite-publishers-embargo-policy/
+
+23. [2016-02-15] **Using existing infrastructure to transform peer review**
+    https://pandelisperakakis.info/2016/02/15/using-existing-infrastructure-to-transform-peer-review/
+
+24. [2016-04-18] **Report back from the COAR 2016 annual meeting**
+    https://pandelisperakakis.info/2016/04/18/report-back-from-the-coar-2016-annual-meeting/
+
+25. [2016-07-24] **Our two recent papers uncover a novel relation between neural and cardiac indices of enhanced attention in young athletes**
+    https://pandelisperakakis.info/2016/07/24/our-two-recent-papers-uncover-a-novel-relation-between-neural-and-cardiac-indices-of-enhanced-attention-in-young-athletes/
+
+26. [2017-05-15] **Open scientists in the shoes of frustrated academics part I: Open-minded scepticism**
+    https://pandelisperakakis.info/2017/05/15/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/
+
+27. [2017-05-24] **Slides from my Ghent talk on Open Science**
+    https://pandelisperakakis.info/2017/05/24/slides-from-my-ghent-talk-on-open-science/
+
+28. [2017-07-01] **How to detect the B point in impedance cardiography**
+    https://pandelisperakakis.info/2017/07/01/how-to-detect-the-b-point-in-impedance-cardiography/
+
+29. [2017-07-01] **Our preprint on brain-heart communication in athletes and sedentary young adults, available for peer review**
+    https://pandelisperakakis.info/2017/07/01/our-preprint-on-brain-heart-communication-in-athletes-and-sedentary-young-adults-available-for-peer-review/
+
+30. [2017-07-03] **Which side are you on boys?**
+    https://pandelisperakakis.info/2017/07/03/which-side-are-you-on-boys/
+
+31. [2018-02-01] **HEPLAB: Matlab scripts to facilitate heartbeat-evoked potential analysis**
+    https://pandelisperakakis.info/2018/02/01/heplab-matlab-scripts-to-facilitate-heartbeat-evoked-potential-analysis/
+
+32. [2019-01-02] **¿Qué es la Ciencia Abierta?**
+    https://pandelisperakakis.info/2019/01/02/que-es-open-science-2/
+
+33. [2019-04-10] **Can increased interoception explain exercise-induced benefits on brain function and cognitive performance?**
+    https://pandelisperakakis.info/2019/04/10/can-increased-interoception-explain-exercise-induced-benefits-on-brain-function-and-cognitive-performance/
+
+34. [2019-04-14] **How to upload your scientific software code to GitHub and get a DOI from Zenodo**
+    https://pandelisperakakis.info/2019/04/14/how-to-upload-your-scientific-software-code-to-github-and-get-a-doi-from-zenodo/
+
+35. [2019-05-18] **Open Science round table at CIMCYC**
+    https://pandelisperakakis.info/2019/05/18/open-science-round-table-at-cimcyc/
+
+36. [2019-05-18] **Jornadas de Ciencia Abierta en el CIMCYC**
+    https://pandelisperakakis.info/2019/05/18/jornadas-de-ciencia-abierta-en-el-cimcyc/
+
+37. [2019-05-21] **Mi material docente para un curso de introducción a la estadística disponible en OSF**
+    https://pandelisperakakis.info/2019/05/21/publicado-en-osf-el-material-docente-para-mi-curso-de-introduccion-a-la-estadistica/
+
+38. [2019-05-21] **My teaching material for an undergraduate course in statistics using JASP available at OSF**
+    https://pandelisperakakis.info/2019/05/21/my-teaching-material-for-an-undergraduate-course-in-statistics-using-jasp-published-in-osf/
+
+39. [2019-06-14] **Replicability crisis in Psychology: causes and solutions**
+    https://pandelisperakakis.info/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/
+
+40. [2019-06-17] **What type of sports make you more alert?**
+    https://pandelisperakakis.info/2019/06/17/what-type-of-sports-make-you-more-alert/
+
+41. [2019-07-14] **Why think twice before submitting a preprint to bioRxiv**
+    https://pandelisperakakis.info/2019/07/14/why-think-twice-before-submitting-a-preprint-to-biorxiv/
+
+42. [2020-08-18] **CoVidAffect: monitoring mood variations following the COVID-19 outbreak in Spain**
+    https://pandelisperakakis.info/2020/08/18/covidaffect-monitoring-mood-variations-following-the-covid-19-outbreak-in-spain/
+
+43. [2020-08-18] **CoVidAffect: monitorización de variaciones en el estado de ánimo durante el confinamiento por la COVID-19**
+    https://pandelisperakakis.info/2020/08/18/covidaffect-monitorizacion-de-variaciones-en-el-estado-de-animo-durante-el-confinamiento-por-la-covid-19/
+
+44. [2020-08-25] **Things to consider before accepting your next peer review assignment**
+    https://pandelisperakakis.info/2020/08/25/things-to-consider-before-accepting-your-next-peer-review-assignment/
+
+45. [2021-04-21] **Is there life beyond publishers?**
+    https://pandelisperakakis.info/2021/04/21/is-there-life-beyond-publishers/
+
+46. [2021-04-21] **¿Hay vida más allá de las editoriales?**
+    https://pandelisperakakis.info/2021/04/21/hay-vida-mas-alla-de-las-editoriales/
+
+47. [2021-05-03] **¿Qué son los "transformative agreements" y qué necesitamos saber antes de utilizarlos?**
+    https://pandelisperakakis.info/2021/05/03/que-son-los-transformative-agreements-y-que-necesitamos-saber-antes-de-utilizarlos/
+
+48. [2021-05-07] **What are transformative agreements and what to know before using them**
+    https://pandelisperakakis.info/2021/05/07/what-are-transformative-agreements-and-what-to-know-before-using-them/
+
+49. [2021-07-05] **The Hitchhiker's Guide to Academic Publishing**
+    https://pandelisperakakis.info/2021/07/05/the-hitchhikers-guide-to-academic-publishing/
+
+50. [2021-09-14] **Postdoctoral position to study HEP and interoception in Granada**
+    https://pandelisperakakis.info/2021/09/14/postdoctoral-position-to-study-hep-and-interoception-in-granada/
+
+51. [2022-02-03] **Psicológica and DIGITAL.CSIC join forces for Sustainable Diamond Open Access and Repository as a Publisher Services**
+    https://pandelisperakakis.info/2022/02/03/psicologica-and-digital-csic-join-forces-for-sustainable-diamond-open-access-and-repository-as-a-publisher-services/
+
+52. [2022-02-03] **Psicológica y DIGITAL.CSIC aúnan esfuerzos a favor del acceso abierto diamante sostenible y de los servicios editoriales de repositorios**
+    https://pandelisperakakis.info/2022/02/03/psicologica-y-digital-csic-aunan-esfuerzos-a-favor-del-acceso-abierto-diamante-sostenible-y-de-los-servicios-editoriales-de-repositorios/
+
+53. [2022-02-23] **How do researchers in Spain wish to be evaluated?**
+    https://pandelisperakakis.info/2022/02/23/how-do-researchers-in-spain-wish-to-be-evaluated/
+
+54. [2022-05-24] **Report back from COAR's annual meeting: celebrating a $4 million grant for the Notify Project**
+    https://pandelisperakakis.info/2022/05/24/report-back-from-coars-annual-meeting-celebrating-a-4-million-grant-for-the-notify-project/
+
+55. [2022-06-20] **Jornada sobre Ciencia Abierta en el Colegio Oficial de Psicólogos**
+    https://pandelisperakakis.info/2022/06/20/jornada-ciencia-abierta-en-el-colegio-oficial-de-psicologos/
+
+56. [2022-09-06] **¿Cómo quieren ser evaluados los investigadores en España?**
+    https://pandelisperakakis.info/2022/09/06/como-quieren-ser-evaluados-los-investigadores-en-espana/
+
+57. [2022-09-12] **Qué es una publicación científica y qué no lo es**
+    https://pandelisperakakis.info/2022/09/12/que-es-una-publicacion-cientifica-y-que-no-lo-es/
+
+58. [2023-09-02] **Djokovic vs Science**
+    https://pandelisperakakis.info/2023/09/02/djokovic-vs-science/
+
+59. [2023-09-03] **Djokovic contra Ciencia**
+    https://pandelisperakakis.info/2023/09/03/djokovic-vs-ciencia/
+
+60. [2023-10-28] **How to sell your journal: The secret business of academic journal acquisitions**
+    https://pandelisperakakis.info/2023/10/28/how-to-sell-your-academic-journal-and-for-how-much/
+
+61. [2025-02-05] **Rethinking how we measure affect: new insights into psychological well-being**
+    https://pandelisperakakis.info/2025/02/05/rethinking-how-we-measure-affect-new-insights-into-psychological-well-being/

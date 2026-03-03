@@ -12,15 +12,21 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/blog/rethinking-affect.html",
+      "/blog/journal-acquisitions.html",
+      "/blog/que-es-una-publicacion.html",
+      "/blog/como-quieren-ser-evaluados.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/rethinking-affect.html",
       "/blog/journal-acquisitions.html",
-      "/blog/djokovic-vs-science.html",
       "/blog/que-es-una-publicacion.html",
-      "/blog/como-quieren-ser-evaluados.html",
-      "/blog/coar-annual-meeting.html",
-      "/blog/how-researchers-in-spain-wish-to-be-evaluated.html"
+      "/blog/como-quieren-ser-evaluados.html"
     ]
   },
   {

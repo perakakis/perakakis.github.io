@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -68,7 +70,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -181,8 +241,69 @@ ul.task-list li input[type="checkbox"] {
 <p>I am deeply concerned about the current academic publication and evaluation model and advocate for <a href="./research/scholarly-communication/index.html">scholar-governed alternatives</a>, leveraging institutional repositories and implementing open peer review.</p>
 <p><a href="https://github.com/perakakis" class="btn btn-outline-secondary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a> <a href="https://scholar.google.com/citations?user=5S-EVSAAAAAJ" class="btn btn-outline-secondary btn-sm" target="_blank"><i class="bi bi-mortarboard-fill"></i> Google Scholar</a> <a href="https://orcid.org/0000-0002-9130-3247" class="btn btn-outline-secondary btn-sm" target="_blank"><i class="bi bi-globe"></i> ORCID</a> <a href="https://www.linkedin.com/in/pandelis-perakakis-1369402a/" class="btn btn-outline-secondary btn-sm" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
 </div>
+<section id="whats-new" class="level2">
+<h2 class="anchored" data-anchor-id="whats-new">What’s new</h2>
+<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UHVibGljYXRpb25zJTJDUmVzZWFyY2g=" data-listing-date-sort="1738713600000" data-listing-file-modified-sort="1772576650601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="443">
+<a href="./blog/rethinking-affect.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./blog/assets/metrics-768x550.jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Rethinking how we measure affect: new insights into psychological well-being
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 5, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="T3BpbmlvbnMlMkNTY2hvbGFybHklMjBDb21tdW5pY2F0aW9u" data-listing-date-sort="1698451200000" data-listing-file-modified-sort="1772576650601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="495">
+<a href="./blog/journal-acquisitions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./blog/assets/publishing-1024x532.jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to sell your journal: The secret business of academic journal acquisitions
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 28, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="T3BpbmlvbnMlMkNTY2hvbGFybHklMjBDb21tdW5pY2F0aW9u" data-listing-date-sort="1662940800000" data-listing-file-modified-sort="1772576650601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1110">
+<a href="./blog/que-es-una-publicacion.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 180px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Qué es una publicación científica y qué no lo es
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 12, 2022
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

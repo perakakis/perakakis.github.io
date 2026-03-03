@@ -108,13 +108,69 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-pages','listing-doi','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-pages","listing-doi","listing-image","listing-description","listing-section","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-preprints'] = new List('listing-preprints', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-software .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-pages','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-pages","listing-image","listing-description","listing-section","listing-categories","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-software'] = new List('listing-software', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-funding .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-funder','listing-grant-id','listing-role','listing-period','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-funder","listing-grant-id","listing-role","listing-period","listing-image","listing-description","listing-section","listing-categories","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-funding'] = new List('listing-funding', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -242,9 +298,11 @@ window.Quarto = {
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  <li><a href="#funded-projects" id="toc-funded-projects" class="nav-link" data-scroll-target="#funded-projects">Funded Projects</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SW5mcmFzdHJ1Y3R1cmU=">Infrastructure <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMGFjY2Vzcw==">Open access <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGVlciUyMHJldmlldw==">Peer review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGlzaGluZyUyMHJlZm9ybQ==">Publishing reform <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVwb3NpdG9yaWVz">Repositories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2NpZW50b21ldHJpY3M=">Scientometrics <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Q2FyZGlhYw==">Cardiac <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RUVH">EEG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RUVHTEFC">EEGLAB <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhlcmNpc2U=">Exercise <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SEVQ">HEP <span class="quarto-category-count">(5)</span></div><div class="category" data-category="SW50ZXJvY2VwdGlvbg==">Interoception <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TUFUTEFC">MATLAB <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMFNvdXJjZQ==">Open Source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2xlZXA=">Sleep <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VGhlb3J5">Theory <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -268,11 +326,11 @@ window.Quarto = {
 
 
 <div class="programme-overview">
-<p><img src="figure-placeholder.png" class="programme-overview-img img-fluid"></p>
+<p><img src="hep.png" class="programme-overview-img img-fluid"></p>
 <div class="programme-overview-text">
-<p>The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward <strong>scholar-governed, open-access publishing</strong>.</p>
-<p>In 2012, I co-founded <a href="https://openscholar.org.uk">Open Scholar</a>, a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.</p>
-<p><a href="#" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-box-arrow-up-right"></i> OSF Project</a> <a href="#" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
+<p>The <strong>heartbeat-evoked potential (HEP)</strong> is an EEG response time-locked to the R-peak of the cardiac cycle. It reflects the cortical processing of afferent signals originating in the heart and is considered one of the most direct neural markers of <strong>cardiac interoception</strong> — the brain’s monitoring of its own body.</p>
+<p>This research line investigates how the HEP is modulated by internal states such as physical fitness, sleep stage, emotion, and psychopathology, and what role cardiac-brain coupling plays in sustained attention and self-perception. A central methodological contribution is <strong>HEPLAB</strong>, an open-source EEGLAB plugin for automated detection of cardiac events in raw ECG signals, developed in this lab and used by research groups worldwide.</p>
+<p><a href="https://github.com/perakakis/HEPLAB" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> HEPLAB on GitHub</a></p>
 </div>
 </div>
 <section id="journal-articles" class="level2">
@@ -281,42 +339,38 @@ window.Quarto = {
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNJbmZyYXN0cnVjdHVyZQ==" data-listing-date-sort="1688169600000">
+        <li class="pub-item" data-index="0" data-categories="SW50ZXJvY2VwdGlvbiUyQ0V4ZXJjaXNlJTJDSEVQ" data-listing-date-sort="1704067200000">
             <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="Replacing academic journals">
-                </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al. (2023).
-                            <strong>Replacing academic journals.</strong>
-                            <em>Royal Society Open Science</em>, 10(7), 230206.
+                            Yoris, A. E., Ciria, L. F., Luque-Casado, A., Salvotti, C., Tajadura-Jiménez, A., Avancini, C., Zarza-Rebollo, J. A., Sanabria, D., &amp; Perakakis, P. (2024).
+                            <strong>Delving into the relationship between regular physical exercise and cardiac interoception in two cross-sectional studies.</strong>
+                            <em>Neuropsychologia</em>, 198, 108867.
                             
-                            doi: <a href="https://doi.org/10.1098/rsos.230206">10.1098/rsos.230206</a>
+                            doi: <a href="https://doi.org/10.1016/j.neuropsychologia.2024.108867">10.1016/j.neuropsychologia.2024.108867</a>
                             
                         </p>
                         
-                        <p class="pub-description">A blueprint for replacing traditional journals with a modular, scholar-governed infrastructure built on institutional repositories and open peer review.</p>
+                        <p class="pub-description">Two cross-sectional studies examining the relationship between regular physical exercise and cardiac interoception, combining behavioral and neural (HEP) indices of heartbeat perception.</p>
                         
                     </div>
 
                     
                     <div class="pub-categories">
                         
-                            <span class="pub-category"><a href="#category=Open access">
-                                Open access
+                            <span class="pub-category"><a href="#category=Interoception">
+                                Interoception
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Publishing reform">
-                                Publishing reform
+                            <span class="pub-category"><a href="#category=Exercise">
+                                Exercise
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Infrastructure">
-                                Infrastructure
+                            <span class="pub-category"><a href="#category=HEP">
+                                HEP
                             </a></span>
                         
                     </div>
@@ -325,8 +379,12 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.1098/rsos.230206" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        <a href="https://doi.org/10.1016/j.neuropsychologia.2024.108867" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                        <a href="https://doi.org/10.31234/osf.io/42gcm" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> OA Preprint
                         </a>
                         
                     </div>
@@ -335,38 +393,38 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="1" data-categories="T3BlbiUyMGFjY2VzcyUyQ1JlcG9zaXRvcmllcw==" data-listing-date-sort="1688169600000">
+        <li class="pub-item" data-index="1" data-categories="SEVQJTJDU2xlZXAlMkNJbnRlcm9jZXB0aW9u" data-listing-date-sort="1640995200000">
             <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="No-pay publishing: use institutional repositories">
-                </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Bernal, I., &amp; Perakakis, P. (2023).
-                            <strong>No-pay publishing: use institutional repositories.</strong>
-                            <em>Nature</em>, 619(7971), 698.
+                            Bogdány, T., Perakakis, P., Bódizs, R., &amp; Simor, P. (2022).
+                            <strong>The heartbeat evoked potential is a questionable biomarker in nightmare disorder: A replication study.</strong>
+                            <em>NeuroImage: Clinical</em>, 33, 102933.
                             
-                            doi: <a href="https://doi.org/10.1038/d41586-023-02391-9">10.1038/d41586-023-02391-9</a>
+                            doi: <a href="https://doi.org/10.1016/j.nicl.2021.102933">10.1016/j.nicl.2021.102933</a>
                             
                         </p>
                         
-                        <p class="pub-description">A correspondence arguing that institutional repositories already provide the infrastructure for free, immediate open-access dissemination without APCs.</p>
+                        <p class="pub-description">A replication study evaluating whether the heartbeat evoked potential serves as a reliable biomarker in nightmare disorder, using an independent sample and pre-registered analysis pipeline.</p>
                         
                     </div>
 
                     
                     <div class="pub-categories">
                         
-                            <span class="pub-category"><a href="#category=Open access">
-                                Open access
+                            <span class="pub-category"><a href="#category=HEP">
+                                HEP
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Repositories">
-                                Repositories
+                            <span class="pub-category"><a href="#category=Sleep">
+                                Sleep
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Interoception">
+                                Interoception
                             </a></span>
                         
                     </div>
@@ -375,8 +433,8 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.1038/d41586-023-02391-9" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        <a href="https://doi.org/10.1016/j.nicl.2021.102933" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
                         </a>
                         
                     </div>
@@ -385,78 +443,36 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="2" data-categories="T3BlbiUyMGFjY2VzcyUyQ1BlZXIlMjByZXZpZXc=" data-listing-date-sort="1483228800000">
+        <li class="pub-item" data-index="2" data-categories="SEVQJTJDU2xlZXAlMkNFRUc=" data-listing-date-sort="1630454400000">
             <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="OPRM: Challenges to including open peer review in open access repositories">
-                </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Perakakis, P., Taylor, M., Mazza, M., &amp; Trachana, V. (2017).
-                            <strong>OPRM: Challenges to including open peer review in open access repositories.</strong>
-                            <em>Code4Lib</em>, 35.
+                            Simor, P., Bogdány, T., Bódizs, R., &amp; Perakakis, P. (2021).
+                            <strong>Cortical monitoring of cardiac activity during rapid eye movement sleep: the heartbeat evoked potential in phasic and tonic rapid-eye-movement microstates.</strong>
+                            <em>Sleep</em>, 44(9).
                             
                         </p>
                         
-                        <p class="pub-description">Examines the technical and social challenges of integrating transparent peer review workflows into existing open-access repository platforms.</p>
+                        <p class="pub-description">EEG study of cortical cardiac responses across different microstates of REM sleep. HEP amplitude was modulated by phasic versus tonic REM, revealing state-dependent cardiac interoception during sleep.</p>
                         
                     </div>
 
                     
                     <div class="pub-categories">
                         
-                            <span class="pub-category"><a href="#category=Open access">
-                                Open access
+                            <span class="pub-category"><a href="#category=HEP">
+                                HEP
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Peer review">
-                                Peer review
+                            <span class="pub-category"><a href="#category=Sleep">
+                                Sleep
                             </a></span>
                         
-                    </div>
-                    
-
-                    
-                </div>
-            </div>
-        </li>
-    
-        <li class="pub-item" data-index="3" data-categories="U2NpZW50b21ldHJpY3MlMkNQdWJsaXNoaW5nJTIwcmVmb3Jt" data-listing-date-sort="1288569600000">
-            <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="Natural selection of academic papers">
-                </div>
-                
-
-                <div class="pub-body">
-                    <div class="pub-content listing-pub-info">
-                        <p>
-                            Perakakis, P., Taylor, M., Mazza, M., &amp; Trachana, V. (2010).
-                            <strong>Natural selection of academic papers.</strong>
-                            <em>Scientometrics</em>, 85(2), 553–559.
-                            
-                            doi: <a href="https://doi.org/10.1007/s11192-010-0253-3">10.1007/s11192-010-0253-3</a>
-                            
-                        </p>
-                        
-                        <p class="pub-description">Proposes an evolutionary model of scientific publishing in which open post-publication review acts as a selection mechanism for scholarly work.</p>
-                        
-                    </div>
-
-                    
-                    <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Scientometrics">
-                                Scientometrics
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Publishing reform">
-                                Publishing reform
+                            <span class="pub-category"><a href="#category=EEG">
+                                EEG
                             </a></span>
                         
                     </div>
@@ -465,8 +481,56 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.1007/s11192-010-0253-3" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        <a href="https://pandelisperakakis.info/wp-content/uploads/2021/09/Simor_2021.pdf" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> OA PDF
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="3" data-categories="SW50ZXJvY2VwdGlvbiUyQ0V4ZXJjaXNlJTJDVGhlb3J5" data-listing-date-sort="1609459200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Wallman-Jones, A., Perakakis, P., Tsakiris, M., &amp; Schmidt, M. (2021).
+                            <strong>Physical activity and interoceptive processing: Theoretical considerations for future research.</strong>
+                            <em>International Journal of Psychophysiology</em>, 166, 38–49.
+                            
+                        </p>
+                        
+                        <p class="pub-description">A theoretical framework linking physical activity and interoceptive processing, reviewing evidence relating exercise habits to heartbeat perception, autonomic function, and body awareness, and proposing directions for future empirical work.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Interoception">
+                                Interoception
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Exercise">
+                                Exercise
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Theory">
+                                Theory
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0167876021001604" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
                         </a>
                         
                     </div>
@@ -485,6 +549,185 @@ window.Quarto = {
 <div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="SEVQJTJDRXhlcmNpc2UlMkNJbnRlcm9jZXB0aW9u" data-listing-date-sort="1498608000000">
+            <div class="pub-row">
+                
+                <div class="pub-thumbnail">
+                    <img src="hep.png" alt="Neural Responses to Heartbeats of Physically Trained and Sedentary Young Adults">
+                </div>
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., Luque-Casado, A., Ciria, L. F., Ivanov, P. Ch., &amp; Sanabria, D. (2017).
+                            <strong>Neural Responses to Heartbeats of Physically Trained and Sedentary Young Adults.</strong>
+                            <em>bioRxiv</em>.
+                            
+                            doi: <a href="https://doi.org/10.1101/156802">10.1101/156802</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">First study to examine whether regular physical exercise modulates the cortical processing of afferent cardiac signals. Physically trained individuals showed distinct HEP patterns at two spatio-temporal clusters, correlating with sustained attention performance.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=HEP">
+                                HEP
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Exercise">
+                                Exercise
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Interoception">
+                                Interoception
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.1101/156802" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> Preprint
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+</ul>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<div id="listing-software" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-list">
+<ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="TUFUTEFCJTJDRUVHTEFCJTJDT3BlbiUyMFNvdXJjZQ==" data-listing-date-sort="1546300800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2019).
+                            <strong>HEPLAB.</strong>
+                            <em>EEGLAB plugin / MATLAB toolbox</em>.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Open-source EEGLAB plugin and standalone MATLAB toolbox for the automated detection of cardiac events (R-wave, T-wave) from raw ECG signals. Features an interactive GUI for artifact inspection and correction. Exports events to EEGLAB's EEG structure to facilitate heartbeat-evoked potential (HEP) analysis. Widely adopted by psychophysiology and cognitive neuroscience research groups.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=MATLAB">
+                                MATLAB
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=EEGLAB">
+                                EEGLAB
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open Source">
+                                Open Source
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://github.com/perakakis/HEPLAB" class="pub-link" target="_blank">
+                            <i class="bi bi-github"></i> GitHub
+                        </a>
+                        
+                        <a href="https://doi.org/10.5281/zenodo.2650275" class="pub-link" target="_blank">
+                            <i class="bi bi-archive"></i> Zenodo
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+</ul>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="funded-projects" class="level2">
+<h2 class="anchored" data-anchor-id="funded-projects">Funded Projects</h2>
+<div id="listing-funding" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-list">
+<ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="SEVQJTJDSW50ZXJvY2VwdGlvbiUyQ0NhcmRpYWM=" data-listing-date-sort="1546300800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            <strong>The psychophysiological origins of the heartbeat-evoked potential</strong>
+                        </p>
+                        <p class="pub-funding-meta">
+                            
+                            <span><i class="bi bi-bank"></i> Spanish Ministry of Science, Innovation and Universities</span><br>
+                            
+                            
+                            <span><i class="bi bi-hash"></i> PGC2018-096655-A-I00</span><br>
+                            
+                            
+                            <span><i class="bi bi-person"></i> PI</span><br>
+                            
+                            
+                            <span><i class="bi bi-calendar-range"></i> 2019–2022</span>
+                            
+                        </p>
+                        
+                        <p class="pub-description">This project investigated the neural and physiological mechanisms underlying the heartbeat-evoked potential (HEP), examining how afferent cardiac signals are processed by the brain and how this processing relates to interoceptive awareness, physical fitness, and cognitive performance.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=HEP">
+                                HEP
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Interoception">
+                                Interoception
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Cardiac">
+                                Cardiac
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
     
 </ul>
 </div>

@@ -10,24 +10,25 @@ listing:
     sort: "date desc"
     template: ../../html/research/listing.ejs
     categories: true
-  - id: preprints
+    page-size: 100
+  - id: news
     contents: papers.yml
     include:
-      section: "Preprints"
+      section: "News"
     sort: "date desc"
-    template: ../../html/research/listing.ejs
+    template: ../../html/research/listing-news.ejs
+    page-size: 100
 ---
 
 ::: {.programme-overview}
-![](figure-placeholder.png){.programme-overview-img}
+![](assets/exercise.png){.programme-overview-img}
 
 ::: {.programme-overview-text}
-Does physical exercise improve cognitive performance? If so, how? This research line uses neuroimaging (EEG), psychophysiological measures, and rigorous experimental designs to investigate the acute and chronic effects of exercise on brain function and cognition — with a focus on **sustained attention** and **cardiac interoception**.
+A substantial body of research has reported a positive association between physical exercise and cognition, although the key factors driving that link are still a matter of scientific debate. Our work focuses on elucidating how brain physiology is affected by acute and prolonged physical exercise and how exercise-induced brain changes influence cognitive performance — with a particular focus on **sustained attention** and **cardiac interoception**.
 
-Key questions include: How does aerobic fitness modulate brain oscillations during demanding cognitive tasks? What is the relationship between exercise, autonomic regulation, and the perception of internal bodily signals?
+One of our key contributions, [an umbrella review of randomized control trials](https://doi.org/10.1038/s41562-023-01554-4), indicates that the current evidence of exercise-induced cognitive benefits is weak and unreliable.
 
-[<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}
-[<i class="bi bi-github"></i> GitHub](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Lab website](https://hbc.ugr.es/cognitive-affect-dynamics/){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 :::
 
@@ -36,7 +37,7 @@ Key questions include: How does aerobic fitness modulate brain oscillations duri
 :::{#journal-articles}
 :::
 
-## Preprints
+## In the News
 
-:::{#preprints}
+:::{#news}
 :::

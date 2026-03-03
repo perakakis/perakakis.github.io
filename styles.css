@@ -114,7 +114,7 @@
    NEWS / BLOG LIST ON HOME
    ============================================= */
 
-#recent-posts .card-img-top {
+#listing-recent-posts .card-img {
   object-fit: contain;
   background-color: var(--bs-body-bg);
 }

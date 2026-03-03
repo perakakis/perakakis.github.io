@@ -50,7 +50,7 @@ A long engagement with scholarly communication and research evaluation led to th
 :::{#conferences}
 :::
 
-## News
+## Blog posts
 
 :::{#news}
 :::

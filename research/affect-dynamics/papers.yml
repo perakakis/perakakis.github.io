@@ -18,7 +18,7 @@
   - name: "Journal Article"
     url: "https://doi.org/10.1037/emo0001441"
     icon: "bi bi-journal-text"
-  - name: "OA PDF"
+  - name: "OA version"
     url: "https://docta.ucm.es/rest/api/core/bitstreams/79b03994-8738-4b6c-9adb-7290d6ebd43d/content"
     icon: "bi bi-file-earmark-pdf"
   - name: "Data and Code"

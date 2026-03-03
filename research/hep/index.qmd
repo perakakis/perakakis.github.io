@@ -35,7 +35,7 @@ listing:
 ---
 
 ::: {.programme-overview}
-![](hep.png){.programme-overview-img}
+![](assets/hep.png){.programme-overview-img}
 
 ::: {.programme-overview-text}
 The **heartbeat-evoked potential (HEP)** is an EEG response time-locked to the R-peak of the cardiac cycle. It reflects the cortical processing of afferent signals originating in the heart and is considered one of the most direct neural markers of **cardiac interoception** — the brain's monitoring of its own body.

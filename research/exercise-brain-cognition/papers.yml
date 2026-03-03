@@ -21,6 +21,26 @@
       url: "https://doi.org/10.31234/osf.io/42gcm"
       icon: "bi bi-file-earmark-pdf"
 
+- title: "Reply to: Do not underestimate the cognitive benefits of exercise"
+  date: "2024-08-01"
+  authors: "Ciria, L. F., Román-Caballero, R., Vadillo, M. A., Holgado, D., Luque-Casado, A., Perakakis, P., & Sanabria, D."
+  year: 2024
+  journal: "Nature Human Behaviour"
+  volume: "8(8)"
+  pages: "1464–1466"
+  doi: "10.1038/s41562-024-01950-4"
+  image: ""
+  description: "Reply to a commentary challenging the conclusions of our umbrella review, reaffirming that the evidence for cognitive benefits of exercise is weaker and more heterogeneous than widely assumed."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Cognition
+    - Meta-analysis
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1038/s41562-024-01950-4"
+      icon: "bi bi-journal-text"
+
 - title: "An umbrella review of randomized control trials on the effects of physical exercise on cognition"
   date: "2023-05-01"
   authors: "Ciria, L. F., Román-Caballero, R., Vadillo, M. A., Holgado, D., Luque-Casado, A., Perakakis, P., & Sanabria, D."

@@ -101,20 +101,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-preprints .list');
+    const listingTargetEl = window.document.querySelector('#listing-conferences .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-description","listing-section","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-preprints'] = new List('listing-preprints', options);
+    window['quarto-listings']['listing-conferences'] = new List('listing-conferences', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -241,10 +241,11 @@ window.Quarto = {
    
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
-  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#invited-talks" id="toc-invited-talks" class="nav-link" data-scroll-target="#invited-talks">Invited Talks</a></li>
+  <li><a href="#selected-news" id="toc-selected-news" class="nav-link" data-scroll-target="#selected-news">Selected News</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SW5mcmFzdHJ1Y3R1cmU=">Infrastructure <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMGFjY2Vzcw==">Open access <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGVlciUyMHJldmlldw==">Peer review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGlzaGluZyUyMHJlZm9ybQ==">Publishing reform <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVwb3NpdG9yaWVz">Repositories <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2NpZW50b21ldHJpY3M=">Scientometrics <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(43)</span></div><div class="category" data-category="SW5mcmFzdHJ1Y3R1cmU=">Infrastructure <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMGFjY2Vzcw==">Open access <span class="quarto-category-count">(30)</span></div><div class="category" data-category="T3BlbiUyMHNjaWVuY2U=">Open science <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UGVlciUyMHJldmlldw==">Peer review <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UHVibGlzaGluZyUyMHJlZm9ybQ==">Publishing reform <span class="quarto-category-count">(14)</span></div><div class="category" data-category="UmVwbGljYWJpbGl0eQ==">Replicability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwb3NpdG9yaWVz">Repositories <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVzZWFyY2glMjBldmFsdWF0aW9u">Research evaluation <span class="quarto-category-count">(11)</span></div><div class="category" data-category="U2NpZW50b21ldHJpY3M=">Scientometrics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U2xpZGVz">Slides <span class="quarto-category-count">(5)</span></div><div class="category" data-category="VW5pdmVyc2l0eSUyMHJhbmtpbmdz">University rankings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW8=">Video <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -268,11 +269,11 @@ window.Quarto = {
 
 
 <div class="programme-overview">
-<p><img src="figure-placeholder.png" class="programme-overview-img img-fluid"></p>
+<p><img src="assets/replacing.png" class="programme-overview-img img-fluid"></p>
 <div class="programme-overview-text">
 <p>The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward <strong>scholar-governed, open-access publishing</strong>.</p>
-<p>In 2012, I co-founded <a href="https://openscholar.org.uk">Open Scholar</a>, a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.</p>
-<p><a href="#" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-box-arrow-up-right"></i> OSF Project</a> <a href="#" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
+<p>A long engagement with scholarly communication and research evaluation led to the founding of <a href="http://www.openscholar.info/">Open Scholar</a>, an international organisation of researchers committed to developing and promoting alternatives to today’s problematic model of academic publishing. Our work spans peer review reform, overlay journals, institutional repositories, and the broader political economy of open access.</p>
+<p><a href="http://www.openscholar.info/" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Open Scholar</a></p>
 </div>
 </div>
 <section id="journal-articles" class="level2">
@@ -284,15 +285,11 @@ window.Quarto = {
         <li class="pub-item" data-index="0" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNJbmZyYXN0cnVjdHVyZQ==" data-listing-date-sort="1688169600000">
             <div class="pub-row">
                 
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="Replacing academic journals">
-                </div>
-                
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al. (2023).
+                            Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., Trachana, V., Ma, L., &amp; Rodriguez-Cuadrado, S. (2023).
                             <strong>Replacing academic journals.</strong>
                             <em>Royal Society Open Science</em>, 10(7), 230206.
                             
@@ -326,7 +323,7 @@ window.Quarto = {
                     <div class="pub-links-bar">
                         
                         <a href="https://doi.org/10.1098/rsos.230206" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                            <i class="bi bi-journal-text"></i> Journal Article
                         </a>
                         
                     </div>
@@ -338,10 +335,6 @@ window.Quarto = {
         <li class="pub-item" data-index="1" data-categories="T3BlbiUyMGFjY2VzcyUyQ1JlcG9zaXRvcmllcw==" data-listing-date-sort="1688169600000">
             <div class="pub-row">
                 
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="No-pay publishing: use institutional repositories">
-                </div>
-                
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
@@ -350,7 +343,7 @@ window.Quarto = {
                             <strong>No-pay publishing: use institutional repositories.</strong>
                             <em>Nature</em>, 619(7971), 698.
                             
-                            doi: <a href="https://doi.org/10.1038/d41586-023-02391-9">10.1038/d41586-023-02391-9</a>
+                            doi: <a href="https://doi.org/10.1038/d41586-023-02315-z">10.1038/d41586-023-02315-z</a>
                             
                         </p>
                         
@@ -375,8 +368,8 @@ window.Quarto = {
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.1038/d41586-023-02391-9" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        <a href="https://doi.org/10.1038/d41586-023-02315-z" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
                         </a>
                         
                     </div>
@@ -385,18 +378,14 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="2" data-categories="T3BlbiUyMGFjY2VzcyUyQ1BlZXIlMjByZXZpZXc=" data-listing-date-sort="1483228800000">
+        <li class="pub-item" data-index="2" data-categories="T3BlbiUyMGFjY2VzcyUyQ1BlZXIlMjByZXZpZXclMkNSZXBvc2l0b3JpZXM=" data-listing-date-sort="1483228800000">
             <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="OPRM: Challenges to including open peer review in open access repositories">
-                </div>
                 
 
                 <div class="pub-body">
                     <div class="pub-content listing-pub-info">
                         <p>
-                            Perakakis, P., Taylor, M., Mazza, M., &amp; Trachana, V. (2017).
+                            Mosquera-de-Arancibia, C., &amp; Lorenzo, E. (2017).
                             <strong>OPRM: Challenges to including open peer review in open access repositories.</strong>
                             <em>Code4Lib</em>, 35.
                             
@@ -417,20 +406,178 @@ window.Quarto = {
                                 Peer review
                             </a></span>
                         
+                            <span class="pub-category"><a href="#category=Repositories">
+                                Repositories
+                            </a></span>
+                        
                     </div>
                     
 
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://journal.code4lib.org/articles/12171" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
         </li>
     
-        <li class="pub-item" data-index="3" data-categories="U2NpZW50b21ldHJpY3MlMkNQdWJsaXNoaW5nJTIwcmVmb3Jt" data-listing-date-sort="1288569600000">
+        <li class="pub-item" data-index="3" data-categories="U2NpZW50b21ldHJpY3MlMkNVbml2ZXJzaXR5JTIwcmFua2luZ3MlMkNSZXNlYXJjaCUyMGV2YWx1YXRpb24=" data-listing-date-sort="1388534400000">
             <div class="pub-row">
                 
-                <div class="pub-thumbnail">
-                    <img src="figure-placeholder.png" alt="Natural selection of academic papers">
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Taylor, M., Perakakis, P., Trachana, V., &amp; Gialis, S. (2014).
+                            <strong>Rankings are the sorcerer's new apprentice.</strong>
+                            <em>Ethics in Science and Environmental Politics</em>, 13(2), 73–99.
+                            
+                            doi: <a href="https://doi.org/10.3354/esep00137">10.3354/esep00137</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">A critical analysis of university ranking systems, arguing that they function more as tools of power than as meaningful measures of academic quality.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Scientometrics">
+                                Scientometrics
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=University rankings">
+                                University rankings
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="http://www.int-res.com/abstracts/esep/v13/n2/p73-99/" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                    </div>
+                    
                 </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="4" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1356998400000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., &amp; Taylor, M. (2013).
+                            <strong>Academic self-publishing: a not-so-distant future.</strong>
+                            <em>Prometheus</em>, 31(3), 257–263.
+                            
+                            doi: <a href="https://doi.org/10.1080/08109028.2014.891712">10.1080/08109028.2014.891712</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">Explores a near-future scenario in which scholars bypass traditional publishers altogether using open repositories and community-driven peer review.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.1080/08109028.2014.891712" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="5" data-categories="T3BlbiUyMGFjY2VzcyUyQ1BlZXIlMjByZXZpZXclMkNQdWJsaXNoaW5nJTIwcmVmb3Jt" data-listing-date-sort="1320105600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., Taylor, M., Mazza, G. M., &amp; Trachana, V. (2011).
+                            <strong>Understanding the role of open peer review and dynamic academic articles.</strong>
+                            <em>Scientometrics</em>, 88(2), 669–673.
+                            
+                            doi: <a href="https://doi.org/10.1007/s11192-011-0402-1">10.1007/s11192-011-0402-1</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">Introduces the concept of dynamic academic articles that evolve through open post-publication peer review, replacing static PDF-based publishing.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.1007/s11192-011-0402-1" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                        <a href="../../assets/Perakakis_SCI_2011.pdf" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> OA PDF
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="6" data-categories="U2NpZW50b21ldHJpY3MlMkNQdWJsaXNoaW5nJTIwcmVmb3JtJTJDUGVlciUyMHJldmlldw==" data-listing-date-sort="1288569600000">
+            <div class="pub-row">
                 
 
                 <div class="pub-body">
@@ -440,7 +587,7 @@ window.Quarto = {
                             <strong>Natural selection of academic papers.</strong>
                             <em>Scientometrics</em>, 85(2), 553–559.
                             
-                            doi: <a href="https://doi.org/10.1007/s11192-010-0253-3">10.1007/s11192-010-0253-3</a>
+                            doi: <a href="https://doi.org/10.1007/s11192-010-0253-1">10.1007/s11192-010-0253-1</a>
                             
                         </p>
                         
@@ -459,14 +606,160 @@ window.Quarto = {
                                 Publishing reform
                             </a></span>
                         
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
                     </div>
                     
 
                     
                     <div class="pub-links-bar">
                         
-                        <a href="https://doi.org/10.1007/s11192-010-0253-3" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        <a href="https://doi.org/10.1007/s11192-010-0253-1" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                        <a href="../../assets/NSAP_Perakakis_2010.pdf" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> OA PDF
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="7" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1262304000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., Taylor, M., &amp; Trachana, V. (2010).
+                            <strong>The roads to open access.</strong>
+                            <em>World Social Science Report 2010</em>, UNESCO Publishing, Paris.
+                            
+                        </p>
+                        
+                        <p class="pub-description">An overview of open-access publishing models and their prospects, contributed to the UNESCO World Social Science Report.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="assets/Perakakis_UNESCO_Report.pdf" class="pub-link" target="_blank">
+                            <i class="bi bi-book"></i> Book Chapter
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="8" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNSZXNlYXJjaCUyMGV2YWx1YXRpb24=" data-listing-date-sort="1167609600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Taylor, M., Perakakis, P., &amp; Trachana, V. (2007).
+                            <strong>The siege of science.</strong>
+                            <em>Ethics in Science and Environmental Politics</em>, 8(1), 17–40.
+                            
+                            doi: <a href="https://doi.org/10.3354/esep00086">10.3354/esep00086</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">A foundational critique of the commercial takeover of academic publishing and its effects on the free circulation of scientific knowledge.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.3354/esep00086" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="9" data-categories="U2NpZW50b21ldHJpY3MlMkNNZXRob2RvbG9neQ==" data-listing-date-sort="1125532800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., Taylor, M., Buela-Casal, G., &amp; Checa, P. (2005).
+                            <strong>A neuro-fuzzy system to calculate a journal internationality index.</strong>
+                            <em>CEDI Proceedings</em>, Granada, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Introduces a fuzzy-logic approach to quantifying the international reach of academic journals based on multiple bibliometric indicators.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Scientometrics">
+                                Scientometrics
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Methodology">
+                                Methodology
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://zenodo.org/record/45541" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Proceedings
                         </a>
                         
                     </div>
@@ -480,16 +773,1443 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="preprints" class="level2">
-<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
-<div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
+<section id="invited-talks" class="level2">
+<h2 class="anchored" data-anchor-id="invited-talks">Invited Talks</h2>
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="UmVzZWFyY2glMjBldmFsdWF0aW9uJTJDT3BlbiUyMGFjY2VzcyUyQ1ZpZGVv" data-listing-date-sort="1763424000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2025).
+                            <strong>Reforma de la evaluación impulsada por CoARA en la UCM.</strong>
+                            <em>International Open Access Week 2025, UCM Library</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk on CoARA-driven research evaluation reform.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://youtu.be/_HotbWfrZfY?si=aNw2bMVBBk7TWWTw" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="1" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1762387200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2025).
+                            <strong>El negocio de las editoriales académicas y modelos alternativos.</strong>
+                            <em>Jornadas de Cultura Laboral en Investigación (DigniMad)</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited lecture on the business model of academic publishers and non-commercial alternatives.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="2" data-categories="UmVzZWFyY2glMjBldmFsdWF0aW9uJTJDT3BlbiUyMHNjaWVuY2U=" data-listing-date-sort="1716336000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2024).
+                            <strong>Ética e integridad en la Investigación Científica.</strong>
+                            <em>PhD Courses, Complutense University of Madrid</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">PhD course on ethics and integrity in scientific research. May 22–23, 2024 and March 7 &amp; 14, 2024.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="3" data-categories="T3BlbiUyMGFjY2VzcyUyQ09wZW4lMjBzY2llbmNlJTJDVmlkZW8=" data-listing-date-sort="1709596800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2024).
+                            <strong>Guía del autoestopista hacia la libertad académica.</strong>
+                            <em>Open Science Course, SEPNECA/SEPEX/SEPSICOBIO/UAM</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk on navigating academic freedom in the context of open science.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://youtu.be/azrC3AuwcS4?si=7ZNskzGZ3eW6T8jz" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="4" data-categories="T3BlbiUyMHNjaWVuY2U=" data-listing-date-sort="1704067200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2024).
+                            <strong>Prácticas para una ciencia más abierta, ética y reproducible.</strong>
+                            <em>PhD Course 2024–2025, University of Malaga</em>, Malaga, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">PhD course on open, ethical and reproducible science practices.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="5" data-categories="UGVlciUyMHJldmlldyUyQ09wZW4lMjBhY2Nlc3MlMkNWaWRlbw==" data-listing-date-sort="1698278400000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2023).
+                            <strong>Innovación en prácticas de revisión por pares.</strong>
+                            <em>International Open Access Week, REBIUN</em>, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk on innovations in peer review practices for open access publishing.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://youtu.be/XLdX7t6RT-0" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="6" data-categories="UGVlciUyMHJldmlldyUyQ09wZW4lMjBhY2Nlc3MlMkNTbGlkZXM=" data-listing-date-sort="1693785600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2023).
+                            <strong>Innovación en prácticas de revisión por pares.</strong>
+                            <em>Conference on the Foundations for the Advancement of Open Science, CSIC</em>, Cuenca, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk on innovations in peer review at the CSIC open science conference.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://digital.csic.es/handle/10261/335107" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="7" data-categories="T3BlbiUyMGFjY2VzcyUyQ0luZnJhc3RydWN0dXJlJTJDVmlkZW8=" data-listing-date-sort="1682380800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2023).
+                            <strong>Open Science with public infrastructure.</strong>
+                            <em>Eötvös Loránd University</em>, Budapest, Hungary.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Talk arguing for publicly-owned, scholar-governed infrastructure as the foundation for open science.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Infrastructure">
+                                Infrastructure
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://www.youtube.com/watch?v=UQvoYo_jsbo" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="8" data-categories="T3BlbiUyMHNjaWVuY2U=" data-listing-date-sort="1672617600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2023).
+                            <strong>Introducción a la Ciencia Abierta: Transformando la Investigación para un Futuro Sostenible.</strong>
+                            <em>PhD Course 2023–2024, University of Jaen</em>, Jaen, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">PhD course introducing open science and its role in building a more sustainable research ecosystem.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="9" data-categories="UmVzZWFyY2glMjBldmFsdWF0aW9uJTJDT3BlbiUyMHNjaWVuY2UlMkNWaWRlbw==" data-listing-date-sort="1672531200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2023).
+                            <strong>DeMéritos de la investigación científica.</strong>
+                            <em>Jornada Inter-CRECS 2023</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited round-table discussion on perverse incentives in scientific research evaluation.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://youtu.be/9XeVaAlTE0M?si=W_u-a3AWVOz_S96s&amp;t=4674" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="10" data-categories="T3BlbiUyMHNjaWVuY2UlMkNSZXNlYXJjaCUyMGV2YWx1YXRpb24=" data-listing-date-sort="1672531200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2023).
+                            <strong>Ciencia abierta: contexto histórico y cambios actuales en la validación, evaluación y comunicación de la producción científica.</strong>
+                            <em>PhD Course 2023–2024, University of Malaga</em>, Malaga, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">PhD course covering the historical context and current changes in scholarly validation, evaluation, and communication.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="11" data-categories="T3BlbiUyMHNjaWVuY2UlMkNSZXNlYXJjaCUyMGV2YWx1YXRpb24=" data-listing-date-sort="1662422400000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2022).
+                            <strong>Ciencia abierta y su implicación en la evaluación de la investigación.</strong>
+                            <em>44th Annual Congress of the Sociedad Española de Bioquímica y Biología Molecular</em>, Malaga, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Round-table on open science and its implications for research evaluation.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="12" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1655856000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2022).
+                            <strong>Open Science: El papel de las revistas académicas.</strong>
+                            <em>Colegio Oficial de Psicólogos</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited conference on the role of academic journals in open science.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="13" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNWaWRlbw==" data-listing-date-sort="1625097600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2021).
+                            <strong>The Hitchhiker's Guide to Academic Publishing.</strong>
+                            <em>New York University (NYU), Psychology Department</em>, Online.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk surveying the history, problems, and alternatives to commercial academic publishing.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://youtu.be/TgTsgbbdUog" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="14" data-categories="T3BlbiUyMGFjY2VzcyUyQ09wZW4lMjBzY2llbmNlJTJDVmlkZW8=" data-listing-date-sort="1623715200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2021).
+                            <strong>Science Collaboration and Open Science.</strong>
+                            <em>1st Crowdfight Symposium on the Science of Collaboration</em>, Online.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Roundtable panelist on the role of open science in fostering scientific collaboration.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.5281/zenodo.4972567" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-text"></i> Program
+                        </a>
+                        
+                        <a href="https://youtu.be/QS-94RHUkj4" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="15" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1618963200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2021).
+                            <strong>¿Hay vida más allá de las editoriales? La revista Psicológica y la nueva generación de comunicación científica.</strong>
+                            <em>Annual Conference of the Sociedad Española de Psicología Experimental (SEPEX)</em>, Online.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Keynote address on the future of scholar-owned journals and the next generation of scholarly communication.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="16" data-categories="T3BlbiUyMHNjaWVuY2UlMkNSZXBsaWNhYmlsaXR5" data-listing-date-sort="1560211200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2019).
+                            <strong>La crisis de replicabilidad en Psicología: problemática y propuestas.</strong>
+                            <em>Programa de doctorado en Psicología: Ciencia abierta, replicabilidad y evidencia científica, University of Seville</em>, Sevilla, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">PhD course lecture on the replicability crisis in psychology and proposed solutions.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Replicability">
+                                Replicability
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://pandelisperakakis.info/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> Blog post
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="17" data-categories="T3BlbiUyMHNjaWVuY2UlMkNPcGVuJTIwYWNjZXNzJTJDU2xpZGVz" data-listing-date-sort="1495152000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2017).
+                            <strong>Open Science: What, Why, How?.</strong>
+                            <em>Hot Topic Lecture, Ghent University</em>, Ghent, Belgium.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Hot Topic Lecture introducing open science principles, motivations, and practical tools.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://www.slideshare.net/PandelisPerakakis/open-science-what-why-how-76291597" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="18" data-categories="T3BlbiUyMHNjaWVuY2UlMkNPcGVuJTIwYWNjZXNz" data-listing-date-sort="1494892800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2017).
+                            <strong>Open Science in an Open World.</strong>
+                            <em>2nd Homo Scientificus Europaeus Meeting</em>, Barcelona, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited talk on the relationship between open science and wider societal openness.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="19" data-categories="T3BlbiUyMHNjaWVuY2UlMkNPcGVuJTIwYWNjZXNzJTJDU2xpZGVz" data-listing-date-sort="1493164800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2017).
+                            <strong>Why True Science is only Open Science.</strong>
+                            <em>EURODOC2017</em>, Oslo, Norway.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation arguing that openness is a precondition for genuine scientific practice.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open science">
+                                Open science
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="http://www.openscholar.org.uk/wp-content/uploads/2017/04/Oslo_Eurodoc_2017.pdf" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="20" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1476057600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2016).
+                            <strong>"One damned thing after another": The journal monopoly, how it came to be, what it means for science and what we can do about it.</strong>
+                            <em>GATE CNRS</em>, Lyon, France.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited lecture tracing the history of the commercial journal monopoly and paths toward reform.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://www.gate.cnrs.fr/spip.php?article1022" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> Event page
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="21" data-categories="UGVlciUyMHJldmlldyUyQ1JlcG9zaXRvcmllcyUyQ09wZW4lMjBhY2Nlc3MlMkNTbGlkZXM=" data-listing-date-sort="1465776000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2016).
+                            <strong>An Open Peer Review Module for Open Access Repositories.</strong>
+                            <em>Open Repositories 2016</em>, Dublin, Ireland.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation of the OPRM — a software module integrating structured open peer review into open-access repositories.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Repositories">
+                                Repositories
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://digital.csic.es/handle/10261/133952" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="22" data-categories="UGVlciUyMHJldmlldyUyQ09wZW4lMjBhY2Nlc3M=" data-listing-date-sort="1465257600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2016).
+                            <strong>Open Peer Review workshop.</strong>
+                            <em>Goettingen University</em>, Goettingen, Germany.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Workshop on open peer review models, their benefits and limitations.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://www.openaire.eu/open-peer-review-models-benefits-and-limitations" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> Event page
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="23" data-categories="UGVlciUyMHJldmlldyUyQ1JlcG9zaXRvcmllcyUyQ09wZW4lMjBhY2Nlc3M=" data-listing-date-sort="1461715200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2016).
+                            <strong>Presenting the first Open Peer Review Module for Open Access Repositories.</strong>
+                            <em>CSIC</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation of the OPRM software at CSIC, the first open peer review module designed for integration with open-access repositories.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Repositories">
+                                Repositories
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="http://proyectos.bibliotecas.csic.es/digitalcsic/oprm/index_eng.html" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> Project page
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="24" data-categories="UmVwb3NpdG9yaWVzJTJDT3BlbiUyMGFjY2VzcyUyQ1ZpZGVv" data-listing-date-sort="1460332800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2016).
+                            <strong>Next generation repositories.</strong>
+                            <em>COAR Annual Meeting</em>, Vienna, Austria.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation on the vision for next-generation open-access repositories.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Repositories">
+                                Repositories
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://www.coar-repositories.org/community/events/archive/annual-meeting-2016/programme/" class="pub-link" target="_blank">
+                            <i class="bi bi-calendar-event"></i> Program
+                        </a>
+                        
+                        <a href="https://phaidra.univie.ac.at/detail_object/o:440670" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="25" data-categories="UmVzZWFyY2glMjBldmFsdWF0aW9uJTJDUGVlciUyMHJldmlldyUyQ09wZW4lMjBhY2Nlc3M=" data-listing-date-sort="1423094400000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2015).
+                            <strong>Modelos alternativos de validación y evaluación de la producción académica.</strong>
+                            <em>Seminario sobre visibilidad y divulgación de la producción científica, University of Granada</em>, Granada, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited seminar on alternative models for the validation and evaluation of academic production.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="26" data-categories="UmVzZWFyY2glMjBldmFsdWF0aW9uJTJDUGVlciUyMHJldmlldyUyQ09wZW4lMjBhY2Nlc3MlMkNTbGlkZXM=" data-listing-date-sort="1413936000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2014).
+                            <strong>New systems for scientific evaluation, peer-review and open access.</strong>
+                            <em>CSIC Open Access Week</em>, Madrid, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited workshop presenting emerging alternative systems for scholarly evaluation and open-access dissemination.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Slides">
+                                Slides
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="http://digital.csic.es/handle/10261/103993" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="27" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0lMkNWaWRlbw==" data-listing-date-sort="1386201600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2013).
+                            <strong>Beyond Open Access: facing the real problems.</strong>
+                            <em>Ludwig Maximilian University</em>, Munich, Germany.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Invited lecture arguing that open access alone is insufficient and addressing the deeper structural problems of academic publishing.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Video">
+                                Video
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="http://www.slideshare.net/PandelisPerakakis/beyond-open-access-facing-the-real-problems" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-slides"></i> Slides
+                        </a>
+                        
+                        <a href="https://videoonline.edu.lmu.de/en/wintersemester-2013-2014/4900" class="pub-link" target="_blank">
+                            <i class="bi bi-play-circle"></i> Video
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="28" data-categories="UGVlciUyMHJldmlldyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1383868800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2013).
+                            <strong>Open, Portable, Decoupled – How should Peer Review change?.</strong>
+                            <em>SpotOn London 2013</em>, London, UK.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation advocating for peer review decoupled from journals and portable across platforms.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="29" data-categories="UGVlciUyMHJldmlldyUyQ09wZW4lMjBhY2Nlc3M=" data-listing-date-sort="1382400000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2013).
+                            <strong>Open Access to Scientific Reviews: Quantifying the opinion of peers.</strong>
+                            <em>EUI Roundtable on Open Access Publishing, European University Institute</em>, Florence, Italy.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Talk at the EUI Open Access Week roundtable on making peer review outputs openly accessible and quantifiable.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Peer review">
+                                Peer review
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="http://www.eui.eu/SeminarsAndEvents/Events/2013/October/EUIRoundTableonOpenAccessPublishingRethinkingimpactanddissemination.aspx" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> Event page
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="30" data-categories="T3BlbiUyMGFjY2VzcyUyQ1B1Ymxpc2hpbmclMjByZWZvcm0=" data-listing-date-sort="1371600000000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2013).
+                            <strong>Current academic publishing and the LIBRE alternative.</strong>
+                            <em>CERN Workshop on Innovations in Scholarly Communication (OAI8), University of Geneva</em>, Geneva, Switzerland.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation introducing the LIBRE platform as an alternative to the current academic publishing model.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Open access">
+                                Open access
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Publishing reform">
+                                Publishing reform
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="31" data-categories="U2NpZW50b21ldHJpY3MlMkNSZXNlYXJjaCUyMGV2YWx1YXRpb24=" data-listing-date-sort="1179100800000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2007).
+                            <strong>How the impact factor power law came to be and the new alternatives.</strong>
+                            <em>European Association of Science Editors (EASE)</em>, Barcelona, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Talk on the history of the impact factor and emerging bibliometric alternatives.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Scientometrics">
+                                Scientometrics
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="32" data-categories="U2NpZW50b21ldHJpY3MlMkNSZXNlYXJjaCUyMGV2YWx1YXRpb24=" data-listing-date-sort="1161907200000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P. (2006).
+                            <strong>Putting the impact factor in its place with a new approach in bibliometry.</strong>
+                            <em>Mediterranean Editors &amp; Translators (METM)</em>, Barcelona, Spain.
+                            
+                        </p>
+                        
+                        <p class="pub-description">Presentation proposing a new bibliometric approach to contextualise and replace the impact factor.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Scientometrics">
+                                Scientometrics
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Research evaluation">
+                                Research evaluation
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </li>
     
 </ul>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
+<section id="selected-news" class="level2">
+<h2 class="anchored" data-anchor-id="selected-news">Selected News</h2>
+<ol type="1">
+<li><a href="http://www.tovima.gr/science/article/?aid=610392">Are University ratings useful?</a> To Vima, 2014.</li>
+<li><a href="http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/">New forms of open peer review will allow academics to separate scholarly evaluation from academic journals.</a> Impact of Social Sciences, London School of Economics.</li>
+<li><a href="https://www.euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/">Open Scientists in the shoes of frustrated academics part I: Open-minded scepticism.</a> Euroscientist.</li>
+<li><a href="http://www.timeshighereducation.co.uk/news/open-access-platform-libre-launched/2005548.article">Open-access platform Libre launched.</a> The Times Higher Education, by Paul Jump.</li>
+<li><a href="http://www.timeshighereducation.co.uk/414431.article">Too complex for the jury?</a> The Times Higher Education, by Paul Jump.</li>
+<li><a href="http://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/">Non-profit organisation ‘Open Scholar C.I.C.’ urges scientists to join their forces against flawed academic publishing model.</a> Journalism.co.uk.</li>
+</ol>
 
 
 

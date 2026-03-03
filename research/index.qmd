@@ -27,10 +27,10 @@ Academic knowledge creation and communication has been hijacked by large commerc
 ::: {.research-card}
 ![](hep/assets/hep.png){.card-img-top}
 
-### [Heartbeat-Evoked Potential](exercise-brain-cognition/index.qmd)
+### [Heartbeat-Evoked Potential](hep/index.qmd)
 The heartbeat-evoked potential (HEP) is a neural signal that reflects the brain's processing of cardiac signals. We investigate its psychophysiological origins and its relation to physical exercise and interoception.
 
-[Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
+[Learn more →](hep/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
 ::: {.research-card}

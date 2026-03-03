@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -143,25 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#kardia" id="toc-kardia" class="nav-link active" data-scroll-target="#kardia">KARDIA</a>
-  <ul class="collapse">
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
-  <li><a href="#download" id="toc-download" class="nav-link" data-scroll-target="#download">Download</a></li>
-  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
-  </ul></li>
-  <li><a href="#heplab" id="toc-heplab" class="nav-link" data-scroll-target="#heplab">HEPLAB</a>
-  <ul class="collapse">
-  <li><a href="#features-1" id="toc-features-1" class="nav-link" data-scroll-target="#features-1">Features</a></li>
-  <li><a href="#download-1" id="toc-download-1" class="nav-link" data-scroll-target="#download-1">Download</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -184,56 +166,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I develop open-source software tools for psychophysiological data analysis. Both tools are freely available under open licenses.</p>
-<hr>
-<section id="kardia" class="level2">
-<h2 class="anchored" data-anchor-id="kardia">KARDIA</h2>
-<p><strong>KARDIA</strong> (<em>καρδιά</em> — “heart” in Greek) is a MATLAB software for the analysis of cardiac interbeat interval data. It provides a graphical user interface with functions for examining phasic cardiac responses triggered by environmental stimuli and calculating standard heart rate variability parameters.</p>
-<section id="features" class="level3">
-<h3 class="anchored" data-anchor-id="features">Features</h3>
-<ul>
-<li>Analysis of phasic cardiac responses to environmental stimuli</li>
-<li>Time and frequency domain Heart Rate Variability (HRV) measures</li>
-<li>Detrended Fluctuation Analysis (DFA) for scaling exponents</li>
-<li>Grand average and individual subject result visualization</li>
-<li>Data export to spreadsheets for statistical analysis</li>
-<li>Free distribution under GNU Public License</li>
-</ul>
-</section>
-<section id="download" class="level3">
-<h3 class="anchored" data-anchor-id="download">Download</h3>
-<div class="button-row">
-<p><a href="https://github.com/perakakis/KARDIA" class="btn btn-outline-primary" target="_blank"><i class="bi bi-github"></i> GitHub</a> <a href="https://sourceforge.net/projects/mykardia/" class="btn btn-outline-secondary" target="_blank">SourceForge</a> <a href="https://doi.org/10.5281/zenodo.2638856" class="btn btn-outline-secondary" target="_blank">Zenodo</a></p>
+<p>Open-source MATLAB tools I developed for psychophysiological data analysis, freely available under the GNU Public License.</p>
+<div class="card-grid">
+<div class="research-card software-card">
+<p><img src="assets/kardia.jpg" class="card-img-top img-fluid"></p>
+<section id="kardia" class="level3">
+<h3 class="anchored" data-anchor-id="kardia">KARDIA</h3>
+<p><strong>MATLAB toolbox</strong> (<em>καρδιά</em> — “heart” in Greek) for the analysis of cardiac interbeat interval data. Provides a GUI for phasic cardiac response analysis, standard HRV metrics, and detrended fluctuation analysis (DFA) of scaling exponents.</p>
+<div class="tool-badges">
+<p><span class="badge rounded-pill text-bg-secondary">MATLAB</span> <span class="badge rounded-pill text-bg-secondary">HRV</span> <span class="badge rounded-pill text-bg-secondary">Cardiac IBI</span> <span class="badge rounded-pill text-bg-secondary">DFA</span> <span class="badge rounded-pill text-bg-secondary">GNU GPL</span></p>
 </div>
-</section>
-<section id="citation" class="level3">
-<h3 class="anchored" data-anchor-id="citation">Citation</h3>
+<div class="button-row">
+<p><a href="https://github.com/perakakis/KARDIA" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a> <a href="assets/Perakakis_KARDIA_2010.pdf" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-journal-text"></i> Journal Article</a> <a href="https://doi.org/10.5281/zenodo.2638856" class="btn btn-outline-primary btn-sm" target="_blank">Zenodo</a> <a href="https://sourceforge.net/projects/mykardia/" class="btn btn-outline-primary btn-sm" target="_blank">SourceForge</a></p>
+</div>
+<div class="tool-citation">
 <p>Perakakis, P., Joffily, M., Taylor, M., Guerra, P., &amp; Vila, J. (2010). KARDIA: a Matlab software for the analysis of cardiac interbeat intervals. <em>Computer Methods and Programs in Biomedicine</em>, 98, 83–89.</p>
-<hr>
+</div>
 </section>
-</section>
-<section id="heplab" class="level2">
-<h2 class="anchored" data-anchor-id="heplab">HEPLAB</h2>
-<p><strong>HEPLAB</strong> is an EEGLAB plugin and standalone MATLAB toolbox for the analysis of the Heartbeat-Evoked Potential (HEP). It automates the detection of cardiac-related events from raw ECG signals and integrates with EEGLAB for downstream EEG analysis.</p>
-<section id="features-1" class="level3">
-<h3 class="anchored" data-anchor-id="features-1">Features</h3>
-<ul>
-<li>Three R wave detection algorithms</li>
-<li>One T wave detection algorithm</li>
-<li>Graphical user interface for displaying cardiac events and manually correcting artifacts</li>
-<li>Export of events to EEGLAB’s EEG structure for HEP analysis</li>
-<li>Usable as an EEGLAB plugin or standalone MATLAB toolbox</li>
-</ul>
-</section>
-<section id="download-1" class="level3">
-<h3 class="anchored" data-anchor-id="download-1">Download</h3>
+</div>
+<div class="research-card software-card">
+<p><img src="assets/heplab.png" class="card-img-top img-fluid"></p>
+<section id="heplab" class="level3">
+<h3 class="anchored" data-anchor-id="heplab">HEPLAB</h3>
+<p><strong>EEGLAB plugin</strong> and standalone MATLAB toolbox for the analysis of the Heartbeat-Evoked Potential (HEP). Automates R-wave and T-wave detection from raw ECG with an interactive GUI for artifact correction, and exports events directly to EEGLAB’s EEG structure.</p>
+<div class="tool-badges">
+<p><span class="badge rounded-pill text-bg-secondary">MATLAB</span> <span class="badge rounded-pill text-bg-secondary">EEGLAB</span> <span class="badge rounded-pill text-bg-secondary">HEP</span> <span class="badge rounded-pill text-bg-secondary">ECG</span> <span class="badge rounded-pill text-bg-secondary">GNU GPL</span></p>
+</div>
 <div class="button-row">
-<p><a href="https://github.com/perakakis/HEPLAB" class="btn btn-outline-primary" target="_blank"><i class="bi bi-github"></i> GitHub</a> <a href="https://doi.org/10.5281/zenodo.2650275" class="btn btn-outline-secondary" target="_blank">Zenodo</a></p>
+<p><a href="https://github.com/perakakis/HEPLAB" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a> <a href="https://doi.org/10.5281/zenodo.2650275" class="btn btn-outline-primary btn-sm" target="_blank">Zenodo</a></p>
+</div>
+<div class="tool-citation">
+<p>Perakakis, P. (2019). HEPLAB: A Matlab graphical interface for the preprocessing of the heartbeat-evoked potential. <em>Zenodo</em>.</p>
+</div>
+</section>
+</div>
 </div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

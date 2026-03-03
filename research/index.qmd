@@ -16,15 +16,6 @@ How we shift between positive and negative emotional states is closely linked to
 :::
 
 ::: {.research-card}
-![](scholarly-communication/assets/replacing.png){.card-img-top}
-
-### [Scholarly Communication](scholarly-communication/index.qmd)
-Academic knowledge creation and communication has been hijacked by large commercial publishers. We develop models and tools for scholar-governed publishing using existing public infrastructure.
-
-[Learn more →](scholarly-communication/index.qmd){.btn .btn-outline-primary .btn-sm}
-:::
-
-::: {.research-card}
 ![](hep/assets/hep.png){.card-img-top}
 
 ### [Heartbeat-Evoked Potential](hep/index.qmd)
@@ -42,7 +33,14 @@ Does physical exercise improve cognition? We measure neurophysiological signals 
 [Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
+::: {.research-card}
+![](scholarly-communication/assets/replacing.png){.card-img-top}
 
+### [Scholarly Communication](scholarly-communication/index.qmd)
+Academic knowledge creation and communication has been hijacked by large commercial publishers. We develop models and tools for scholar-governed publishing using existing public infrastructure.
+
+[Learn more →](scholarly-communication/index.qmd){.btn .btn-outline-primary .btn-sm}
+:::
 
 
 :::

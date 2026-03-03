@@ -17,6 +17,9 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1016/j.neuropsychologia.2024.108867"
       icon: "bi bi-journal-text"
+    - name: "OA version"
+      url: "https://doi.org/10.31234/osf.io/42gcm"
+      icon: "bi bi-file-earmark-pdf"
 
 - title: "An umbrella review of randomized control trials on the effects of physical exercise on cognition"
   date: "2023-05-01"
@@ -26,7 +29,7 @@
   volume: "7"
   pages: "928–941"
   doi: "10.1038/s41562-023-01554-4"
-  image: assets/exercise.png
+  image: ""
   description: "A comprehensive umbrella review showing that the evidence for cognitive benefits of exercise is weaker and more heterogeneous than commonly assumed."
   section: "Journal Articles"
   categories:
@@ -37,13 +40,13 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1038/s41562-023-01554-4"
       icon: "bi bi-journal-text"
-    - name: "Preprint"
-      url: "https://doi.org/10.1101/2022.02.15.480508"
+    - name: "OA version"
+      url: " https://doi.org/10.1101/2022.02.15.480508"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "The relationship between vigilance capacity and physical exercise: a mixed-effects multistudy analysis"
   date: "2019-06-01"
-  authors: "Sanabria, D., Morales, E., Luque-Casado, A., González-García, C., Huertas, F., Ciria, L. F., Perakakis, P., & Salillas, E."
+  authors: "Sanabria, D., Luque-Casado, A., Perales, JC., Ballester, R., Ciria, LF., Huertas, F., & Perakakis, P."
   year: 2019
   journal: "PeerJ"
   volume: "7"
@@ -80,8 +83,8 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1016/j.physbeh.2020.113033"
       icon: "bi bi-journal-text"
-    - name: "OA PDF"
-      url: "https://pandelisperakakis.info/wp-content/uploads/2020/07/Ciria_2020.pdf"
+    - name: "OA version"
+      url: "assets/Ciria_2020.pdf"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "Oscillatory brain activity during acute exercise: Tonic and transient neural response to an oddball task"
@@ -103,8 +106,8 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1111/psyp.13326"
       icon: "bi bi-journal-text"
-    - name: "OA PDF"
-      url: "https://pandelisperakakis.info/wp-content/uploads/2019/06/Ciria_2019.pdf"
+    - name: "OA version"
+      url: "assets/Ciria_2019.pdf"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "Tramadol effects on physical performance and sustained attention during a 20-min indoor cycling time-trial: A randomised controlled trial"
@@ -114,7 +117,7 @@
   journal: "Journal of Science and Medicine in Sport"
   volume: "21"
   pages: "654–660"
-  doi: "10.1016/j.jsams.2017.09.593"
+  doi: "110.1016/j.jsams.2017.10.032"
   image: ""
   description: "A randomised controlled trial assessing whether tramadol, a pain-modulating drug, affects cycling performance and cognitive vigilance during prolonged effort."
   section: "Journal Articles"
@@ -124,10 +127,10 @@
     - Pharmacology
   links:
     - name: "Journal Article"
-      url: "https://doi.org/10.1016/j.jsams.2017.09.593"
+      url: "https://doi.org/10.1016/j.jsams.2017.10.032"
       icon: "bi bi-journal-text"
-    - name: "OA PDF"
-      url: "https://osf.io/preprints/sportrxiv/8hpxz/download?format=pdf"
+    - name: "OA version"
+      url: "https://doi.org/10.31236/osf.io/8hpxz"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "The relationship between sustained attention and aerobic fitness in a group of young adults"
@@ -169,29 +172,10 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1249/MSS.0000000000000857"
       icon: "bi bi-journal-text"
-    - name: "OA PDF"
+    - name: "OA version"
       url: "https://pandelisperakakis.info/wp-content/uploads/2016/07/luque-casado_2016.pdf"
       icon: "bi bi-file-earmark-pdf"
 
-- title: "Intelligent monitoring of affective factors underlying sport performance by means of wearable and mobile technology"
-  date: "2018-11-01"
-  authors: "Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., & Baños, O."
-  year: 2018
-  journal: "Proceedings"
-  volume: "2(19)"
-  pages: "1202"
-  doi: "10.3390/proceedings2191202"
-  image: ""
-  description: "Conference proceedings presenting a wearable/mobile system for real-time monitoring of affective and physiological states in athletic contexts."
-  section: "Journal Articles"
-  categories:
-    - Exercise
-    - Wearables
-    - Affect
-  links:
-    - name: "Proceedings"
-      url: "https://pandelisperakakis.info/wp-content/uploads/2018/11/proceedings-02-01202.pdf"
-      icon: "bi bi-journal-text"
 
 # ── News ──────────────────────────────────────────────────────────────────────
 

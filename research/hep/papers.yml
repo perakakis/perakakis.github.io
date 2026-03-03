@@ -19,7 +19,7 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1016/j.neuropsychologia.2024.108867"
       icon: "bi bi-journal-text"
-    - name: "OA Preprint"
+    - name: "OA version"
       url: "https://doi.org/10.31234/osf.io/42gcm"
       icon: "bi bi-file-earmark-pdf"
 
@@ -49,6 +49,7 @@
   year: 2021
   journal: "Sleep"
   volume: "44(9)"
+  doi: "10.1093/sleep/zsab100"
   pages: ""
   image: ""
   description: "EEG study of cortical cardiac responses across different microstates of REM sleep. HEP amplitude was modulated by phasic versus tonic REM, revealing state-dependent cardiac interoception during sleep."
@@ -58,9 +59,9 @@
     - Sleep
     - EEG
   links:
-    - name: "OA PDF"
-      url: "https://pandelisperakakis.info/wp-content/uploads/2021/09/Simor_2021.pdf"
-      icon: "bi bi-file-earmark-pdf"
+    - name: "Journal Article"
+      url: "https://doi.org/10.1093/sleep/zsab100"
+      icon: "bi bi-journal-text"
 
 - title: "Physical activity and interoceptive processing: Theoretical considerations for future research"
   date: "2021-01-01"
@@ -69,6 +70,7 @@
   journal: "International Journal of Psychophysiology"
   volume: "166"
   pages: "38–49"
+  doi: "10.1016/j.ijpsycho.2021.05.002"
   image: ""
   description: "A theoretical framework linking physical activity and interoceptive processing, reviewing evidence relating exercise habits to heartbeat perception, autonomic function, and body awareness, and proposing directions for future empirical work."
   section: "Journal Articles"
@@ -78,7 +80,7 @@
     - Theory
   links:
     - name: "Journal Article"
-      url: "https://www.sciencedirect.com/science/article/pii/S0167876021001604"
+      url: "https://doi.org/10.1016/j.ijpsycho.2021.05.002"
       icon: "bi bi-journal-text"
 
 # Preprints

@@ -24,6 +24,14 @@ Academic knowledge creation and communication has been hijacked by large commerc
 [Learn more →](scholarly-communication/index.qmd){.btn .btn-outline-primary .btn-sm}
 :::
 
+::: {.research-card}
+![](hep/assets/hep.png){.card-img-top}
+
+### [Heartbeat-Evoked Potential](exercise-brain-cognition/index.qmd)
+The heartbeat-evoked potential (HEP) is a neural signal that reflects the brain's processing of cardiac signals. We investigate its psychophysiological origins and its relation to physical exercise and interoception.
+
+[Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
+:::
 
 ::: {.research-card}
 ![](exercise-brain-cognition/assets/exercise.png){.card-img-top}
@@ -35,14 +43,7 @@ Does physical exercise improve cognition? We measure neurophysiological signals 
 :::
 
 
-::: {.research-card}
-![](hep/hep.png){.card-img-top}
 
-### [Heartbeat-Evoked Potential](exercise-brain-cognition/index.qmd)
-The heartbeat-evoked potential (HEP) is a neural signal that reflects the brain's processing of cardiac signals. We investigate its psychophysiological origins and its relation to physical exercise and interoception.
-
-[Learn more →](exercise-brain-cognition/index.qmd){.btn .btn-outline-primary .btn-sm}
-:::
 
 :::
 

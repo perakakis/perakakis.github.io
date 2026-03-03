@@ -6,7 +6,7 @@
   volume: "198"
   pages: "108867"
   doi: "10.1016/j.neuropsychologia.2024.108867"
-  image: figure-placeholder.png
+  image: ""
   description: "Investigates whether regular aerobic exercise enhances the ability to perceive internal cardiac signals, using heartbeat detection tasks and psychophysiological measures."
   section: "Journal Articles"
   categories:
@@ -14,9 +14,9 @@
     - Exercise
     - Cardiac
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.1016/j.neuropsychologia.2024.108867"
-      icon: "bi bi-file-earmark-pdf"
+      icon: "bi bi-journal-text"
 
 - title: "An umbrella review of randomized control trials on the effects of physical exercise on cognition"
   date: "2023-05-01"
@@ -26,7 +26,7 @@
   volume: "7"
   pages: "928–941"
   doi: "10.1038/s41562-023-01554-4"
-  image: figure-placeholder.png
+  image: assets/exercise.png
   description: "A comprehensive umbrella review showing that the evidence for cognitive benefits of exercise is weaker and more heterogeneous than commonly assumed."
   section: "Journal Articles"
   categories:
@@ -34,8 +34,11 @@
     - Cognition
     - Meta-analysis
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.1038/s41562-023-01554-4"
+      icon: "bi bi-journal-text"
+    - name: "Preprint"
+      url: "https://doi.org/10.1101/2022.02.15.480508"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "The relationship between vigilance capacity and physical exercise: a mixed-effects multistudy analysis"
@@ -46,7 +49,7 @@
   volume: "7"
   pages: "e7118"
   doi: "10.7717/peerj.7118"
-  image: figure-placeholder.png
+  image: ""
   description: "Pools data from multiple experiments to examine whether aerobic fitness is associated with superior sustained attention performance."
   section: "Journal Articles"
   categories:
@@ -54,9 +57,187 @@
     - Attention
     - Vigilance
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.7717/peerj.7118"
+      icon: "bi bi-journal-text"
+
+- title: "Exercise practice associates with different brain rhythmic patterns during vigilance"
+  date: "2020-10-01"
+  authors: "Luque-Casado, A., Ciria, L. F., Sanabria, D., & Perakakis, P."
+  year: 2020
+  journal: "Physiology & Behavior"
+  volume: "224"
+  pages: "113033"
+  doi: "10.1016/j.physbeh.2020.113033"
+  image: ""
+  description: "Examines EEG activity during a sustained attention task in aerobically trained vs. sedentary adults, showing distinct oscillatory patterns linked to exercise habits."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - EEG
+    - Attention
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1016/j.physbeh.2020.113033"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "https://pandelisperakakis.info/wp-content/uploads/2020/07/Ciria_2020.pdf"
       icon: "bi bi-file-earmark-pdf"
+
+- title: "Oscillatory brain activity during acute exercise: Tonic and transient neural response to an oddball task"
+  date: "2019-01-01"
+  authors: "Ciria, L. F., Luque-Casado, A., Sanabria, D., Holgado, D., Ivanov, P., & Perakakis, P."
+  year: 2019
+  journal: "Psychophysiology"
+  volume: "56"
+  pages: "e13326"
+  doi: "10.1111/psyp.13326"
+  image: ""
+  description: "Records EEG during cycling exercise to separate tonic (sustained) from transient (stimulus-evoked) neural responses, revealing how acute physical load modulates brain activity."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - EEG
+    - Acute exercise
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1111/psyp.13326"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "https://pandelisperakakis.info/wp-content/uploads/2019/06/Ciria_2019.pdf"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "Tramadol effects on physical performance and sustained attention during a 20-min indoor cycling time-trial: A randomised controlled trial"
+  date: "2017-06-01"
+  authors: "Holgado, D., Zandonai, T., Zabala, M., Hopker, J., Perakakis, P., Luque-Casado, A., Ciria, L. F., Guerra-Hernandez, E., & Sanabria, D."
+  year: 2017
+  journal: "Journal of Science and Medicine in Sport"
+  volume: "21"
+  pages: "654–660"
+  doi: "10.1016/j.jsams.2017.09.593"
+  image: ""
+  description: "A randomised controlled trial assessing whether tramadol, a pain-modulating drug, affects cycling performance and cognitive vigilance during prolonged effort."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Attention
+    - Pharmacology
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1016/j.jsams.2017.09.593"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "https://osf.io/preprints/sportrxiv/8hpxz/download?format=pdf"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "The relationship between sustained attention and aerobic fitness in a group of young adults"
+  date: "2017-10-01"
+  authors: "Ciria, L. F., Perakakis, P., Luque-Casado, A., Morato, C., & Sanabria, D."
+  year: 2017
+  journal: "PeerJ"
+  volume: "5"
+  pages: "e3831"
+  doi: "10.7717/peerj.3831"
+  image: ""
+  description: "Cross-sectional study in young adults examining correlations between aerobic fitness (VO₂max) and sustained attention performance during a monotonous vigilance task."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Attention
+    - Vigilance
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.7717/peerj.3831"
+      icon: "bi bi-journal-text"
+
+- title: "Differences in sustained attention capacity as a function of aerobic fitness"
+  date: "2016-05-01"
+  authors: "Luque-Casado, A., Perakakis, P., Hillman, C. H., Kao, S. C., Llorens, F., Guerra, P., & Sanabria, D."
+  year: 2016
+  journal: "Medicine and Science in Sport and Exercise"
+  volume: "48(5)"
+  pages: "887–895"
+  doi: "10.1249/MSS.0000000000000857"
+  image: ""
+  description: "Compares sustained attention performance and ERP components between high-fit and low-fit young adults during a prolonged psychomotor vigilance task."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Attention
+    - EEG
+  links:
+    - name: "Journal Article"
+      url: "https://doi.org/10.1249/MSS.0000000000000857"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "https://pandelisperakakis.info/wp-content/uploads/2016/07/luque-casado_2016.pdf"
+      icon: "bi bi-file-earmark-pdf"
+
+- title: "Intelligent monitoring of affective factors underlying sport performance by means of wearable and mobile technology"
+  date: "2018-11-01"
+  authors: "Bailon, C., Damas, M., Pomares, H., Sanabria, D., Perakakis, P., Goicoechea, C., & Baños, O."
+  year: 2018
+  journal: "Proceedings"
+  volume: "2(19)"
+  pages: "1202"
+  doi: "10.3390/proceedings2191202"
+  image: ""
+  description: "Conference proceedings presenting a wearable/mobile system for real-time monitoring of affective and physiological states in athletic contexts."
+  section: "Journal Articles"
+  categories:
+    - Exercise
+    - Wearables
+    - Affect
+  links:
+    - name: "Proceedings"
+      url: "https://pandelisperakakis.info/wp-content/uploads/2018/11/proceedings-02-01202.pdf"
+      icon: "bi bi-journal-text"
+
+# ── News ──────────────────────────────────────────────────────────────────────
+
+- title: "Exercise is actually good for the brain — but the details are murky"
+  date: "2023-05-01"
+  year: 2023
+  url: "https://www.science.org/content/article/exercise-actually-good-brain"
+  source: "Science"
+  description: "Coverage of the umbrella review on exercise and cognition published in Nature Human Behaviour."
+  section: "News"
+  categories:
+    - Exercise
+    - Cognition
+
+- title: "Daniel Sanabria, psychologist: 'The best predictor of professional success isn't cognitive performance, it's whether your parents have money'"
+  date: "2023-04-13"
+  year: 2023
+  url: "https://english.elpais.com/science-tech/2023-04-13/daniel-sanabria-psychologist-the-best-predictor-of-professional-success-isnt-cognitive-performance-its-whether-your-parents-have-money.html"
+  source: "El País"
+  description: "Interview with Daniel Sanabria discussing the lab's research on exercise, cognition, and the limits of scientific claims."
+  section: "News"
+  categories:
+    - Exercise
+    - Cognition
+
+- title: "Las personas que hacen ejercicio aeróbico regularmente mantienen mejor la atención y su cerebro es más ágil ante estímulos relevantes"
+  date: "2016-06-01"
+  year: 2016
+  url: "http://biotech-spain.com/es/articles/las-personas-que-hacen-ejercicio-aer-bico-regularmente-mantienen-mejor-la-atenci-n-y-su-cerebro-es-m-s-gil-ante-est-mulos-relevantes/"
+  source: "BioTech Spain"
+  description: "News coverage of findings on aerobic fitness and sustained attention."
+  section: "News"
+  categories:
+    - Exercise
+    - Attention
+
+- title: "Las personas que hacen ejercicio aeróbico regular mantienen mejor la atención"
+  date: "2016-06-01"
+  year: 2016
+  url: "http://www.agenciasinc.es/Noticias/Las-personas-que-hacen-ejercicio-aerobico-regular-mantienen-mejor-la-atencion"
+  source: "SINC – Servicio de Información y Noticias Científicas"
+  description: "Press release on the lab's research linking aerobic fitness to sustained attention capacity."
+  section: "News"
+  categories:
+    - Exercise
+    - Attention
 
 - title: "Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults"
   date: "2018-10-01"
@@ -66,7 +247,7 @@
   volume: "181"
   pages: "203–210"
   doi: "10.1016/j.neuroimage.2018.07.009"
-  image: figure-placeholder.png
+  image: ""
   description: "EEG evidence that chronic exercise increases global brain oscillatory power without selectively enhancing inhibitory control processes."
   section: "Journal Articles"
   categories:
@@ -74,8 +255,11 @@
     - EEG
     - Inhibitory control
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.1016/j.neuroimage.2018.07.009"
+      icon: "bi bi-journal-text"
+    - name: "Preprint"
+      url: "https://psyarxiv.com/vy836/"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "Transient autonomic responses during sustained attention in high and low fit young adults"
@@ -86,7 +270,7 @@
   volume: "6"
   pages: "27556"
   doi: "10.1038/srep27556"
-  image: figure-placeholder.png
+  image: ""
   description: "Shows that aerobically fit individuals exhibit distinct autonomic response patterns during prolonged vigilance tasks compared to sedentary controls."
   section: "Journal Articles"
   categories:
@@ -94,6 +278,9 @@
     - Attention
     - Autonomic
   links:
-    - name: "PDF"
+    - name: "Journal Article"
       url: "https://doi.org/10.1038/srep27556"
+      icon: "bi bi-journal-text"
+    - name: "OA PDF"
+      url: "https://pandelisperakakis.info/wp-content/uploads/2016/07/luque-casado_2016_scirep.pdf"
       icon: "bi bi-file-earmark-pdf"

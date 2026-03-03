@@ -10,24 +10,39 @@ listing:
     sort: "date desc"
     template: ../../html/research/listing.ejs
     categories: true
+    page-size: 100
   - id: preprints
     contents: papers.yml
     include:
       section: "Preprints"
     sort: "date desc"
     template: ../../html/research/listing.ejs
+    page-size: 100
+  - id: software
+    contents: papers.yml
+    include:
+      section: "Software"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
+    page-size: 100
+  - id: funding
+    contents: papers.yml
+    include:
+      section: "Funding"
+    sort: "date desc"
+    template: ../../html/research/listing-funding.ejs
+    page-size: 100
 ---
 
 ::: {.programme-overview}
-![](figure-placeholder.png){.programme-overview-img}
+![](hep.png){.programme-overview-img}
 
 ::: {.programme-overview-text}
-The current academic publishing system — dominated by a small number of commercial publishers — is costly, restrictive, and misaligned with the interests of science and society. This research line develops theoretical models and practical tools to support a transition toward **scholar-governed, open-access publishing**.
+The **heartbeat-evoked potential (HEP)** is an EEG response time-locked to the R-peak of the cardiac cycle. It reflects the cortical processing of afferent signals originating in the heart and is considered one of the most direct neural markers of **cardiac interoception** — the brain's monitoring of its own body.
 
-In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit initiative dedicated to reforming academic publishing. Our work has addressed peer review reform, overlay journals, institutional repositories, and the political economy of open access.
+This research line investigates how the HEP is modulated by internal states such as physical fitness, sleep stage, emotion, and psychopathology, and what role cardiac-brain coupling plays in sustained attention and self-perception. A central methodological contribution is **HEPLAB**, an open-source EEGLAB plugin for automated detection of cardiac events in raw ECG signals, developed in this lab and used by research groups worldwide.
 
-[<i class="bi bi-box-arrow-up-right"></i> OSF Project](#){.btn .btn-outline-primary .btn-sm target="_blank"}
-[<i class="bi bi-github"></i> GitHub](#){.btn .btn-outline-primary .btn-sm target="_blank"}
+[<i class="bi bi-github"></i> HEPLAB on GitHub](https://github.com/perakakis/HEPLAB){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 :::
 
@@ -39,4 +54,14 @@ In 2012, I co-founded [Open Scholar](https://openscholar.org.uk), a non-profit i
 ## Preprints
 
 :::{#preprints}
+:::
+
+## Software
+
+:::{#software}
+:::
+
+## Funded Projects
+
+:::{#funding}
 :::

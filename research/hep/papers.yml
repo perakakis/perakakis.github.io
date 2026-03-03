@@ -1,71 +1,145 @@
-- title: "Replacing academic journals"
-  date: "2023-07-01"
-  authors: "Brembs, B., Huneman, P., Schönbrodt, F., Nilsonne, G., Susi, T., Siems, R., Perakakis, P., et al."
-  year: 2023
-  journal: "Royal Society Open Science"
-  volume: "10(7)"
-  pages: "230206"
-  doi: "10.1098/rsos.230206"
-  image: figure-placeholder.png
-  description: "A blueprint for replacing traditional journals with a modular, scholar-governed infrastructure built on institutional repositories and open peer review."
+# Journal Articles
+
+- title: "Delving into the relationship between regular physical exercise and cardiac interoception in two cross-sectional studies"
+  date: "2024-01-01"
+  authors: "Yoris, A. E., Ciria, L. F., Luque-Casado, A., Salvotti, C., Tajadura-Jiménez, A., Avancini, C., Zarza-Rebollo, J. A., Sanabria, D., & Perakakis, P."
+  year: 2024
+  journal: "Neuropsychologia"
+  volume: "198"
+  pages: "108867"
+  doi: "10.1016/j.neuropsychologia.2024.108867"
+  image: ""
+  description: "Two cross-sectional studies examining the relationship between regular physical exercise and cardiac interoception, combining behavioral and neural (HEP) indices of heartbeat perception."
   section: "Journal Articles"
   categories:
-    - Open access
-    - Publishing reform
-    - Infrastructure
+    - Interoception
+    - Exercise
+    - HEP
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.1098/rsos.230206"
+    - name: "Journal Article"
+      url: "https://doi.org/10.1016/j.neuropsychologia.2024.108867"
+      icon: "bi bi-journal-text"
+    - name: "OA Preprint"
+      url: "https://doi.org/10.31234/osf.io/42gcm"
       icon: "bi bi-file-earmark-pdf"
 
-- title: "No-pay publishing: use institutional repositories"
-  date: "2023-07-01"
-  authors: "Bernal, I., & Perakakis, P."
-  year: 2023
-  journal: "Nature"
-  volume: "619(7971)"
-  pages: "698"
-  doi: "10.1038/d41586-023-02391-9"
-  image: figure-placeholder.png
-  description: "A correspondence arguing that institutional repositories already provide the infrastructure for free, immediate open-access dissemination without APCs."
+- title: "The heartbeat evoked potential is a questionable biomarker in nightmare disorder: A replication study"
+  date: "2022-01-01"
+  authors: "Bogdány, T., Perakakis, P., Bódizs, R., & Simor, P."
+  year: 2022
+  journal: "NeuroImage: Clinical"
+  volume: "33"
+  pages: "102933"
+  doi: "10.1016/j.nicl.2021.102933"
+  image: ""
+  description: "A replication study evaluating whether the heartbeat evoked potential serves as a reliable biomarker in nightmare disorder, using an independent sample and pre-registered analysis pipeline."
   section: "Journal Articles"
   categories:
-    - Open access
-    - Repositories
+    - HEP
+    - Sleep
+    - Interoception
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.1038/d41586-023-02391-9"
+    - name: "Journal Article"
+      url: "https://doi.org/10.1016/j.nicl.2021.102933"
+      icon: "bi bi-journal-text"
+
+- title: "Cortical monitoring of cardiac activity during rapid eye movement sleep: the heartbeat evoked potential in phasic and tonic rapid-eye-movement microstates"
+  date: "2021-09-01"
+  authors: "Simor, P., Bogdány, T., Bódizs, R., & Perakakis, P."
+  year: 2021
+  journal: "Sleep"
+  volume: "44(9)"
+  pages: ""
+  image: ""
+  description: "EEG study of cortical cardiac responses across different microstates of REM sleep. HEP amplitude was modulated by phasic versus tonic REM, revealing state-dependent cardiac interoception during sleep."
+  section: "Journal Articles"
+  categories:
+    - HEP
+    - Sleep
+    - EEG
+  links:
+    - name: "OA PDF"
+      url: "https://pandelisperakakis.info/wp-content/uploads/2021/09/Simor_2021.pdf"
       icon: "bi bi-file-earmark-pdf"
 
-- title: "OPRM: Challenges to including open peer review in open access repositories"
-  date: "2017-01-01"
-  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
+- title: "Physical activity and interoceptive processing: Theoretical considerations for future research"
+  date: "2021-01-01"
+  authors: "Wallman-Jones, A., Perakakis, P., Tsakiris, M., & Schmidt, M."
+  year: 2021
+  journal: "International Journal of Psychophysiology"
+  volume: "166"
+  pages: "38–49"
+  image: ""
+  description: "A theoretical framework linking physical activity and interoceptive processing, reviewing evidence relating exercise habits to heartbeat perception, autonomic function, and body awareness, and proposing directions for future empirical work."
+  section: "Journal Articles"
+  categories:
+    - Interoception
+    - Exercise
+    - Theory
+  links:
+    - name: "Journal Article"
+      url: "https://www.sciencedirect.com/science/article/pii/S0167876021001604"
+      icon: "bi bi-journal-text"
+
+# Preprints
+
+- title: "Neural Responses to Heartbeats of Physically Trained and Sedentary Young Adults"
+  date: "2017-06-28"
+  authors: "Perakakis, P., Luque-Casado, A., Ciria, L. F., Ivanov, P. Ch., & Sanabria, D."
   year: 2017
-  journal: "Code4Lib"
-  volume: "35"
-  image: figure-placeholder.png
-  description: "Examines the technical and social challenges of integrating transparent peer review workflows into existing open-access repository platforms."
-  section: "Journal Articles"
+  journal: "bioRxiv"
+  volume: ""
+  pages: ""
+  doi: "10.1101/156802"
+  image: hep.png
+  description: "First study to examine whether regular physical exercise modulates the cortical processing of afferent cardiac signals. Physically trained individuals showed distinct HEP patterns at two spatio-temporal clusters, correlating with sustained attention performance."
+  section: "Preprints"
   categories:
-    - Open access
-    - Peer review
+    - HEP
+    - Exercise
+    - Interoception
+  links:
+    - name: "Preprint"
+      url: "https://doi.org/10.1101/156802"
+      icon: "bi bi-file-earmark-pdf"
+
+# Funding
+
+- title: "The psychophysiological origins of the heartbeat-evoked potential"
+  date: "2019"
+  funder: "Spanish Ministry of Science, Innovation and Universities"
+  grant-id: "PGC2018-096655-A-I00"
+  role: "PI"
+  period: "2019–2022"
+  image: ""
+  description: "This project investigated the neural and physiological mechanisms underlying the heartbeat-evoked potential (HEP), examining how afferent cardiac signals are processed by the brain and how this processing relates to interoceptive awareness, physical fitness, and cognitive performance."
+  section: "Funding"
+  categories:
+    - HEP
+    - Interoception
+    - Cardiac
   links: []
 
-- title: "Natural selection of academic papers"
-  date: "2010-11-01"
-  authors: "Perakakis, P., Taylor, M., Mazza, M., & Trachana, V."
-  year: 2010
-  journal: "Scientometrics"
-  volume: "85(2)"
-  pages: "553–559"
-  doi: "10.1007/s11192-010-0253-3"
-  image: figure-placeholder.png
-  description: "Proposes an evolutionary model of scientific publishing in which open post-publication review acts as a selection mechanism for scholarly work."
-  section: "Journal Articles"
+# Software
+
+- title: "HEPLAB"
+  date: "2019-01-01"
+  authors: "Perakakis, P."
+  year: 2019
+  journal: "EEGLAB plugin / MATLAB toolbox"
+  volume: ""
+  pages: ""
+  image: ""
+  description: "Open-source EEGLAB plugin and standalone MATLAB toolbox for the automated detection of cardiac events (R-wave, T-wave) from raw ECG signals. Features an interactive GUI for artifact inspection and correction. Exports events to EEGLAB's EEG structure to facilitate heartbeat-evoked potential (HEP) analysis. Widely adopted by psychophysiology and cognitive neuroscience research groups."
+  section: "Software"
   categories:
-    - Scientometrics
-    - Publishing reform
+    - MATLAB
+    - EEGLAB
+    - Open Source
   links:
-    - name: "PDF"
-      url: "https://doi.org/10.1007/s11192-010-0253-3"
-      icon: "bi bi-file-earmark-pdf"
+    - name: "GitHub"
+      url: "https://github.com/perakakis/HEPLAB"
+      icon: "bi bi-github"
+    - name: "Zenodo"
+      url: "https://doi.org/10.5281/zenodo.2650275"
+      icon: "bi bi-archive"

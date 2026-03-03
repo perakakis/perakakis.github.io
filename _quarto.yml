@@ -22,8 +22,8 @@ website:
         text: Software
       - href: publications/index.qmd
         text: Publications
-      - href: teaching/index.qmd
-        text: Teaching
+      # - href: teaching/index.qmd
+      #   text: Teaching
       - href: blog/index.qmd
         text: Blog
 

@@ -114,6 +114,11 @@
    NEWS / BLOG LIST ON HOME
    ============================================= */
 
+#recent-posts .card-img-top {
+  object-fit: contain;
+  background-color: var(--bs-body-bg);
+}
+
 .news-list p {
   margin-bottom: 0.4rem;
   font-size: 0.95rem;

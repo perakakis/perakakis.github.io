@@ -17,15 +17,15 @@ aliases:
 
 <p>En la segunda parte de la encuesta, el 88% de los participantes considera que el "publicar o perecer" es un problema existente, el 84% piensa que la evaluación basada en el número de artículos publicados fomenta estrategias de autoría cuestionables y el 71% está de acuerdo en que esa forma de evaluación promueve malas prácticas de investigación. Aunque esto parece alentador, el número de artículos publicados se clasificó como el segundo criterio de evaluación más importante (después de ser IP o co-PI en proyectos de investigación). ¿Significa esto que contar el número de artículos es malo pero es lo mejor que tenemos? Al mismo tiempo, el 70% está de acuerdo en que sería preferible basar la evaluación de la investigación en un número predeterminado de las mejores contribuciones. ¿Este método, que ya aplican algunas agencias nacionales de evaluación, podría apuntar en la dirección correcta?</p>
 
-<img src="assets/Picture-1-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:600px;" />
+<img src="assets/Picture-1-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
 
 <p>A pesar de lo mucho que se ha dicho y escrito sobre la irrelevancia del Factor de Impacto para la evaluación de los autores individuales, este criterio fue calificado como el décimo más importante, con un 54% de los participantes que lo consideraron "muy" o "bastante importante". El índice de Hirsch se consideró menos importante y ocupó el 16º lugar.</p>
 
-<img src="assets/Picture-2-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:600px;" />
+<img src="assets/Picture-2-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
 
 <p>Otra observación desalentadora fue que la publicación de estudios prerregistrados no se consideró relevante para la evaluación de la investigación, ocupando el 36º lugar en el orden de importancia, con un 51% de los encuestados que lo calificaron de "poco importante" o "nada importante". Al mismo tiempo, la publicación de preprints fue el criterio menos importante, calificado como poco o nada importante por el 60% de los participantes. Aunque la importancia de los preprints no varió en función de la disciplina o la edad, resulta prometedor que el prerregistro se considerara más importante entre los investigadores más jóvenes (22-40 años) de las ciencias de la vida, ya que "sólo" el 28% de los encuestados lo consideraron poco importante.</p>
 
-<img src="assets/Picture-3-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:600px;" />
+<img src="assets/Picture-3-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
 
 <p>La inclusión de una entrevista en el proceso de contratación, que actualmente sólo implica la presentación de un CV en un formato específico que varía de una institución a otra (!), fue apoyada por el 79% de los encuestados y ocupó el noveno lugar en orden de importancia. Curiosamente, al dividir los resultados por género, parece que las mujeres tienden a considerar la inclusión de una entrevista como menos importante que los hombres: este criterio ocupa el séptimo lugar para los hombres y el decimoséptimo para las mujeres.</p>
 

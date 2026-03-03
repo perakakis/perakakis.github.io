@@ -16,8 +16,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research/index.qmd
-        text: Research
+      - text: Research
+        menu:
+          - text: "Overview"
+            href: research/index.qmd
+          - text: "---"
+          - text: "Affect Dynamics"
+            href: research/affect-dynamics/index.qmd
+          - text: "Heartbeat-Evoked Potential"
+            href: research/hep/index.qmd
+          - text: "Exercise, Brain & Cognition"
+            href: research/exercise-brain-cognition/index.qmd
+          - text: "Scholarly Communication"
+            href: research/scholarly-communication/index.qmd
       - href: software/index.qmd
         text: Software
       - href: publications/index.qmd

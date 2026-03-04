@@ -2,7 +2,7 @@
 title: "How to sell your journal: The secret business of academic journal acquisitions"
 date: 2023-10-28
 description: "A Singapore-based company offered to buy our journal for up to $300,000 — part of a plan to acquire 100 journals and sell them to a large commercial publisher. What this reveals about the responsibility of academic societies in the commercial takeover of scholarly communication."
-categories: [Opinions, Scholarly Communication]
+categories: [Opinions, News & Events, Journal acquisitions, Publishers]
 image: assets/publishing-1024x532.jpg
 aliases:
   - /2023/10/28/how-to-sell-your-academic-journal-and-for-how-much/

@@ -2,7 +2,7 @@
 title: "How to upload your scientific software code to GitHub and get a DOI from Zenodo"
 date: 2019-04-14
 description: "A step-by-step guide to migrating scientific software to GitHub and linking it with Zenodo for automatic DOI assignment — illustrated with the KARDIA software."
-categories: [Open Science, Software]
+categories: [Opinions, News & Events, Software, GitHub]
 image: assets/github-coffee.jpeg
 aliases:
   - /2019/04/14/how-to-upload-your-scientific-software-code-to-github-and-get-a-doi-from-zenodo/

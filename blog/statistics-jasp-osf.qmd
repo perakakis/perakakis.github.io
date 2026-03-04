@@ -2,7 +2,7 @@
 title: "My teaching material for an undergraduate course in statistics using JASP available at OSF"
 date: 2019-05-21
 description: "Teaching material in Spanish for an undergraduate statistics course based on JASP, now publicly available on the OSF platform."
-categories: [Teaching]
+categories: [Teaching, Statistics, Course material]
 aliases:
   - /2019/05/21/my-teaching-material-for-an-undergraduate-course-in-statistics-using-jasp-published-in-osf/
 ---

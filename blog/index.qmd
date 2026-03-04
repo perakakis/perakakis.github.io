@@ -4,8 +4,10 @@ listing:
   contents: "*.qmd"
   sort: "date desc"
   type: default
+  # type: grid
   categories: true
   fields: [date, title, categories, description]
+  # fields: [date, title, categories, description, image]
 page-layout: full
 toc: false
 ---

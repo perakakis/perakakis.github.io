@@ -7,5 +7,5 @@ comments:
     category: "Announcements"
     category-id: "DIC_kwDORZS9qs4C3rsL"
     mapping: "pathname"
-    reactions-enabled: true
+    reactions-enabled: false
     loading: lazy

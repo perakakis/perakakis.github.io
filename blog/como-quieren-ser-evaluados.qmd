@@ -3,7 +3,7 @@ title: "¿Cómo quieren ser evaluados los investigadores en España?"
 date: 2022-09-06
 lang: es
 description: "875 investigadores académicos en España valoran el número de artículos publicados más de lo que admiten, y el prerregistro apenas importa. Algunos resultados sorprendentes de nuestra encuesta sobre criterios de evaluación del CV investigador."
-categories: [Opinions, Talks & Presentations, Science policy]
+categories: [Opinions, Talks & Presentations, Science policy, Survey]
 image: assets/Picture-1-1024x684.png
 aliases:
   - /2022/09/06/como-quieren-ser-evaluados-los-investigadores-en-espana/

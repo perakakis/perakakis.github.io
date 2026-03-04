@@ -1,1 +1,11 @@
 toc: false
+
+comments:
+  giscus:
+    repo: "perakakis/perakakis.github.io"
+    repo-id: "R_kgDORZS9qg"
+    category: "Announcements"
+    category-id: "DIC_kwDORZS9qs4C3rsL"
+    mapping: "pathname"
+    reactions-enabled: true
+    loading: lazy

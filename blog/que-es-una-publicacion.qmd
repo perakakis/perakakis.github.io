@@ -8,7 +8,7 @@ aliases:
   - /2022/09/12/que-es-una-publicacion-cientifica-y-que-no-lo-es/
 ---
 
-<p>Hace unos meses <a href="https://pandelisperakakis.info/2022/02/23/how-do-researchers-in-spain-wish-to-be-evaluated/">publicamos los resultados de una encuesta</a> en la que preguntábamos a académicos en España su opinión sobre los criterios de evaluación del CV investigador en un proceso de contratación.</p>
+<p>Hace unos meses <a href="https://perakakis.github.io/2022/02/23/how-do-researchers-in-spain-wish-to-be-evaluated/">publicamos los resultados de una encuesta</a> en la que preguntábamos a académicos en España su opinión sobre los criterios de evaluación del CV investigador en un proceso de contratación.</p>
 
 <p>Sin embargo, una cosa es llegar a un consenso sobre criterios y otra es la aplicación de estos criterios por parte de las comisiones de evaluación de los distintos departamentos.</p>
 

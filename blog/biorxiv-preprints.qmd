@@ -2,7 +2,7 @@
 title: "Why think twice before submitting a preprint to bioRxiv"
 date: 2019-07-14
 description: "BioRxiv's policy against hosting final published versions makes it incompatible with green open access — and its ecosystem ties raise deeper concerns about whose interests it serves."
-categories: [Opinions, Scholarly Communication]
+categories: [Opinions, Science policy, Repositories]
 aliases:
   - /2019/07/14/why-think-twice-before-submitting-a-preprint-to-biorxiv/
 ---

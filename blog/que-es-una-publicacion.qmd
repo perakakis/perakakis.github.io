@@ -3,7 +3,7 @@ title: "Qué es una publicación científica y qué no lo es"
 date: 2022-09-12
 lang: es
 description: "Una comisión de evaluación de la Universidad de Granada aceptó columnas divulgativas sin revisión por pares como publicaciones científicas. El caso más extremo que he vivido en los procesos de selección académica en Andalucía."
-categories: [Opinions, Scholarly Communication]
+categories: [Opinions, Science policy]
 aliases:
   - /2022/09/12/que-es-una-publicacion-cientifica-y-que-no-lo-es/
 ---

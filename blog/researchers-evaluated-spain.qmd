@@ -2,7 +2,7 @@
 title: "How do researchers in Spain wish to be evaluated?"
 date: 2022-02-23
 description: "Results from a survey of 875 research academics in Spain on what criteria should matter most in research evaluation — and why the answers are both encouraging and sobering."
-categories: [Opinions, Scholarly Communication]
+categories: [Opinions, Publications, Science policy, Survey]
 aliases:
   - /2022/02/23/how-do-researchers-in-spain-wish-to-be-evaluated/
 ---

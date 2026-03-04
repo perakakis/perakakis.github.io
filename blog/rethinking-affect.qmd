@@ -2,7 +2,7 @@
 title: "Rethinking how we measure affect: new insights into psychological well-being"
 date: 2025-02-05
 description: "Well-being is better predicted by how we transition between positive and negative states than by how intensely we feel. Our new study in <em>Emotion</em> introduces the Affect Shift Ratio as a simpler, more intuitive measure of psychological health."
-categories: [Publications, Research]
+categories: [Publications, News & Events, Affect dynamics]
 image: assets/metrics-768x550.jpg
 aliases:
   - /2025/02/05/rethinking-how-we-measure-affect-new-insights-into-psychological-well-being/

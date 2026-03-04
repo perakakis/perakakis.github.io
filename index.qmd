@@ -5,9 +5,13 @@ toc: false
 listing:
   - id: recent-posts
     contents:
-      - blog/*.qmd
-      - "!blog/index.qmd"
-      - "!blog/que-es-una-publicacion.qmd"
+      - blog/rethinking-affect.qmd
+      - blog/github-zenodo-doi.qmd
+      # - blog/biorxiv-preprints.qmd
+      - blog/journal-acquisitions.qmd
+      # - blog/*.qmd
+      # - "!blog/index.qmd"
+      # - "!blog/que-es-una-publicacion.qmd"
     sort: "date desc"
     type: grid
     image-height: 180px
@@ -31,7 +35,7 @@ I am deeply concerned about the current academic publication and evaluation mode
 [<i class="bi bi-envelope"></i> Email](mailto:perakakis@gmail.com){.btn .btn-outline-primary .btn-sm}
 :::
 
-## What's new
+## News | Opinions | Recent Work
 
 ::: {#recent-posts}
 :::

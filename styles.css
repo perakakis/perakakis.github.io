@@ -23,6 +23,11 @@
   margin: 0 1.5rem 1rem 0;
 }
 
+/* Right-align the social buttons paragraph (last <p> in .home-about) */
+.home-about > p:last-of-type {
+  text-align: right;
+}
+
 @media (max-width: 576px) {
   .home-about > p:first-child {
     text-align: center;
@@ -33,6 +38,9 @@
     height: 140px;
     max-width: 140px;
     margin: 0 auto 1rem auto;
+  }
+  .home-about > p:last-of-type {
+    text-align: center;
   }
 }
 

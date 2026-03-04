@@ -11,6 +11,6 @@ aliases:
 
 <p>Here are the slides and a video of the talk.</p>
 
-<p><a href="https://pandelisperakakis.info/wp-content/uploads/2021/07/NYU_2021.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download slides (PDF)</a></p>
+<p><a href="assets/NYU_2021.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download slides (PDF)</a></p>
 
 {{< video https://youtu.be/TgTsgbbdUog >}}

@@ -1,0 +1,36 @@
+---
+title: "Things to consider before accepting your next peer review assignment"
+date: 2020-08-25
+description: "Why I decline most peer review invitations and what we can all do to exert pressure towards a more open and transparent scholarly communication system."
+categories: [Opinions, Scholarly Communication]
+aliases:
+  - /2020/08/25/things-to-consider-before-accepting-your-next-peer-review-assignment/
+---
+
+<p>For the last couple of years, I reply to most review invitations by academic editors or journal staff with the following lines:</p>
+
+<blockquote>
+  <p>Thank you for your kind invitation. I will accept to submit my signed review to your journal only under the condition that it will be published next to the original article with an attribution license that allows unrestricted distribution through any digital or non-digital medium.</p>
+</blockquote>
+
+<p>In the majority of cases, I am never bothered again.</p>
+
+<p>Since I have been sometimes criticised for this behaviour because reviewing is "part of our job", our "duty to science", a "service to our fellow colleagues", the "fair thing to do if you also want your papers published", and so on, let me briefly state the reasons why I choose to act in this way, and perhaps persuade you to do the same.</p>
+
+<p>For over ten years I have been supporting and helping develop a model in which scholarly works are published in a network of interoperable institutional repositories that enables overlay services, such as peer review, annotation, data mining, etc. In this model, reviews are published alongside the original works to allow proper recognition for reviewers and a transparent account of the scientific dialogue around each contribution.</p>
+
+<p>This model (proposed <a href="https://www.openscholar.org.uk/wp-content/uploads/2015/08/nsap_perakakis_2010.pdf" target="_blank">here</a> and described in more detail <a href="https://www.tandfonline.com/doi/full/10.1080/08109028.2014.891712" target="_blank">here</a>) dissociates the processes of publication and quality verification (or validation), with the latter becoming an <em>open</em> (meaning that any certified academic can participate) and <em>transparent</em> (meaning that the full text of the reviews is open to the public) overlay service on already published material. Overlay peer reviews can originate from the initiative of individual peers or be commissioned by editorial groups, evaluation committees or funding agencies that require the certification of specific research works.</p>
+
+<p>In sharp contrast, the current model reduces academic reviews to editorial decisions on whether to publish a given work or not. This is an aberration inherited from the pre-digital era that publishers have exploited to set up one of the most profitable existing oligopolies. The <a href="https://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/" target="_blank">key strategy</a> has been to treat knowledge, which gains value through unrestricted sharing, as a limited material resource, the academic paper, whose market value is determined by the economics of scarcity and exclusivity.</p>
+
+<p>When we review a research work only to facilitate an editorial decision on whether to publish or not, we help sustain an outdated and inefficient system that has a <a href="https://www.euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/" target="_blank">tremendous negative impact</a> on the scientific process in general.</p>
+
+<p>Without access to the actual opinions of peers, we are left only with unreliable proxies for academic quality, such as citation indexes and "journal prestige". Thus, we end up hiring researchers and funding projects without having evaluated their quality in an efficient and transparent manner.</p>
+
+<p>By demanding that our reviews are published together with the reviewed works, we put pressure on publishers to adopt an <a href="https://www.openscholar.org.uk/independent-peer-review-manifesto/" target="_blank">open peer review model</a>, which allows for a more efficient evaluation of both scientific contributions and the editorial processes themselves. Precisely for that reason, this review model is being deliberately sabotaged by large commercial publishers. Open reviews would allow objective comparisons between journals and the realisation that, in many cases, the editorial and review process of "smaller" journals is more complete and rigorous compared to the one provided by more "prestigious" journals. Bad news for business.</p>
+
+<p>I believe there are many individual and collective decisions we can make to exert pressure and accelerate change. It is precisely this "pressure from below" that revolutionised the process of scientific communication in the last 20 years, giving rise to numerous significant innovations: open reviews, open access data and code repositories, overlay journals, preprints, peer-review platforms, etc. What is crucial in this effort is a wide consensus regarding the desirable model and coordinated action towards the correct direction.</p>
+
+<p>For the last 15 years I have been following closely all relevant developments in the area of academic publication and evaluation and I am convinced that the model we should strive for is one based on the existing infrastructure of institutional repositories, as <a href="https://www.coar-repositories.org/news-updates/what-we-do/next-generation-repositories/" target="_blank">promoted by COAR</a> and other similar initiatives worldwide.</p>
+
+<p>I do not therefore consider that it is my job to contribute to the maintenance of the current system or that reviewing as a favour to journals, editors and publishers is my duty to science and my fellow colleagues. On the contrary, I see as my duty to do everything in my power to expose the deficiencies of the system, propose concrete and feasible alternatives, and work towards their implementation.</p>

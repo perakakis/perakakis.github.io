@@ -1,0 +1,37 @@
+---
+title: "How to upload your scientific software code to GitHub and get a DOI from Zenodo"
+date: 2019-04-14
+description: "A step-by-step guide to migrating scientific software to GitHub and linking it with Zenodo for automatic DOI assignment — illustrated with the KARDIA software."
+categories: [Open Science, Software]
+image: assets/github-coffee.jpeg
+aliases:
+  - /2019/04/14/how-to-upload-your-scientific-software-code-to-github-and-get-a-doi-from-zenodo/
+---
+
+<p>This past weekend I had the pleasant experience of migrating my software KARDIA from its old home at the <a href="https://sourceforge.net/projects/mykardia/" target="_blank">SourceForge</a> repository to <a href="https://github.com/perakakis/KARDIA" target="_blank">GitHub</a>. Although the clearest benefit from this migration is the possibility to more easily collaborate with other programmers for the future development of the software, there are several other sweet candies that came along...</p>
+
+<p>First of all, it looks great! With less than an hour of markdown editing, the <em>README</em> file, that is open by default when you visit the landing page, became KARDIA's tutorial, with a detailed description of all the main functions, including screenshots from the program's graphical interface.</p>
+
+<p>Second, with the perfect integration between GitHub and Zenodo, in less than five minutes I had uploaded the latest release of the software code to the <a href="https://zenodo.org/record/2638856#.XLJPDy97FTY" target="_blank">Zenodo repository</a>, which instantly assigned a DOI, making the code itself a citable research object!</p>
+
+<p>GitHub is ultimately a collaboration platform for programmers who wish to work together for the co-development of open source software, but is also a place for end users to request features, report bugs and offer their feedback. Another cool feature is the <em>wiki</em> option, which makes it possible for programmers and users to collaborate for the development of instructional material and detailed use cases.</p>
+
+<p>GitHub has been around for about 10 years and is considered the state of the art in git-based software development platforms. My first impressions from this new workflow for developing and sharing open source scientific software have been so positive that I strongly recommend it to any colleagues who think that their software code could be useful to others.</p>
+
+<p>Here are a few steps to get you going:</p>
+
+<ol>
+  <li>Document your code properly using function descriptions, inline comments and intuitive variable names.</li>
+  <li>Install the <em>git</em> version control system: <a href="https://git-scm.com" target="_blank">https://git-scm.com</a>.</li>
+  <li>Create a <a href="https://github.com" target="_blank">GitHub</a> account and add a new repository.</li>
+  <li>Use terminal commands (see the <a href="https://git-scm.com/doc" target="_blank">documentation</a>) or a third-party interface such as <a href="https://desktop.github.com" target="_blank">GitHub Desktop</a> to upload your local repository to GitHub.</li>
+  <li>After uploading, make sure to include a license file and a readme file. GitHub makes it easy by adding these two files automatically upon request. Edit your readme file using Markdown to introduce your software and its functions. You can use KARDIA's readme as a reference — here is the <a href="https://raw.githubusercontent.com/perakakis/KARDIA/master/README.md" target="_blank">raw code</a> and here is the <a href="https://github.com/perakakis/KARDIA/blob/master/README.md" target="_blank">formatted result</a>.</li>
+  <li>Create a <a href="https://zenodo.org" target="_blank">Zenodo</a> account if you do not already have one.</li>
+  <li>Once logged in to Zenodo, follow the simple steps described <a href="https://guides.github.com/activities/citable-code/" target="_blank">here</a> and in less than five minutes you will have your software code automatically uploaded to Zenodo with a DOI — and a beautiful badge like this one: <a href="https://doi.org/10.5281/zenodo.2638856" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2638856.svg" alt="DOI" style="vertical-align: middle;"/></a></li>
+</ol>
+
+<p>If you feel that your software also deserves to be reviewed and published as a journal paper with its own DOI, a great option is <a href="http://joss.theoj.org" target="_blank">The Journal of Open Source Software</a>. From what I have read at the <a href="https://joss.readthedocs.io/en/latest/submitting.html" target="_blank">author guidelines</a>, everything looks pretty straightforward once your code is properly documented and uploaded to GitHub.</p>
+
+<p>Finally, make sure to share your new repository with your colleagues and with existing users of your software. And when all is said and done, sit back, relax and celebrate your contribution to making science more open and collaborative.</p>
+
+<img src="assets/github-coffee.jpeg" alt="A cup of coffee" style="display:block; margin: 1.5rem auto; max-width:min(400px, 100%);" />

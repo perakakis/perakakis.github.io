@@ -1,0 +1,41 @@
+---
+title: "Why think twice before submitting a preprint to bioRxiv"
+date: 2019-07-14
+description: "BioRxiv's policy against hosting final published versions makes it incompatible with green open access — and its ecosystem ties raise deeper concerns about whose interests it serves."
+categories: [Opinions, Scholarly Communication]
+aliases:
+  - /2019/07/14/why-think-twice-before-submitting-a-preprint-to-biorxiv/
+---
+
+<p>To explain my reasons for not supporting bioRxiv let me first restate my vision for the future of scholarly communication. As I argued <a href="https://pandelisperakakis.info/wp-content/uploads/2019/06/NSAP_Perakakis_2010.pdf" target="_blank">back in 2010</a>, all scientific content (papers, data, software code, etc) should be archived in a distributed network of public, open access infrastructure (e.g., institutional repositories) that will facilitate overlay services (e.g., peer review, data mining), preferably developed by volunteer academic societies and non-profit organisations using open source tools. In our <a href="https://pandelisperakakis.info/wp-content/uploads/2019/06/NSAP_Perakakis_2010.pdf" target="_blank">2010 NSAP paper</a> this network was called the Global Open Archive (GOA). Today, it is the distributed network COAR promotes in its <a href="http://ngr.coar-repositories.org" target="_blank">Next Generation Repositories project</a>.</p>
+
+<p>The road towards this future has several important milestones, one of them being the wide adoption of <em>Green</em> Open Access practices. This means that, instead of looking for OA journals to publish their work, researchers should publish their papers wherever is more suitable for them, making sure that they also post the final peer-reviewed version to a qualified (e.g., ensuring permanent archiving and interoperability) OA repository. The specific workflow many others and I propose is described in more detail <a href="http://www.openscholar.org.uk/independent-peer-review-manifesto/" target="_blank">here</a> and <a href="http://www.tandfonline.com/doi/abs/10.1080/08109028.2014.891712?src=recsys" target="_blank">here</a>.</p>
+
+<p>It is easy to see that this workflow is in tension with the <em>Gold</em> OA model, where journals and their publishers remain the central player in a competitive market, merely switching their business model from pay-to-access to pay-to-publish. For obvious reasons, the gold model is constantly being presented as the only viable solution to the accessibility problem, undermining the importance of other <a href="https://pandelisperakakis.info/2017/05/15/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/" target="_blank">more transcendent issues</a> stemming from the current journal-based system.</p>
+
+<p>Having clarified this, I now come to my problem with bioRxiv. BioRxiv is the only, to my knowledge, OA article repository that does not allow authors to upload the final journal-published version of their papers (also called VOR, which stands for version of record). I was surprised to discover this when I tried to update one of my own preprints right after I received the acceptance letter from the journal. Curiously, bioRxiv already knew that the manuscript had been accepted, meaning that there had been some kind of communication with the publisher of the journal — which by the way was Elsevier. After raising this issue on Twitter, bioRxiv founder Richard Sever replied that the reason for this policy is technical and related to the issuing of DOIs:</p>
+
+<blockquote>
+  <p>BioRxiv does not post papers when an existing published version of record (VOR) exists. Instead we automatically link to the VOR. This ensures the date associated with preprint DOI deposition is not later than that of VOR DOI registration (note arxiv does not use DOIs)</p>
+  <footer>— Richard Sever (@cshperspectives), <a href="https://twitter.com/cshperspectives/status/1018102291071688705" target="_blank">July 14, 2018</a></footer>
+</blockquote>
+
+<p>Regardless the reasons behind bioRxiv's VOR policy, its outcome is very clear. In a green OA workflow, authors that submit their preprint to bioRxiv have to find a second repository to publish the final version of their paper once it is accepted by a journal. Apart from the unnecessary extra effort, this also means that a paper can now have three online versions with three different DOIs: bioRxiv, journal, and open access green repository. This makes bioRxiv the first green unfriendly OA repository and produces an artificial and seemingly unjustified distinction between the two fundamental functions of self-archiving: early dissemination and green OA.</p>
+
+<p>An obvious reason for wanting to make this distinction is that early dissemination through a preprint archive is perfectly aligned with gold OA and therefore — contrary to green OA — poses no threat to the current journal/publisher academic validation, evaluation and communication system. In the words of Joseph Esposito, management consultant for the publishing industries:</p>
+
+<blockquote>
+  <p>Gold OA represents a business opportunity, whereas Green OA represents a business problem.</p>
+  <footer>— <a href="https://scholarlykitchen.sspnet.org/2013/12/03/how-plos-one-can-have-it-all/" target="_blank">Scholarly Kitchen</a></footer>
+</blockquote>
+
+<p>Again on Twitter, responding to my concerns about bioRxiv, Stephen Curry, one of its strong supporters and listed as affiliate member on the website, explicitly revealed his preference for gold OA:</p>
+
+<blockquote>
+  <p>If you want your final paper to be OA, choose an appropriate journal.</p>
+  <footer>— Stephen Curry (@Stephen_Curry), <a href="https://twitter.com/Stephen_Curry/status/1018036912781656064" target="_blank">July 14, 2018</a></footer>
+</blockquote>
+
+<p>In a complex ecosystem undergoing a phase transition, even the slightest perturbation may determine the final stable state. In our case, academic publishing is about to exit a period of strong turmoil and stabilise around one of two alternative attractors, either a mutation of the current commercially-driven state, or a science-centred state built on federated public infrastructure. In this complex landscape, favouring one service over another is a crucial choice that should be made with responsibility, knowing that it may eventually make the difference between one future or the other.</p>
+
+<p>Yes, bioRxiv seems like a good thing, accelerating scientific communication and all that, but at the end of the day it is part of an ecosystem we should be trying hard to disrupt and radically transform. I will not repeat here why gold OA may make things worse than they currently are. For elaborate arguments you can have a look <a href="http://bjoern.brembs.net/2018/04/why-open-access-big-deals-are-worse-than-subscriptions/" target="_blank">here</a> and <a href="http://bjoern.brembs.net/2016/04/how-gold-open-access-may-make-things-worse/" target="_blank">here</a>. I simply wish to clarify that there is absolutely no reason for using bioRxiv instead of other repositories that support green OA (e.g., arXiv, PeerJ preprints, all OSF-powered repositories, all institutional repositories). Knowing this, it surprises me to see influential open science advocates, whose work I otherwise admire and support, wrongly advertise bioRxiv as part of a green OA workflow where clearly it does not belong. We are all responsible for choosing more carefully which tools, services, platforms, infrastructures we use and support. In the near future these apparently innocent choices will translate into abysmal differences in how we do and communicate science.</p>

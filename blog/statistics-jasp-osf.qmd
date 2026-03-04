@@ -1,0 +1,14 @@
+---
+title: "My teaching material for an undergraduate course in statistics using JASP available at OSF"
+date: 2019-05-21
+description: "Teaching material in Spanish for an undergraduate statistics course based on JASP, now publicly available on the OSF platform."
+categories: [Teaching]
+aliases:
+  - /2019/05/21/my-teaching-material-for-an-undergraduate-course-in-statistics-using-jasp-published-in-osf/
+---
+
+<p>I have used the <a href="https://osf.io" target="_blank">OSF platform</a> to publish my teaching material (in Spanish) for the undergraduate course in statistics I gave this year at the Loyola University. The material was based on the book <em>Statistics for the Behavioral Sciences</em> by Susan A. Nolan and Thomas E. Heinzen (second edition) and was largely inspired by <a href="https://osf.io/t56kg/" target="_blank">available material</a> from Erin Michelle Buchanan, Tabetha Gaile Hopke, and Simone Donaldson.</p>
+
+<p>For more information about the course please visit the <a href="https://pandelisperakakis.info/2019/05/21/publicado-en-osf-el-material-docente-para-mi-curso-de-introduccion-a-la-estadistica/" target="_blank">Spanish version of this post</a>, or go directly to the public page on OSF:</p>
+
+<p>Perakakis, P. (2019, May 21). <em>Un curso de introducción a la estadística en psicología usando JASP.</em> <a href="https://doi.org/10.17605/OSF.IO/V5RJD" target="_blank">https://doi.org/10.17605/OSF.IO/V5RJD</a></p>

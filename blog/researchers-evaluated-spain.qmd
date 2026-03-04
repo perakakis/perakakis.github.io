@@ -15,9 +15,15 @@ aliases:
 
 <p>In the second part of the survey, 88% of the participants consider that "publish or perish" is an existing problem, 84% think that evaluation based on the number of published articles fosters questionable authorship strategies, and 71% agree that such a way of evaluation promotes bad research practices. While this seems encouraging, the number of published articles was ranked as the second most important evaluation criterion (after being PI or co-PI in research projects). Does this mean that counting the number of articles is bad but it is the best we have? At the same time, 70% agree that it would be preferable to base research evaluation on a pre-determined number of the best contributions. Could this method, which is already being applied by some national evaluation agencies, be pointing in the right direction?</p>
 
+<img src="assets/Picture-1-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
+
 <p>Despite so much being said and written about the irrelevance of the Impact Factor for the evaluation of individual authors, this criterion was rated as the tenth most important, with 54% of the participants considering it "very" or "fairly important". The Hirsch index was considered less important and ranked 16th.</p>
 
+<img src="assets/Picture-2-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
+
 <p>Another disheartening observation was that publishing pre-registered studies was not considered relevant for research assessment, ranking 36th in the order of importance, with 51% of the respondents rating it as "not very important" or "not important at all". At the same time, publishing preprints was the least important criterion, rated as not very important or not important at all by 60% of the participants. Although the importance of preprints did not vary by discipline or age, it is promising that preregistration was considered more important among younger researchers (22–40 years old) in the life sciences, with "only" 28% of respondents considering it unimportant.</p>
+
+<img src="assets/Picture-3-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
 
 <p>The inclusion of an interview in the recruitment process, which currently only involves the submission of a CV in a specific format that varies from one institution to another, was supported by 79% of the respondents and ranked ninth in order of importance (only one place above the IF!). Interestingly, when dividing the results by gender, it appears that women tend to consider the inclusion of an interview as less important than men: this criterion ranks seventh for men and seventeenth for women.</p>
 

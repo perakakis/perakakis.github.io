@@ -2,8 +2,8 @@
 title: "How to upload your scientific software code to GitHub and get a DOI from Zenodo"
 date: 2019-04-14
 description: "A step-by-step guide to migrating scientific software to GitHub and linking it with Zenodo for automatic DOI assignment — illustrated with the KARDIA software."
-categories: [Opinions, News & Events, Software, GitHub]
-image: assets/github-coffee.jpeg
+categories: [Opinions, News & Events, Software, GitHub, Zenodo]
+image: assets/git2zenodo.png
 aliases:
   - /2019/04/14/how-to-upload-your-scientific-software-code-to-github-and-get-a-doi-from-zenodo/
 ---
@@ -33,5 +33,3 @@ aliases:
 <p>If you feel that your software also deserves to be reviewed and published as a journal paper with its own DOI, a great option is <a href="http://joss.theoj.org" target="_blank">The Journal of Open Source Software</a>. From what I have read at the <a href="https://joss.readthedocs.io/en/latest/submitting.html" target="_blank">author guidelines</a>, everything looks pretty straightforward once your code is properly documented and uploaded to GitHub.</p>
 
 <p>Finally, make sure to share your new repository with your colleagues and with existing users of your software. And when all is said and done, sit back, relax and celebrate your contribution to making science more open and collaborative.</p>
-
-<img src="assets/github-coffee.jpeg" alt="A cup of coffee" style="display:block; margin: 1.5rem auto; max-width:min(400px, 100%);" />

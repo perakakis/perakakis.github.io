@@ -2,7 +2,8 @@
 title: "The Hitchhiker's Guide to Academic Publishing"
 date: 2021-07-05
 description: "Slides and video from my invited talk at NYU Psychology on preprints, open peer review, routes to open access, and funder mandates."
-categories: [Talks & Presentations, Peer review, Publishers]
+categories: [Talks & Presentations, Peer review, Academic publishing, Open Access]
+image: assets/panic.jpg
 aliases:
   - /2021/07/05/the-hitchhikers-guide-to-academic-publishing/
 ---

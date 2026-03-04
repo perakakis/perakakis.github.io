@@ -1,0 +1,16 @@
+---
+title: "The Hitchhiker's Guide to Academic Publishing"
+date: 2021-07-05
+description: "Slides and video from my invited talk at NYU Psychology on preprints, open peer review, routes to open access, and funder mandates."
+categories: [Scholarly Communication, Talks & Presentations]
+aliases:
+  - /2021/07/05/the-hitchhikers-guide-to-academic-publishing/
+---
+
+<p>Being a big fan of Douglas Adams and his historical pentalogy, I always wanted to give a talk or write an article with this title. The opportunity appeared last week following an invitation from Charlie Burlingham (@csburlingham), a PhD student in the Psychology department at NYU. Charlie found me through my articles and blog posts and sent me an email asking me to give a talk in his department to discuss some of the recent developments in scholarly publishing: preprints, open peer review, different roads to open access, funder mandates, etc. Every invitation is appreciated, but coming from a student whose only motivation is his interest in discussing and learning more about these issues that eventually shape the way we do and share research made it particularly special. Thank you Charlie!</p>
+
+<p>Here are the slides and a video of the talk.</p>
+
+<p><a href="https://pandelisperakakis.info/wp-content/uploads/2021/07/NYU_2021.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download slides (PDF)</a></p>
+
+{{< video https://youtu.be/TgTsgbbdUog >}}

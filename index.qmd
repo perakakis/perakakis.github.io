@@ -24,10 +24,11 @@ My current main research program focuses on [affect dynamics](research/affect-dy
 
 I am deeply concerned about the current academic publication and evaluation model and advocate for [scholar-governed alternatives](research/scholarly-communication/index.qmd), leveraging institutional repositories and implementing open peer review.
 
-[<i class="bi bi-github"></i> GitHub](https://github.com/perakakis){.btn .btn-outline-secondary .btn-sm target="_blank"}
 [<i class="bi bi-mortarboard-fill"></i> Google Scholar](https://scholar.google.com/citations?user=5S-EVSAAAAAJ){.btn .btn-outline-secondary .btn-sm target="_blank"}
 [<i class="bi bi-globe"></i> ORCID](https://orcid.org/0000-0002-9130-3247){.btn .btn-outline-secondary .btn-sm target="_blank"}
+[<i class="bi bi-github"></i> GitHub](https://github.com/perakakis){.btn .btn-outline-secondary .btn-sm target="_blank"}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pandelis-perakakis-1369402a/){.btn .btn-outline-secondary .btn-sm target="_blank"}
+[<i class="bi bi-envelope"></i> Email](mailto:perakakis@gmail.com){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ## What's new

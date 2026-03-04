@@ -29,9 +29,9 @@ Open-source MATLAB tools I developed for psychophysiological data analysis, free
 [SourceForge](https://sourceforge.net/projects/mykardia/){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 
-::: {.tool-citation}
+<!-- ::: {.tool-citation}
 Perakakis, P., Joffily, M., Taylor, M., Guerra, P., & Vila, J. (2010). KARDIA: a Matlab software for the analysis of cardiac interbeat intervals. *Computer Methods and Programs in Biomedicine*, 98, 83–89.
-:::
+::: -->
 :::
 
 ::: {.research-card .software-card}
@@ -54,9 +54,9 @@ Perakakis, P., Joffily, M., Taylor, M., Guerra, P., & Vila, J. (2010). KARDIA: a
 [Zenodo](https://doi.org/10.5281/zenodo.2650275){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 
-::: {.tool-citation}
+<!-- ::: {.tool-citation}
 Perakakis, P. (2019). HEPLAB: A Matlab graphical interface for the preprocessing of the heartbeat-evoked potential. *Zenodo*.
-:::
+::: -->
 :::
 
 :::

@@ -10,4 +10,5 @@ listing:
   # fields: [date, title, categories, description, image]
 page-layout: full
 toc: false
+comments: false
 ---

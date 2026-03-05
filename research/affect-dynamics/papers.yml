@@ -80,6 +80,9 @@
       url: "https://doi.org/10.3390/s19153430"
       icon: "bi bi-journal-text"
 
+
+#### Preprints
+
 - title: "“How Do You Feel?” Direct Valence Measurement Enables Affect Shift Metrics That Outperform Intensity-Based Predictors Of Psychological Well-Being"
   date: "2026"
   authors: "Goicoechea, C., & Perakakis, P."
@@ -99,7 +102,10 @@
   links:
     - name: "Preprint PDF"
       url: "https://doi.org/10.31234/osf.io/gmkc8_v1"
-      icon: "bi bi-file-earmark-pdf"    
+      icon: "bi bi-file-earmark-pdf"
+    - name: "Data and Code"
+      url: "https://github.com/perakakis/valence-article"
+      icon: "bi bi-github"
     - name: "OSF Project"
       url: "https://osf.io/qfkhj"
       icon: "bi bi-box-arrow-up-right"

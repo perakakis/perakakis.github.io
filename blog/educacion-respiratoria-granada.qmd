@@ -1,0 +1,15 @@
+---
+title: "Diapositivas de mi presentación sobre educación respiratoria en pacientes de Asma en la Universidad de Granada"
+date: 2014-05-29
+description: "Diapositivas de una charla en la Facultad de Psicología de la Universidad de Granada sobre la definición del asma como trastorno crónico inflamatorio y la evidencia a favor del entrenamiento respiratorio."
+categories: [Talks & Presentations, Asthma, Breathing]
+aliases:
+  - /2014/05/29/slides-of-my-presentation-on-breathing-training-for-asthma-at-the-psychology-faculty-of-granada-university/
+lang: es
+---
+
+Hoy dí una charla en la Facultad de Psicología de la Universidad de Granada sobre la imprecisa y profundamente problemática definición del asma como un trastorno crónico inflamatorio. En las diapositivas, que publico con una licencia abierta aquí, presento evidencia contra esa definición y explico el razonamiento a favor de un entrenamiento respiratorio para el asma visto como una hiperresponsividad bronquial. Después de un interesante intercambio de opiniones con el publico probamos algunos ejercicios con el objetivo de reducir la respiración, aumentar el dióxido de carbono y relajar el músculo liso bronquial, así eliminando los síntomas de broncoespasmo.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/asthmamisconceptionsfacultadpsicologia29052014" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
+
+[Ver en SlideShare](https://www.slideshare.net/PandelisPerakakis/asthmamisconceptionsfacultadpsicologia29052014)

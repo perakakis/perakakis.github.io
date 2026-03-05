@@ -1,0 +1,24 @@
+---
+title: "CoVidAffect: monitorización de variaciones en el estado de ánimo durante el confinamiento por la COVID-19"
+date: 2020-08-18
+description: "CoVidAffect fue un proyecto para monitorizar en tiempo real las variaciones en el estado de ánimo durante el confinamiento por COVID-19, con 999 participantes y 17.454 registros entre marzo y junio de 2020."
+categories: [News & Events, Affect dynamics, COVID-19, CoVidAffect]
+image: assets/CoVidAffect_logo.jpg
+aliases:
+  - /2020/08/18/covidaffect-monitorizacion-de-variaciones-en-el-estado-de-animo-durante-el-confinamiento-por-la-covid-19/
+lang: es
+---
+
+<img src="assets/CoVidAffect_logo.jpg" alt="CoVidAffect logo" style="float:right; margin: 1rem 0 1rem 1.5rem; max-width: 182px;"/>
+
+CoVidAffect fue un proyecto que lanzamos para monitorizar en tiempo real las variaciones en el estado de ánimo durante el confinamiento provocado por la COVID-19. El proyecto funcionó desde el 28 de marzo hasta el 21 de junio, cuando el gobierno español levantó el estado de alarma restableciendo el contacto social y la movilidad sin restricciones. Un total de 999 participantes registraron 17.454 datos de estado de ánimo a través de la página web del proyecto o de la aplicación Android que desarrollamos específicamente para los propósitos de este estudio. Durante el estudio publicamos actualizaciones diarias de los datos geolocalizados en el sitio web del proyecto y en el repositorio Zenodo para su visualización y análisis por cualquier grupo o individuo interesado.
+
+**Más información:**
+
+- Datos en GitHub: <a href="https://github.com/perakakis/CoVidAffect" target="_blank" rel="noreferrer noopener">https://github.com/perakakis/CoVidAffect</a>
+- Datos en Zenodo: <a href="https://zenodo.org/record/3774526" target="_blank" rel="noreferrer noopener">https://zenodo.org/record/3774526</a>
+- Preprint: <a href="https://psyarxiv.com/3sv6r" target="_blank" rel="noreferrer noopener">https://psyarxiv.com/3sv6r</a>
+- Publicación: Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanabria, D., Perakakis, P. (2020). <a href="https://www.nature.com/articles/s41597-020-00700-1" target="_blank" rel="noreferrer noopener">CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain</a>. *Scientific Data* 7, 365
+- Página del proyecto en OSF: <a href="https://osf.io/5cqzk" target="_blank" rel="noreferrer noopener">https://osf.io/5cqzk</a>
+
+<div class='tableauPlaceholder' id='viz1665654209465' style='position: relative'><noscript><a href='https://covidaffect.info'><img alt='Mapa del estado de ánimo en el territorio Español' src='https://public.tableau.com/static/images/Mo/MoodvariationsduringquarantineinSpainandgendereffects/Story1/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MoodvariationsduringquarantineinSpainandgendereffects/Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/Mo/MoodvariationsduringquarantineinSpainandgendereffects/Story1/1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div><script type='text/javascript'>var divElement = document.getElementById('viz1665654209465');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='800px';vizElement.style.height='827px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>

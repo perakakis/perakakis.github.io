@@ -1,0 +1,13 @@
+---
+title: "Audio de mi charla introductoria sobre educación respiratoria en el centro sanitario MENSANA"
+date: 2014-05-16
+description: "Audio de la charla introductoria sobre educación respiratoria para el asma y otros trastornos relacionados con la respiración, dada el 7 de Mayo en el centro sanitario Mensana."
+categories: [Talks & Presentations, Asthma, Breathing]
+aliases:
+  - /2014/05/16/audio-file-of-my-introductory-talk-on-breathing-training-for-asthma-at-the-mensana-health-center-in-spanish/
+lang: es
+---
+
+El audio de la charla que dí el 7 de Mayo en el centro sanitario Mensana como introducción a mi curso de educación respiratoria para el asma y otros trastornos relacionados con la respiración.
+
+<a href="https://drive.google.com/file/d/1OQ0sQPgDT53tIfhb5DjpQ5YZd5X1KmpK/view?usp=sharing" target="_blank" rel="noopener noreferrer">https://drive.google.com/file/d/1OQ0sQPgDT53tIfhb5DjpQ5YZd5X1KmpK/view?usp=sharing</a>

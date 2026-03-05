@@ -1,0 +1,16 @@
+---
+title: "Beyond open access: facing academia's real problems"
+date: 2013-12-10
+description: "Slides and video of a talk at Ludwig Maximilian University Munich on how the journal monopoly over validation, evaluation and dissemination creates problems even more important than lack of accessibility to research."
+categories: [Talks & Presentations, Open Access, Science policy]
+aliases:
+  - /2013/12/10/beyond-open-access-facing-academias-real-problems/
+---
+
+On Thursday 5th of December, I gave a talk on how to move beyond open access and face academia's real problems, at the Ludwig Maximilian University in Munich. The talk focused on how the journal monopoly over three of the most basic processes in scholarly communication —validation, evaluation and dissemination— is creating problems even more important than the lack of accessibility to research output. The LIBRE platform was presented as an alternative, free, journal-independent, community-based model of research validation and evaluation where the author is at the center of an open and transparent peer review process.
+
+Below are the slides of the presentation published under a creative commons attribution license that lets anyone distribute, remix, tweak, and build upon this work, even commercially, as long as they credit the author for the original creation. You can also watch a video of the presentation <a href="http://videoonline.edu.lmu.de/en/node/4902" target="_blank" rel="noopener noreferrer">here</a>.
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/beyond-open-access-facing-the-real-problems" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
+
+[View on SlideShare](https://www.slideshare.net/PandelisPerakakis/beyond-open-access-facing-the-real-problems)

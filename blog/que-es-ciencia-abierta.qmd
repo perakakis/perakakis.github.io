@@ -1,0 +1,52 @@
+---
+title: "¿Qué es la Ciencia Abierta?"
+date: 2019-01-02
+description: "Una definición pragmática de Open Science que va más allá del libre acceso: cualquier práctica que facilite y promueva la apertura mental y el escepticismo académico."
+categories: [Opinions, Open Science]
+image: assets/scientist_vs_academic.png
+aliases:
+  - /2019/01/02/que-es-open-science-2/
+lang: es
+---
+
+> Muchísimas gracias a mi compañera Julia Morales por su ayuda con la traducción y edición en español de uno de mis post sobre Open Science. La traducción se publicó originalmente en el <a rel="noreferrer noopener" href="http://www.loyolaandnews.es/loyolaandpsico/que-es-open-science/" target="_blank">blog del departamento de Psicología</a> de la Universidad Loyola.
+
+En una de mis últimas conferencias sobre "Open Science" [^1] me di cuenta de que a pesar de que el término está muy de moda, su verdadero significado sigue siendo muy ambiguo.
+
+<img src="assets/scientist_vs_academic.png" alt="" style="float:right; margin: 1rem 0 1rem 1.5rem; max-width: 300px; width: 100%;"/>
+
+Muchos académicos todavía confunden Open Science con "Open Access" o, lo que es peor, creen que acceso abierto es sinónimo de publicar en revistas de acceso abierto. Este es el primero de una serie de posts en los que intentaré aclarar el significado y la relevancia del concepto de Open Science y explicar qué acciones sencillas podemos realizar los científicos para contribuir a generar una ciencia más abierta, transparente, eficiente y colaborativa. Empezaré ofreciendo mi visión personal sobre qué es la Ciencia, cuál debería ser su objetivo y cuál debería ser nuestra actitud para ayudar a que cumpla su función y contribuya a la sociedad de una forma más eficiente.
+
+**La Ciencia y el cerebro**
+
+Una de las teorías neurocientíficas más influyentes actualmente postula que el cerebro genera continuamente predicciones sobre lo que percibirá a través de los sentidos. Según esta teoría, la función principal del cerebro es minimizar la discrepancia entre sus predicciones y los datos reales. Para conseguirlo, cuenta con dos estrategias distintas pero complementarias: acumular más datos o modificar sus modelos predictivos para que se ajusten mejor a los datos existentes. [^2]
+
+Es bastante llamativa la similitud entre esta descripción de la función cerebral y el trabajo de un científico, que también parte de modelos predictivos —teorías sobre cómo debe comportarse el mundo— que contrasta continuamente con los datos experimentales. No obstante, el cerebro no ha elegido su trabajo como nosotros/as. En el caso del cerebro, su función es fruto del desarrollo evolutivo; ha sido desarrollada por la naturaleza como la mejor manera de servir al organismo y asegurar su supervivencia. El método científico es probablemente el mayor invento de la evolución ya que es la estrategia óptima para aumentar la capacidad de predicción y reducir la incertidumbre frente a un entorno cambiante. La Ciencia, por tanto, no es nada menos que el cerebro de la Humanidad, nuestro esfuerzo colectivo para minimizar la incertidumbre y proteger a nuestra especie.
+
+**Mente abierta y escepticismo**
+
+La definición de la Ciencia como un mecanismo de reducción de incertidumbre, nos ayuda a responder a una pregunta crucial: ¿cuál es la actitud que debe tener un científico para facilitar que la Ciencia cumpla su función de la manera más eficiente posible? Considero que son dos las características fundamentales de esta actitud idónea: la "mente abierta" y el "escepticismo".
+
+Un científico con mente abierta no acepta fácilmente cualquier teoría por mucho que le parezca atractiva. Al contrario, percibe las teorías y los modelos como meras metáforas utilizadas para organizar y comunicar los efectos observables. Está siempre preparado para modificar o incluso descartar completamente cualquier teoría que contradiga a los datos. En otras palabras, un científico con mente abierta, guiado por el imperativo de reducción de incertidumbre, no tiene ningún interés personal en los resultados de sus experimentos. Su diálogo con la naturaleza no está condicionado por agendas ocultas o ambiciones personales. Una teoría solo es valida mientras pueda explicar *todos* los datos observados, independientemente de los deseos o el prestigio de sus proponentes.
+
+Al mismo tiempo, el escepticismo requiere que los datos experimentales sean validados mediante numerosas y rigurosas replicaciones. Solo datos que han demostrado su fiabilidad tras la experimentación repetida pueden tomarse en cuenta para fortalecer, modificar o abandonar teorías existentes.
+
+**Open Science**
+
+Así, podemos llegar a una definición pragmática del Open Science que va mucho más allá del libre acceso a las publicaciones académicas: Open Science podemos denominar a cualquier práctica que facilite y promueva la apertura mental y el escepticismo académico.
+
+Esta es una definición bastante amplia que nos ayuda a entender mejor el verdadero problema con el modelo actual de publicaciones académicas. La cuestión no es que las grandes editoriales estén ganando ridículas cantidades de dinero público sin añadir ningún verdadero valor a los trabajos científicos (recordaremos que la revisión por pares no es un valor que añaden las editoriales sino los editores y los revisores). El problema es que el sistema actual de evaluación científica basada en publicaciones en revistas académicas *no* está premiando la apertura mental y el escepticismo, sino todo lo contrario.
+
+Primero, para sobrevivir en el mundo de la academia, los científicos necesitan publicar el mayor número de artículos posible y, preferentemente, en revistas de alto impacto y prestigio. Para ello es necesario contentar a los editores y revisores de las revistas que se consideran como los "expertos en el campo". Así, las teorías y metodologías que han servido para establecer las carreras académicas de los "expertos" tienden a reproducirse, mientras que ideas novedosas y rompedoras encuentran más resistencia aunque sean capaces de explicar mejor los datos empíricos.
+
+Segundo, dado que los científicos necesitan publicar desesperadamente, tienen un claro interés personal en el resultado de sus experimentos, lo cual conduce frecuentemente a manipulaciones deliberadas de los diseños experimentales y de los métodos de análisis con el objetivo de conseguir el deseado p<.05. [^3] Tercero, el escepticismo está disuadido, ya que la gran mayoría de las revistas buscan publicar historias de éxito con hallazgos significativos en vez de estudios de replicación y resultados nulos. Por último, obviamente es imposible ser un científico productivo con apertura mental y escepticismo sin tener acceso abierto a todos los recursos necesarios, incluyendo artículos, datos, código de programas, etc.
+
+Hoy en día, la mayoría de los investigadores, especialmente aquellos en el comienzo de sus carreras, *quieren* ser científicos pero se ven *obligados* a ser académicos. Es más importante que nunca reforzar la apertura mental y el escepticismo para puentear la enorme brecha entre Ciencia y Academia. La evolución natural nos enseña que para producir cambios drásticos a veces basta una presión leve pero constante hacia la dirección deseada. Los diversos movimientos de investigadores independientes como Euroscience, Eurodoc y Open Scholar, van a seguir ejerciendo presión constante para que los gobiernos y las instituciones establezcan aquellos incentivos necesarios para promover una ciencia más abierta, incluso en contra de los intereses de las grandes editoriales académicas.
+
+---
+
+[^1]: [Diapositivas de mi presentación](https://www.slideshare.net/PandelisPerakakis/why-true-science-is-only-open-science).
+
+[^2]: Para más información: Friston, Karl. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11, no. 2 (2010): 127–38.
+
+[^3]: <https://en.wikipedia.org/wiki/Data_dredging> and <http://shinyapps.org/apps/p-hacker/>

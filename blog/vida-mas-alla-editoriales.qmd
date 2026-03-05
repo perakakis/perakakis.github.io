@@ -1,0 +1,13 @@
+---
+title: "¿Hay vida más allá de las editoriales?"
+date: 2021-04-21
+description: "Diapositivas de mi presentación en las jornadas virtuales de SEPEX 2021 presentando el nuevo modelo de publicación de la revista Psicológica como revista de acceso abierto diamante en DIGITAL.CSIC."
+categories: [News & Events, Talks & Presentations, Psicológica]
+aliases:
+  - /2021/04/21/hay-vida-mas-alla-de-las-editoriales/
+lang: es
+---
+
+Aquí están las diapositivas de mi presentación en las jornadas virtuales organizadas por la Sociedad Española de Psicología Experimental (<a rel="noreferrer noopener" href="https://websepex.com" target="_blank">SEPEX</a>). En esta charla invitada tuve la oportunidad de presentar el nuevo modelo de publicación de la revista de la sociedad, *<a rel="noreferrer noopener" href="https://psicologicajournal.com" target="_blank">Psicológica</a>*. ¡Habrá mucho más sobre este proyecto tras el inminente lanzamiento oficial de la revista, así que estén atentos!
+
+<a href="assets/sepex_2021.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Descargar diapositivas (sepex_2021.pdf)</a>

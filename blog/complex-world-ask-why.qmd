@@ -1,0 +1,30 @@
+---
+title: "In a complex world is it always meaningful to ask why?"
+date: 2014-02-25
+description: "The discovery of nature's intrinsic variability in biological systems—from heart rate to mood—challenges our linear causal thinking and suggests that not all fluctuations need an external cause."
+categories: [Opinions, Publications, Affect dynamics, Complexity, Psychophysiology]
+aliases:
+  - /2014/02/25/in-a-complex-world-is-it-always-meaningful-to-ask-why/
+---
+
+*Originally posted at: <a href="http://greeklish.info/en/world/251" target="_blank" rel="noopener noreferrer">http://greeklish.info/en/world/251</a>*
+
+> As I make my way through an ocean of stimuli and experiences I observe the subtle changes in my mood and try to explain where they come from and what is causing them. My mind is hardwired to look for causes in a linear way. Big emotions are caused by dramatic life events while minor mood changes can have less significant origins, such as something I ate yesterday or an approaching project deadline. This hunt for external causes keeps my mind busy and the conversations with friends going, but is it always meaningful?
+
+Not many years ago we believed that biological systems strive to maintain a constant state and that observed changes result from external factors that "push" the system away from the desired equilibrium state [1]. Based on this mode of thinking, many cardiologists would still regard heart rate plots A and C as belonging to healthy individuals and consider plot B as problematic. The truth, however is that the constant and regular plots —A and B respectively— come from patients with life-threatening congestive heart failure, and only the seemingly erratic heart rate fluctuations represented in plot B come from a healthy young individual.
+
+When we are young and healthy our hearts constantly accelerate and decelerate even when we are sitting still doing nothing. We can intuitively understand the benefit from this type of behavior. A good waitress keeps walking around the clients' tables even when she could go and have a rest behind the bar until someone calls her. She knows, however, that in a busy place this would be a more tiring and less efficient strategy.
+
+Our heart, as a good waitress that needs to attend the changing needs in blood of all muscles and body organs, prefers to keep moving instead of locking into a fixed rhythm. What's more, she doesn't just move randomly, but follows a particular rhythmical pattern that ensures she will not leave any "spots" unattended [2]. This means that a sudden cardiac acceleration or deceleration [3] does not necessarily have a discernible external cause, but is rather a result of the intrinsic variability produced by the system itself.
+
+Healthy hearts, brains and other physiological systems whose output can be measured have shown to be in constant movement even in the absence of external causes in order to be ready to "serve" when needed. But what about our emotions that are harder to measure? Is it possible that our mood also constantly fluctuates for no particular reason? Preliminary findings from our own research show that this might be the case. The mood of emotionally healthy people demonstrates constant fluctuations that cannot be associated to a particular external cause. Depressive patients on the other hand are locked into a general negative emotional state with reduced mood fluctuations, while mood changes in manic-depressive patients follow an erratic pattern that does not resemble the variability patterns we observe in healthy cardiac dynamics.
+
+The discovery of nature's intrinsic variability challenges our linear causal thinking that associates a cause of equal proportions to any observed event. In certain cases a heart acceleration, the extinction of a species, a catastrophic flood and, perhaps, a brief period of depression simply result from the intrinsic variability of systems struggling to adapt to an ever-changing environment. Accepting life's flux may sometimes be wiser than trying to find inexistent causes somewhere outside.
+
+---
+
+[1] This in physiology is known as the principle of homeostasis that remained a mainstream paradigm until quite recently.
+
+[2] This particular dynamical pattern is called fractal (or 1/f noise) and is common in many complex physical and biological systems.
+
+[3] Usually these changes in heart rate are very subtle and not perceptible. A persistent perceptible disturbance in the cardiac rhythm may have pathological causes that should be properly explored.

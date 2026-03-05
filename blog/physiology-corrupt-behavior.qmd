@@ -1,0 +1,14 @@
+---
+title: "Losing money is more stressful than bribing! Our new Frontiers article explores the physiology of corrupt behavior"
+date: 2015-02-07
+description: "Our new article in Frontiers in Behavioral Neuroscience shows that people get more emotionally aroused when making ethical choices that imply monetary loss than when making unethical decisions."
+categories: [Publications, Behavioural economics, Psychophysiology]
+aliases:
+  - /2015/02/07/is-being-unethical-more-stressful-than-losing-money-our-new-frontiers-article-explores-the-physiology-of-corrupt-behavior/
+---
+
+In our recently article published in "<a href="http://journal.frontiersin.org/Journal/10.3389/fnbeh.2014.00434/abstract" target="_blank" rel="noopener noreferrer">Frontiers in Behavioral Neuroscience</a>", we show that high emotional arousal is not solely associated to unethical economic behavior —such as tax evasion— as previous research had revealed. Instead, people get emotionally aroused also when making ethical choices if these choices imply the loss of monetary reward. In other words, it seems to be more stressful for someone to lose money than to make an unethical decision that causes a loss of money to others. This means that, in certain circumstances, our bodies reward unethical decisions in order to minimise the unpleasant feeling produced by decisions that cost us money. This behavior is inverted when the possibility of punishment exists. In that case corrupt decisions become more stressful than ethical ones.
+
+These results support the existence of severe external control in economic transactions and bare important consequences for the political fight against corruption.
+
+You can read the full article <a href="http://journal.frontiersin.org/Journal/10.3389/fnbeh.2014.00434/full" target="_blank" rel="noopener noreferrer">here</a>.

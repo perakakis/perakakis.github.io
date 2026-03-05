@@ -1,0 +1,30 @@
+---
+title: "What type of sports make you more alert?"
+date: 2019-06-17
+description: "Our meta-analysis of 7 studies (361 participants) shows that only externally-paced sports like football lead to better cognitive performance, challenging the cardiovascular hypothesis of exercise-induced cognitive benefits."
+categories: [Publications, Exercise]
+image: assets/sports-alert.jpg
+aliases:
+  - /2019/06/17/what-type-of-sports-make-you-more-alert/
+---
+
+It has been repeatedly observed that people who exercise regularly perform better in laboratory tasks that require participants to remain alert during prolonged periods of time. They are also better in tasks that test the ability to inhibit reactions to distracting stimuli in order to remain focused on a specific goal.
+
+A lot of studies have shown that physical exercise produces profound changes to the heart and that these cardiovascular changes also affect the brain at a chemical and neuroanatomical level. A widely held therefore hypothesis, called the cardiovascular hypothesis, supports that it is the changes in cardiovascular fitness that eventually lead to an improvement of cognitive function and performance.
+
+Building up your cardiovascular fitness, however, can be done in many different ways. **Does it matter whether you get fit by jogging or by playing football?** Do differences in the type of exercise have an effect on how well you train your mental health and skills?
+
+Our research group has been investigating these questions for some time, publishing results of individual studies involving relatively small groups (between 26 and 75 participants) of physically fit and sedentary individuals. In our latest article, however, we concentrated the results from 7 of our previous studies to perform a statistical analysis that would help us draw a more reliable conclusion on whether it is the type of sport or the fitness level that have a stronger impact on alertness measured in the lab.
+
+Our studies include two types of sport activities. First, those called **externally-paced**, like basketball and football, because apart from exercising your heart and muscles you are also required to adapt rapidly to a constantly changing external environment. Second, the **self-paced** activities, like cycling and long-distance running, where it is the athletes themselves that need to regulate their effort in a relatively constant and predictable environment.
+
+Our analysis, including a total of 361 participants from 7 single studies, showed that **only externally-paced sport practice (e.g., football) leads to better cognitive performance** (faster reactions to attention tasks). People practicing self-paced sports (e.g., triathlon) did not perform better than sedentary individuals. What is important, the level of cardiovascular fitness did not relate to the performance in the attention tasks.
+
+<figure style="text-align:center;">
+<img src="assets/sports-alert.jpg" alt="Football player" style="max-width:min(500px, 100%);"/>
+<figcaption>The best football player in history. He would probably also be pretty fast in our tasks, if we could only bring him to the laboratory!</figcaption>
+</figure>
+
+What do these results mean? We should always remember that **science is never conclusive**. All we do is gather evidence in favor or against some hypothesis. Many times the ways we use to gather this evidence is biased and leads to unreliable conclusions. <a rel="noreferrer noopener" href="https://perakakis.github.io/2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/" target="_blank">In another post</a>, I explain some of the problems leading to untrustworthy science. One of these problems is using a small number of participants. While the 361 people included in our new study is still a small number, it is undoubtedly a significant progress compared to the results from individual studies with even less participants. This is one of the reasons why we think our results call for a re-evaluation of the cardiovascular hypothesis and a serious consideration of the possibility that it is not physical exercise per se that improves our cognitive skills, but rather the participation in externally-paced activities like team sports.
+
+<a rel="noreferrer noopener" href="https://peerj.com/articles/7118/" target="_blank">Read the entire article.</a>

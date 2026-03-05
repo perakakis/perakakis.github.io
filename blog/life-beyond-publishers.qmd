@@ -1,0 +1,12 @@
+---
+title: "Is there life beyond publishers?"
+date: 2021-04-21
+description: "Slides from an invited talk at the SEPEX 2021 virtual conference presenting the new publication model of the society's journal, Psicológica, as a diamond open access journal hosted on DIGITAL.CSIC."
+categories: [News & Events, Talks & Presentations, Open Scholar, Psicológica]
+aliases:
+  - /2021/04/21/is-there-life-beyond-publishers/
+---
+
+Here are the slides of my presentation at the 2021 virtual conference organised by the Spanish Society for Experimental Psychology (<a rel="noreferrer noopener" href="https://websepex.com/" target="_blank">SEPEX</a>). In this invited talk I had the opportunity to present the new publication model of the society's journal, *<a rel="noreferrer noopener" href="https://psicologicajournal.com" target="_blank">Psicológica</a>*. A lot more to come on this project after the imminent official launch of the journal, so stay tuned!
+
+<a href="assets/sepex_2021.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download slides (sepex_2021.pdf)</a>

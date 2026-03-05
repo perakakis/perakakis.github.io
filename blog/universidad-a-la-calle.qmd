@@ -1,0 +1,18 @@
+---
+title: "Universidad a la Calle"
+date: 2012-11-12
+description: "As a response to severe government cuts in education, 28 University professors took their lectures to the streets of Granada, giving 14 talks to more than 500 participants."
+categories: [News & Events, Activism]
+aliases:
+  - /2012/11/12/universidad-a-la-calle/
+---
+
+As a response to severe government cuts in education budget, a group of 28 University professors decided to take our lectures to the streets. We chose a central square in Granada called Bib-rambla and gave 14 lectures to more than 500 participants.
+
+I chose to give a talk on Experimental Economics, focusing on the replicability problems of theories such as the "rational expectations theory" and the "efficient markets theory". A great part of my talk was inspired by an article titled "Goodbye, homo economicus" by A. Kaletsky.
+
+Our action was covered by the <a href="http://www.ideal.es/granada/20121112/local/granada/lecciones-calle-resistencia-para-201211121442.html" target="_blank" rel="noopener noreferrer">local media</a>.
+
+Also watch the brief video of the event I prepared using as soundtrack the piece "Vrohi" (rain) from Manos Hatzidakis's "To hamogelo tis Gioconda" (Gioconda's smile).
+
+{{< video https://www.youtube.com/watch?v=EzvQpJEP78U >}}

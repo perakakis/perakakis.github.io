@@ -1,0 +1,64 @@
+---
+title: "What are transformative agreements and what to know before using them"
+date: 2021-05-07
+description: "A critical analysis of transformative agreements between publishers and university libraries, arguing they reinforce the academic publishing oligopoly and promote a distorted vision of open access."
+categories: [Opinions, Publishers, Transformative agreements]
+image: assets/profits.png
+aliases:
+  - /2021/05/07/what-are-transformative-agreements-and-what-to-know-before-using-them/
+---
+
+*This is an English translation of a post I first published in Spanish [here](https://perakakis.github.io/2021/05/03/que-son-los-transformative-agreements-y-que-necesitamos-saber-antes-de-utilizarlos/).*
+
+Last week, researchers at the University of Granada received an email from the director of the University Library, announcing what at first sight seems like a very good offer: "The University has been allocated a fund to cover the Article Publication Charge (APC) for a certain number of articles in hybrid journals from Elsevier and Wiley publishers".
+
+Before we all celebrate this great opportunity, I invite you to reflect on some of its implications for academic publishing and the scholarly community.
+
+## What is a transformative agreement?
+
+This offer by the University library is a result of what are called "transformative agreements" which are contracts between large commercial publishers and libraries, aiming to gradually shift the publishing business from the traditional subscription-based model, where publishers are paid to provide access to their journals, to open access publishing, where publishers are paid by authors or their institutions for individual publications. These agreements between publishers and University libraries come in different flavours regarding the **costs**, **copyright policies**, and **transparency**. In most cases, the amount paid by the Universities to publishers remains the same, but now a percentage of this amount is paid indirectly by providing funding for open access publications. Open access articles funded by transformative agreements are usually required to be published with licenses that allow unrestricted reuse and distribution, but most of the times <a href="https://peerj.com/articles/4375/" target="_blank" rel="noreferrer noopener">licenses are not transparent</a> providing only permissions to read but prohibiting human users and machines to extract, combine, and reuse data in order to uncover new patterns and produce novel knowledge. Regarding transparency, although the terms of transformative agreements are supposed to be made publicly available, in reality an overview of only the key components is usually provided.
+
+## Why transformative agreements are not a good deal for science
+
+### Reinforcing the academic publishing oligopoly
+
+Although seemingly promoted with the best intention to increase open access journals, transformative agreements are a way to **cement the existing oligopolies of the big five academic publishers** (Elsevier, Springer Nature, Wiley, Taylor & Francis, American Chemical Society), who are the only ones capable of negotiating these deals. This poses a mortal threat to smaller publishers (i.e., society publishers) and emerging novel publication models with lower costs and often superior services (e.g., overlay journals). Authors are directed to specific journals for which deals have been signed in a way that is not only unfair to excluded journals but should also be **illegal** according to **antitrust laws** that **protect healthy competition and protect from the creation of monopoly markets**. Consider for a minute that you as a researcher are not allowed to spend your public funding without a proper bidding process among at least three potential candidates. Universities, however, are free to sign these deals and incentivise their researchers to offer their work to colossal for-profit companies that have been extorting for decades the academic publication market, eliminating any possibility for competition.
+
+In the particular offer by the University of Granada, note that only at the final stage of the publication process, when articles are already accepted by the journal, will the authors know whether funding for APCs is available through their University library. This means that authors are pushed towards specific journals without any insurance that publication costs will eventually be covered by their library. Instead, when their articles are accepted and submission to a different journal, which could perhaps have been more appropriate or less costly, is practically impossible they may find out that they have to pay APCs from their own pockets!
+
+Let us also note that the statement explicitly mentions that this is an agreement for hybrid journals. These are journals for which subscription fees are paid by libraries, but at the same time some of their articles are made open access if authors pay the APC. This is the most beneficial model for publishers since revenues from subscription remain intact with the significant addition of revenues from open access articles, financed by institutions, funders, or authors themselves! Open access articles in these journals are therefore paid twice, by libraries and by authors. Not such a bad deal!
+
+### Promoting a biased vision of open access
+
+What is even more devious in these agreements, as well as almost every international mandate for open access (e.g., Horizon 2020, PlanS, etc), is that they promote a contorted vision of open access in comparison to its original definition in the manifesto of the <a href="https://www.budapestopenaccessinitiative.org/read" target="_blank" rel="noreferrer noopener">Budapest Open Access Initiative</a>. It is important to remember that in this manifesto, open access to academic articles is defined as:
+
+> *"...free availability on the public internet, permitting any users to **read**, **download**, **copy**, **distribute**, **print**, **search**, or **link to the full texts of these articles**, **crawl them for indexing**, **pass them as data to software**, or use them for any other lawful purpose, **without financial, legal, or technical barriers** other than those inseparable from gaining access to the internet itself."*
+>
+> Budapest open access initiative
+
+The same manifesto recommends **self-archiving articles in open repositories** (Green Open Access) as the **principal strategy** for achieving the goal of open access, while publishing in open access journals (Gold Open Access) is mentioned as a **secondary strategy**.
+
+It is obvious that commercial publishers could not allow this definition of open access to predominate. Publishing consultant Joseph Esposito <a href="https://scholarlykitchen.sspnet.org/2013/12/03/how-plos-one-can-have-it-all/" target="_blank" rel="noreferrer noopener">could not have articulated the reasons better</a>:
+
+> *"Green OA has no promise of delivering augmented revenues to the publisher, but **Gold OA opens up a new customer**, the author him or herself, who in many instances pays for the article to be OA. **Gold OA**, in other words, represents a **business opportunity**, whereas **Green OA** represents a **business problem**."*
+>
+> Joseph Esposito, Publishing consultant
+
+Instead, coordinated actions by large commercial publishers, involving intense lobbying and intimidation practices, managed to trick the research community and international funding bodies into believing that paying for publications is the only way that the noble goal of open access can be achieved. Everyday you hear scholars proudly declaring that they only publish their research in open access journals without realising the trap they have fallen into!
+
+## How much do we pay for Open Access?
+
+Now that we, authors, have to pay for publishing our work to academic journals we start to realise the costs involved. But still few of us know how much our University libraries pay each year to academic publishers. Only in 2020, the <a href="https://gerencia.ugr.es/pages/vger_eco/presupuestos/presupuesto2020ugr" target="_blank" rel="noreferrer noopener">University of Granada</a> paid 1,045,250 Euros for access to electronic journals (yes, the kind of access we get through sci-hub faster and for free), while the <a href="https://www.ucm.es/portaldetransparencia/informacionpresupuestaria" target="_blank" rel="noreferrer noopener">Complutense University of Madrid</a> paid 2,846,040.62 Euros.
+
+One can't avoid wondering, does it really cost that much to publish online articles in our digital era? A look at the profit margins of the biggest publishers reveals that almost half of this money goes straight to the pockets of their shareholders, while another significant percentage is destined to activities totally unrelated to the benefits of the scholarly community: marketing, lobbying, acquisitions, etc.
+
+<figure style="text-align:center;">
+<img src="assets/profits.png" alt="Profit margins of academic publishers" style="max-width:min(700px, 100%);"/>
+<figcaption>Data from the Risk Management Association's 2007/08 annual statements</figcaption>
+</figure>
+
+The graph above shows data from the Risk Management Association's 2007/08 annual statements, where we see three publishers in the top five companies with the highest profit margins, including all market sectors. We may argue that other companies such as Microsoft, Google, Disney, and Apple, offer products that are unique in their respective markets and are the result of a significant investment in technological infrastructure and human resources. Contrary to other oligopoly markets, however, the goods provided by academic publishers neither depend on some unique technology, nor on the remunerated work of specialised personnel. More advanced publication infrastructure is freely provided by university libraries and their repositories, while the specialised service of organising and performing peer review is offered by the academic community for free!
+
+## Final remarks
+
+For decades the scholarly community has been held hostage of commercial publishing houses only because journal prestige, partly sustained by flawed metrics like the impact factor, is used for the evaluation of scientific quality. We have allowed the financial interests of these companies to dictate what is good for science and what not. They define the needs of the scholarly community and decide for the appropriate means to meet these needs. Ideas and initiatives promoting a more open and efficient way of conducting and sharing research are diminished or engulfed and transformed through acquisitions. These are all questions to consider before accepting these new offers from our University libraries. Instead of celebrating transformative agreements, I personally feel ashamed for the institutions that unethically support the obsolete academic publishing industry, trying to make it look as if they were offering their communities a valuable service.

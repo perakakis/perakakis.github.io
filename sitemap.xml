@@ -2,90 +2,186 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://perakakis.github.io/teaching/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.822Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.165Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/research/scholarly-communication/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.818Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.160Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/research/hep/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.815Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.157Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/research/affect-dynamics/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.801Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.143Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.779Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.121Z</lastmod>
   </url>
   <url>
-    <loc>https://perakakis.github.io/blog/rethinking-affect.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
+    <loc>https://perakakis.github.io/blog/vida-mas-alla-editoriales.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
   </url>
   <url>
-    <loc>https://perakakis.github.io/blog/que-es-una-publicacion.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
+    <loc>https://perakakis.github.io/blog/transformative-agreements-es.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
   </url>
   <url>
-    <loc>https://perakakis.github.io/blog/open-minded-scepticism.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
+    <loc>https://perakakis.github.io/blog/transform-peer-review.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
   </url>
   <url>
-    <loc>https://perakakis.github.io/blog/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/blog/github-zenodo-doi.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/blog/biorxiv-preprints.html</loc>
-    <lastmod>2026-03-05T17:28:34.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/about.html</loc>
-    <lastmod>2026-03-05T17:28:34.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/blog/como-quieren-ser-evaluados.html</loc>
-    <lastmod>2026-03-05T17:28:34.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/blog/hitchhikers-guide-publishing.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/blog/journal-acquisitions.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://perakakis.github.io/blog/peer-review-considerations.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
+    <loc>https://perakakis.github.io/blog/sports-alertness.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/blog/researchers-evaluated-spain.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/reconsiderando-el-asma.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/que-es-ciencia-abierta.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/physiology-corrupt-behavior.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/peer-review-considerations.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/negotiate-with-publishers.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/journal-acquisitions.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/hitchhikers-guide-publishing.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/ensenanza-a-la-calle.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/educacion-respiratoria-granada.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/covidaffect-es.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/como-quieren-ser-evaluados.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/biorxiv-preprints.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/asthma-revisited.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/about.html</loc>
+    <lastmod>2026-03-05T18:23:18.989Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/beyond-open-access.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/coar-2016-annual-meeting.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/complex-world-ask-why.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/educacion-respiratoria-colegio-psicologos.html</loc>
+    <lastmod>2026-03-05T18:23:19.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/educacion-respiratoria-mensana.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/github-zenodo-doi.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/index.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/life-beyond-publishers.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/open-minded-scepticism.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/peer-review-innovation-europe.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/psicologica-digital-csic.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/que-es-una-publicacion.html</loc>
+    <lastmod>2026-03-05T18:23:19.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/replicability-crisis-psychology.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/rethinking-affect.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/blog/statistics-jasp-osf.html</loc>
-    <lastmod>2026-03-05T17:28:34.777Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/transformative-agreements-en.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/universidad-a-la-calle.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://perakakis.github.io/blog/which-side-are-you-on.html</loc>
+    <lastmod>2026-03-05T18:23:19.120Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/publications/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.782Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.124Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/research/exercise-brain-cognition/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.814Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.156Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/research/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.815Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.157Z</lastmod>
   </url>
   <url>
     <loc>https://perakakis.github.io/software/index.html</loc>
-    <lastmod>2026-03-05T17:28:34.822Z</lastmod>
+    <lastmod>2026-03-05T18:23:19.164Z</lastmod>
   </url>
 </urlset>

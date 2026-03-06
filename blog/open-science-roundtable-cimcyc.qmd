@@ -1,0 +1,24 @@
+---
+title: "Open Science round table at CIMCYC"
+date: 2019-05-18
+description: "Report from a round table on Open Science practices and their relevance for addressing the replicability crisis in Psychology, organized at the CIMCYC research center in Granada."
+categories: [Opinions, Talks & Presentations, Science policy]
+aliases:
+  - /2019/05/18/open-science-round-table-at-cimcyc/
+---
+
+Last Friday I participated in a round table discussing Open Science practices and their relevance for addressing the crisis of replicability in Psychology.
+
+The event was organised by a committee of psychology professors at the <a href="https://cimcyc.ugr.es" target="_blank" rel="noreferrer noopener">Research Center of Brain, Mind and Behavior</a> (CIMCYC) of the University of Granada.
+
+Contrary to similar events I participated in the past, this time the panel consisted of professors from different psychology departments (social, experimental, methodology, developmental) with no particular expertise in open science practices. This gave us the opportunity to contrast experiences from different areas of psychology and discuss ideas for possible solutions for some of the most pressing problems academia is facing at the moment.
+
+It was an enriching experience for which I owe my gratitude to the organising committee, our moderator Guillermo Willis (@gbwillis), and my fellow colleagues from UGR who participated in the discussion: José Luis Padilla, Isabel de Brugada, Ignacio Morón y Rosa Rodríguez.
+
+Before our round table we had the privilege to listen to Zoltan Dienes from the University of Sussex talking about the benefits of registered reports, while the day before we enjoyed a wonderful presentation on the importance of cognitive biases in the scientific process by Helena Matute from the University of Deusto.
+
+Here is a twitter thread with some of the points I discussed in my intervention with useful links and images (text in Spanish):
+
+<blockquote>
+<p>Twitter thread: <a href="https://twitter.com/ppandelis/status/1129138168719118340?s=20" target="_blank" rel="noreferrer noopener">https://twitter.com/ppandelis/status/1129138168719118340</a></p>
+</blockquote>

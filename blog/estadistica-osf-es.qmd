@@ -1,0 +1,21 @@
+---
+title: "Mi material docente para un curso de introducción a la estadística disponible en OSF"
+date: 2019-05-21
+description: "Material docente para un curso de introducción a la estadística en psicología usando JASP, publicado en la plataforma OSF con licencia CC-By Attribution 4.0."
+categories: [Teaching, Course material, Psychology, Statistics]
+aliases:
+  - /2019/05/21/publicado-en-osf-el-material-docente-para-mi-curso-de-introduccion-a-la-estadistica/
+lang: es
+---
+
+En el primer semestre de este curso impartí en la Universidad Loyola una asignatura de introducción a la estadística para la que tuve que preparar nuevo material docente basándome en el libro "Statistics for the Behavioral Sciences" de Susan A. Nolan y Thomas E. Heinzen (segunda edición) y utilizando como referencia <a href="https://osf.io/t56kg/" target="_blank" rel="noreferrer noopener">material existente</a> creado por Erin Michelle Buchanan, Tabetha Gaile Hopke, y Simone Donaldson.
+
+El curso está dividido en 13 temas y para cada tema existe una presentación de contenido teórico y unas diapositivas de actividades. Las actividades están diseñadas para ser realizadas en grupos de 4–5 alumnos durante la clase, mientras el profesor resuelve las dudas que van surgiendo. Se incluyen bases de datos (.csv) e instrucciones detalladas para realizar los diferentes análisis (pruebas t, ANOVAs, Chi-cuadrado, etc.) con el software libre <a href="http://jasp-stats.org" target="_blank" rel="noreferrer noopener">JASP</a>.
+
+He utilizado la plataforma de <a href="https://osf.io" target="_blank" rel="noreferrer noopener">OSF</a> (Open Science Foundation), que en mi grupo de investigación usamos para publicar preregistros y preprints, para crear un nuevo proyecto y subir el material con una licencia CC-By Attribution 4.0 International, para que otros puedan copiar y modificar el contenido libremente. Una vez que el proyecto esté público, OSF ofrece la opción de asignar un DOI para que se pueda citar.
+
+Perakakis, P. (2019, May 21). Un curso de introducción a la estadística en psicología usando JASP. <a href="https://doi.org/10.17605/OSF.IO/V5RJD" target="_blank" rel="noreferrer noopener">https://doi.org/10.17605/OSF.IO/V5RJD</a>
+
+Ha sido mi primera experiencia en utilizar herramientas que conozco de mi trabajo como investigador en el ámbito de la docencia. Aunque el sistema desequilibrado y perverso de incentivos académicos — todavía — no premia este tipo de iniciativas, considero que es nuestra obligación usar todos los medios a nuestra disposición para fomentar la colaboración e innovación en la docencia y exigir que esta labor sea cada vez más fundamental en nuestra profesión.
+
+Por supuesto quiero agradecer a mi compañera Davinia Resurrección que me acompañó como docente en esta asignatura, ofreciendo sus ganas y sus ideas para hacer más divertida y digerible una de las asignaturas más odiadas en nuestro grado!

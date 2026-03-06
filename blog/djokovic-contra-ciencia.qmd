@@ -1,0 +1,84 @@
+---
+title: "Djokovic contra Ciencia"
+date: 2023-09-03
+description: "Reflexiones sobre las fortalezas y limitaciones de la ciencia a raíz de las críticas a los hábitos alimenticios de Djokovic, argumentando que la no significación estadística se malinterpreta frecuentemente como prueba científica."
+categories: [Opinions, Djokovic, Science]
+image: assets/djokovic-proprioceptive-drift.png
+aliases:
+  - /2023/09/03/djokovic-vs-ciencia/
+lang: es
+---
+
+[Read in English](https://perakakis.github.io/2023/09/02/djokovic-vs-science/)
+
+Lo que desencadenó las siguientes reflexiones sobre las fortalezas y limitaciones de la ciencia — un tema favorito, lo admito — fue la avalancha de críticas en respuesta a un tuit de @jmgmoron destacando los hábitos alimenticios de la superestrella del tenis Novak Djokovic. Las críticas se centraron principalmente en la falta percibida de evidencia científica que respalde las elecciones dietéticas de Djokovic.
+
+<blockquote>
+<p>Un cuerpo cuidado al máximo desde hace más de una década. No solo a través del trabajo físico, sino también a través de la alimentación. ASÍ ES LA DIETA DE NOVAK DJOKOVIC. Revelada por él mismo. Os sorprenderá</p>
+<footer>— <a href="https://twitter.com/jmgmoron/status/1693717747421573179" target="_blank" rel="noreferrer noopener">@jmgmoron, 21 de agosto de 2023</a></footer>
+</blockquote>
+
+Para proporcionar algo de contexto, Novak Djokovic superó famosamente los problemas de salud que afectaron su carrera temprana cambiando su dieta, principalmente eliminando el gluten. Según el propio Novak, este cambio fue fundamental para catapultar su rendimiento y ayudarle a convertirse en el jugador más prolífico en la historia del tenis (número de Grand Slams, títulos de Masters, semanas como número 1, etc.). Luego publicó un libro titulado "Serve to Win", documentando su experiencia e invitando a las personas a experimentar de manera abierta con su dieta para descubrir qué les funciona mejor.
+
+Así que, aquí tenemos por un lado el testimonio de una sola persona que afirma que su dieta le ayudó a alcanzar niveles de rendimiento físico y mental nunca antes vistos en el tenis, y por otro, un gran número de personas, incluidos investigadores profesionales en nutrición, ansiosos por descartar todas estas afirmaciones para proteger a las personas de cualquier consejo que carezca de evidencia científica.
+
+¿Por qué tantas personas se sintieron provocadas por este tuit? ¿Por qué la mayoría de las respuestas, incluidas las de los científicos, están tan cargadas emocionalmente?
+
+¿Quién otorga la autoridad y la confianza para cuestionar, o incluso ridiculizar, la credibilidad de uno de los mejores atletas de todos los tiempos en cualquier deporte?
+
+Pero, por supuesto, la respuesta es la CIENCIA.
+
+**La ciencia es la nueva religión**, tan poderosa y autoritaria que puede quemar en la hoguera incluso al mejor de los mejores.
+
+Y antes de que me gane el enojo y pierda a la mitad de los lectores, permítanme reconocer que la ciencia es la mejor herramienta que tenemos para reducir la incertidumbre sobre el mundo y sobre nosotros mismos. El método científico es, sin duda, el pináculo del logro humano que nos ha permitido entender cómo funciona la naturaleza y utilizar este conocimiento para nuestros fines.
+
+Entonces, si la Ciencia afirma que comer el alimento X tendrá o no tendrá el efecto Y en tu salud o rendimiento, debe ser correcto, ¿verdad?
+
+Aquí es exactamente donde la mayoría de las personas, incluso los científicos profesionales, se equivocan.
+
+¿Cómo llegan los científicos a la conclusión de que el alimento X tiene o no tiene un efecto Y? Por supuesto, hay métodos para probar los efectos de diferentes sustancias hasta el nivel molecular, pero en estos casos es imposible saber con certeza qué ocurrirá en la vida real cuando una persona en particular consume la sustancia en cuestión. Esto se debe a que cada elemento químico puede evocar múltiples respuestas en diferentes células y órganos dependiendo de una multitud de otros parámetros que son imposibles de identificar, y mucho menos de controlar. Todos sabemos esto por los medicamentos y sus efectos secundarios. No hay científico o médico que pueda asegurarte al 100% que tomar un medicamento en particular solo tendrá el efecto deseado sin ninguna consecuencia inesperada. Lo mismo es cierto, por supuesto, con los alimentos y sus múltiples ingredientes.
+
+Gran parte de la evidencia científica, sin embargo, proviene de estudios que involucran a un gran número de personas que son, en el mejor de los casos, divididas al azar en dos grupos, uno tomando la sustancia o alimento y el otro no. Después de un período de tiempo, los dos grupos se comparan en términos del efecto que se está probando. Estas pruebas son de naturaleza estadística y sus resultados pueden resumirse de manera cruda — y suelen ser resumidos por los medios de comunicación y los comunicadores de la ciencia — como una respuesta de sí o no. O hay o no hay un efecto específico de ingerir la sustancia X.
+
+Esta simplificación excesiva contribuye a mantener el estatus de la Ciencia como la nueva religión. La autoridad que posee la única e indiscutible Verdad. Un solo estudio de 60 personas que no encuentra un efecto estadístico de un alimento, medicamento o tratamiento en particular se traduce en los medios como:
+
+"Comer X no te ayudará a convertirte en Y, *según los científicos*"
+
+o
+
+"*La ciencia* no respalda que X cause Y".
+
+En cambio, sería más preciso decir:
+
+"Un estudio realizado por 4 científicos del mismo laboratorio en 60 personas, que no son representativos de la población, encuentra que el efecto de X en Y no es estadísticamente significativo".
+
+Dos cosas son absolutamente cruciales para entender aquí.
+
+Primero, que **la muestra no es representativa**. Por ejemplo, el estudio puede haberse realizado en estudiantes universitarios o en personas predominantemente sedentarias. Esto significa que no podemos generalizar sus resultados a personas mayores o físicamente activas. ¡Por razones no identificadas, el efecto de X en estas personas podría ser completamente diferente!
+
+Segundo, que el efecto no es **estadísticamente significativo**. O, en palabras más simples, no es significativo en promedio. Esto significa que puede haber habido varias personas en el estudio que experimentaron un efecto e incluso uno grande. Sin embargo, este efecto queda enmascarado por el hecho de que la mayoría de las personas no mostraron ningún efecto o incluso presentaron un efecto inverso. ¡Esto significa que no tenemos absolutamente ninguna idea de cuál será el impacto de X en un individuo en particular!
+
+<figure style="text-align:center;">
+<img src="assets/djokovic-proprioceptive-drift.png" alt="Figura de Proprioceptive Drift mostrando variabilidad individual" style="max-width:min(726px, 100%);"/>
+<figcaption>Para ilustrar este punto, la figura arriba, que proviene de nuestra propia investigación, no muestra un efecto promedio significativo para una variable denominada "Proprioceptive drift" (aunque podría ser cualquier variable medible de interés, como los síntomas de una enfermedad), al comparar dos condiciones específicas: Sincrónica y Asincrónica. Aunque el promedio no muestra un cambio significativo, varios individuos sí exhiben un gran cambio en el Proprioceptive drift al pasar de la condición "Sincrónica" a la "Asincrónica". Notablemente, un individuo (representado por el punto verde superior en el gráfico) muestra una disminución dramática entre las dos condiciones. Si este estudio estuviera evaluando un medicamento, y alguien con características similares optara por no probarlo basándose únicamente en el resultado estadístico promedio, perdería la oportunidad de beneficiarse potencialmente de él, tal vez incluso curando una enfermedad.</figcaption>
+</figure>
+
+Volviendo a Djokovic y su dieta, ¿y si realmente funcionó para él? — su rendimiento y resultados definitivamente muestran que sí. ¿Y si solo funciona para el 20% de las personas, pero tú estás en ese grupo y no te cuesta nada probarla durante 2 semanas? — esto es lo que Djokovic sugiere modestamente en su libro. ¿Por qué diablos alguien estaría tan obsesionado con intentar disuadirte de ello en nombre de la Ciencia?
+
+Mi suposición es que muchos no científicos han caído en la trampa de la "Santa Ciencia". Realmente creen que la Ciencia es un único organismo con un mecanismo infalible para llegar a un consenso sobre casi cualquier tema y que todos los científicos son representantes de esta institución unida y sagrada.
+
+Por otro lado, muchos científicos reconocen — o al menos deberían reconocer — las limitaciones del método científico, pero prefieren mirar hacia otro lado. No hacerlo pondría en cuestión su estatus como altos sacerdotes con derecho a opinar sobre cualquier asunto remotamente relacionado con su campo de especialización.
+
+Luego hay otro grupo de científicos que han tomado la lucha contra una gran cantidad de tonterías "New Age", a menudo propagadas por individuos con poco entendimiento del método científico, que envidian el estatus a menudo inmerecido pero real del establecimiento científico al que no pertenecen.
+
+Sin embargo, me parece que este último grupo de científicos a menudo toma esta lucha tan en serio que sobreestiman las fortalezas del método científico.
+
+Djokovic comparte abiertamente su testimonio como un único caso de estudio (¡y vaya caso que es!). Más importante aún, se esfuerza al máximo para aclarar que lo que funcionó para él puede no funcionar todo el tiempo y con todos. Solo tienes que experimentar y descubrirlo. No está vendiendo nada, solo invita a una experimentación sana y de mente abierta. Probar y evaluar. Esto, por definición, es un enfoque científico.
+
+Lo que es claramente no científico es el lenguaje autoritario, irrespetuoso y pretencioso en muchos de los comentarios que he leído en respuesta a este hilo de Twitter, algunos de los cuales, como mencioné, provienen de investigadores profesionales que deberían saberlo mejor.
+
+Así que, para ser justos, no es "Djokovic" contra "Ciencia".
+
+El verdadero partido es **"Djokovic" contra "Malos Científicos"**:
+
+Resultado: 1–0.

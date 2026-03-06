@@ -1,0 +1,16 @@
+---
+title: "Our article on University Rankings published in the Journal of Ethics in Science and Environmental Politics"
+date: 2014-03-27
+description: "Our critical analysis of global university ranking systems, exposing their mathematical shortcomings and biases, published in JESEP."
+categories: [Publications, Science policy, University rankings]
+aliases:
+  - /2014/03/27/our-article-on-university-rankings-published-in-the-journal-of-ethics-in-science-and-environmental-politics/
+---
+
+*Originally published at: <a href="http://www.int-res.com/abstracts/esep/v13/n2/pp10/" target="_blank" rel="noreferrer noopener">http://www.int-res.com/abstracts/esep/v13/n2/pp10/</a>*
+
+Our article exposing the weaknesses of the current system of University rankings was recently published in the Journal of Ethics in Science and Environmental Politics. Below the article's abstract:
+
+Global university rankings are a powerful force shaping higher education policy worldwide. Several different ranking systems exist, but they all suffer from the same mathematical shortcoming — their ranking index is constructed from a list of arbitrary indicators combined using subjective weightings. Yet, different ranking systems consistently point to a cohort of mostly US and UK privately-funded universities as being the 'best'. Moreover, the status of these nations as leaders in global higher education is reinforced each year with the exclusion of world-class universities from other countries from the top 200.
+
+Rankings correlate neither with Nobel Prize winners, nor with the contribution of national research output to the most highly cited publications. They misrepresent the social sciences and are strongly biased towards English language sources. Furthermore, teaching performance, pedagogy and student-centred issues, such as tuition fees and contact time, are absent from the vast majority of ranking systems. We performed a critical and comparative analysis of 6 of the most popular global university ranking systems to help elucidate these issues and to identify some pertinent trends. As a case study, we analysed the ranking trajectory of Greek universities as an extreme example of some of the contradictions inherent in ranking systems. We also probed various socio-economic and psychological mechanisms at work in an attempt to better understand what lies behind the fixation on rankings, despite their lack of validity. We close with a protocol to help end-users of rankings find their way back onto more meaningful paths towards assessment of the quality of higher education.

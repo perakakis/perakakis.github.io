@@ -1,0 +1,21 @@
+---
+title: "Report back from COAR's annual meeting: celebrating a $4 million grant for the Notify Project"
+date: 2022-05-24
+description: "Report from the COAR 2022 annual meeting in Madrid, celebrating a $4 million Arcadia Foundation grant for the Notify Project and presenting the Psicológica diamond OA use case."
+categories: [News & Events, Talks & Presentations, COAR, Notify, Open Scholar, Psicológica, Repositories]
+aliases:
+  - /2022/05/24/report-back-from-coars-annual-meeting-celebrating-a-4-million-grant-for-the-notify-project/
+---
+
+Last week I attended the annual COAR meeting held in Madrid and organised by DIGITAL.CSIC. It was by all accounts an exceptional event marked by two important reasons for celebration.
+
+First, for most of us this was the first international face-to-face meeting after the pandemic, which may explain the significant increase in the average consumption of coffee and drinks, which is already quite high at these meetings!
+
+In addition, we celebrated the announcement of a $4 million grant from the Arcadia Foundation to support the Notify Project. This is certainly a major milestone in the move towards a distributed network of institutional repositories to eventually replace commercial publishers, the founding vision of Open Scholar.
+
+At the meeting, Isabel Bernal from DIGITAL.CSIC and I presented the use case of Psicológica, the journal of the Spanish Society for Experimental Psychology, as a diamond OA repository-overlay journal. Below are some links to read more about Notify and our work with the journal Psicológica.
+
+- COAR's website dedicated to the Notify Project: <a href="https://www.coar-repositories.org/notify/" target="_blank" rel="noreferrer noopener">https://www.coar-repositories.org/notify/</a>
+- Notify Documentation: <a href="https://notify.coar-repositories.org/" target="_blank" rel="noreferrer noopener">https://notify.coar-repositories.org</a>
+- Grant announcement on the Open Scholar website: <a href="https://openscholar.info/the-notify-project-receives-a-4-million-grant-from-the-arcadia-foundation/" target="_blank" rel="noreferrer noopener">https://openscholar.info/the-notify-project-receives-a-4-million-grant-from-the-arcadia-foundation/</a>
+- Psicológica Journal: <a href="https://psicologicajournal.com" target="_blank" rel="noreferrer noopener">https://psicologicajournal.com</a>

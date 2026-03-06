@@ -1,0 +1,10 @@
+---
+title: "How to detect the B point in impedance cardiography"
+date: 2017-07-01
+description: "Our new article in Psychophysiology compares three B point detection algorithms in Biopac's Acknowledge software, finding dramatic differences in accuracy and providing a decision tree for manual detection."
+categories: [Publications, Psychophysiology]
+aliases:
+  - /2017/07/01/how-to-detect-the-b-point-in-impedance-cardiography/
+---
+
+Our new article, published in *Psychophysiology* and freely available from my [Publications page](https://perakakis.github.io/publications/), compares the accuracy of the three algorithms for B point detection included in Biopac's popular software Acknowledge. We found unexpected and dramatic differences in the accuracy of these three algorithms, with the one based on the third derivative of the impedance cardiogram performing significantly better. In our article, we also provide a decision tree to help in the manual detection of the B point, especially by young and inexperienced researchers.

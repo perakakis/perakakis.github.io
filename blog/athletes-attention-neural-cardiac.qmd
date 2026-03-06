@@ -1,0 +1,10 @@
+---
+title: "Our two recent papers uncover a novel relation between neural and cardiac indices of enhanced attention in young athletes"
+date: 2016-07-24
+description: "Two new papers show young athletes outperform sedentary peers on sustained attention tasks, with novel EEG and heart period findings pointing to a brain-heart interaction mediating exercise-induced cognitive benefits."
+categories: [Publications, Exercise, Psychophysiology]
+aliases:
+  - /2016/07/24/our-two-recent-papers-uncover-a-novel-relation-between-neural-and-cardiac-indices-of-enhanced-attention-in-young-athletes/
+---
+
+In two recent papers, published in the <a href="assets/luque-casado-2016-jmssm.pdf" target="_blank" rel="noreferrer noopener">Journal of Medicine & Science in Sports & Medicine</a>, and in <a href="assets/luque-casado-2016-scirep.pdf" target="_blank" rel="noreferrer noopener">Scientific Reports</a>, we showed that young athletes perform better in a sustained attention task compared to their sedentary counterparts. Interestingly, the benefits of exercise on attention are observed only during the first 30 minutes of the 1-hour task. After that, there are no differences in the performance of the two groups. We observe that during this enhanced attention period, athletes also exhibit significantly different EEG and heart period event-related potentials (ERPs). This novel finding points towards a previously unrecognised brain-heart interaction in the mediation of cognitive benefits induced by physical exercise. These interesting results on the role of regular exercise on attention have also attracted the attention of Spanish <a href="http://biotech-spain.com/es/articles/las-personas-que-hacen-ejercicio-aer-bico-regularmente-mantienen-mejor-la-atenci-n-y-su-cerebro-es-m-s-gil-ante-est-mulos-relevantes/" target="_blank" rel="noreferrer noopener">popular science journals</a>.

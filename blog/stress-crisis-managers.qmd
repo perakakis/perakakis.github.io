@@ -1,0 +1,14 @@
+---
+title: "Our new paper about stress in crisis managers published in the Journal of Behavioral Medicine"
+date: 2015-08-09
+description: "A study comparing crisis managers with other professionals finds reduced stress, healthier lifestyle, and diminished psychophysiological reactivity to stressors in those experienced with crisis management."
+categories: [Publications, Psychophysiology]
+aliases:
+  - /2015/08/09/our-new-paper-about-stress-in-crisis-managers-published-in-the-journal-of-behavioral-medicine/
+---
+
+In this recently published study we compared 30 experienced crisis managers with 30 managers from other disciplines, in terms of self-reported stress, health status and psychophysiological reactivity to crisis-related and non-specific visual and acoustic aversive stimuli and cognitive challenge. Crisis managers reported lower stress levels, a more positive strain-recuperation-balance, greater social resources, reduced physical symptoms, as well as more physical exercise and less alcohol consumption. They exhibited diminished electrodermal and heart rate responses to crisis-related and non-specific stressors.
+
+The results indicate reduced stress and physical complaints, diminished psychophysiological stress reactivity, and a healthier life-style in crisis managers. Improved stress resistance may limit vulnerability to stress-related performance decline and facilitate preparedness for major incidents.
+
+<a href="assets/stress-crisis-managers-2015.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download article (PDF)</a>

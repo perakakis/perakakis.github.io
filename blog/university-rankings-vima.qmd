@@ -1,0 +1,12 @@
+---
+title: "Our paper on University rankings makes the headlines of \"Vima Science\""
+date: 2014-07-01
+description: "Our research paper on university ranking systems was featured as the cover article in the Greek newspaper Vima Science, highlighting how current rankings fail to capture Greek scientific productivity."
+categories: [Publications, Science policy, University rankings]
+aliases:
+  - /2014/07/01/our-paper-on-university-rankings-makes-the-headlines-of-vima-science/
+---
+
+The feature article on last Sunday's *Vima Science* discussing University Rankings presented a <a href="assets/taylor-2014-rankings.pdf" target="_blank">research paper</a> authored by Michael Taylor, Varvara Trachana, Stelios Gialis and myself. The *Vima Science* article uses data and arguments presented in our paper to criticise current University indices that are constructed from a list of arbitrary indicators combined using subjective weightings. The article specifically focuses on how these rankings fail to capture the high productivity of Greek scientists and University students as measured through citation data, and discusses Michael's suggestions on what criteria should students and parents use in order to select a suitable University.
+
+You can read the full article online here: <a href="http://www.tovima.gr/science/article/?aid=610392" target="_blank" rel="noreferrer noopener">http://www.tovima.gr/science/article/?aid=610392</a>

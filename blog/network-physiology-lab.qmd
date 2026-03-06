@@ -1,0 +1,14 @@
+---
+title: "The Laboratory for Network Physiology launches its official website"
+date: 2015-03-04
+description: "Professor Plamen Ivanov's Laboratory for Network Physiology, dedicated to understanding how organ systems dynamically interact as a network, launches its official website."
+categories: [News & Events, Network physiology, Psychophysiology]
+aliases:
+  - /2015/03/04/the-laboratory-for-network-physiology-launches-its-official-website/
+---
+
+The Laboratory for Network Physiology directed by Plamen Ch. Ivanov recently launched its official website. Professor Ivanov, with whom I collaborate closely for the past six years, is leading a unique team of statistical physicists, neuroscientists, applied mathematicians and biomedical engineers that have as their mission to understand how organ systems dynamically interact and collectively behave as a network to produce health or disease. This coordinated effort proposes a new scientific field, **Network Physiology**, to probe the network of interactions among diverse physiologic systems.
+
+In the website interested readers can find information about the group's research projects, publications, news, job opportunities and more.
+
+Visit the website <a href="https://sites.google.com/site/labnetworkphysiology/home" target="_blank" rel="noreferrer noopener">here</a>.

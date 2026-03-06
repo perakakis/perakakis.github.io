@@ -1,0 +1,28 @@
+---
+title: "Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against flawed academic publishing model"
+date: 2013-03-11
+description: "Press release announcing the launch of Open Scholar and the LIBRE project, a non-profit community organisation dedicated to improving how scientists access and share research."
+categories: [News & Events, Open Scholar, LIBRE, Repositories, Science policy]
+aliases:
+  - /2013/03/11/non-profit-organisation-open-scholar-c-i-c-urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/
+---
+
+The first press release about Open Scholar and the LIBRE project is out!
+
+> "Considering the capability of today's technology, it wouldn't be unreasonable to assume that scientists and researchers are able to collaborate and access each other's work easier than ever before. However, that assumption would be wrong."
+
+**London, United Kingdom, March, 2013 —** The advent of the Internet and new communication technologies have made information more accessible than ever; with a mobile and a Wi-Fi connection, even the most obscure questions can be answered in seconds and people can share their thoughts and experiences by simply clicking "share". Considering the capability of today's technology, it wouldn't be unreasonable to assume that scientists and researchers are able to collaborate and access each other's work easier than ever before. However, that assumption would be wrong.
+
+According to Open Scholar spokesperson, Dr. Pandelis Perakakis, scientists are still dependent on academic journals, which are controlled by highly-profitable publishing houses, for the evaluation and dissemination of research. Perakakis, a psychology researcher himself, claims that these institutions are delaying scientific advancement in favour of their profit margins. Under the current model, research can go unpublished for months or even years before finally becoming available to the scientific community at large.
+
+*"The current academic publishing model is outdated, inefficient and morally questionable. Before the Internet, the model was put into place because periodically-released journals allowed for research to be aggregated, reviewed by peers and disseminated to scientists from around the world better than any previous method. Today, we no longer face the limitations, such as access, mass printing and distribution, that journals were designed to address.*
+
+*"Instead, we face new problems like the rising cost of access to scientific articles, low quality or even biased peer reviews, and the increasing inability of publishing houses to keep up with the pace of research. Open Scholar and the LIBRE project give scientists the power to change all that."* stated Dr. Perakakis.
+
+Open Scholar is a not-for-profit community organisation dedicated to improving the way scientists and the rest of the world access research. The Organisation's flagship project, LIBRE (LIBerating REsearch), is a multidisciplinary research platform using a community-based organisational structure. Scientists can upload their work to a permanent and centralised digital library, which features a transparent peer review system and is freely accessible by anyone.
+
+LIBRE is currently at a late development stage and a beta version will soon be released. Open Scholar is an open community inviting all interested scientists to join so that together they can make the switch and support the change, which they say will usher in a new era of transparency and free access for all.
+
+Perakakis confirms that the community is developed for "everyone" and that scientists and academics are encouraged to contribute their wisdom to the cause, ensuring that the platform becomes a free and invaluable resource for everyone in the future.
+
+See the press release on the journalism.co.uk site <a href="http://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/" target="_blank" rel="noreferrer noopener">here</a>.

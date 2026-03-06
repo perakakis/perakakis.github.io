@@ -1,0 +1,10 @@
+---
+title: "On the future of peer review: LIBRE presentation at SpotOn London 2013"
+date: 2013-11-12
+description: "A 5-minute talk on the future of academic peer review and the LIBRE platform presented at SpotOn London 2013."
+categories: [Talks & Presentations, LIBRE, Open Scholar, Repositories, Science policy]
+aliases:
+  - /2013/11/12/on-the-future-of-peer-review-libre-presentation-at-spoton-london-2013/
+---
+
+On Friday 8th of November, together with Michael Taylor we gave a 5-minute talk on the future of academic peer review also presenting the forthcoming platform LIBRE at the <a href="http://www.nature.com/spoton/event/spoton-london-2013-how-should-peer-review-evolve/" target="_blank" rel="noreferrer noopener">SpotOn 2013 event</a>.

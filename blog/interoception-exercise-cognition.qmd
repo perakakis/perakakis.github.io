@@ -1,0 +1,16 @@
+---
+title: "Can increased interoception explain exercise-induced benefits on brain function and cognitive performance?"
+date: 2019-04-10
+description: "New preprint on PsyArXiv reviews evidence for the hypothesis that physical exercise enhances cognitive performance by improving interoception, with implications for health and mental training programs."
+categories: [Publications, Exercise, Psychophysiology]
+aliases:
+  - /2019/04/10/can-increased-interoception-explain-exercise-induced-benefits-on-brain-function-and-cognitive-performance/
+---
+
+This is the title of our new preprint, published in PsyArXiv, where we review the evidence in favor of the novel hypothesis that physical exercise enhances cognitive performance by improving interoception.
+
+Available data shows that athletes have better cardiac perception compared to sedentary individuals. It has also been reported that even a single session of physical exercise can improve interoceptive sensitivity. On the other hand, both direct and indirect measures of interoceptive awareness have been associated to better attention, while brain regions related to interoception are also known to mediate cognitive function.
+
+These separate lines of research seem to indicate that increases in interoceptive capacity may be mediating the cognitive benefits induced by physical exercise. After discussing the available evidence we recommend future research, including carefully designed randomised control trials, to properly address this hypothesis that may have significant implications for physical and mental health training programs.
+
+Read the entire review here: <a href="https://psyarxiv.com/vghy7/" target="_blank" rel="noreferrer noopener">https://psyarxiv.com/vghy7/</a>

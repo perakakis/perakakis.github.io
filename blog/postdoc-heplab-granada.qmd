@@ -1,0 +1,35 @@
+---
+title: "Postdoctoral position to study HEP and interoception in Granada"
+date: 2021-09-14
+description: "Announcement of a postdoctoral position at CIMCYC in Granada to study heartbeat-evoked potentials and interoception, funded by the Spanish Ministry of Science and Innovation."
+categories: [News & Events, Postdoc position, Psychophysiology]
+aliases:
+  - /2021/09/14/postdoctoral-position-to-study-hep-and-interoception-in-granada/
+---
+
+We are excited to announce a new position for an enthusiastic and creative postdoctoral researcher interested in collaborating with our research group at the Mind, Brain and Behavior Research Center (<a href="https://cimcyc.ugr.es/" target="_blank" rel="noreferrer noopener">CIMCYC</a>) in the beautiful city of Granada.
+
+#### The project
+
+The project, called "HEPLAB: The psychophysiological origins of the Heartbeat Evoked Potential", is funded by the Spanish Ministry of Science and Innovation (Grant number: PGC2018-096655-A-I00) and involves three experimental studies to test the relationship of HEP with peripheral physiological variables (ECG-derived measures, respiration, baroreflex sensitivity, etc), and its sensitivity to physiological (physical exercise) and psychological (auditory biofeedback) manipulations. While substantial previous research has been conducted by our group, many open questions remain that will require further experimental studies and theoretical insights to better understand the mechanisms involved in the generation of brain responses to cardiac afferent stimuli and the possible usefulness of HEP in clinical settings. More details about the project are available upon request.
+
+#### The candidate
+
+The candidate should have:
+
+1. a PhD degree completed by the date of the call in Psychology, Biomedical Engineering, Medical Physics, Electrical Engineering, Computer Science, Neuroscience, or related areas
+2. experience with EEG, ECG and preferably also with peripheral physiological variables such as respiration and blood pressure
+3. significant experience in scientific writing and dissemination
+4. availability for an interview
+
+#### The contract
+
+The researcher will receive an initial 12-month contract with the possibility of extension. Although the work will be carried out at CIMCYC in the city of Granada, where the researcher is expected to live, the contract will be signed with the <a href="https://www.ucm.es/" target="_blank" rel="noreferrer noopener">Universidad Complutense de Madrid</a>, which is the Principal Investigator's institution. Salary (approximately 35,000 EUR gross annual salary), social benefits and health insurance are regulated by the corresponding decree, available at: <a href="https://www.ucm.es/normativa-reguladora-personal-de-apoyo-a-la-investigacion-pai" target="_blank" rel="noreferrer noopener">https://www.ucm.es/normativa-reguladora-personal-de-apoyo-a-la-investigacion-pai</a>. Further details are available upon request.
+
+#### Hosting conditions
+
+The researcher will be hosted at <a href="https://cimcyc.ugr.es/" target="_blank" rel="noreferrer noopener">CIMCYC</a>, the Mind, Brain and Behavior Research Center of the University of Granada. CIMCYC is one of the most renowned neuroscience research centers in Spain, offering a rich and interdisciplinary research environment. In addition to participation in project activities, the researcher is expected to be actively involved in the academic life of the institute, including participation in conferences and seminars. The city of Granada is one of the pearls of Spain, known for its cultural blend, the world-famous Alhambra, its spectacular natural surroundings and its vibrant student life.
+
+#### Application
+
+Interested candidates are welcomed to send me an email with their CV and a brief letter of intent: <a href="mailto:pperakakis@ucm.es">pperakakis@ucm.es</a>

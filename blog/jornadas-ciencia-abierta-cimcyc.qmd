@@ -1,0 +1,21 @@
+---
+title: "Jornadas de Ciencia Abierta en el CIMCYC"
+date: 2019-05-18
+description: "Informe de una mesa redonda sobre prácticas de Ciencia Abierta y su importancia para abordar la crisis de replicabilidad en Psicología, organizada en el CIMCYC de la Universidad de Granada."
+categories: [Talks & Presentations, Open Science]
+aliases:
+  - /2019/05/18/jornadas-de-ciencia-abierta-en-el-cimcyc/
+lang: es
+---
+
+La semana pasada participé en una mesa redonda sobre las prácticas de ciencia abierta y su importancia para enfrentar el problema de replicabilidad en Psicología.
+
+El evento ha sido organizado por un comité de profesores de Psicología en el <a href="https://cimcyc.ugr.es" target="_blank" rel="noreferrer noopener">Centro de Cerebro, Mente y Comportamiento</a> (CIMCYC) de la Universidad de Granada.
+
+El panel estaba formado por profesores de distintos departamentos de Psicología (social, experimental, metodología y desarrollo), lo cual nos dio la oportunidad de contrastar las experiencias en diferentes áreas de Psicología y explorar posibles soluciones para los problemas más importantes de nuestro campo y de la ciencia en general.
+
+Ha sido una experiencia muy enriquecedora por la cual debo agradecer al comité organizador, a nuestro moderador Guillermo Willis (@gbwillis), y a mis compañeros de la UGR que participaron en la discusión: José Luis Padilla, Isabel de Brugada, Ignacio Morón y Rosa Rodríguez (@rrbailon).
+
+Antes de nuestra mesa tuvimos la oportunidad de escuchar a Zoltan Dienes de la Universidad de Sussex hablando sobre los beneficios de los registered reports, y el día anterior disfrutamos de una excelente presentación sobre los sesgos cognitivos y su importancia en el proceso científico impartida por Helena Matute de la Universidad de Deusto.
+
+Aquí un hilo que publiqué en twitter con algunos enlaces e imágenes relacionados con mi intervención: <a href="https://twitter.com/ppandelis/status/1129138168719118340" target="_blank" rel="noreferrer noopener">https://twitter.com/ppandelis/status/1129138168719118340</a>

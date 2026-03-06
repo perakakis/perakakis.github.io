@@ -1,0 +1,14 @@
+---
+title: "Slides from my Ghent talk on Open Science"
+date: 2017-05-24
+description: "Slides from an introductory talk on Open Science given in Ghent, where researchers remain hesitant to adopt open practices without clear academic rewards."
+categories: [News & Events, Talks & Presentations, Science policy]
+aliases:
+  - /2017/05/24/slides-from-my-ghent-talk-on-open-science/
+---
+
+Last week I was in Ghent to give another introductory talk on Open Science — it is becoming an addiction! First, Ghent was much prettier than I expected! Second, researchers are still hesitant to open up to new practices until a clear academic reward is promised. But we are getting there, slowly but steadily...
+
+Here is my presentation:
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/open-science-what-why-how-76291597" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen style="max-width:600px; display:block; margin: 1.5rem auto;"></iframe>

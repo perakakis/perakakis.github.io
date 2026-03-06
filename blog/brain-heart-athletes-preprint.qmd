@@ -1,0 +1,36 @@
+---
+title: "Our preprint on brain-heart communication in athletes and sedentary young adults, available for peer review"
+date: 2017-07-01
+description: "Our preprint revealing differences in brain processing of cardiac signals between physically trained and sedentary young adults is available for open peer review on SJS and bioRxiv."
+categories: [Opinions, Publications, Exercise, Peer review, Psychophysiology, Science policy, SJS]
+aliases:
+  - /2017/07/01/our-preprint-on-brain-heart-communication-in-athletes-and-sedentary-young-adults-available-for-peer-review/
+---
+
+Our recent research, revealing significant differences in how the brains of physically trained and sedentary young adults process information from the heart, is now available for commentary and formal peer review in two preprint repositories: <a href="http://sjscience.org/article?id=634" target="_blank" rel="noreferrer noopener">SJS</a> and <a href="http://www.biorxiv.org/content/early/2017/06/28/156802" target="_blank" rel="noreferrer noopener">bioRxiv</a>. Each of these repositories comes with advantages and disadvantages. BioRxiv is already backed by a large community, provides a DOI for indexing and citing, and tracks article usage statistics across the web. Its big disadvantage is that, just like in any other repository, articles simply sit there waiting to be published in a traditional journal in order to acquire some quality indicator — no matter how inaccurate and perverse — that will inform readers and be useful for authors in the advancement of their careers. SJS, on the other hand, is the first and only repository that facilitates a formal peer review process. Its big disadvantage is that it is not yet supported by a big community that would ensure sustainability and greater visibility.
+
+So, while our article is sitting quietly on bioRxiv, we are sending personalised invitations to a number of experts in the field to formally review the version hosted on SJS. In less than a week after uploading the article, we already received two signed reviews by known experts in the field. One reviewer is suggesting a revision, making excellent suggestions for improvements that we will have to incorporate in the next version of the manuscript. All reviewer comments are posted alongside the article, making it easy for readers to follow the discussion paragraph by paragraph. Openness and transparency make the review process a collaborative effort to detect and correct errors, enrich interpretations and generally improve validity, reproducibility, and quality. Isn't this what science is all about?
+
+Here is the invitation we sent to potential reviewers:
+
+<blockquote>
+<p>Dear Dr.,</p>
+
+<p>We would like to invite you to review our manuscript titled: "Neural Responses to Heartbeats of Physically Trained and Sedentary Young Adults".</p>
+
+<p>We value your expertise in the area of ... and are certain that your comments and suggestions can significantly improve the quality of our work.</p>
+
+<p>Please note that the manuscript is currently archived as a preprint at the SJS repository and has not yet been submitted to an academic journal. Should you decide to accept this invitation, the text of your review will be visible alongside the original manuscript on the repository and your name will be disclosed. We understand that this is an unusual review request, but we hope you agree with us that our community is capable of organising and performing the vital process of peer review in an open and transparent manner, without the mediation of journal editors. You can read more on the rationale behind the novel review model we promote and the benefits for the research community of decoupling peer review from the publication process here:
+<a href="https://openscholar.info/independent-peer-review-manifesto/" target="_blank" rel="noreferrer noopener">https://openscholar.info/independent-peer-review-manifesto/</a></p>
+
+<p>By supporting this initiative you will participate in an open and transparent conversation to improve the scientific quality of a research work in your area of expertise and promote new ways of constructive academic collaboration. Importantly, contrary to traditional journal-organised peer review, you will receive credit for your time and effort through direct attribution, since your comments will become permanently linked to the original article. If the article is later accepted for publication in a traditional academic journal we will also personally acknowledge your signed contribution in the published version.</p>
+
+<p>If you accept our invitation you will first have to create an account on SJS following this link: <a href="http://www.sjscience.org/login/" target="_blank" rel="noreferrer noopener">http://www.sjscience.org/login/</a></p>
+
+<p>Once you have created an account you can access and review our article following this link: <a href="http://www.sjscience.org/article?id=634" target="_blank" rel="noreferrer noopener">http://www.sjscience.org/article?id=634</a></p>
+
+<p>We appreciate your time to consider this invitation and look forward to receive your comments and suggestions for improvements.</p>
+
+<p>Sincerely,<br>
+Pandelis Perakakis, Antonio Luque-Casado, Luis F. Ciria, and Daniel Sanabria</p>
+</blockquote>

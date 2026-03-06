@@ -1,0 +1,18 @@
+---
+title: "HEPLAB: Matlab scripts to facilitate heartbeat-evoked potential analysis"
+date: 2018-02-01
+description: "HEPLAB is a collection of Matlab scripts released on Zenodo to facilitate heartbeat-evoked potential analysis using EEGLAB and Fieldtrip."
+categories: [News & Events, HEPLAB, Software]
+aliases:
+  - /2018/02/01/heplab-matlab-scripts-to-facilitate-heartbeat-evoked-potential-analysis/
+---
+
+The heartbeat-evoked potential is a measure of the brain's electromagnetic response to individual heartbeats that is emerging as a novel and promising index of brain-body communication. Just like any other evoked brain potential, its visualisation and quantitative assessment require the averaging of several trials to reduce the influence of fluctuations that are not related to the evoking stimulus. Although the process of creating custom events that correspond to the R-peak of the electrocardiographic signal is pretty straightforward, to my knowledge there is still no commercial software to facilitate this task.
+
+Last month my colleague Luis Ciria and I gave a two-day workshop that focused on how to use the Matlab toolbox EEGLAB to create heartbeat-evoked events, extract epochs from the continuous EEG signal based on these events, and use Fieldtrip to perform a cluster-based permutation analysis to detect statistical differences between groups and conditions. The custom scripts we used at the workshop are freely available through the Zenodo repository:
+
+Pandelis Perakakis & Luis Ciria. (2018, February 1). HEPLAB: Matlab scripts for heartbeat-evoked potential analysis. Zenodo. <a href="http://doi.org/10.5281/zenodo.1164232" target="_blank" rel="noreferrer noopener">http://doi.org/10.5281/zenodo.1164232</a>
+
+The scripts use sample data that can become available upon request, although users with some experience with EEGLAB should not find it difficult to adapt them to their data.
+
+The workshop was organised by the <a href="https://www.uam.es/otros/SEPNECA/" target="_blank" rel="noreferrer noopener">Spanish Society for Affective and Cognitive Neuroscience</a> (SEPNECA) and held at the University of Granada.

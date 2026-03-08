@@ -11,6 +11,5 @@ On Thursday 5th of December, I gave a talk on how to move beyond open access and
 
 Below are the slides of the presentation published under a creative commons attribution license that lets anyone distribute, remix, tweak, and build upon this work, even commercially, as long as they credit the author for the original creation. You can also watch a video of the presentation <a href="http://videoonline.edu.lmu.de/en/node/4902" target="_blank" rel="noopener noreferrer">here</a>.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/beyond-open-access-facing-the-real-problems" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
-
-[View on SlideShare](https://www.slideshare.net/PandelisPerakakis/beyond-open-access-facing-the-real-problems)
+<a href="http://videoonline.edu.lmu.de/en/node/4902" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-camera-video"></i> Video</a>
+<a href="https://www.slideshare.net/PandelisPerakakis/beyond-open-access-facing-the-real-problems" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-easel"></i> Slides</a>

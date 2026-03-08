@@ -116,7 +116,7 @@
       url: "https://doi.org/10.1007/s11192-011-0402-1"
       icon: "bi bi-journal-text"
     - name: "OA PDF"
-      url: "/assets/Perakakis_SCI_2011.pdf"
+      url: "assets/Perakakis_SCI_2011.pdf"
       icon: "bi bi-journal-text"
 
 - title: "Natural selection of academic papers"
@@ -139,7 +139,7 @@
       url: "https://doi.org/10.1007/s11192-010-0253-1"
       icon: "bi bi-journal-text"
     - name: "OA PDF"
-      url: "/assets/NSAP_Perakakis_2010.pdf"
+      url: "assets/NSAP_Perakakis_2010.pdf"
       icon: "bi bi-file-earmark-pdf"
 
 - title: "The siege of science"

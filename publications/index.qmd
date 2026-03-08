@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-bibliography: references.bib
+bibliography: bibliography.bib
 nocite: '@*'
 csl: apa-date-desc.csl
 ---

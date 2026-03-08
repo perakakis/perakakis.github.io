@@ -4,6 +4,7 @@ toc: false
 aliases:
   - /kardia
   - /heplab
+  - /tag/heplab
 ---
 
 Open-source MATLAB tools I developed for psychophysiological data analysis, freely available under the GNU Public License.

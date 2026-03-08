@@ -8,7 +8,7 @@ aliases:
   - /2014/09/30/asthma-revisited-is-it-really-chronic-and-incurable/
 ---
 
-> In this article I review evidence showing that the current definition of asthma as chronic airway inflammation is not scientifically substantiated. Importantly, this problematic definition is distracting the medical community away from inexpensive therapeutic interventions that have proven to be remarkably efficient in numerous clinical trials. Read the published version of this article <a href="https://thewinnower.com/papers/asthma-revisited-is-it-really-chronic-and-incurable" target="_blank" rel="noopener noreferrer">here</a>.
+> In this article I review evidence showing that the current definition of asthma as chronic airway inflammation is not scientifically substantiated. Importantly, this problematic definition is distracting the medical community away from inexpensive therapeutic interventions that have proven to be remarkably efficient in numerous clinical trials.
 
 Back in the 1950s asthma was defined as a reversible airway obstruction caused by the hyperresponsiveness of the Airway Smooth Muscle (ASM) to a variety of agents. Consistent with this definition, a large part of research on asthma focused in identifying several agents that could trigger a contraction of the ASM, also known as bronchoconstriction or bronchospasm.
 
@@ -27,8 +27,6 @@ It is also remarkable that the current definition of asthma as chronic inflammat
 The scientific evidence cries out for recognition. Airway hyperresponsiveness is the main mechanism behind asthma symptoms, at least in patients that have not received combined bronchodilator and corticoid treatment for a long period of time. This hyperresponsiveness can be tackled with breathing training aimed at normalising carbon dioxide concentrations. We can even hypothesise that ASM contraction is the body's way of telling us we should reduce over-breathing in order to maintain healthy carbon dioxide levels in the lungs and blood stream. Instead, physicians assist patients in artificially relaxing the smooth muscle with the daily use of bronchodilators, thus cancelling out a defence mechanism and aggravating the primary condition. This may explain the fact that asthma mortality rates increased worldwide in the 1960s, when inhaled β-agonists were introduced on the market (Hussey et al., 2006).
 
 The details behind the decision to change the definition of asthma worldwide despite the lack of scientific evidence to support this change, as well as the decision of leading pharmaceutical companies to combine two pharmacologically incompatible medicine, such as bronchodilators and corticosteroids, into one inhaler, merit serious investigation. In the meantime, and until the medical community finds the courage to face the facts and admit its errors, patients need to be informed that their condition is not necessarily chronic and incurable. A significant number of patients worldwide have gotten rid of their asthma through breathing training. It is not blasphemy to claim that asthma can be cured. It is however immoral to condemn people to unnecessary life-treatment based on limited scientific evidence.
-
-This article was also published here: <a href="https://thewinnower.com/papers/151-asthma-revisited-is-it-really-chronic-and-incurable" target="_blank" rel="noopener noreferrer">https://thewinnower.com/papers/151-asthma-revisited-is-it-really-chronic-and-incurable</a>
 
 ---
 

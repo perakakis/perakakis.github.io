@@ -2,7 +2,7 @@
 title: "La enseñanza a la calle... (La Barraca Incendiada)"
 date: 2013-03-17
 description: "La segunda edición de la iniciativa 'Universidad a la Calle' en la plaza Bib-rambla de Granada, con un texto de Alfonso Maso sobre el significado de esta acción colectiva."
-categories: [News & Events, Activism]
+categories: [News & Events, Activism, Video]
 image: assets/img_0737.jpg
 aliases:
   - /2013/03/17/universidad-a-la-calle-ii/

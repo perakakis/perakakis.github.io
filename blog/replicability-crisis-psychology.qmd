@@ -2,7 +2,7 @@
 title: "Replicability crisis in Psychology: causes and solutions"
 date: 2019-06-14
 description: "Slides and summary of a talk at the University of Seville covering statistical, methodological and systemic causes of low replicability rates in Psychology, and proposed solutions including preregistration and repository-based scholarly communication."
-categories: [Talks & Presentations, Psychology, Replicability, Statistics, Slides]
+categories: [Talks & Presentations, Replicability, Statistics, Slides]
 aliases:
   - /2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/
 ---

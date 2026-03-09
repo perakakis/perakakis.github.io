@@ -2,7 +2,7 @@
 title: "The Laboratory for Network Physiology launches its official website"
 date: 2015-03-04
 description: "Professor Plamen Ivanov's Laboratory for Network Physiology, dedicated to understanding how organ systems dynamically interact as a network, launches its official website."
-categories: [News & Events, Network physiology, Psychophysiology]
+categories: [News & Events, Psychophysiology]
 aliases:
   - /2015/03/04/the-laboratory-for-network-physiology-launches-its-official-website/
 ---

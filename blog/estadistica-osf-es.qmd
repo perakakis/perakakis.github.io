@@ -2,7 +2,7 @@
 title: "Mi material docente para un curso de introducción a la estadística disponible en OSF"
 date: 2019-05-21
 description: "Material docente para un curso de introducción a la estadística en psicología usando JASP, publicado en la plataforma OSF con licencia CC-By Attribution 4.0."
-categories: [Teaching, Course material, Psychology, Statistics]
+categories: [Teaching, Course material, Statistics]
 aliases:
   - /2019/05/21/publicado-en-osf-el-material-docente-para-mi-curso-de-introduccion-a-la-estadistica/
 lang: es

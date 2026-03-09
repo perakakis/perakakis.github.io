@@ -6,7 +6,8 @@ listing:
   - id: recent-posts
     contents:
       - blog/rethinking-affect.qmd
-      - blog/github-zenodo-doi.qmd
+      - blog/jornadas-investigacion-ccpp-ucm.qmd
+      # - blog/github-zenodo-doi.qmd
       # - blog/biorxiv-preprints.qmd
       - blog/journal-acquisitions.qmd
       # - blog/*.qmd

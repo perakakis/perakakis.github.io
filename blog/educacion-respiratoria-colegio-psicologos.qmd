@@ -2,7 +2,7 @@
 title: "Diapositivas de mi curso de Educación Respiratoria en el Colegio de Psicólogos"
 date: 2015-03-22
 description: "Diapositivas del curso de dos días sobre Educación Respiratoria en la sede del Colegio Oficial de Psicólogos, incluyendo fisiología respiratoria, hiperventilación y modificación de la respiración."
-categories: [News & Events, Talks & Presentations, Asthma, Breathing, Slides]
+categories: [News & Events, Talks & Presentations, Breathing, Slides]
 aliases:
   - /2015/03/22/diapositivas-de-mi-curso-de-educacion-respiratoria-en-el-colegio-de-psicologos/
 lang: es

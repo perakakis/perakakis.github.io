@@ -2,11 +2,11 @@
 title: "Psychophysiological Measures of Emotion: Application in Experimental Economics"
 date: 2013-03-22
 description: "Slides from my lecture on psychophysiological measures of emotion for Master in Economics students at the University of Granada."
-categories: [Talks & Presentations, Behavioural economics, Psychophysiology]
+categories: [Talks & Presentations, Behavioural economics, Psychophysiology, Slides]
 aliases:
   - /2013/03/22/psychophysiological-measures-of-emotion-application-in-experimental-economics/
 ---
 
 The presentation of my lecture for the students of the Master in Economics at the University of Granada (20th of March 2013).
 
-<a href="assets/empresariales-20-03-2013.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download slides (empresariales-20-03-2013.pdf)</a>
+<a href="assets/empresariales-20-03-2013.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download slides</a>

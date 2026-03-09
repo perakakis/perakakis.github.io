@@ -2,7 +2,7 @@
 title: "Is there life beyond publishers?"
 date: 2021-04-21
 description: "Slides from an invited talk at the SEPEX 2021 virtual conference presenting the new publication model of the society's journal, Psicológica, as a diamond open access journal hosted on DIGITAL.CSIC."
-categories: [News & Events, Talks & Presentations, Open Scholar, Psicológica]
+categories: [News & Events, Talks & Presentations, Open Scholar, Psicológica, Slides]
 aliases:
   - /2021/04/21/is-there-life-beyond-publishers/
 ---

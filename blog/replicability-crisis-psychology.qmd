@@ -2,12 +2,12 @@
 title: "Replicability crisis in Psychology: causes and solutions"
 date: 2019-06-14
 description: "Slides and summary of a talk at the University of Seville covering statistical, methodological and systemic causes of low replicability rates in Psychology, and proposed solutions including preregistration and repository-based scholarly communication."
-categories: [Talks & Presentations, Psychology, Replicability, Statistics]
+categories: [Talks & Presentations, Psychology, Replicability, Statistics, Slides]
 aliases:
   - /2019/06/14/replicability-crisis-in-psychology-causes-and-solutions/
 ---
 
-This is the title of the talk I gave on June 13th at the Psychology department of the University of Seville. The <a rel="noreferrer noopener" href="http://doctoradopsicosevilla.es/uploads/app/318/elements/file/file1560162223.pdf" target="_blank">event</a> was organised for the summer school of the department's PhD program. I am grateful to professor David Saldaña for the kind invitation and for the interesting conversations.
+This is the title of the talk I gave on June 13th at the Psychology department of the University of Seville. The event was organised for the summer school of the department's PhD program. I am grateful to professor David Saldaña for the kind invitation and for the interesting conversations.
 
 In the talk, I discussed two types of causes for the observed low replicability rates in Psychology and other fields: a) **Statistical** and **methodological**, and b) **systemic** causes. Statistical/methodological causes include: a) inherent problems with the use of ***p*-values** as the only risk indicator for false positive results (ignoring the **prior likelihood** of the phenomena in question), and b) **questionable research practices** that tend to inflate the false positive rate.
 
@@ -15,4 +15,4 @@ Systemic causes refer to the ways academic research is currently **validated**, 
 
 I have presented proposed solutions for both types of problems, making emphasis on the importance of **preregistration** (to address methodological issues) and the transition to a scholarly communication model supported by a **network of institutional repositories** and overlay services offered by **scientific societies**, in line with the vision promoted by <a rel="noreferrer noopener" href="http://ngr.coar-repositories.org" target="_blank">COAR</a> and <a rel="noreferrer noopener" href="http://www.openscholar.info" target="_blank">Open Scholar</a>.
 
-<a href="assets/replicability-crisis-psychology-sevilla-2019.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Replicability Crisis in Psychology — Universidad de Sevilla 2019</a>
+<a href="assets/replicability-crisis-psychology-sevilla-2019.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-slides"></i> Slides</a>

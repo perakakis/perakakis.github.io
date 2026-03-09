@@ -11,7 +11,7 @@ lang: es
 
 <img src="assets/img_0737.jpg" alt="" style="float:right; margin: 1rem 0 1rem 1.5rem; max-width: 300px; width: 100%;"/>
 
-La segunda edición de la iniciativa "<a href="/blog/universidad-a-la-calle/" target="_blank" rel="noopener noreferrer">Universidad a la Calle</a>" en la plaza Bib-rambla en 15 de Marzo. En las palabras de **Alfonso Maso**, profesor de Bellas Artes:
+La segunda edición de la iniciativa ["Universidad a la Calle"](universidad-a-la-calle.qmd) en la plaza Bib-rambla en 15 de Marzo. En las palabras de **Alfonso Maso**, profesor de Bellas Artes:
 
 Hay llamas que arrasan. No permitamos más rejas, más señales de dirección obligatoria al sentido del pensamiento y las palabras. Surgió La Barraca en Granada para provocar pequeños incendios en inesperados interiores, en lugares sin importancia y apenas con nombre. La propia Barraca pudo ser calcinada por el odio de los generales y por la muerte silenciada de quienes no olvidaron, pero siempre permaneció latente en escondidas cenizas.
 

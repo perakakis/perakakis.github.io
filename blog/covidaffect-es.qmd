@@ -2,7 +2,7 @@
 title: "CoVidAffect: monitorización de variaciones en el estado de ánimo durante el confinamiento por la COVID-19"
 date: 2020-08-18
 description: "CoVidAffect fue un proyecto para monitorizar en tiempo real las variaciones en el estado de ánimo durante el confinamiento por COVID-19, con 999 participantes y 17.454 registros entre marzo y junio de 2020."
-categories: [News & Events, Affect dynamics, COVID-19, CoVidAffect]
+categories: [News & Events, Affect dynamics, CoVidAffect]
 image: assets/CoVidAffect_logo.jpg
 aliases:
   - /2020/08/18/covidaffect-monitorizacion-de-variaciones-en-el-estado-de-animo-durante-el-confinamiento-por-la-covid-19/

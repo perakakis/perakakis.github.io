@@ -2,7 +2,7 @@
 title: "Djokovic contra Ciencia"
 date: 2023-09-03
 description: "Reflexiones sobre las fortalezas y limitaciones de la ciencia a raíz de las críticas a los hábitos alimenticios de Djokovic, argumentando que la no significación estadística se malinterpreta frecuentemente como prueba científica."
-categories: [Opinions, Djokovic, Science]
+categories: [Opinions]
 image: assets/djokovic-proprioceptive-drift.png
 aliases:
   - /2023/09/03/djokovic-vs-ciencia/

@@ -2,7 +2,7 @@
 title: "Our preprint on brain-heart communication in athletes and sedentary young adults, available for peer review"
 date: 2017-07-01
 description: "Our preprint revealing differences in brain processing of cardiac signals between physically trained and sedentary young adults is available for open peer review on SJS and bioRxiv."
-categories: [Opinions, Publications, Exercise, Peer review, Psychophysiology, Science policy, SJS]
+categories: [Opinions, Publications, Exercise, Peer review, Psychophysiology, Science policy, Open Scholar]
 aliases:
   - /2017/07/01/our-preprint-on-brain-heart-communication-in-athletes-and-sedentary-young-adults-available-for-peer-review/
 ---

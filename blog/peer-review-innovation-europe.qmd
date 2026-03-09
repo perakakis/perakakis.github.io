@@ -2,7 +2,7 @@
 title: "Europe's unpreparedness to support peer review innovation"
 date: 2014-02-25
 description: "A report on attending the Horizon 2020 Research Infrastructures Information Days in Brussels, revealing that despite rhetoric, Europe is not yet ready to formally support peer review innovation."
-categories: [Opinions, LIBRE, Peer review, Science policy]
+categories: [Opinions, Open Scholar, Peer review, Science policy]
 aliases:
   - /2014/02/25/europes-unpreparedness-to-support-peer-review-innovation/
 ---

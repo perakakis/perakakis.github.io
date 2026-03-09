@@ -2,7 +2,7 @@
 title: "Postdoctoral position to study HEP and interoception in Granada"
 date: 2021-09-14
 description: "Announcement of a postdoctoral position at CIMCYC in Granada to study heartbeat-evoked potentials and interoception, funded by the Spanish Ministry of Science and Innovation."
-categories: [News & Events, Postdoc position, Psychophysiology]
+categories: [News & Events, Psychophysiology]
 aliases:
   - /2021/09/14/postdoctoral-position-to-study-hep-and-interoception-in-granada/
 ---

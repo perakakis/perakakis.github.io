@@ -2,7 +2,7 @@
 title: "Report back from the COAR 2016 annual meeting"
 date: 2016-04-18
 description: "A report from the COAR annual meeting in Vienna, where discussions on next-generation repositories and journal-independent open peer review took center stage, signaling a turning point in open scholarship."
-categories: [News & Events, Opinions, Talks & Presentations, COAR, Open Scholar, Repositories, Science policy, Slides]
+categories: [News & Events, Opinions, Talks & Presentations, Open Scholar, Repositories, Science policy, Slides]
 aliases:
   - /2016/04/18/report-back-from-the-coar-2016-annual-meeting/
 ---

@@ -2,7 +2,7 @@
 title: '¿Qué son los "transformative agreements" y qué necesitamos saber antes de utilizarlos?'
 date: 2021-05-03
 description: 'Un análisis crítico de los "transformative agreements" entre editoriales y bibliotecas universitarias, argumentando que refuerzan el oligopolio editorial y promueven una visión distorsionada del acceso abierto.'
-categories: [Opinions, Academic publishing]
+categories: [Opinions, Scholarly Communication]
 image: assets/profits.png
 aliases:
   - /2021/05/03/que-son-los-transformative-agreements-y-que-necesitamos-saber-antes-de-utilizarlos/

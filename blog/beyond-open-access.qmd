@@ -2,7 +2,7 @@
 title: "Beyond open access: facing academia's real problems"
 date: 2013-12-10
 description: "Slides and video of a talk at Ludwig Maximilian University Munich on how the journal monopoly over validation, evaluation and dissemination creates problems even more important than lack of accessibility to research."
-categories: [Talks & Presentations, Open Access, Science policy, Slides, Video]
+categories: [Talks & Presentations, Scholarly Communication, Slides, Video]
 aliases:
   - /2013/12/10/beyond-open-access-facing-academias-real-problems/
 ---

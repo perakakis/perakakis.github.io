@@ -2,7 +2,7 @@
 title: "What are transformative agreements and what to know before using them"
 date: 2021-05-07
 description: "A critical analysis of transformative agreements between publishers and university libraries, arguing they reinforce the academic publishing oligopoly and promote a distorted vision of open access."
-categories: [Opinions, Academic publishing]
+categories: [Opinions, Scholarly Communication]
 image: assets/profits.png
 aliases:
   - /2021/05/07/what-are-transformative-agreements-and-what-to-know-before-using-them/

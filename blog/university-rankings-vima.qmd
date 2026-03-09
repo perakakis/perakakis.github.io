@@ -2,7 +2,7 @@
 title: "Our paper on University rankings makes the headlines of \"Vima Science\""
 date: 2014-07-01
 description: "Our research paper on university ranking systems was featured as the cover article in the Greek newspaper Vima Science, highlighting how current rankings fail to capture Greek scientific productivity."
-categories: [Publications, Science policy, University rankings]
+categories: [Publications, Scholarly Communication, University rankings]
 aliases:
   - /2014/07/01/our-paper-on-university-rankings-makes-the-headlines-of-vima-science/
 ---

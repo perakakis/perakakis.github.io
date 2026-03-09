@@ -2,7 +2,7 @@
 title: "Which side are you on boys?"
 date: 2017-07-03
 description: "A correspondence between a researcher and a journal editor over open peer review reveals the conflicting obligations and interests at play in scholarly communication."
-categories: [Opinions, Peer review, Science policy]
+categories: [Opinions, Scholarly Communication]
 image: assets/which-side-01.png
 aliases:
   - /2017/07/03/which-side-are-you-on-boys/

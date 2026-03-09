@@ -2,7 +2,7 @@
 title: "Open Science round table at CIMCYC"
 date: 2019-05-18
 description: "Report from a round table on Open Science practices and their relevance for addressing the replicability crisis in Psychology, organized at the CIMCYC research center in Granada."
-categories: [Opinions, Talks & Presentations, Science policy]
+categories: [Opinions, Talks & Presentations, Scholarly Communication]
 aliases:
   - /2019/05/18/open-science-round-table-at-cimcyc/
 ---

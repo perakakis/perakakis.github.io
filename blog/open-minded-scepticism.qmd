@@ -2,7 +2,7 @@
 title: "Open scientists in the shoes of frustrated academics part I: Open-minded scepticism"
 date: 2017-05-15
 description: "Defining science as humanity's collective effort to minimise uncertainty, and arguing that open-minded scepticism is the optimal approach to maximise its benefits."
-categories: [Opinions, Talks & Presentations, Science policy, Open Science, Slides]
+categories: [Opinions, Talks & Presentations, Scholarly Communication, Slides]
 image: assets/scientist_vs_academic.png
 aliases:
   - /2017/05/15/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/

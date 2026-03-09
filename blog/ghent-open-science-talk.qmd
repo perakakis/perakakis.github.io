@@ -2,7 +2,7 @@
 title: "Slides from my Ghent talk on Open Science"
 date: 2017-05-24
 description: "Slides from an introductory talk on Open Science given in Ghent, where researchers remain hesitant to adopt open practices without clear academic rewards."
-categories: [News & Events, Talks & Presentations, Science policy, Slides]
+categories: [News & Events, Talks & Presentations, Scholarly Communication, Slides]
 aliases:
   - /2017/05/24/slides-from-my-ghent-talk-on-open-science/
 ---

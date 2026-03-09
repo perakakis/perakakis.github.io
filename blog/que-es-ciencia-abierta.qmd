@@ -2,7 +2,7 @@
 title: "¿Qué es la Ciencia Abierta?"
 date: 2019-01-02
 description: "Una definición pragmática de Open Science que va más allá del libre acceso: cualquier práctica que facilite y promueva la apertura mental y el escepticismo académico."
-categories: [Opinions, Open Science, Science policy]
+categories: [Opinions, Scholarly Communication]
 image: assets/scientist_vs_academic.png
 aliases:
   - /2019/01/02/que-es-open-science-2/

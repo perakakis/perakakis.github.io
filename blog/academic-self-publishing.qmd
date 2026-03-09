@@ -2,7 +2,7 @@
 title: "New article published at Prometheus: Academic self-publishing: a not-so-distant future"
 date: 2014-06-26
 description: "Our debate article in Prometheus describing how existing tools can enable academic self-publishing and proposing a bottom-up workflow to liberate research from commercial publishers."
-categories: [Publications, Peer review, Science policy]
+categories: [Publications, Scholarly Communication]
 aliases:
   - /2014/06/26/new-article-published-at-prometheus-critical-studies-in-innovation-academic-self-publishing-a-not-so-distant-future/
 ---

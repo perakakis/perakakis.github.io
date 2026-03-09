@@ -2,7 +2,7 @@
 title: "Using existing infrastructure to transform peer review"
 date: 2016-02-15
 description: "A commentary coauthored with Gary McDowell for the ASAPbio conference on the future of preprints in Biology, arguing for building on existing open access infrastructure rather than starting from scratch."
-categories: [Opinions, Publications, Open Scholar, Peer review, Repositories, Science policy]
+categories: [Opinions, Publications, Scholarly Communication]
 aliases:
   - /2016/02/15/using-existing-infrastructure-to-transform-peer-review/
 ---

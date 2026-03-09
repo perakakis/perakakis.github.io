@@ -2,7 +2,7 @@
 title: "Jornada sobre Ciencia Abierta en el Colegio Oficial de Psicólogos"
 date: 2022-06-20
 description: "Diapositivas de mi presentación en la 1ª Jornada sobre Ciencia Abierta organizada por el Spanish Journal of Psychology y el Colegio Oficial de Psicólogos en Madrid."
-categories: [News & Events, Talks & Presentations, Open Science, Slides]
+categories: [News & Events, Talks & Presentations, Scholarly Communication, Slides]
 aliases:
   - /2022/06/20/jornada-ciencia-abierta-en-el-colegio-oficial-de-psicologos/
 lang: es

@@ -2,7 +2,7 @@
 title: "How to negotiate with publishers: an example of immediate self-archiving despite publisher's embargo policy"
 date: 2015-09-09
 description: "A step-by-step example of how to negotiate with a publisher to make your research freely available without paying any money, and a broader reflection on what scholars can do to change the scholarly communication system."
-categories: [Opinions, Open Access, Science policy]
+categories: [Opinions, Scholarly Communication]
 image: assets/mail1.png
 aliases:
   - /2015/09/09/how-to-negotiate-with-publishers-an-example-of-immediate-self-archiving-despite-publishers-embargo-policy/

@@ -1,0 +1,14 @@
+---
+title: "El negocio de la evaluación científica: alternativas desde la comunidad académica y las instituciones"
+date: 2026-03-12
+description: "Diapositivas de mi presentación en las Jornadas de Investigación de la Facultad de CC PP y Sociología de la UCM, donde analizo el modelo de negocio de la evaluación científica y las alternativas que están surgiendo desde la propia comunidad investigadora y las instituciones."
+categories: [News & Events, Talks & Presentations, Scholarly Communication, Slides]
+image: assets/Jornadas-CCPP-2026.jpg
+lang: es
+---
+
+El jueves 12 de marzo participaré en las Jornadas de Investigación organizadas por la Facultad de Ciencias Políticas y Sociología de la Universidad Complutense de Madrid. En mi charla, titulada "El negocio de la evaluación científica. Alternativas desde la comunidad académica y las instituciones", voy a tratar de abordar los problemas estructurales del sistema actual de evaluación de la investigación y las iniciativas que están emergiendo para transformarlo.
+
+Aquí las diapositivas de mi presentación:
+
+<a href="assets/Jornadas-CCPP-2026.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-slides"></i> Slides</a>

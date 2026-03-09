@@ -2,7 +2,7 @@
 title: "Our article on University Rankings published in the Journal of Ethics in Science and Environmental Politics"
 date: 2014-03-27
 description: "Our critical analysis of global university ranking systems, exposing their mathematical shortcomings and biases, published in JESEP."
-categories: [Publications, Science policy, University rankings]
+categories: [Publications, Scholarly Communication, University rankings]
 aliases:
   - /2014/03/27/our-article-on-university-rankings-published-in-the-journal-of-ethics-in-science-and-environmental-politics/
 ---

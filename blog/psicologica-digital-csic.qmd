@@ -2,7 +2,7 @@
 title: "Psicológica y DIGITAL.CSIC aúnan esfuerzos a favor del acceso abierto diamante sostenible y de los servicios editoriales de repositorios"
 date: 2022-02-03
 description: "Nota de prensa conjunta anunciando el relanzamiento de Psicológica como revista de acceso abierto diamante publicada exclusivamente en DIGITAL.CSIC, el repositorio institucional del CSIC."
-categories: [News & Events, Psicológica, Academic publishing, Repositories]
+categories: [News & Events, Scholarly Communication, Psicológica]
 image: assets/logos-psicologica-csic.png
 aliases:
   - /2022/02/03/psicologica-y-digital-csic-aunan-esfuerzos-a-favor-del-acceso-abierto-diamante-sostenible-y-de-los-servicios-editoriales-de-repositorios/

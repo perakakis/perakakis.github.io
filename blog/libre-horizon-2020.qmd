@@ -2,7 +2,7 @@
 title: "LIBRE presentation for Horizon 2020"
 date: 2014-02-14
 description: "Slides from my presentation of Open Scholar and the LIBRE project at the Information Days on Horizon 2020 in Brussels."
-categories: [Talks & Presentations, Open Scholar, Science policy, Slides]
+categories: [Talks & Presentations, Scholarly Communication, Slides]
 aliases:
   - /2014/02/14/libre-presentation-for-horizon-2020/
 ---

@@ -2,7 +2,7 @@
 title: "Things to consider before accepting your next peer review assignment"
 date: 2020-08-25
 description: "Why I decline most peer review invitations and what we can all do to exert pressure towards a more open and transparent scholarly communication system."
-categories: [Opinions, Peer review, Science policy]
+categories: [Opinions, Scholarly Communication]
 aliases:
   - /2020/08/25/things-to-consider-before-accepting-your-next-peer-review-assignment/
 ---

@@ -2,7 +2,7 @@
 title: "Report back from the COAR 2016 annual meeting"
 date: 2016-04-18
 description: "A report from the COAR annual meeting in Vienna, where discussions on next-generation repositories and journal-independent open peer review took center stage, signaling a turning point in open scholarship."
-categories: [News & Events, Opinions, Talks & Presentations, COAR, Open Scholar, Repositories, Science policy]
+categories: [News & Events, Opinions, Talks & Presentations, COAR, Open Scholar, Repositories, Science policy, Slides]
 aliases:
   - /2016/04/18/report-back-from-the-coar-2016-annual-meeting/
 ---
@@ -17,6 +17,5 @@ My presentation the following day focused on the problems of the current journal
 
 In the discussions that ensued in the following days, I was glad to realise that journal-independent open peer review is now on everyone's agenda. Ideas that only two years ago were received with skepticism or even resistance are now included in the strategic planning of influential organisations like COAR (read COAR's strategy and work plan for 2016–2018 here: <a href="https://www.coar-repositories.org/files/COAR-Strategy-2016-2018-Final.pdf">https://www.coar-repositories.org/files/COAR-Strategy-2016-2018-Final.pdf</a>), OpenAIRE and SPARC. I had extensive conversations with high-level representatives from all three organisations and have been able to confirm that moving to the "next generation repositories" that will give back to researchers the responsibility for the validation and evaluation of their own work is now a top priority issue, and one that is meant to dramatically change the future of scholarly communication.
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/validation-evaluation-dissemination-academias-gravest-problems-show-the-way-to-the-next-generation-repositories" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
+<a href="assets/coar2016.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-slides"></i> Slides</a>
 
-[View slides on SlideShare](https://www.slideshare.net/PandelisPerakakis/validation-evaluation-dissemination-academias-gravest-problems-show-the-way-to-the-next-generation-repositories)

@@ -15,4 +15,4 @@ Pandelis Perakakis & Luis Ciria. (2018, February 1). HEPLAB: Matlab scripts for 
 
 The scripts use sample data that can become available upon request, although users with some experience with EEGLAB should not find it difficult to adapt them to their data.
 
-The workshop was organised by the <a href="https://www.uam.es/otros/SEPNECA/" target="_blank" rel="noreferrer noopener">Spanish Society for Affective and Cognitive Neuroscience</a> (SEPNECA) and held at the University of Granada.
+The workshop was organised by theSpanish Society for Affective and Cognitive Neuroscience (SEPNECA) and held at the University of Granada.

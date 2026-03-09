@@ -11,4 +11,4 @@ In this recently published study we compared 30 experienced crisis managers with
 
 The results indicate reduced stress and physical complaints, diminished psychophysiological stress reactivity, and a healthier life-style in crisis managers. Improved stress resistance may limit vulnerability to stress-related performance decline and facilitate preparedness for major incidents.
 
-<a href="assets/stress-crisis-managers-2015.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Download article (PDF)</a>
+<a href="assets/stress-crisis-managers-2015.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-journal-text"></i> Journal Article</a>

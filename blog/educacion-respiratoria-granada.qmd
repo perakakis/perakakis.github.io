@@ -2,7 +2,7 @@
 title: "Diapositivas de mi presentación sobre educación respiratoria en pacientes de Asma en la Universidad de Granada"
 date: 2014-05-29
 description: "Diapositivas de una charla en la Facultad de Psicología de la Universidad de Granada sobre la definición del asma como trastorno crónico inflamatorio y la evidencia a favor del entrenamiento respiratorio."
-categories: [Talks & Presentations, Asthma, Breathing, Slides]
+categories: [Talks & Presentations, Breathing, Slides]
 aliases:
   - /2014/05/29/slides-of-my-presentation-on-breathing-training-for-asthma-at-the-psychology-faculty-of-granada-university/
 lang: es

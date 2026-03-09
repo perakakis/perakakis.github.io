@@ -2,7 +2,7 @@
 title: "Reconsiderando el asma: ¿es realmente crónico e incurable?"
 date: 2015-05-04
 description: "Una revisión de las pruebas que demuestran que la definición actual del asma como inflamación crónica de las vías respiratorias no está corroborada científicamente, y que el entrenamiento respiratorio ofrece una alternativa eficaz."
-categories: [Opinions, Asthma, Breathing]
+categories: [Opinions, Breathing]
 image: assets/asthmainhaler.jpg
 aliases:
   - /2015/05/04/reconsiderando-el-asma-es-realmente-cronico-e-incurable/

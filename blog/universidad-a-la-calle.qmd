@@ -2,7 +2,7 @@
 title: "Universidad a la Calle"
 date: 2012-11-12
 description: "As a response to severe government cuts in education, 28 University professors took their lectures to the streets of Granada, giving 14 talks to more than 500 participants."
-categories: [News & Events, Activism]
+categories: [News & Events, Activism, Video]
 aliases:
   - /2012/11/12/universidad-a-la-calle/
 ---

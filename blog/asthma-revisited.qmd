@@ -2,7 +2,7 @@
 title: "Asthma revisited: is it really chronic and incurable?"
 date: 2014-09-30
 description: "A review of evidence showing that the current definition of asthma as chronic airway inflammation is not scientifically substantiated, and that breathing training offers a remarkably efficient alternative treatment."
-categories: [Opinions, Asthma, Breathing]
+categories: [Opinions, Breathing]
 image: assets/asthmainhaler.jpg
 aliases:
   - /2014/09/30/asthma-revisited-is-it-really-chronic-and-incurable/

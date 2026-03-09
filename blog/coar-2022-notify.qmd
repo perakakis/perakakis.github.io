@@ -2,7 +2,7 @@
 title: "Report back from COAR's annual meeting: celebrating a $4 million grant for the Notify Project"
 date: 2022-05-24
 description: "Report from the COAR 2022 annual meeting in Madrid, celebrating a $4 million Arcadia Foundation grant for the Notify Project and presenting the Psicológica diamond OA use case."
-categories: [News & Events, Talks & Presentations, COAR, Notify, Open Scholar, Psicológica, Repositories]
+categories: [News & Events, Talks & Presentations, Open Scholar, Psicológica, Repositories]
 aliases:
   - /2022/05/24/report-back-from-coars-annual-meeting-celebrating-a-4-million-grant-for-the-notify-project/
 ---

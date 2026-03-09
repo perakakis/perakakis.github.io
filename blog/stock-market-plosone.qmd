@@ -2,7 +2,7 @@
 title: "New article published in PLoS ONE: Impact of Stock Market Structure on Intertrade Time and Price Dynamics"
 date: 2014-04-11
 description: "New article in PLoS ONE analysing intertrade times and price dynamics for NYSE and NASDAQ stocks, revealing that market structure strongly impacts scale-invariant temporal organisation in transaction timing."
-categories: [Publications, Complexity, Stock markets]
+categories: [Publications, Complexity]
 aliases:
   - /2014/04/11/new-article-published-in-plosone-impact-of-stock-market-structure-on-intertrade-time-and-price-dynamics/
 ---

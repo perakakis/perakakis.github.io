@@ -2,7 +2,7 @@
 title: "Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against flawed academic publishing model"
 date: 2013-03-11
 description: "Press release announcing the launch of Open Scholar and the LIBRE project, a non-profit community organisation dedicated to improving how scientists access and share research."
-categories: [News & Events, Open Scholar, LIBRE, Repositories, Science policy]
+categories: [News & Events, Open Scholar, Repositories, Science policy]
 aliases:
   - /2013/03/11/non-profit-organisation-open-scholar-c-i-c-urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/
 ---

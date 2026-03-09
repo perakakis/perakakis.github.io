@@ -2,7 +2,7 @@
 title: "HEPLAB: Matlab scripts to facilitate heartbeat-evoked potential analysis"
 date: 2018-02-01
 description: "HEPLAB is a collection of Matlab scripts released on Zenodo to facilitate heartbeat-evoked potential analysis using EEGLAB and Fieldtrip."
-categories: [News & Events, HEPLAB, Software]
+categories: [News & Events, Software]
 aliases:
   - /2018/02/01/heplab-matlab-scripts-to-facilitate-heartbeat-evoked-potential-analysis/
 ---

@@ -2,7 +2,7 @@
 title: "Psicológica and DIGITAL.CSIC join forces for Sustainable Diamond Open Access and Repository as a Publisher Services"
 date: 2022-02-03
 description: "Joint press release announcing the relaunch of Psicológica as a Diamond Open Access journal published exclusively on DIGITAL.CSIC, demonstrating a sustainable publishing model without costs to authors, institutions, or libraries."
-categories: [News & Events, DIGITAL.CSIC, Open Access, Open Scholar, Peer review, Psicológica, Publishers, Repositories, SEPEX]
+categories: [News & Events, Open Access, Open Scholar, Peer review, Psicológica, Academic publishing, Repositories]
 image: assets/logos-psicologica-csic.png
 aliases:
   - /2022/02/03/psicologica-and-digital-csic-join-forces-for-sustainable-diamond-open-access-and-repository-as-a-publisher-services/

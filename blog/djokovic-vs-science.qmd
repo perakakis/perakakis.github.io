@@ -2,7 +2,7 @@
 title: "Djokovic vs Science"
 date: 2023-09-02
 description: "Reflections on the strengths and limitations of science triggered by the backlash against Djokovic's dietary choices, arguing that statistical non-significance is often misrepresented as scientific proof."
-categories: [Opinions, Djokovic, Science, Tennis]
+categories: [Opinions]
 image: assets/djokovic-proprioceptive-drift.png
 aliases:
   - /2023/09/02/djokovic-vs-science/

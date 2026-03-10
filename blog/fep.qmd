@@ -1,0 +1,44 @@
+---
+title: "You are what doesn't surprise you"
+draft: true
+date: 2026-03-09
+description: "..."
+categories:
+---
+
+
+What does it mean to know something? The answers inevitably implies a dualism. A knower and that which is to be known. The uknown has  
+
+
+
+
+The standard philosophical answer involves truth, evidence, justified belief — a long and honourable tradition. But there is a simpler, stranger answer, one that I find more useful and more unsettling: to know something is to no longer be surprised by it. The unknown is not some abstract category of missing information. It is whatever still has the power to catch you off guard.
+
+This is not merely a metaphor. Start from the observation that surprise is measurable. When something unexpected happens — something that doesn't fit your prior sense of how the world works — your body registers it. Skin conductance rises, attention sharpens, the system orients. Surprise is the signal that something has occurred outside the range of what you were prepared for. Knowledge, then, is the progressive closing of that gap: the process by which the surprising becomes predictable, the unpredictable becomes anticipated.
+
+To see what this really means, watch an infant.
+
+A newborn is surprised by almost everything, including its own hand. When the hand passes in front of its eyes, the same orienting response fires that would fire for any other moving object in the world. The hand is, at first, simply part of the unknown. But something else is also happening: every time the hand appears in the visual field, it co-occurs with something internal — a motor signal, a proprioceptive trace, some correlate in the nervous system of the action that produced the movement. These two things — the perception of the hand and the internal signal — are perfectly correlated. When one occurs, the other occurs. Always.
+
+And gradually, the hand stops being surprising. Not because the infant has decided to accept it, or because familiarity has dulled the response, but because the correlation has become complete. The hand is now fully predictable — not an event that happens in the world, but an extension of the self. It has been, in a deep sense, absorbed.
+
+Here is the philosophical claim hiding inside that developmental observation: the self is not given. It is not a fixed container into which experience flows. The self is whatever has been rendered fully predictable — what can no longer surprise you. You are, quite literally, what doesn't surprise you.
+
+This has a corollary that takes a moment to land. If the self is constituted by successful prediction — by correlation between what happens and what was expected — then the drive to know, the drive to reduce surprise, is also a drive to expand the self. Every new thing we come to understand, we partially absorb. We don't just learn about rain; we build an internal model in which rain and clouds are linked, and the previously startling fact of a downpour becomes something anticipated, something that no longer catches us unprepared. Knowledge, in this sense, is a form of assimilation.
+But follow that logic to its limit and you arrive at a paradox. The infant's hand, once fully correlated, ceased to exist as a separate thing. It was integrated — absorbed into the self so completely that the boundary dissolved. If you could achieve perfect correlation with everything, if nothing in the world could ever surprise you, you would not have become all-knowing. You would have ceased to be a distinct something at all. Total knowledge would mean total dissolution.
+
+This is not an abstract worry. It points to something real about the structure of any knowing thing: to exist as a differentiated entity is to be not fully correlated with your environment. To be something rather than nothing is to retain a boundary, and that boundary is defined by the residual capacity to be surprised. Existence and ignorance are, at some level, the same thing.
+So what does a knowing system actually do, given that it cannot — must not — collapse the boundary entirely? It builds models.
+
+A model is not a copy of the world. It is something more modest and more interesting: an internal structure that allows you to anticipate, without requiring you to merge. When my cat meows, I don't need direct access to her location to act. I have built, through accumulated experience, a probability distribution over where she might be — mostly the kitchen, sometimes the hallway, occasionally the bathroom if the door was left open. This internal structure reduces my surprise without requiring that her location be part of me. It keeps the boundary intact while extending the reach of prediction.
+
+This is what knowledge actually is, when you look carefully. Not a mirror held up to reality. Not a faithful copy of the world inscribed in the mind. A model — a generative story that says: given what I've observed, here is what to expect next. The model is always an approximation. It is always wrong in some respects and right enough in others. It is calibrated not for truth in the abstract but for a very particular purpose: reducing the number of times the world catches you off guard.
+
+And here is the move that I find most vertiginous, and most important: if all knowledge is a model, and a model is not the world but a story built to anticipate it — what, exactly, is the world, independent of any model? When we strip away every probability distribution, every learned correlation, every expectation built up through experience — what remains? The question sounds metaphysical, perhaps unanswerable. But I don't think it can be dismissed. Because the alternative — the assumption that our models are transparent windows onto an independent reality — seems increasingly hard to defend. The model and the modelled are not so easily separated.
+
+This philosophical argument, arrived at here from first principles, turns out to be the foundation of one of the most ambitious scientific theories of recent decades: the Free Energy Principle, developed by Karl Friston and colleagues. The principle holds that any bounded, self-organising system — whether a cell, a nervous system, or a person — necessarily acts to minimise the difference between what it expects and what it encounters. Surprise, in a precise mathematical sense, is what such systems are built to resist. The argument I've been making is, in essence, a philosophical unpacking of what that principle means, and what it implies about the nature of knowledge, selfhood, and the boundary between the two.
+
+I will return to each of these threads. The paradox of knowing and the conditions for selfhood. The question of what models are and what they cannot be. And eventually, what all of this means for the question this whole project is building toward: not just what we are, but why we are different from each other.
+
+Further reading
+Karl Friston's work on the Free Energy Principle and active inference is the scientific framework in the background throughout. A good entry point is his 2010 paper "The free-energy principle: a unified brain theory?" in Nature Reviews Neuroscience. For the philosophical dimensions, Andy Clark's Surfing Uncertainty (2015) is accessible and rigorous. On the idealist implications — the question of what the world is independent of any model — Bernardo Kastrup's Why Materialism Is Baloney (2014) is provocative and worth arguing with. For the developmental story of the infant and self-formation, Friston's work on active inference and the self (e.g., Friston et al., 2017, "Active inference, curiosity and insight," Neural Computation) is the relevant technical reference.

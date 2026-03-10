@@ -11,4 +11,4 @@ El jueves 12 de marzo participaré en las Jornadas de Investigación organizadas
 
 Aquí las diapositivas de mi presentación:
 
-<a href="assets/Jornadas-CCPP-2026.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-slides"></i> Slides</a>
+<a href="assets/Negocio_CoARA_UCM.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-slides"></i> Slides</a>

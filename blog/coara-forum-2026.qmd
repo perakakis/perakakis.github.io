@@ -1,0 +1,19 @@
+---
+title: "CoARA III Forum of National Chapters in Madrid"
+date: 2026-03-11
+description: "The third CoARA Forum of National Chapters takes place on March 19–20 at Complutense University of Madrid, co-hosted by ANECA, CSIC, CRUE and ISCIII. Open sessions are available online."
+categories: [News & Events, Scholarly Communication]
+image: assets/coara-logo.png
+---
+
+<img src="assets/coara-logo.png" alt="CoARA – Coalition for Advancing Research Assessment" style="display:block; margin: 1.5rem auto; max-width:min(300px, 100%);" />
+
+The third Forum of National Chapters of the <a href="https://coara.eu" target="_blank" rel="noreferrer noopener">Coalition for Advancing Research Assessment (CoARA)</a> will be held on **March 19–20, 2026** at the **Sala de Grados, Faculty of Medicine, Complutense University of Madrid** (Pl. de Ramón y Cajal, s/n, 28040 Madrid).
+
+The forum is co-hosted by ANECA, CSIC, CRUE and ISCIII, and this year's theme is:
+
+> *"Instruments for Success: National Chapters Driving Diverse Implementation Through a Shared Vision"*
+
+Building on last year's exploration of pluralistic definitions of success in Bonn, the Madrid forum will focus on the instruments, tools and frameworks that national chapters can develop to advance the implementation of research assessment reform at regional and national levels. It will also serve as a platform for strategic exchange between the CoARA Steering Board and National Chapter representatives.
+
+Several sessions on March 19 are open to the public and available for online participation, including the institutional opening, keynote presentations from the Spanish National Chapter, the European Commission, and the CoARA Steering Board, as well as a spotlight session in which multiple national chapters share their experiences and lessons learned.

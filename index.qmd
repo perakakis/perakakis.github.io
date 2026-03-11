@@ -7,9 +7,8 @@ listing:
     contents:
       - blog/rethinking-affect.qmd
       - blog/jornadas-investigacion-ccpp-ucm.qmd
-      # - blog/github-zenodo-doi.qmd
-      # - blog/biorxiv-preprints.qmd
-      - blog/journal-acquisitions.qmd
+      - blog/coara-forum-2026.qmd      
+      # - blog/journal-acquisitions.qmd
       # - blog/*.qmd
       # - "!blog/index.qmd"
       # - "!blog/que-es-una-publicacion.qmd"

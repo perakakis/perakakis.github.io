@@ -10,6 +10,7 @@ execute:
 
 website:
   title: "Pandelis Perakakis"
+  favicon: images/favicon.svg
   description: "Associate Professor of Psychology at Complutense University of Madrid. Research on affect dynamics, psychophysiology, and scholarly communication."
   site-url: https://pandelisperakakis.info
   navbar:

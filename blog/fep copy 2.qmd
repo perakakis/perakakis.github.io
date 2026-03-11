@@ -1,34 +1,41 @@
 ---
-title: "You are what doesn't surprise you"
+title: "You are what doesn't surprise you: the simplest possible introduction to the Free Energy Principle"
 draft: true
 date: 2026-03-09
 description: "..."
 categories:
 ---
 
-For the past six years I have been teaching the undergraduate course of Differential Psychology. The typical textbooks included in the course syllabus will tell you that differential psychology is about "why and how we are different". The *how* is answerred by discussing differences in personality and intelligence and the *why* mostly deals with behavioral genetics: a great part of individual differences in personality and intelligence is explained by differences in genes.
+For the past six years I have been teaching the undergraduate course of Differential Psychology. The typical textbooks included in the course syllabus will tell you that differential psychology is about "why and how we are different". The *how* is answerred by discussing individual differences in personality and intelligence and the *why* mostly deals with behavioral genetics: a great part of the differences among individuals is explained by differences in genes.
 
-With all due respect, this approach seems to me intelectually unsatisfying and philosophically shallow.
+But what does it really *mean* to be an individual?
 
-Differential Psychology should be first and foremost about *the psychology of being different*.
+We all perceive ourselves as different from other people and different from the world around us. This perception implies a point of view: I am here rather than there, I am this rather than that. I am a distinct something, which means that there must be some *boundary* between what I am and what I am not.
 
-We all do perceive ourselves as different from other people and different from the world. This perception implies a point of view: I am here rather than there, I am this rather than that. I am a distinct something, which implies a boundary between what I am and what I am not.
+What is this boundary that separates me from the rest of the world? What exactly is the difference between being outside rather than inside the boundary? What does it mean to be *other* rather than *me*?
 
-If understanding who and what *I* am is the most challenging question one could ask, then perhaps we should start by asking what is that which I am not. What lies outside my boundary? What is the world out there like? One thing we can say with certainty about the world is that it is not static. It is constantly changing. And mostly in ways that are not under my control. Things happen all the time. Events unfold with no obligation to match my expectations. In other words, a great deal of the time, I do not *know* what will happen. And this can be a problem.
+We may have the feeling that our boundaries are fixed and have always been there. But this may not be entirely true. In fact, we can witness the process of boundary expansion by oberving an infant.
 
-Not knowing what will happen next — what this external world is going to throw at my boundary — is another way of saying that I cannot predict the future. And the future can be dangerous. You cannot predict it's going to rain and you are a candidate for catching a nice cold. If you only *knew* that dark clouds usually come with rain you would have gotten that umbrella before leaving your house.
+Infants are immersed in a sea of uncertainty. Everything is new. Everything is surprising. We can observe how they are even surprised by the movement of their own hand that suddenly appears in their visual field as unpredictrably as any other external moving object. However, it so happens that the infant's visual cortex registers the movement of their hand at the same time that some other neural circuit somewhere in the motor cortex also fires. The perception of the hand is therefore *correlated* to the motor firing pattern. The two always co-ocurr so the correlation is quickly tightened, turning an unpredictable external event into an anticipated consequence of the infant's own action. As this connection is established, **the hand loses its power to surprise**. (we can actually measure this with sentitive equipment registering skin conductance [is this true? REF needed])
 
-So, if you are a bounded, differentiated thing in a changing world and you want to persist in being one — to continue being the thing you are rather than being dissolved, overwhelmed, or reorganised by whatever the world does next — you *do* something about this. You must, in some sense, be *anticipate* what comes next.
+What has happened is that the infant's boundary has been redrawn. Through this new correlation the hand — which was once on the far side, part of the surprising world — has been incorporated, integrated, assimilated. The self is not a fixed container into which experience passively flows. It is a process, continuously redrawn along the line between what can and cannot surprise you. You are, quite precisely, what doesn't surprise you. The boundary of the self is the boundary of the predictable.
 
-This is where knowledge begins. Not knowledge as a cultural achievement or a philosophical ideal, but knowledge in its most basic functional form: **the capacity of a bounded thing to not be perpetually caught off guard by the world it inhabits**. In this sense, you need to know that clouds bring rain, that fire burns and that an aligator is not a good idea for a pet.
+How about something more important for the survival and well-being of the infant than their own hand. How about their mother's breast. Wouldn't it be fantastic if the appearance of this other moving object could also beome more predictable and less surprising? Well, it seems there is another firing pattern inside the motor cortex that is associated to the appearance of the mother's breast: the one that translates to crying. A new correlation is established and the mother's breast becomes more predictable. There is still, however, a significant degree of statistical independence, since crying does not always attract the baby's mother. This weaker correlation between crying and feeding signifies that the mother remains beyond the infant's boundary. There is a residual unpredictability that cannot be totally eliminated, no matter what the baby tries.
 
-And the next question is, of course, how does this happen? How do you — little bounded different thing in a changing and sometimes hostile world — get to know all of these things? Where best to look for an answer than when an infant starts to learn the world.
 
-Watch an infant and you see how they are immersed in a sea of surprise. They are even surprised by the movement of their own hands (we can actually measure this with sentitive equipment registering skin conductance [is this true? REF needed]). Their hands suddenly appear as if out of the blue in front of their eyes and create the perception of a moving object as if it were any other external object. However, this perception is correlated to something else that is happening inside their brains. Some neural circuit somewhere in the motor cortex fires everytime the hand moves and passes in front of their eyes. Their perception of the hand correlates with the neural firing pattern. The two always co-ocurr so the correlation is quickly tightened, turning an unpredictable external event into an anticipated consequence of the infant's own action. **The hand loses its power to surprise**.
 
-What has happened is not merely that one fact has been learned. A boundary has been redrawn. The hand — which was once on the far side, part of the surprising world — has been incorporated into the system that does the anticipating. The self is not a fixed container into which experience passively flows. It is a process, continuously redrawn along the line between what can and cannot surprise you. You are, quite precisely, what doesn't surprise you. The boundary of the self is the boundary of the predictable.
+We perceive our selves as different individuals because we can predict our selves more than we can predict the world and others.  
 
-Everything beyond that line remains. The mother, the hunger that arrives without warning, the sounds and movements that carry no reliable correlation with anything the infant controls — all of this remains surprising, and therefore *other*, and therefore the ongoing target of knowing. Not because the infant has decided to learn, but because this is what a differentiated system in a changing world necessarily does.
+
+
+
+
+Everything beyond that line remains. The mother, the hunger that arrives without warning, the sounds and movements that carry no reliable correlation with anything the infant controls — all of this remains surprising, and therefore *other*.
+
+
+
+
+, and therefore the ongoing target of knowing. Not because the infant has decided to learn, but because this is what a differentiated system in a changing world necessarily does.
 
 
 The only stable alternative is dissolution.
@@ -56,3 +63,15 @@ In the posts that follow I want to examine what this means for how we understand
 
 Further reading
 The scientific framework running in the background is Karl Friston's Free Energy Principle. His 2010 paper "The free-energy principle: a unified brain theory?" in Nature Reviews Neuroscience is the key reference. Andy Clark's Surfing Uncertainty (2016) develops the related predictive processing framework accessibly and rigorously. The philosophical tradition this argument touches includes Kant's analysis of the conditions of possible experience — particularly the Critique of Pure Reason — and, closer to the present, Carlo Rovelli's relational interpretation of quantum mechanics, which raises the question of whether physical properties exist independently of the relations between systems or only within them. For a contemporary case that consciousness rather than matter is the more defensible starting point, Bernardo Kastrup's Why Materialism Is Baloney (2014) is a direct and argumentative entry into the debate.
+
+
+<!-- This is where knowledge begins. Not knowledge as a cultural achievement or a philosophical ideal, but knowledge in its most basic functional form: **the capacity of a bounded thing to not be perpetually caught off guard by the world it inhabits**. In this sense, you need to know that clouds bring rain, that fire burns and that an aligator is not a good idea for a pet. -->
+
+<!-- 
+What lies outside my boundary? What is the world out there like?
+
+One thing we can say with certainty about the world is that it is not static. It is constantly changing. And mostly in ways that are not under our control. Things happen all the time. Events unfold with no obligation to match our expectations. In other words, a great deal of the time, we do not *know* what will happen next. And this can be a problem.
+
+Not knowing what tomorrow will bring — what this external world is going to throw at my boundary — is another way of saying that I cannot predict the future. And the future can be dangerous. If you cannot predict it is going to rain you are a good candidate for getting wet and catching a cold. If you only *knew* that dark clouds usually come with rain you would have thrown that umbrella in your bag before leaving your house.
+
+So, if we are bounded, differentiated things that persists in a changing world — we are still here and have not been dissolved, overwhelmed, or reorganised beyond recognition by unpredictable external events — it meens we are *doing* something about it. We must, in some sense, be *anticipating* the future. -->

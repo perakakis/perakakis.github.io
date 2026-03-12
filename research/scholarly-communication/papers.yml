@@ -366,7 +366,7 @@
     - Slides
   links:
     - name: "Slides"
-      url: "https://www.slideshare.net/PandelisPerakakis/open-science-what-why-how-76291597"
+      url: "../../blog/assets/ghent2017.pdf"
       icon: "bi bi-file-earmark-slides"
 
 - title: "Open, Portable, Decoupled – How should Peer Review change?"
@@ -688,7 +688,7 @@
     - Video
   links:
     - name: "Slides"
-      url: "http://www.slideshare.net/PandelisPerakakis/beyond-open-access-facing-the-real-problems"
+      url: "../../blog/assets/LMU_perakakis.pdf"
       icon: "bi bi-file-earmark-slides"
     - name: "Video"
       url: "https://videoonline.edu.lmu.de/en/wintersemester-2013-2014/4900"
@@ -719,6 +719,27 @@
     - Scientometrics
     - Research evaluation
   links: []
+
+
+- title: "El negocio de la evaluación científica: alternativas desde la comunidad académica y las instituciones"
+  date: "2026-03-12"
+  authors: "Perakakis, P."
+  year: 2026
+  journal: "Jornadas de Investigación, Facultad de Ciencias Políticas y Sociología (UCM)"
+  volume: "Madrid, Spain"
+  description: "Análisis de los problemas estructurales del sistema actual de evaluación de la investigación y las iniciativas que están emergiendo para transformarlo."
+  section: "Conferences"
+  categories:
+    - Publishing reform
+    - Research evaluation
+    - Slides
+  links:
+    - name: "Slides"
+      url: "../../blog/assets/Negocio_CoARA_UCM.pdf"
+      icon: "bi bi-file-earmark-slides"
+
+
+
 
 
 # ── News ───────────────────────────────────────────────

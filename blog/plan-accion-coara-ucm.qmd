@@ -3,7 +3,7 @@ title: "Plan de Acción CoARA de la UCM 2025–2027"
 date: 2026-03-13
 lang: es
 description: "La Universidad Complutense de Madrid publica su Plan de Acción CoARA para el período 2025–2027, elaborado por su Grupo de Trabajo y aprobado por la Comisión de Investigación."
-categories: [Publications, Scholarly Communication, Open Science, CoARA, Science policy]
+categories: [Publications, News & Events, Scholarly Communication]
 image: assets/coara-action-plan-ucm.png
 ---
 

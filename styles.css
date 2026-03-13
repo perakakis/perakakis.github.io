@@ -3,44 +3,42 @@
    ============================================= */
 
 .home-about {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: start;
   padding: 2rem 0;
 }
 
-/* Quarto wraps the img in a <p> — collapse wrapper, float the img */
-.home-about > p:first-child {
+.home-col-photo > p {
   margin: 0;
   line-height: 0;
 }
 
-.home-photo {
-  float: left;
-  width: 280px;
-  height: 280px;
-  max-width: 280px;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  border: 1px solid var(--bs-border-color);
-  margin: 0 1.5rem 1rem 0;
-}
-
-/* Right-align the social buttons paragraph (last <p> in .home-about) */
-.home-about > p:last-of-type {
+.home-col-text > p:last-of-type {
   text-align: right;
 }
 
+.home-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-border-color);
+  display: block;
+}
+
 @media (max-width: 576px) {
-  .home-about > p:first-child {
+  .home-about {
+    grid-template-columns: 1fr;
+  }
+  .home-col-photo {
     text-align: center;
   }
   .home-photo {
-    float: none;
     width: 140px;
     height: 140px;
-    max-width: 140px;
-    margin: 0 auto 1rem auto;
-  }
-  .home-about > p:last-of-type {
-    text-align: center;
+    margin: 0 auto;
   }
 }
 

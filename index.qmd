@@ -5,9 +5,10 @@ toc: false
 listing:
   - id: recent-posts
     contents:
-      - blog/rethinking-affect.qmd
+      # - blog/rethinking-affect.qmd
       - blog/jornadas-investigacion-ccpp-ucm.qmd
-      - blog/coara-forum-2026.qmd      
+      - blog/coara-forum-2026.qmd
+      - blog/plan-accion-coara-ucm.qmd
       # - blog/journal-acquisitions.qmd
       # - blog/*.qmd
       # - "!blog/index.qmd"

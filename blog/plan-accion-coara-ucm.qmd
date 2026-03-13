@@ -7,7 +7,7 @@ categories: [Publications, Scholarly Communication, Open Science, CoARA, Science
 image: assets/coara-action-plan-ucm.png
 ---
 
-<img src="assets/coara-action-plan-ucm.png" alt="Plan de Acción CoARA de la UCM 2025–2027" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
+<img src="assets/coara-action-plan-ucm.png" alt="Plan de Acción CoARA de la UCM 2025–2027" style="display:block; margin: 1.5rem auto; max-width:min(400px, 100%);" />
 
 <p>La Universidad Complutense de Madrid (UCM), la universidad presencial más grande de España, es una de las principales instituciones académicas del país con una oferta académica que abarca todas las áreas de conocimiento a través de 26 facultades y 27 institutos universitarios de investigación. La UCM firmó el Acuerdo sobre la Reforma de la Evaluación de la Investigación (ARRA) en marzo de 2023. Este documento recoge el Plan de Acción CoARA de la UCM para el período 2025–2027, elaborado por el Grupo de Trabajo CoARA de la UCM y aprobado por la Comisión de Investigación de la universidad.</p>
 

@@ -29,7 +29,7 @@ I am an associate professor of psychology at the [Complutense University of Madr
 
 My current main research program focuses on [affect dynamics](research/affect-dynamics/index.qmd) and their relation to psychological well-being. In the past, I have studied [brain-heart interactions](research/hep/) and the relation between [physical exercise and cognitive function](research/exercise-brain-cognition/index.qmd).
 
-I am deeply concerned about the current academic publication and evaluation model and advocate for [scholar-governed alternatives](research/scholarly-communication/index.qmd), leveraging institutional repositories and implementing open peer review.
+In 2012, I founded [Open Scholar](https://openscholar.info) to promote a [scholar-governed](research/scholarly-communication/index.qmd) academic publication and evaluation model, leveraging institutional repositories and open peer review.
 
 Since 2025, I serve as advisor to the Vice-Rectorate for Research and Transfer at UCM and coordinator of the UCM CoARA Working Group.
 

@@ -158,6 +158,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-preregistrations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-description","listing-section","listing-categories","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-preregistrations'] = new List('listing-preregistrations', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-funding .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -328,11 +356,12 @@ window.Quarto = {
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal articles</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#preregistrations" id="toc-preregistrations" class="nav-link" data-scroll-target="#preregistrations">Preregistrations</a></li>
   <li><a href="#conferences" id="toc-conferences" class="nav-link" data-scroll-target="#conferences">Conferences</a></li>
   <li><a href="#funded-projects" id="toc-funded-projects" class="nav-link" data-scroll-target="#funded-projects">Funded projects</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QWZmZWN0JTIwZHluYW1pY3M=">Affect dynamics <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGlua2VkJTIwY29tbXVuaXRpZXM=">Linked communities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsJTIwaGVhbHRo">Mental health <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWV0aG9kb2xvZ3k=">Methodology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGlua2VkJTIwY29tbXVuaXRpZXM=">Linked communities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMGxlYXJuaW5n">Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsJTIwaGVhbHRo">Mental health <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VFMtQm9ydXRh">TS-Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -370,7 +399,7 @@ window.Quarto = {
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNCaXN0YWJpbGl0eSUyQ0FmZmVjdCUyMHNoaWZ0JTIwcmF0aW8lMkNXZWxsLWJlaW5n" data-listing-date-sort="1735689600000">
+        <li class="pub-item" data-index="0" data-categories="QmlzdGFiaWxpdHklMkNBZmZlY3QlMjBzaGlmdCUyMHJhdGlvJTJDV2VsbC1iZWluZw==" data-listing-date-sort="1735689600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -395,10 +424,6 @@ window.Quarto = {
 
                     
                     <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
                         
                             <span class="pub-category"><a href="#category=Bistability">
                                 Bistability
@@ -444,7 +469,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="1" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNDT1ZJRC0xOQ==" data-listing-date-sort="1604188800000">
+        <li class="pub-item" data-index="1" data-categories="Q09WSUQtMTk=" data-listing-date-sort="1604188800000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -469,10 +494,6 @@ window.Quarto = {
 
                     
                     <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
                         
                             <span class="pub-category"><a href="#category=COVID-19">
                                 COVID-19
@@ -506,7 +527,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="2" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNNZXRob2RvbG9neSUyQ1NtYXJ0cGhvbmUlMjBhcHA=" data-listing-date-sort="1564617600000">
+        <li class="pub-item" data-index="2" data-categories="U21hcnRwaG9uZSUyMGFwcA==" data-listing-date-sort="1564617600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -531,14 +552,6 @@ window.Quarto = {
 
                     
                     <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Methodology">
-                                Methodology
-                            </a></span>
                         
                             <span class="pub-category"><a href="#category=Smartphone app">
                                 Smartphone app
@@ -571,7 +584,7 @@ window.Quarto = {
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNBZmZlY3QlMjBzaGlmdCUyMHJhdGlvJTJDV2VsbC1iZWluZyUyQ0Jpc3RhYmlsaXR5" data-listing-date-sort="1767225600000">
+        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwc2hpZnQlMjByYXRpbyUyQ1dlbGwtYmVpbmclMkNCaXN0YWJpbGl0eQ==" data-listing-date-sort="1767225600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -596,10 +609,6 @@ window.Quarto = {
 
                     
                     <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
                         
                             <span class="pub-category"><a href="#category=Affect shift ratio">
                                 Affect shift ratio
@@ -637,7 +646,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="1" data-categories="UEJBVCUyQ0JvcnV0YSUyQ01ldGhvZG9sb2d5JTJDTGlua2VkJTIwY29tbXVuaXRpZXMlMkNOZXR3b3JrJTIwYW5hbHlzaXMlMkNDcm9zcy1jdWx0dXJhbA==" data-listing-date-sort="1735689600000">
+        <li class="pub-item" data-index="1" data-categories="UEJBVCUyQ0JvcnV0YSUyQ0xpbmtlZCUyMGNvbW11bml0aWVzJTJDTmV0d29yayUyMGFuYWx5c2lzJTJDQ3Jvc3MtY3VsdHVyYWw=" data-listing-date-sort="1735689600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -669,10 +678,6 @@ window.Quarto = {
                         
                             <span class="pub-category"><a href="#category=Boruta">
                                 Boruta
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Methodology">
-                                Methodology
                             </a></span>
                         
                             <span class="pub-category"><a href="#category=Linked communities">
@@ -716,13 +721,72 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
+<section id="preregistrations" class="level2">
+<h2 class="anchored" data-anchor-id="preregistrations">Preregistrations</h2>
+<div id="listing-preregistrations" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-list">
+<ul class="list">
+    
+        <li class="pub-item" data-index="0" data-categories="TWFjaGluZSUyMGxlYXJuaW5nJTJDUEJBVCUyQ1RTLUJvcnV0YQ==" data-listing-date-sort="1755561600000">
+            <div class="pub-row">
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Perakakis, P., Ciarrochi, J., Goicoechea, C., &amp; Sahdra, B.K. (2025).
+                            <strong>Predicting Affect Shifts Using TS-Boruta With Process-Based Assessment Tool Items: Idionomic Analyses In An Ecological Momentary Assessment Dataset.</strong>
+                            <em></em>.
+                            
+                        </p>
+                        
+                        <p class="pub-description">This preregistered study evaluates the TS-Boruta algorithm for predicting affect shifts (positive-to-negative, P2N; negative-to-positive, N2P) as binary outcomes using an EMA dataset from Goicoechea et al. (2024). We conduct idionomic analyses at the subject level to identify which of the 18 Process-Based Assessment Tool (PBAT) items best predict P2N and N2P shifts, comparing TS-Boruta's performance and heterogeneity to other methods.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=Machine learning">
+                                Machine learning
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=PBAT">
+                                PBAT
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=TS-Boruta">
+                                TS-Boruta
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.17605/OSF.IO/JER4H" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Registration
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+</ul>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 <section id="conferences" class="level2">
 <h2 class="anchored" data-anchor-id="conferences">Conferences</h2>
 <div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="UEJBVCUyQ0FmZmVjdCUyMGR5bmFtaWNzJTJDTWVudGFsJTIwaGVhbHRo" data-listing-date-sort="1743811200000">
+        <li class="pub-item" data-index="0" data-categories="UEJBVCUyQ01lbnRhbCUyMGhlYWx0aA==" data-listing-date-sort="1743811200000">
             <div class="pub-row">
                 
 
@@ -746,10 +810,6 @@ window.Quarto = {
                                 PBAT
                             </a></span>
                         
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
-                        
                             <span class="pub-category"><a href="#category=Mental health">
                                 Mental health
                             </a></span>
@@ -762,7 +822,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="1" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNXZWxsLWJlaW5n" data-listing-date-sort="1725321600000">
+        <li class="pub-item" data-index="1" data-categories="V2VsbC1iZWluZw==" data-listing-date-sort="1725321600000">
             <div class="pub-row">
                 
 
@@ -781,10 +841,6 @@ window.Quarto = {
 
                     
                     <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
                         
                             <span class="pub-category"><a href="#category=Well-being">
                                 Well-being
@@ -817,7 +873,7 @@ window.Quarto = {
 <div class="pub-list">
 <ul class="list">
     
-        <li class="pub-item" data-index="0" data-categories="QWZmZWN0JTIwZHluYW1pY3MlMkNCaXN0YWJpbGl0eSUyQ1dlbGwtYmVpbmclMkNNZW50YWwlMjBoZWFsdGg=" data-listing-date-sort="1640995200000">
+        <li class="pub-item" data-index="0" data-categories="QmlzdGFiaWxpdHklMkNXZWxsLWJlaW5nJTJDTWVudGFsJTIwaGVhbHRo" data-listing-date-sort="1640995200000">
             <div class="pub-row">
                 
 
@@ -847,10 +903,6 @@ window.Quarto = {
 
                     
                     <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=Affect dynamics">
-                                Affect dynamics
-                            </a></span>
                         
                             <span class="pub-category"><a href="#category=Bistability">
                                 Bistability

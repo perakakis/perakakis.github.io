@@ -1,3 +1,18 @@
+- title: "Predicting Affect Shifts Using TS-Boruta With Process-Based Assessment Tool Items: Idionomic Analyses In An Ecological Momentary Assessment Dataset"
+  date: "2025-08-19"
+  authors: "Perakakis, P., Ciarrochi, J., Goicoechea, C., & Sahdra, B.K."
+  year: 2025
+  description: "This preregistered study evaluates the TS-Boruta algorithm for predicting affect shifts (positive-to-negative, P2N; negative-to-positive, N2P) as binary outcomes using an EMA dataset from Goicoechea et al. (2024). We conduct idionomic analyses at the subject level to identify which of the 18 Process-Based Assessment Tool (PBAT) items best predict P2N and N2P shifts, comparing TS-Boruta's performance and heterogeneity to other methods."
+  section: "Preregistration"
+  categories:
+    - Machine learning
+    - PBAT
+    - TS-Boruta
+  links:
+    - name: "OSF Registration"
+      url: "https://doi.org/10.17605/OSF.IO/JER4H"
+      icon: "bi bi-box-arrow-up-right"
+
 - title: "Bistability and affect shift dynamics in the prediction of psychological well-being"
   date: "2025"
   authors: "Goicoechea, C., Dakos, V., Sanabria, D., Heshmati, S., Westhoff, M., Banos, O., Pomares, H., Hofmann, S.G., & Perakakis, P."
@@ -10,7 +25,6 @@
   description: "We show that bistability is a prevalent phenomenon in human affect dynamics and develop 10 novel metrics to characterise affect shift dynamics. The Positive-to-Negative Affect Shift Ratio (P2N-ASR) is a better predictor of psychological well-being compared to traditional intensity metrics."
   section: "Journal Articles"
   categories:
-    - Affect dynamics
     - Bistability
     - Affect shift ratio
     - Well-being
@@ -44,7 +58,6 @@
   description: "An open dataset capturing daily mood fluctuations during the first wave of the COVID-19 pandemic in Spain."
   section: "Journal Articles"
   categories:
-    - Affect dynamics
     - COVID-19
   links:
     - name: "Journal Article"
@@ -71,9 +84,7 @@
   image: assets/smartphone.jpg
   description: "A smartphone platform for ecological momentary assessment, enabling researchers to configure sampling schedules and self-report items for affect monitoring studies."
   section: "Journal Articles"
-  categories:
-    - Affect dynamics    
-    - Methodology
+  categories:    
     - Smartphone app
   links:
     - name: "Journal Article"
@@ -95,7 +106,6 @@
   description: "We replicate and extend our previous findings, providing robust evidence that how individuals move between affective states may be more diagnostic of psychological functioning than the typical intensity or variability of those states."
   section: "Preprints"
   categories:
-    - Affect dynamics
     - Affect shift ratio
     - Well-being
     - Bistability
@@ -124,7 +134,6 @@
   categories:
     - PBAT
     - Boruta
-    - Methodology
     - Linked communities
     - Network analysis
     - Cross-cultural
@@ -149,7 +158,6 @@
   section: "Conferences"
   categories:
     - PBAT
-    - Affect dynamics
     - Mental health
   links: []
 
@@ -162,7 +170,6 @@
   description: "Invited talk."
   section: "Conferences"
   categories:
-    - Affect dynamics
     - Well-being
   links:
   - name: "Presentation Slides"
@@ -179,7 +186,6 @@
   description: "This project applies dynamical systems theory and ecological momentary assessment to investigate bistability in human affect and its relationship with psychological well-being and mental health."
   section: "Funding"
   categories:
-    - Affect dynamics
     - Bistability
     - Well-being
     - Mental health

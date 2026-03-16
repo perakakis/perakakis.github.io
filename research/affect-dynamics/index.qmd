@@ -22,6 +22,12 @@ listing:
       section: "Conferences"
     sort: "date desc"
     template: ../../html/research/listing.ejs
+  - id: preregistrations
+    contents: papers.yml
+    include:
+      section: "Preregistration"
+    sort: "date desc"
+    template: ../../html/research/listing.ejs
   - id: funding
     contents: papers.yml
     include:
@@ -53,6 +59,11 @@ Having established that shift dynamics are robust predictors of well-being, we n
 ## Preprints
 
 :::{#preprints}
+:::
+
+## Preregistrations
+
+:::{#preregistrations}
 :::
 
 ## Conferences

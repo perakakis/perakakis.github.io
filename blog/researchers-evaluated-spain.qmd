@@ -317,12 +317,6 @@ agreeData = {
 
 Plotly = require("https://cdn.plot.ly/plotly-2.27.0.min.js")
 
-function measureLabels(labels, fontSize) {
-  const c = document.createElement("canvas").getContext("2d");
-  c.font = fontSize + "px sans-serif";
-  return Math.ceil(Math.max(...labels.map(l => c.measureText(l).width))) + 20;
-}
-
 chart1 = {
   const { pcts, factorOrder } = impData;
   const div = document.createElement("div");
@@ -350,9 +344,9 @@ chart1 = {
     barmode: "stack",
     title: { text: "<b>Importance of different factors for research CV evaluation</b>", font: { size: 14 } },
     xaxis: { title: { text: "% of responses", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
-    yaxis: { title: "", tickfont: { size: 9 } },
+    yaxis: { title: "", tickfont: { size: 9 }, automargin: true },
     legend: { orientation: "h", y: -0.08, x: 0.5, xanchor: "center", font: { size: 10 } },
-    margin: { l: measureLabels(factorOrder.map(f => factorLabels[f] || f), 9), t: 50, b: 90, r: 10 },
+    margin: { l: 10, t: 50, b: 90, r: 10 },
     height: 1200
   };
 
@@ -393,9 +387,9 @@ chart2 = {
     barmode: "stack",
     title: { text: "<b>Opinions and proposals</b>", font: { size: 14 } },
     xaxis: { title: { text: "% of responses", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
-    yaxis: { title: "", tickfont: { size: 9 } },
+    yaxis: { title: "", tickfont: { size: 9 }, automargin: true },
     legend: { orientation: "h", y: -0.25, x: 0.5, xanchor: "center", font: { size: 10 } },
-    margin: { l: measureLabels(factorOrder.map(f => factorLabels[f] || f), 9), t: 50, b: 110, r: 10 },
+    margin: { l: 10, t: 50, b: 110, r: 10 },
     height: 550
   };
 

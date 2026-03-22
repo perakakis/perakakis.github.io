@@ -268,7 +268,7 @@ chart2 = {
     xaxis: { title: { text: "% de respuestas", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
     yaxis: { title: "", tickfont: { size: 9 } },
     legend: { orientation: "h", y: -0.25, x: 0.5, xanchor: "center", font: { size: 10 } },
-    margin: { l: 420, t: 50, b: 110, r: 10 },
+    margin: { l: 520, t: 50, b: 110, r: 10 },
     height: 550
   };
 

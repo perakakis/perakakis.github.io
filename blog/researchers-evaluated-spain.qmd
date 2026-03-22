@@ -324,6 +324,7 @@ agreeData = {
 
 ```{ojs}
 //| echo: false
+//| column: screen-inset
 
 Plotly = require("https://cdn.plot.ly/plotly-2.27.0.min.js")
 
@@ -369,6 +370,7 @@ chart1 = {
 
 ```{ojs}
 //| echo: false
+//| column: screen-inset
 
 chart2 = {
   const { pcts, factorOrder } = agreeData;

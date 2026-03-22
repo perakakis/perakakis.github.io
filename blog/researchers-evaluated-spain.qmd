@@ -16,15 +16,9 @@ aliases:
 
 <p>In the second part of the survey, 88% of the participants consider that "publish or perish" is an existing problem, 84% think that evaluation based on the number of published articles fosters questionable authorship strategies, and 71% agree that such a way of evaluation promotes bad research practices. While this seems encouraging, the number of published articles was ranked as the second most important evaluation criterion (after being PI or co-PI in research projects). Does this mean that counting the number of articles is bad but it is the best we have? At the same time, 70% agree that it would be preferable to base research evaluation on a pre-determined number of the best contributions. Could this method, which is already being applied by some national evaluation agencies, be pointing in the right direction?</p>
 
-<img src="assets/Picture-1-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
-
 <p>Despite so much being said and written about the irrelevance of the Impact Factor for the evaluation of individual authors, this criterion was rated as the tenth most important, with 54% of the participants considering it "very" or "fairly important". The Hirsch index was considered less important and ranked 16th.</p>
 
-<img src="assets/Picture-2-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
-
 <p>Another disheartening observation was that publishing pre-registered studies was not considered relevant for research assessment, ranking 36th in the order of importance, with 51% of the respondents rating it as "not very important" or "not important at all". At the same time, publishing preprints was the least important criterion, rated as not very important or not important at all by 60% of the participants. Although the importance of preprints did not vary by discipline or age, it is promising that preregistration was considered more important among younger researchers (22–40 years old) in the life sciences, with "only" 28% of respondents considering it unimportant.</p>
-
-<img src="assets/Picture-3-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
 
 <p>The inclusion of an interview in the recruitment process, which currently only involves the submission of a CV in a specific format that varies from one institution to another, was supported by 79% of the respondents and ranked ninth in order of importance (only one place above the IF!). Interestingly, when dividing the results by gender, it appears that women tend to consider the inclusion of an interview as less important than men: this criterion ranks seventh for men and seventeenth for women.</p>
 
@@ -32,6 +26,374 @@ aliases:
 
 <p>In general, it seems that there is still a long way to go to raise awareness in Spain, where researchers still value journal-level indices for individual assessment and do not recognise the importance of practices that clearly improve research quality, such as the pre-registration of experimental studies. Despite these concerns, our survey also shows that most researchers recognise that the current system leads to bad practices and even suggests broadly-supported improvements, such as using a pre-determined number of best contributions for evaluation, or including an interview by a committee composed of external and internal members.</p>
 
-<p>The observations highlighted here are just a few that called my attention. Anyone interested can access the full data and the report found <a href="https://doi.org/10.5281/zenodo.6136707" target="_blank">here</a> and also use an <a href="https://public.tableau.com/views/EncuestaCVinvestigador/Story1?:language=en-GB&:display_count=n&:origin=viz_share_link" target="_blank">interactive graph</a> (also embedded below) with various filter options (by age, gender, discipline, and professional status) that can offer many additional insights.</p>
+<p>The observations highlighted here are just a few that called my attention. Anyone interested can access the full data and the report using the links below, and also explore the interactive chart shown further down with various filter options.</p>
 
-<div class='tableauPlaceholder' id='viz1665929571245' style='position: relative'><noscript><a href='#'><img alt='Story 1 ' src='https://public.tableau.com/static/images/En/EncuestaCVinvestigador/Story1/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /><param name='embed_code_version' value='3' /><param name='site_root' value='' /><param name='name' value='EncuestaCVinvestigador/Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/En/EncuestaCVinvestigador/Story1/1.png' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div><script type='text/javascript'>var divElement = document.getElementById('viz1665929571245'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+<p>
+<a href="https://zenodo.org/record/6136707#.YxZY2y8RppQ" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-archive"></i> Zenodo</a>
+<a href="assets/Informe_Encuesta_CV_Investigador.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> PDF Report</a>
+<a href="https://public.tableau.com/views/EncuestaCVinvestigador/Story1" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-bar-chart-line"></i> Tableau Version</a>
+</p>
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+dat = read.delim("assets/survey-data.csv", fileEncoding = "UTF-16LE",
+                 stringsAsFactors = FALSE)
+names(dat) = c("Factor", "Valor", "Area", "Edad", "Estatus", "Genero")
+
+ojs_define(rawData = dat)
+```
+
+```{ojs}
+//| echo: false
+
+opinionItems = [
+  "Publicar los resultados de la investigación es parte de la responsabilidad y trabajo de un académico",
+  "El fenómeno \"publish or perish\" está presente en España",
+  "La evaluación basada en número de publicaciones incentiva estrategias de autoría cuestionables",
+  "La evaluación basada en número de publicaciones incentiva prácticas de investigación cuestionables",
+  "El proceso de selección debería incluir una entrevista personal",
+  "Deberían considerarse periodos sin producción justificados",
+  "Las comisiones de contratación deberían contar con miembros internos y externos",
+  "La evaluación debería basarse en un número predeterminado de las mejores contribuciones",
+  "Las comisiones de contratación deberían contar solo con miembros externos",
+  "Las comisiones de contratación deberían contar solo con miembros internos"
+]
+
+impLevels = ["Muy importante", "Bastante importante",
+             "Medianamente importante", "Poco importante",
+             "Nada importante", "Sin respuesta"]
+
+agreeLevels = ["Totalmente de acuerdo", "De acuerdo",
+               "Ni en desacuerdo ni de acuerdo", "En desacuerdo",
+               "Totalmente en desacuerdo", "Sin respuesta"]
+
+impColors = {
+  return {
+    "Muy importante": "#1a9641",
+    "Bastante importante": "#91cf60",
+    "Medianamente importante": "#d9ef8b",
+    "Poco importante": "#fdae61",
+    "Nada importante": "#d73027",
+    "Sin respuesta": "#d9d9d9"
+  };
+}
+
+agreeColors = {
+  return {
+    "Totalmente de acuerdo": "#1a9641",
+    "De acuerdo": "#a6d96a",
+    "Ni en desacuerdo ni de acuerdo": "#d9ef8b",
+    "En desacuerdo": "#fdae61",
+    "Totalmente en desacuerdo": "#d73027",
+    "Sin respuesta": "#d9d9d9"
+  };
+}
+
+impLabels = {
+  return {
+    "Muy importante": "Very important",
+    "Bastante importante": "Fairly important",
+    "Medianamente importante": "Moderately important",
+    "Poco importante": "Not very important",
+    "Nada importante": "Not important at all",
+    "Sin respuesta": "No response"
+  };
+}
+
+agreeLabels = {
+  return {
+    "Totalmente de acuerdo": "Strongly agree",
+    "De acuerdo": "Agree",
+    "Ni en desacuerdo ni de acuerdo": "Neither agree nor disagree",
+    "En desacuerdo": "Disagree",
+    "Totalmente en desacuerdo": "Strongly disagree",
+    "Sin respuesta": "No response"
+  };
+}
+
+factorLabels = {
+  return {
+    "Publicar los resultados de la investigación es parte de la responsabilidad y trabajo de un académico": "Publishing results is part of an academic's responsibility",
+    "El fenómeno \"publish or perish\" está presente en España": "The \"publish or perish\" phenomenon is present in Spain",
+    "La evaluación basada en número de publicaciones incentiva estrategias de autoría cuestionables": "Evaluation based on number of publications encourages questionable authorship strategies",
+    "La evaluación basada en número de publicaciones incentiva prácticas de investigación cuestionables": "Evaluation based on number of publications encourages questionable research practices",
+    "El proceso de selección debería incluir una entrevista personal": "The selection process should include a personal interview",
+    "Deberían considerarse periodos sin producción justificados": "Justified periods without output should be considered",
+    "Las comisiones de contratación deberían contar con miembros internos y externos": "Hiring committees should include internal and external members",
+    "La evaluación debería basarse en un número predeterminado de las mejores contribuciones": "Evaluation should be based on a pre-determined number of best contributions",
+    "Las comisiones de contratación deberían contar solo con miembros externos": "Hiring committees should include only external members",
+    "Las comisiones de contratación deberían contar solo con miembros internos": "Hiring committees should include only internal members",
+    "Nº de artículos publicados": "No. of published articles",
+    "Nº de artículos indexados en JCR": "No. of articles indexed in JCR",
+    "Factor de impacto (FI) de las revistas en las que se ha publicado": "Impact Factor (IF) of journals published in",
+    "Índice de Hirsch": "Hirsch index",
+    "Nº total de citas recibidas": "Total no. of citations received",
+    "Publicaciones en ránkings basados en opinión de expertos": "Publications in expert opinion-based rankings",
+    "Publicaciones en editoriales de reconocido prestigio": "Publications with prestigious publishers",
+    "Publicaciones en acceso abierto": "Open access publications",
+    "Publicaciones indexadas en SCOPUS": "SCOPUS-indexed publications",
+    "Publicación de datos y materiales de investigación": "Publication of research data and materials",
+    "IP o co-IP de proyectos de investigación": "PI or co-PI of research projects",
+    "Participación en proyectos de investigación": "Participation in research projects",
+    "Estancias de investigación": "Research stays",
+    "Nº de tesis doctorales dirigidas": "No. of supervised doctoral theses",
+    "Nº de seminarios y conferencias invitadas": "No. of invited seminars and conferences",
+    "Nº de comunicaciones en congresos": "No. of conference presentations",
+    "Premios y reconocimientos de investigación": "Research awards and recognitions",
+    "Participación en comités editoriales": "Participation in editorial committees",
+    "Registro de patentes": "Patent registration",
+    "Contratos de I+D": "R&D contracts",
+    "Labor de revisión por pares": "Peer review work",
+    "Contribución a la docencia": "Teaching contribution",
+    "Contribución a la gestión universitaria": "University management contribution",
+    "Contribución a la extensión universitaria": "University outreach contribution",
+    "Contribución a la transferencia de conocimiento": "Knowledge transfer contribution",
+    "Publicación de libros / capítulos de libro": "Publication of books / book chapters",
+    "Publicación de estudios prerregistrados": "Publication of pre-registered studies",
+    "Publicación de preprints": "Publication of preprints",
+    "Publicación de informes de resultados registrados": "Publication of registered reports"
+  };
+}
+
+data = transpose(rawData)
+
+uniqueVals = {
+  const u = (col) => [...new Set(data.map(d => d[col]))].filter(v => v && v !== "Sin respuesta").sort();
+  return {
+    Genero: u("Genero"),
+    Edad: u("Edad"),
+    Estatus: u("Estatus"),
+    Area: u("Area")
+  };
+}
+
+genderLabels = {
+  return {
+    "Todos": "All",
+    "Hombre": "Male",
+    "Mujer": "Female",
+    "Otro / Prefiero no contestar": "Other / Prefer not to say"
+  };
+}
+
+ageLabels = {
+  return {
+    "Todos": "All",
+    "22-30": "22-30",
+    "31-40": "31-40",
+    "41-50": "41-50",
+    "51-60": "51-60",
+    "Más de 60": "Over 60"
+  };
+}
+
+statusLabels = {
+  return {
+    "Todos": "All",
+    "Catedrático/a": "Full Professor",
+    "Contratado/a Doctor/a": "Associate Professor (tenured)",
+    "Estudiante de doctorado": "Doctoral student",
+    "Investigador/a Postdoctoral": "Postdoctoral researcher",
+    "Otro": "Other",
+    "Profesor/a Ayudante Doctor/a": "Assistant Professor",
+    "Profesor/a Titular": "Associate Professor",
+    "Ramón y Cajal / similar": "Ramón y Cajal / similar"
+  };
+}
+
+areaLabels = {
+  return {
+    "Todos": "All",
+    "Arte y Humanidades": "Arts & Humanities",
+    "Ciencias": "Sciences",
+    "Ciencias de la Salud": "Health Sciences",
+    "Ciencias Sociales y Jurídicas": "Social & Legal Sciences",
+    "Ingeniería y Arquitectura": "Engineering & Architecture"
+  };
+}
+```
+
+```{ojs}
+//| echo: false
+//| panel: input
+
+viewof selGenero = Inputs.select(
+  ["Todos", ...uniqueVals.Genero],
+  { label: "Gender", format: x => genderLabels[x] || x }
+)
+viewof selEdad = Inputs.select(
+  ["Todos", ...uniqueVals.Edad],
+  { label: "Age", format: x => ageLabels[x] || x }
+)
+viewof selEstatus = Inputs.select(
+  ["Todos", ...uniqueVals.Estatus],
+  { label: "Position", format: x => statusLabels[x] || x }
+)
+viewof selArea = Inputs.select(
+  ["Todos", ...uniqueVals.Area],
+  { label: "Area", format: x => areaLabels[x] || x }
+)
+```
+
+```{ojs}
+//| echo: false
+
+filtered = {
+  let d = data;
+  if (selGenero !== "Todos") d = d.filter(r => r.Genero === selGenero);
+  if (selEdad !== "Todos") d = d.filter(r => r.Edad === selEdad);
+  if (selEstatus !== "Todos") d = d.filter(r => r.Estatus === selEstatus);
+  if (selArea !== "Todos") d = d.filter(r => r.Area === selArea);
+  return d;
+}
+
+sampleSize = {
+  const ref = filtered.filter(r => r.Factor === opinionItems[0]);
+  return ref.length;
+}
+```
+
+```{ojs}
+//| echo: false
+html`<p style="text-align:center; color: var(--bs-secondary); font-size: 0.9rem; margin-top: 0.5rem;"><em>N = ${sampleSize} respondents</em></p>`
+```
+
+```{ojs}
+//| echo: false
+
+function computePct(rows, levels, items, exclude) {
+  const subset = exclude
+    ? rows.filter(r => levels.includes(r.Valor) && !items.includes(r.Factor))
+    : rows.filter(r => levels.includes(r.Valor) && items.includes(r.Factor));
+
+  const counts = {};
+  for (const r of subset) {
+    const k = r.Factor + "|||" + r.Valor;
+    counts[k] = (counts[k] || 0) + 1;
+  }
+
+  const totals = {};
+  for (const [k, v] of Object.entries(counts)) {
+    const factor = k.split("|||")[0];
+    totals[factor] = (totals[factor] || 0) + v;
+  }
+
+  const result = [];
+  for (const [k, v] of Object.entries(counts)) {
+    const [factor, valor] = k.split("|||");
+    result.push({ Factor: factor, Valor: valor, Pct: Math.round(v / totals[factor] * 10000) / 100 });
+  }
+  return result;
+}
+
+impData = {
+  const pcts = computePct(filtered, impLevels, opinionItems, true);
+  const firstPcts = {};
+  for (const r of pcts) {
+    if (r.Valor === impLevels[0]) firstPcts[r.Factor] = r.Pct;
+  }
+  const factors = [...new Set(pcts.map(r => r.Factor))];
+  factors.sort((a, b) => (firstPcts[a] || 0) - (firstPcts[b] || 0));
+  return { pcts, factorOrder: factors };
+}
+
+agreeData = {
+  const pcts = computePct(filtered, agreeLevels, opinionItems, false);
+  const firstPcts = {};
+  for (const r of pcts) {
+    if (r.Valor === agreeLevels[0]) firstPcts[r.Factor] = r.Pct;
+  }
+  const factors = [...new Set(pcts.map(r => r.Factor))];
+  factors.sort((a, b) => (firstPcts[a] || 0) - (firstPcts[b] || 0));
+  return { pcts, factorOrder: factors };
+}
+```
+
+```{ojs}
+//| echo: false
+
+Plotly = require("https://cdn.plot.ly/plotly-2.27.0.min.js")
+
+chart1 = {
+  const { pcts, factorOrder } = impData;
+  const div = document.createElement("div");
+
+  const traces = impLevels.map(nivel => {
+    const vals = factorOrder.map(f => {
+      const match = pcts.find(r => r.Factor === f && r.Valor === nivel);
+      return match ? match.Pct : 0;
+    });
+    return {
+      x: vals,
+      y: factorOrder.map(f => factorLabels[f] || f),
+      type: "bar",
+      orientation: "h",
+      name: impLabels[nivel],
+      marker: { color: impColors[nivel] },
+      text: vals.map(v => v >= 4 ? v.toFixed(2) + "%" : ""),
+      textposition: "inside",
+      textfont: { size: 9, color: "#333" },
+      hovertemplate: "<b>%{y}</b><br>" + (impLabels[nivel]) + ": %{x:.1f}%<extra></extra>"
+    };
+  });
+
+  const layout = {
+    barmode: "stack",
+    title: { text: "<b>Importance of different factors for research CV evaluation</b>", font: { size: 14 } },
+    xaxis: { title: { text: "% of responses", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
+    yaxis: { title: "", tickfont: { size: 9 } },
+    legend: { orientation: "h", y: -0.08, x: 0.5, xanchor: "center", font: { size: 10 } },
+    margin: { l: 320, t: 50, b: 90, r: 10 },
+    height: 1200
+  };
+
+  Plotly.newPlot(div, traces, layout, { responsive: true, displayModeBar: false });
+  return div;
+}
+```
+
+<div style="margin-top: 3rem;"></div>
+
+```{ojs}
+//| echo: false
+
+chart2 = {
+  const { pcts, factorOrder } = agreeData;
+  const div = document.createElement("div");
+
+  const traces = agreeLevels.map(nivel => {
+    const vals = factorOrder.map(f => {
+      const match = pcts.find(r => r.Factor === f && r.Valor === nivel);
+      return match ? match.Pct : 0;
+    });
+    return {
+      x: vals,
+      y: factorOrder.map(f => factorLabels[f] || f),
+      type: "bar",
+      orientation: "h",
+      name: agreeLabels[nivel],
+      marker: { color: agreeColors[nivel] },
+      text: vals.map(v => v >= 4 ? v.toFixed(2) + "%" : ""),
+      textposition: "inside",
+      textfont: { size: 9, color: "#333" },
+      hovertemplate: "<b>%{y}</b><br>" + (agreeLabels[nivel]) + ": %{x:.1f}%<extra></extra>"
+    };
+  });
+
+  const layout = {
+    barmode: "stack",
+    title: { text: "<b>Opinions and proposals</b>", font: { size: 14 } },
+    xaxis: { title: { text: "% of responses", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
+    yaxis: { title: "", tickfont: { size: 9 } },
+    legend: { orientation: "h", y: -0.25, x: 0.5, xanchor: "center", font: { size: 10 } },
+    margin: { l: 420, t: 50, b: 110, r: 10 },
+    height: 550
+  };
+
+  Plotly.newPlot(div, traces, layout, { responsive: true, displayModeBar: false });
+  return div;
+}
+```

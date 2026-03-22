@@ -3,7 +3,7 @@ title: "¿Cómo quieren ser evaluados los investigadores en España?"
 date: 2022-09-06
 lang: es
 description: "875 investigadores académicos en España valoran el número de artículos publicados más de lo que admiten, y el prerregistro apenas importa. Algunos resultados sorprendentes de nuestra encuesta sobre criterios de evaluación del CV investigador."
-categories: [Opinions, Talks & Presentations, Scholarly Communication]
+categories: [Opinions, Publications, Scholarly Communication]
 image: assets/Picture-1-1024x684.png
 aliases:
   - /2022/09/06/como-quieren-ser-evaluados-los-investigadores-en-espana/
@@ -17,15 +17,9 @@ aliases:
 
 <p>En la segunda parte de la encuesta, el 88% de los participantes considera que el "publicar o perecer" es un problema existente, el 84% piensa que la evaluación basada en el número de artículos publicados fomenta estrategias de autoría cuestionables y el 71% está de acuerdo en que esa forma de evaluación promueve malas prácticas de investigación. Aunque esto parece alentador, el número de artículos publicados se clasificó como el segundo criterio de evaluación más importante (después de ser IP o co-PI en proyectos de investigación). ¿Significa esto que contar el número de artículos es malo pero es lo mejor que tenemos? Al mismo tiempo, el 70% está de acuerdo en que sería preferible basar la evaluación de la investigación en un número predeterminado de las mejores contribuciones. ¿Este método, que ya aplican algunas agencias nacionales de evaluación, podría apuntar en la dirección correcta?</p>
 
-<img src="assets/Picture-1-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
-
 <p>A pesar de lo mucho que se ha dicho y escrito sobre la irrelevancia del Factor de Impacto para la evaluación de los autores individuales, este criterio fue calificado como el décimo más importante, con un 54% de los participantes que lo consideraron "muy" o "bastante importante". El índice de Hirsch se consideró menos importante y ocupó el 16º lugar.</p>
 
-<img src="assets/Picture-2-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
-
 <p>Otra observación desalentadora fue que la publicación de estudios prerregistrados no se consideró relevante para la evaluación de la investigación, ocupando el 36º lugar en el orden de importancia, con un 51% de los encuestados que lo calificaron de "poco importante" o "nada importante". Al mismo tiempo, la publicación de preprints fue el criterio menos importante, calificado como poco o nada importante por el 60% de los participantes. Aunque la importancia de los preprints no varió en función de la disciplina o la edad, resulta prometedor que el prerregistro se considerara más importante entre los investigadores más jóvenes (22-40 años) de las ciencias de la vida, ya que "sólo" el 28% de los encuestados lo consideraron poco importante.</p>
-
-<img src="assets/Picture-3-1024x684.png" alt="" style="display:block; margin: 1.5rem auto; max-width:min(600px, 100%);" />
 
 <p>La inclusión de una entrevista en el proceso de contratación, que actualmente sólo implica la presentación de un CV en un formato específico que varía de una institución a otra (!), fue apoyada por el 79% de los encuestados y ocupó el noveno lugar en orden de importancia. Curiosamente, al dividir los resultados por género, parece que las mujeres tienden a considerar la inclusión de una entrevista como menos importante que los hombres: este criterio ocupa el séptimo lugar para los hombres y el decimoséptimo para las mujeres.</p>
 
@@ -33,35 +27,252 @@ aliases:
 
 <p>En general, parece que aún queda mucho camino por recorrer para concienciar a los investigadores en España, donde todavía se valoran los índices a nivel de revista para la evaluación individual y no se reconoce la importancia de prácticas que mejoran claramente la calidad de la investigación, como el prerregistro de los estudios experimentales. A pesar de estas preocupaciones, nuestra encuesta también muestra que la mayoría de los investigadores reconocen que el sistema actual conduce a malas prácticas e incluso sugieren mejoras ampliamente respaldadas, como el uso de un número predeterminado de mejores contribuciones para la evaluación, o la inclusión de una entrevista por parte de un comité compuesto por miembros externos e internos.</p>
 
-<p>Las observaciones destacadas aquí son sólo algunas que me llamaron la atención. Cualquier persona interesada puede acceder a los datos completos y al informe que se encuentra <a href="https://zenodo.org/record/6136707#.YxZY2y8RppQ" target="_blank" rel="noreferrer noopener">aquí</a> y también utilizar el gráfico interactivo que se muestra a continuación, con varias opciones de filtro (por edad, género, disciplina y estatus profesional).</p>
+<p>Las observaciones destacadas aquí son sólo algunas que me llamaron la atención. Cualquier persona interesada puede acceder a los datos completos y al informe utilizando los enlaces a continuación, y también explorar el gráfico interactivo que se muestra más abajo.</p>
 
-```{=html}
-<div id="viz1665929571245" class="tableauPlaceholder" style="position: relative; width: 100%; margin: 1.5rem 0;">
-  <noscript>
-    <a href='#'><img alt='Story 1' src='https://public.tableau.com/static/images/En/EncuestaCVinvestigador/Story1/1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class="tableauViz" style="display:none;" width="100%" height="600">
-    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-    <param name="embed_code_version" value="3" />
-    <param name="site_root" value="" />
-    <param name="name" value="EncuestaCVinvestigador/Story1" />
-    <param name="tabs" value="no" />
-    <param name="toolbar" value="yes" />
-    <param name="animate_transition" value="yes" />
-    <param name="display_static_image" value="yes" />
-    <param name="display_spinner" value="yes" />
-    <param name="display_overlay" value="yes" />
-    <param name="display_count" value="yes" />
-    <param name="language" value="en-GB" />
-  </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1665929571245');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width = '100%';
-  vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+<p>
+<a href="https://zenodo.org/record/6136707#.YxZY2y8RppQ" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-archive"></i> Zenodo</a>
+<a href="assets/Informe_Encuesta_CV_Investigador.pdf" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-file-earmark-pdf"></i> Informe PDF</a>
+<a href="https://public.tableau.com/views/EncuestaCVinvestigador/Story1" target="_blank" class="btn btn-outline-primary btn-sm"><i class="bi bi-bar-chart-line"></i> Versión Tableau</a>
+</p>
+</p>
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+dat = read.delim("assets/survey-data.csv", fileEncoding = "UTF-16LE",
+                 stringsAsFactors = FALSE)
+names(dat) = c("Factor", "Valor", "Area", "Edad", "Estatus", "Genero")
+
+ojs_define(rawData = dat)
+```
+
+```{ojs}
+//| echo: false
+
+opinionItems = [
+  "Publicar los resultados de la investigación es parte de la responsabilidad y trabajo de un académico",
+  "El fenómeno \"publish or perish\" está presente en España",
+  "La evaluación basada en número de publicaciones incentiva estrategias de autoría cuestionables",
+  "La evaluación basada en número de publicaciones incentiva prácticas de investigación cuestionables",
+  "El proceso de selección debería incluir una entrevista personal",
+  "Deberían considerarse periodos sin producción justificados",
+  "Las comisiones de contratación deberían contar con miembros internos y externos",
+  "La evaluación debería basarse en un número predeterminado de las mejores contribuciones",
+  "Las comisiones de contratación deberían contar solo con miembros externos",
+  "Las comisiones de contratación deberían contar solo con miembros internos"
+]
+
+impLevels = ["Muy importante", "Bastante importante",
+             "Medianamente importante", "Poco importante",
+             "Nada importante", "Sin respuesta"]
+
+agreeLevels = ["Totalmente de acuerdo", "De acuerdo",
+               "Ni en desacuerdo ni de acuerdo", "En desacuerdo",
+               "Totalmente en desacuerdo", "Sin respuesta"]
+
+impColors = {
+  return {
+    "Muy importante": "#1a9641",
+    "Bastante importante": "#91cf60",
+    "Medianamente importante": "#d9ef8b",
+    "Poco importante": "#fdae61",
+    "Nada importante": "#d73027",
+    "Sin respuesta": "#d9d9d9"
+  };
+}
+
+agreeColors = {
+  return {
+    "Totalmente de acuerdo": "#1a9641",
+    "De acuerdo": "#a6d96a",
+    "Ni en desacuerdo ni de acuerdo": "#d9ef8b",
+    "En desacuerdo": "#fdae61",
+    "Totalmente en desacuerdo": "#d73027",
+    "Sin respuesta": "#d9d9d9"
+  };
+}
+
+data = transpose(rawData)
+
+uniqueVals = {
+  const u = (col) => [...new Set(data.map(d => d[col]))].filter(v => v && v !== "Sin respuesta").sort();
+  return {
+    Genero: u("Genero"),
+    Edad: u("Edad"),
+    Estatus: u("Estatus"),
+    Area: u("Area")
+  };
+}
+```
+
+```{ojs}
+//| echo: false
+//| panel: input
+
+viewof selGenero = Inputs.select(["Todos", ...uniqueVals.Genero], {label: "Género"})
+viewof selEdad = Inputs.select(["Todos", ...uniqueVals.Edad], {label: "Edad"})
+viewof selEstatus = Inputs.select(["Todos", ...uniqueVals.Estatus], {label: "Posición"})
+viewof selArea = Inputs.select(["Todos", ...uniqueVals.Area], {label: "Área"})
+```
+
+```{ojs}
+//| echo: false
+
+filtered = {
+  let d = data;
+  if (selGenero !== "Todos") d = d.filter(r => r.Genero === selGenero);
+  if (selEdad !== "Todos") d = d.filter(r => r.Edad === selEdad);
+  if (selEstatus !== "Todos") d = d.filter(r => r.Estatus === selEstatus);
+  if (selArea !== "Todos") d = d.filter(r => r.Area === selArea);
+  return d;
+}
+
+sampleSize = {
+  const ref = filtered.filter(r => r.Factor === opinionItems[0]);
+  return ref.length;
+}
+```
+
+```{ojs}
+//| echo: false
+html`<p style="text-align:center; color: var(--bs-secondary); font-size: 0.9rem; margin-top: 0.5rem;"><em>N = ${sampleSize} encuestados</em></p>`
+```
+
+```{ojs}
+//| echo: false
+
+function computePct(rows, levels, items, exclude) {
+  const subset = exclude
+    ? rows.filter(r => levels.includes(r.Valor) && !items.includes(r.Factor))
+    : rows.filter(r => levels.includes(r.Valor) && items.includes(r.Factor));
+
+  const counts = {};
+  for (const r of subset) {
+    const k = r.Factor + "|||" + r.Valor;
+    counts[k] = (counts[k] || 0) + 1;
+  }
+
+  const totals = {};
+  for (const [k, v] of Object.entries(counts)) {
+    const factor = k.split("|||")[0];
+    totals[factor] = (totals[factor] || 0) + v;
+  }
+
+  const result = [];
+  for (const [k, v] of Object.entries(counts)) {
+    const [factor, valor] = k.split("|||");
+    result.push({ Factor: factor, Valor: valor, Pct: Math.round(v / totals[factor] * 10000) / 100 });
+  }
+  return result;
+}
+
+impData = {
+  const pcts = computePct(filtered, impLevels, opinionItems, true);
+  const firstPcts = {};
+  for (const r of pcts) {
+    if (r.Valor === impLevels[0]) firstPcts[r.Factor] = r.Pct;
+  }
+  const factors = [...new Set(pcts.map(r => r.Factor))];
+  factors.sort((a, b) => (firstPcts[a] || 0) - (firstPcts[b] || 0));
+  return { pcts, factorOrder: factors };
+}
+
+agreeData = {
+  const pcts = computePct(filtered, agreeLevels, opinionItems, false);
+  const firstPcts = {};
+  for (const r of pcts) {
+    if (r.Valor === agreeLevels[0]) firstPcts[r.Factor] = r.Pct;
+  }
+  const factors = [...new Set(pcts.map(r => r.Factor))];
+  factors.sort((a, b) => (firstPcts[a] || 0) - (firstPcts[b] || 0));
+  return { pcts, factorOrder: factors };
+}
+```
+
+```{ojs}
+//| echo: false
+
+Plotly = require("https://cdn.plot.ly/plotly-2.27.0.min.js")
+
+chart1 = {
+  const { pcts, factorOrder } = impData;
+  const div = document.createElement("div");
+
+  const traces = impLevels.map(nivel => {
+    const vals = factorOrder.map(f => {
+      const match = pcts.find(r => r.Factor === f && r.Valor === nivel);
+      return match ? match.Pct : 0;
+    });
+    return {
+      x: vals,
+      y: factorOrder,
+      type: "bar",
+      orientation: "h",
+      name: nivel,
+      marker: { color: impColors[nivel] },
+      text: vals.map(v => v >= 4 ? v.toFixed(2) + "%" : ""),
+      textposition: "inside",
+      textfont: { size: 9, color: "#333" },
+      hovertemplate: "<b>%{y}</b><br>" + nivel + ": %{x:.1f}%<extra></extra>"
+    };
+  });
+
+  const layout = {
+    barmode: "stack",
+    title: { text: "<b>Importancia de diferentes factores para la evaluación del CV investigador</b>", font: { size: 14 } },
+    xaxis: { title: { text: "% de respuestas", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
+    yaxis: { title: "", tickfont: { size: 9 } },
+    legend: { orientation: "h", y: -0.08, x: 0.5, xanchor: "center", font: { size: 10 } },
+    margin: { l: 320, t: 50, b: 90, r: 10 },
+    height: 1200
+  };
+
+  Plotly.newPlot(div, traces, layout, { responsive: true, displayModeBar: false });
+  return div;
+}
+```
+
+<div style="margin-top: 3rem;"></div>
+
+```{ojs}
+//| echo: false
+
+chart2 = {
+  const { pcts, factorOrder } = agreeData;
+  const div = document.createElement("div");
+
+  const traces = agreeLevels.map(nivel => {
+    const vals = factorOrder.map(f => {
+      const match = pcts.find(r => r.Factor === f && r.Valor === nivel);
+      return match ? match.Pct : 0;
+    });
+    return {
+      x: vals,
+      y: factorOrder,
+      type: "bar",
+      orientation: "h",
+      name: nivel,
+      marker: { color: agreeColors[nivel] },
+      text: vals.map(v => v >= 4 ? v.toFixed(2) + "%" : ""),
+      textposition: "inside",
+      textfont: { size: 9, color: "#333" },
+      hovertemplate: "<b>%{y}</b><br>" + nivel + ": %{x:.1f}%<extra></extra>"
+    };
+  });
+
+  const layout = {
+    barmode: "stack",
+    title: { text: "<b>Opiniones y propuestas</b>", font: { size: 14 } },
+    xaxis: { title: { text: "% de respuestas", standoff: 30 }, ticksuffix: "%", range: [0, 100] },
+    yaxis: { title: "", tickfont: { size: 9 } },
+    legend: { orientation: "h", y: -0.25, x: 0.5, xanchor: "center", font: { size: 10 } },
+    margin: { l: 420, t: 50, b: 110, r: 10 },
+    height: 550
+  };
+
+  Plotly.newPlot(div, traces, layout, { responsive: true, displayModeBar: false });
+  return div;
+}
 ```

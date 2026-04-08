@@ -10,10 +10,19 @@ I teach at the [Complutense University of Madrid](https://www.ucm.es) in the Dep
 ### Individual Differences
 *Undergraduate — Faculty of Psychology, Complutense University of Madrid*
 
-This course provides an introduction to the scientific study of psychological differences between individuals. Topics include the history and theoretical foundations of differential psychology, psychometric methods, intelligence and cognitive abilities, personality, and the interplay of genetic and environmental factors.
+This course reframes the classic topics of differential psychology around a single unifying question: are intelligence, rationality, and personality things we *have* — or things we *do*? Starting from the philosophy of science and the nature of uncertainty, the course builds toward a process-oriented account of individual differences grounded in the Free Energy Principle. Topics include intelligence as relevance realization, rationality as a cultivable skill, the Big Five as entropy management strategies, Bayesian belief updating, and behavioral genetics. Active learning activities challenge students to analyze person–environment fit using the entropy framework.
 
----
+<!-- ---
 
 ::: {.callout-note}
 Teaching materials and course resources will be added here.
-:::
+::: -->
+
+---
+
+### [Reproducible Research & Open Science](open-science-reproducibility/index.qmd)
+*Invited course/workshop*
+
+A practical introduction to the tools and workflows for reproducible and open research — from R and VS Code to GitHub, OSF, and Zenodo — framed within the ongoing international reform of research evaluation. Includes hands-on experience with preregistration, preprints, and open data practices.
+
+[Course details →](open-science-reproducibility/index.qmd){.btn .btn-outline-primary .btn-sm}

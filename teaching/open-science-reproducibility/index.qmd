@@ -1,0 +1,61 @@
+---
+title: "Reproducible Research & Open Science"
+toc: true
+toc-location: right
+---
+
+::: {.panel-tabset}
+
+## English
+
+### About this course
+
+The way we generate, communicate, and evaluate scientific knowledge is changing. New assessment policies promoted by CoARA and other national and international research committees and funding agencies explicitly recognise open science practices as academic merit. Transparent reporting of methods, protocols, software code and data to facilitate reproducibility is becoming an expected standard, not an option. This course offers a practical introduction to the tools and workflows that enable reproducible and open research — from the analysis environment (R, Python, VS Code) to management and dissemination platforms (GitHub, OSF, Zenodo) — including transparency practices such as preregistration and preprints. The goal is not only to learn how to use tools, but to understand why these practices matter and how to integrate them naturally into everyday research.
+
+### Structure
+
+**Block 1 — The new context.**
+Research evaluation reform. Why open science is no longer optional and how it is becoming a criterion for academic merit.
+
+**Block 2 — Reproducible workflow.**
+Principles of reproducibility. R, Python and VS Code as an integrated environment. GitHub for version control and open collaboration.
+
+**Block 3 — Open science platforms.**
+OSF: project management, preregistration, and storage. Zenodo: publishing data and code with a persistent DOI.
+
+**Block 4 — Transparency in scientific communication.**
+Preregistration: what it is, how and where. Preprints: available servers, advantages, and their relationship with journals.
+
+### About the instructor
+
+Pandelis Perakakis is Associate Professor of Psychology at the Universidad Complutense de Madrid and one of the most active voices on open science and research evaluation reform. He is founder of Open Scholar, an international organization that develops and promotes new models of scholarly communication and evaluation. He is a founding member of the Spanish Reproducibility Network (SPRN) and member of the coordinating team of the Spanish National Chapter of CoARA. Since 2025 he advises the Vice-Rector for Research and Knowledge Transfer at UCM on research evaluation. He collaborates with the Confederation of Open Access Repositories (COAR) on several projects focused on the development of alternative models for scholarly communication. Since 2005 he has given numerous courses, workshops, and invited talks on open access, open science, and research evaluation reform.
+
+[<i class="bi bi-envelope"></i> Request this course](mailto:pperakak@ucm.es){.btn .btn-outline-primary .btn-sm}
+
+## Español
+
+### Descripción del curso
+
+La manera en que generamos, comunicamos y evaluamos el conocimiento científico está cambiando. Las nuevas políticas de evaluación promovidas por CoARA y adoptadas por ANECA y AEI reconocen explícitamente las prácticas de ciencia abierta como mérito académico. La comunicación transparente de métodos, protocolos, código de análisis y datos para facilitar la reproducibilidad se está convirtiendo en un estándar esperado, no opcional. Este curso ofrece una introducción práctica a las herramientas y flujos de trabajo que permiten hacer investigación reproducible y abierta: desde el entorno de análisis (R, Python, VS Code) hasta las plataformas de gestión y difusión (GitHub, OSF, Zenodo), pasando por prácticas de transparencia como el preregistro y los preprints. El objetivo no es solo aprender a manejar herramientas, sino entender por qué estas prácticas importan y cómo integrarlas de forma natural en el trabajo cotidiano del investigador.
+
+### Estructura
+
+**Bloque 1 — El nuevo contexto.**
+La reforma de la evaluación científica en España: CoARA, ANECA, AEI. Por qué la ciencia abierta ya no es opcional y cómo se está convirtiendo en criterio de mérito académico.
+
+**Bloque 2 — Flujo de trabajo reproducible.**
+Principios de reproducibilidad. R y VS Code como entorno integrado. GitHub para control de versiones y colaboración abierta.
+
+**Bloque 3 — Plataformas de ciencia abierta.**
+OSF: gestión de proyectos, preregistro y almacenamiento. Zenodo: publicación de datos y código con DOI persistente.
+
+**Bloque 4 — Transparencia en la comunicación científica.**
+Preregistro: qué es, cómo y dónde. Preprints: servidores disponibles, ventajas y relación con las revistas.
+
+### Sobre el ponente
+
+Pandelis Perakakis es Profesor de Psicología en la Universidad Complutense de Madrid y una de las voces más activas en España en el ámbito de la ciencia abierta y la reforma de la evaluación científica. Es fundador de Open Scholar, organización internacional que desarrolla y promueve nuevos modelos de comunicación y evaluación científica. Es miembro fundador de la Red Española de Reproducibilidad (SPRN) y miembro del equipo coordinador del Capítulo Nacional Español de CoARA en representación de la CRUE. Desde 2025 asesora al Vicerrectorado de Investigación y Transferencia de la UCM en materia de evaluación de la investigación. Colabora con la Confederación de Repositorios Abiertos (COAR) en diversos proyectos enfocados en el desarrollo de modelos alternativos de comunicación científica. Desde 2005 ha impartido numerosos cursos, talleres y conferencias invitadas en España y el extranjero sobre acceso abierto, ciencia abierta y reforma de la evaluación científica.
+
+[<i class="bi bi-envelope"></i> Solicitar este curso](mailto:pperakak@ucm.es){.btn .btn-outline-primary .btn-sm}
+
+:::

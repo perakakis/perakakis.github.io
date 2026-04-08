@@ -1,23 +1,7 @@
 [
   {
-    "listing": "/research/scholarly-communication/index.html",
+    "listing": "/research/exercise-brain-cognition/index.html",
     "items": []
-  },
-  {
-    "listing": "/research/hep/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/affect-dynamics/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/coara-forum-2026.html",
-      "/blog/plan-accion-coara-ucm.html",
-      "/blog/jornadas-investigacion-ccpp-ucm.html"
-    ]
   },
   {
     "listing": "/blog/index.html",
@@ -86,7 +70,23 @@
     ]
   },
   {
-    "listing": "/research/exercise-brain-cognition/index.html",
+    "listing": "/index.html",
+    "items": [
+      "/blog/coara-forum-2026.html",
+      "/blog/plan-accion-coara-ucm.html",
+      "/blog/jornadas-investigacion-ccpp-ucm.html"
+    ]
+  },
+  {
+    "listing": "/research/affect-dynamics/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/hep/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/scholarly-communication/index.html",
     "items": []
   }
 ]

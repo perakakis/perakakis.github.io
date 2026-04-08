@@ -3,7 +3,7 @@ title: "Teaching"
 toc: true
 ---
 
-I teach at the [Complutense University of Madrid](https://www.ucm.es) in the Department of Social, Work and Differential Psychology.
+<!-- I teach at the [Complutense University of Madrid](https://www.ucm.es) in the Department of Social, Work and Differential Psychology. -->
 
 ## Current Courses
 

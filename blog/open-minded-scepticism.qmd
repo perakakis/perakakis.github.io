@@ -7,6 +7,10 @@ image: assets/scientist_vs_academic.png
 aliases:
   - /2017/05/15/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/
 ---
+::: {.callout-note}
+This post was originally published on the *EuroScientist* blog. It now survives via the [Internet Archive](https://web.archive.org/web/20230325071734/http://euroscientist.com/open-scientists-in-the-shoes-of-frustrated-academics-part-i-open-minded-scepticism/).
+:::
+
 <p>Last week I was in Oslo, invited by the organising committee of <a href="http://eurodoc-oslo2017.org" target="_blank">Eurodoc2017</a>, to give an introductory talk on Open Science [1]. One thing that became apparent during this two-day event was that, although irresistibly trendy, Open Science remains an elusive concept. Many continue to confuse Open Science with Open Access, not to mention that almost everyone still thinks Open Access is equivalent to publishing in open access journals. In this series of posts, I will discuss a few issues that will hopefully help clarify the meaning of Open Science, why is it important, and how individual scientists can make a difference. I will start by offering my definition of Science, its purpose, and the correct approach to maximise its benefits.</p>
 
 <figure style="float:right; margin: 1rem 0 1rem 1.5rem; max-width: 300px;">

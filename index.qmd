@@ -8,7 +8,7 @@ listing:
       # - blog/rethinking-affect.qmd
       - blog/jornadas-investigacion-ccpp-ucm.qmd
       - blog/coara-forum-2026.qmd
-      - blog/plan-accion-coara-ucm.qmd
+      - blog/csic-predoc-talk-2026.qmd
       # - blog/journal-acquisitions.qmd
       # - blog/*.qmd
       # - "!blog/index.qmd"

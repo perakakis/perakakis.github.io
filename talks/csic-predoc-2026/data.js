@@ -78,7 +78,6 @@ window.INFRA_DATA = (function () {
         ["ir",       "openaire"],
         ["csic",     "openaire"],
         ["zenodo",   "openaire"],
-        ["openaire", "graspos"],
       ],
     },
     {

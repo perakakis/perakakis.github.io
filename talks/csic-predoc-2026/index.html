@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Open Infrastructures for an Alternative Scholarly Communication System</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+
+<style>
+  /* ---- Layer / step panel ---- */
+  .layer-panel {
+    border: 1px solid var(--rule-light);
+    border-radius: 8px;
+    padding: 18px 20px;
+    background: rgba(255,255,255,0.55);
+    box-shadow: 0 2px 14px rgba(10,22,40,0.08), 0 0 0 1px rgba(10,22,40,0.04);
+    display: flex;
+    flex-direction: column;
+  }
+  .layer-panel-title {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(10,22,40,0.5);
+    margin-bottom: 14px;
+  }
+  .step-base {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+    font-family: var(--font-body);
+    font-size: 13px;
+    color: var(--text-on-light-muted);
+  }
+  .step-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--teal-600);
+    flex-shrink: 0;
+  }
+  .step-divider {
+    height: 1px;
+    background: var(--rule-light);
+    margin: 10px 0;
+  }
+  .step-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    font-family: var(--font-body);
+    font-size: 13px;
+    color: rgba(10,22,40,0.28);
+    transition: color 0.25s;
+    cursor: pointer;
+  }
+  .step-item:hover { color: rgba(10,22,40,0.55); }
+  .step-item:hover .step-swatch { opacity: 0.6; }
+  .step-swatch {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    opacity: 0.28;
+    transition: opacity 0.25s;
+  }
+  .step-letter {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(10,22,40,0.28);
+    transition: color 0.25s;
+    min-width: 12px;
+  }
+  .step-item.active {
+    color: var(--text-on-light);
+    font-weight: 600;
+  }
+  .step-item.active .step-swatch { opacity: 1; }
+  .step-item.active .step-letter { color: var(--text-on-light-muted); }
+  .step-item.done { color: rgba(10,22,40,0.6); }
+  .step-item.done .step-swatch { opacity: 0.65; }
+  .step-item.done .step-letter { color: rgba(10,22,40,0.4); }
+  .reveal-hint {
+    margin-top: auto;
+    padding-top: 16px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(10,22,40,0.35);
+    text-align: center;
+  }
+</style>
+
+
+<script src="deck-stage.js"></script>
+<script src="data.js" defer></script>
+<script src="puzzle.js" defer></script>
+<script src="sidebar.js" defer></script>
+</head>
+<body>
+
+<deck-stage>
+
+  <!-- ============================================================
+       SLIDE 1 — The Map
+       ============================================================ -->
+  <section class="slide-paper" data-screen-label="01 The Map">
+    <div style="position: absolute; inset: 0; padding: 48px 64px 40px 64px; display: flex; flex-direction: column;">
+
+      <!-- Header band -->
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+        <div>
+          <div class="slide-tag" style="margin-bottom: 12px;">CSIC Predoctoral Network · 6 May 2026</div>
+          <h1 style="font-family: var(--font-display); font-size: 50px; line-height: 1; font-weight: 400; margin: 0; font-variation-settings: 'SOFT' 50, 'opsz' 60; letter-spacing: -0.02em; text-wrap: balance; max-width: 1800px;">
+            The pieces of an alternative scholarly communication system <em style="font-style: italic; color: var(--teal-600);">already exist</em>.
+            <span style="display: block; color: var(--text-on-light-muted); font-size: 32px; font-style: italic; margin-top: 6px;">Here is how they fit together:</span>
+          </h1>
+        </div>
+        <div style="text-align: right; padding-top: 4px;">
+          <!-- <div class="mono" style="font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(10,22,40,0.45); margin-bottom: 4px;">Speaker</div> -->
+          <div style="font-size: 18px; font-weight: 500; color: var(--text-on-light);">Pandelis Perakakis</div>
+          <div class="mono" style="font-size: 13px; color: var(--text-on-light-muted); margin-top: 2px;">UCM · Open Scholar</div>
+        </div>
+      </div>
+
+      <!-- Body: puzzle + layer panel + sidebar -->
+      <div style="flex: 1; display: grid; grid-template-columns: 1fr 240px 460px; gap: 32px; min-height: 0;">
+
+        <!-- Puzzle -->
+        <div id="map-host" style="position: relative; min-height: 0; border: 1px solid var(--rule-light); border-radius: 8px; overflow: hidden; background: var(--paper-soft);"></div>
+
+        <!-- Step progress panel -->
+        <div class="layer-panel" id="layer-panel">
+          <div class="layer-panel-title">Narrative</div>
+
+          <div class="step-base" id="step-reset" style="cursor:pointer;">
+            <span class="step-dot"></span>
+            <span>Infrastructure</span>
+          </div>
+
+          <div class="step-divider"></div>
+
+          <div class="step-item" data-step="0">
+            <span class="step-swatch" style="background:#1c7a8c;"></span>
+            <span class="step-letter">A</span>
+            <span>Archive</span>
+          </div>
+          <div class="step-item" data-step="1">
+            <span class="step-swatch" style="background:#5b8a3a;"></span>
+            <span class="step-letter">B</span>
+            <span>Review</span>
+          </div>
+          <div class="step-item" data-step="2">
+            <span class="step-swatch" style="background:#3a5b8a;"></span>
+            <span class="step-letter">C</span>
+            <span>Aggregate</span>
+          </div>
+          <div class="step-item" data-step="3">
+            <span class="step-swatch" style="background:#7a4a8a;"></span>
+            <span class="step-letter">D</span>
+            <span>Assess</span>
+          </div>
+
+          <div class="step-divider"></div>
+
+          <div class="step-item" data-step="4">
+            <span class="step-swatch" style="background:#c97a0a;"></span>
+            <span class="step-letter">1</span>
+            <span>OA-only evaluation</span>
+          </div>
+          <div class="step-item" data-step="5">
+            <span class="step-swatch" style="background:#c97a0a;"></span>
+            <span class="step-letter">2</span>
+            <span>Open peer reviews</span>
+          </div>
+
+          <div class="reveal-hint" id="reveal-hint">→ to reveal</div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside style="display: flex; flex-direction: column; min-height: 0; padding: 4px 4px 4px 0; overflow-y: auto;">
+          <div id="sidebar-content"></div>
+        </aside>
+      </div>
+
+      <div class="slide-num">01 / 01</div>
+    </div>
+  </section>
+
+</deck-stage>
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  const host = document.getElementById("map-host");
+  const sidebarEl = document.getElementById("sidebar-content");
+  if (!host || !window.Puzzle || !window.INFRA_DATA) return;
+
+  const { SIDEBAR } = window.INFRA_DATA;
+  const deckStage = document.querySelector("deck-stage");
+
+  Sidebar.render(sidebarEl, SIDEBAR.__default);
+
+  // Force all links inside the sidebar to open in a new tab
+  sidebarEl.addEventListener("click", (e) => {
+    const a = e.target.closest("a[href]");
+    if (!a) return;
+    e.preventDefault();
+    e.stopPropagation();
+    window.open(a.href, "_blank", "noopener,noreferrer");
+  });
+
+  let lastSelected = null;
+
+  const puzzle = window.Puzzle.build(host, {
+    onSelect: (kind, id) => {
+      let key = id;
+      if (kind === "flow") key = "flow_" + id;
+      const item = SIDEBAR[key];
+      if (item) Sidebar.render(sidebarEl, item);
+
+      if (lastSelected && lastSelected.kind === "piece") puzzle.highlightPiece(lastSelected.id, false);
+      if (kind === "piece") puzzle.highlightPiece(id, true);
+      lastSelected = { kind, id };
+    },
+  });
+
+  // ---- Sequential reveal ----
+  const REVEAL_STEPS = [
+    { type: "flow",   id: "A",  sidebarKey: "flow_A" },
+    { type: "flow",   id: "B",  sidebarKey: "flow_B" },
+    { type: "flow",   id: "C",  sidebarKey: "flow_C" },
+    { type: "flow",   id: "D",  sidebarKey: "flow_D" },
+    { type: "policy", id: "P1", sidebarKey: "P1"     },
+    { type: "policy", id: "P2", sidebarKey: "P2"     },
+  ];
+
+  let revealStep = 0;
+
+  function applyRevealState() {
+    REVEAL_STEPS.forEach((step, i) => {
+      const on = i < revealStep;
+      if (step.type === "flow") puzzle.setFlow(step.id, on);
+      else puzzle.setPolicy(step.id, on);
+
+      const el = document.querySelector(`.step-item[data-step="${i}"]`);
+      if (!el) return;
+      el.classList.remove("active", "done");
+      if (i === revealStep - 1) el.classList.add("active");
+      else if (i < revealStep - 1) el.classList.add("done");
+    });
+
+    const hint = document.getElementById("reveal-hint");
+    if (hint) hint.textContent = revealStep < REVEAL_STEPS.length ? "→ to reveal" : "";
+  }
+
+  function revealNext() {
+    revealStep++;
+    applyRevealState();
+    const step = REVEAL_STEPS[revealStep - 1];
+    const item = SIDEBAR[step.sidebarKey];
+    if (item) Sidebar.render(sidebarEl, item);
+  }
+
+  function revealPrev() {
+    revealStep--;
+    applyRevealState();
+    if (revealStep > 0) {
+      const step = REVEAL_STEPS[revealStep - 1];
+      const item = SIDEBAR[step.sidebarKey];
+      if (item) Sidebar.render(sidebarEl, item);
+    } else {
+      Sidebar.render(sidebarEl, SIDEBAR.__default);
+    }
+  }
+
+  // Intercept keyboard in capture phase so deck-stage sees it only when we're done
+  window.addEventListener("keydown", (e) => {
+    if (!deckStage || deckStage.index !== 0) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+    const key = e.key;
+    const isNext = key === "ArrowRight" || key === "PageDown" || key === " " || key === "Spacebar";
+    const isPrev = key === "ArrowLeft" || key === "PageUp";
+
+    if (isNext && revealStep < REVEAL_STEPS.length) {
+      e.stopImmediatePropagation();
+      e.preventDefault();
+      revealNext();
+    } else if (isPrev && revealStep > 0) {
+      e.stopImmediatePropagation();
+      e.preventDefault();
+      revealPrev();
+    }
+    // Otherwise let deck-stage advance/retreat between slides
+  }, true);
+
+  // Infrastructure row resets to initial state
+  const resetEl = document.getElementById("step-reset");
+  if (resetEl) {
+    resetEl.addEventListener("click", () => {
+      revealStep = 0;
+      applyRevealState();
+      Sidebar.render(sidebarEl, SIDEBAR.__default);
+    });
+  }
+
+  // Click on step items to jump directly to that step
+  document.querySelectorAll(".step-item[data-step]").forEach(el => {
+    el.addEventListener("click", () => {
+      const target = parseInt(el.dataset.step, 10) + 1;
+      revealStep = target;
+      applyRevealState();
+      const step = REVEAL_STEPS[revealStep - 1];
+      const item = SIDEBAR[step.sidebarKey];
+      if (item) Sidebar.render(sidebarEl, item);
+    });
+  });
+
+  applyRevealState();
+});
+</script>
+
+</body>
+</html>

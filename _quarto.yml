@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "**/*.qmd"
+  resources:
+    - "talks/**"
 
 execute:
   freeze: auto    # Don't re-run code unless source changes

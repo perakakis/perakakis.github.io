@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d2034"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#115b6e"/>
+      <stop offset="100%" stop-color="#1c7a8c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="rgba(240,233,218,0.05)" stroke-width="1"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="rgba(240,233,218,0.05)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="rgba(240,233,218,0.05)" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="rgba(240,233,218,0.05)" stroke-width="1"/>
+
+  <!-- Teal accent bar top -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#teal)"/>
+
+  <!-- Puzzle nodes — row 0 Archive -->
+  <rect x="80" y="340" width="200" height="110" rx="10" fill="rgba(28,122,140,0.15)" stroke="rgba(28,122,140,0.4)" stroke-width="1.5"/>
+  <text x="180" y="390" font-family="IBM Plex Mono, monospace" font-size="11" fill="rgba(28,122,140,0.9)" text-anchor="middle" letter-spacing="2">ARCHIVE</text>
+  <text x="180" y="415" font-family="DM Sans, sans-serif" font-size="16" fill="rgba(240,233,218,0.85)" text-anchor="middle">Institutional Repos</text>
+
+  <rect x="300" y="340" width="200" height="110" rx="10" fill="rgba(28,122,140,0.25)" stroke="rgba(28,122,140,0.7)" stroke-width="1.5"/>
+  <text x="400" y="390" font-family="IBM Plex Mono, monospace" font-size="11" fill="rgba(28,122,140,0.9)" text-anchor="middle" letter-spacing="2">ARCHIVE</text>
+  <text x="400" y="415" font-family="DM Sans, sans-serif" font-size="16" fill="#f0e9da" text-anchor="middle">DIGITAL.CSIC</text>
+
+  <rect x="520" y="340" width="200" height="110" rx="10" fill="rgba(28,122,140,0.15)" stroke="rgba(28,122,140,0.4)" stroke-width="1.5"/>
+  <text x="620" y="390" font-family="IBM Plex Mono, monospace" font-size="11" fill="rgba(28,122,140,0.9)" text-anchor="middle" letter-spacing="2">ARCHIVE</text>
+  <text x="620" y="415" font-family="DM Sans, sans-serif" font-size="16" fill="rgba(240,233,218,0.85)" text-anchor="middle">Zenodo</text>
+
+  <!-- Row 1 Review nodes -->
+  <rect x="80" y="210" width="145" height="100" rx="10" fill="rgba(91,138,58,0.12)" stroke="rgba(91,138,58,0.35)" stroke-width="1.5"/>
+  <text x="152" y="268" font-family="DM Sans, sans-serif" font-size="13" fill="rgba(240,233,218,0.75)" text-anchor="middle">Funding Agencies</text>
+
+  <rect x="245" y="210" width="145" height="100" rx="10" fill="rgba(91,138,58,0.12)" stroke="rgba(91,138,58,0.35)" stroke-width="1.5"/>
+  <text x="317" y="268" font-family="DM Sans, sans-serif" font-size="13" fill="rgba(240,233,218,0.75)" text-anchor="middle">Eval Committees</text>
+
+  <rect x="410" y="210" width="145" height="100" rx="10" fill="rgba(91,138,58,0.12)" stroke="rgba(91,138,58,0.35)" stroke-width="1.5"/>
+  <text x="482" y="268" font-family="DM Sans, sans-serif" font-size="13" fill="rgba(240,233,218,0.75)" text-anchor="middle">PCI</text>
+
+  <rect x="575" y="210" width="145" height="100" rx="10" fill="rgba(91,138,58,0.12)" stroke="rgba(91,138,58,0.35)" stroke-width="1.5"/>
+  <text x="647" y="268" font-family="DM Sans, sans-serif" font-size="13" fill="rgba(240,233,218,0.75)" text-anchor="middle">Soc. Societies</text>
+
+  <!-- Row 2 Aggregate -->
+  <rect x="155" y="90" width="200" height="100" rx="10" fill="rgba(58,91,138,0.15)" stroke="rgba(58,91,138,0.4)" stroke-width="1.5"/>
+  <text x="255" y="148" font-family="DM Sans, sans-serif" font-size="15" fill="rgba(240,233,218,0.85)" text-anchor="middle">OpenAIRE</text>
+
+  <rect x="375" y="90" width="200" height="100" rx="10" fill="rgba(58,91,138,0.15)" stroke="rgba(58,91,138,0.4)" stroke-width="1.5"/>
+  <text x="475" y="148" font-family="DM Sans, sans-serif" font-size="15" fill="rgba(240,233,218,0.85)" text-anchor="middle">GraspOS</text>
+
+  <!-- Arrows (simplified) -->
+  <line x1="255" y1="340" x2="255" y2="190" stroke="rgba(28,122,140,0.4)" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <line x1="400" y1="340" x2="400" y2="310" stroke="rgba(28,122,140,0.5)" stroke-width="1.5"/>
+  <line x1="255" y1="190" x2="255" y2="90" stroke="rgba(58,91,138,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Policy sticky notes -->
+  <rect x="770" y="90" width="170" height="80" rx="6" fill="#fde7b7" stroke="#c97a0a" stroke-width="1.5" transform="rotate(-2, 855, 130)"/>
+  <text x="855" y="125" font-family="IBM Plex Mono, monospace" font-size="10" fill="#9a5e08" text-anchor="middle" letter-spacing="2" transform="rotate(-2, 855, 130)">MANDATE 01</text>
+  <text x="855" y="148" font-family="DM Sans, sans-serif" font-size="12" fill="#5a3a04" text-anchor="middle" transform="rotate(-2, 855, 130)">Evaluate OA repos only</text>
+
+  <rect x="780" y="200" width="170" height="80" rx="6" fill="#fde7b7" stroke="#c97a0a" stroke-width="1.5" transform="rotate(1.5, 865, 240)"/>
+  <text x="865" y="235" font-family="IBM Plex Mono, monospace" font-size="10" fill="#9a5e08" text-anchor="middle" letter-spacing="2" transform="rotate(1.5, 865, 240)">MANDATE 02</text>
+  <text x="865" y="258" font-family="DM Sans, sans-serif" font-size="12" fill="#5a3a04" text-anchor="middle" transform="rotate(1.5, 865, 240)">Mandate open reviews</text>
+
+  <!-- Main title -->
+  <text x="990" y="360" font-family="Georgia, serif" font-size="42" font-style="italic" fill="rgba(240,233,218,0.95)" text-anchor="middle">The pieces of</text>
+  <text x="990" y="410" font-family="Georgia, serif" font-size="42" font-style="italic" fill="rgba(240,233,218,0.95)" text-anchor="middle">the puzzle</text>
+  <text x="990" y="455" font-family="Georgia, serif" font-size="42" font-style="italic" fill="#1c7a8c" text-anchor="middle">already exist.</text>
+
+  <!-- Subtitle -->
+  <text x="990" y="510" font-family="IBM Plex Mono, monospace" font-size="13" fill="rgba(240,233,218,0.45)" text-anchor="middle" letter-spacing="1">CSIC Predoctoral Network · May 2026</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="610" width="1200" height="20" fill="rgba(17,91,110,0.3)"/>
+  <text x="60" y="624" font-family="IBM Plex Mono, monospace" font-size="11" fill="rgba(240,233,218,0.4)" letter-spacing="1">PANDELIS PERAKAKIS · OPEN SCHOLAR · UCM</text>
+</svg>

@@ -134,7 +134,7 @@
       <div style="flex: 1; display: grid; grid-template-columns: 1fr 240px 460px; gap: 32px; min-height: 0;">
 
         <!-- Puzzle -->
-        <div id="map-host" style="position: relative; min-height: 0; border: 1px solid var(--rule-light); border-radius: 8px; overflow: hidden; background: var(--paper-soft);"></div>
+        <div id="map-host" style="position: relative; min-height: 0; border: 1px solid var(--rule-light); border-radius: 8px; overflow: hidden; background: var(--paper-soft); touch-action: manipulation;"></div>
 
         <!-- Step progress panel -->
         <div class="layer-panel" id="layer-panel">
@@ -201,6 +201,11 @@ window.addEventListener("DOMContentLoaded", () => {
   const host = document.getElementById("map-host");
   const sidebarEl = document.getElementById("sidebar-content");
   if (!host || !window.Puzzle || !window.INFRA_DATA) return;
+
+  // Prevent deck-stage tap zones from intercepting touches on the puzzle map.
+  // The tapzones (position:fixed, z-index >2B) sit above the SVG in stacking order;
+  // stopping propagation here lets the SVG nodes receive the touch directly.
+  host.addEventListener("touchstart", (e) => { e.stopPropagation(); }, { passive: true });
 
   const { SIDEBAR } = window.INFRA_DATA;
   const deckStage = document.querySelector("deck-stage");

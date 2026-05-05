@@ -58,7 +58,7 @@
       viewBox: `0 0 ${BOARD_W} ${BOARD_H}`,
       width: "100%",
       height: "100%",
-      style: "display: block; font-family: Inter, sans-serif;",
+      style: "display: block; font-family: Inter, sans-serif; touch-action: manipulation;",
     });
 
     const defs = el("defs");
@@ -159,6 +159,13 @@
                      "#0d3b4f";
       const strokeWidth = p.accent ? "2.4" : "1.5";
 
+      // Invisible hit-padding rect — expands touch target on iOS/iPadOS
+      const hitPad = el("rect", {
+        x: -8, y: -8, width: NODE_W + 16, height: NODE_H + 16, rx: 16,
+        fill: "transparent", stroke: "none", "pointer-events": "all",
+      });
+      g.appendChild(hitPad);
+
       const rect = el("rect", {
         x: 0, y: 0, width: NODE_W, height: NODE_H, rx: 10,
         fill, stroke, "stroke-width": strokeWidth, "stroke-opacity": "0.9",
@@ -222,8 +229,8 @@
       g.appendChild(role);
 
       g.addEventListener("click", () => opts.onSelect && opts.onSelect("piece", p.id));
-      g.addEventListener("mouseenter", () => rect.setAttribute("stroke-width", "3"));
-      g.addEventListener("mouseleave", () => rect.setAttribute("stroke-width", strokeWidth));
+      g.addEventListener("touchstart", (e) => { e.stopPropagation(); opts.onSelect && opts.onSelect("piece", p.id); }, { passive: true });
+      g.addEventListener("mouseenter", () => rect.setAttribute("stroke-width", "3"));      g.addEventListener("mouseleave", () => rect.setAttribute("stroke-width", strokeWidth));
 
       gInfra.appendChild(g);
       pieceEls[p.id] = g;
@@ -266,6 +273,7 @@
 
       g.appendChild(wrap);
       g.addEventListener("click", () => opts.onSelect && opts.onSelect("glue", c.id));
+      g.addEventListener("touchstart", (e) => { e.stopPropagation(); opts.onSelect && opts.onSelect("glue", c.id); }, { passive: true });
       g.addEventListener("mouseenter", () => ribbon.setAttribute("stroke-width", "2"));
       g.addEventListener("mouseleave", () => ribbon.setAttribute("stroke-width", "1"));
       gGlue.appendChild(g);
@@ -388,6 +396,7 @@
       });
 
       g.addEventListener("click", () => opts.onSelect && opts.onSelect("policy", pol.id));
+      g.addEventListener("touchstart", (e) => { e.stopPropagation(); opts.onSelect && opts.onSelect("policy", pol.id); }, { passive: true });
       g.addEventListener("mouseenter", () => note.setAttribute("stroke-width", "2"));
       g.addEventListener("mouseleave", () => note.setAttribute("stroke-width", "1"));
       gPolicies.appendChild(g);

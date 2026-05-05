@@ -1,0 +1,275 @@
+/* ============================================================
+   CSIC Predoctoral Network — Infrastructures Talk
+   Design system
+   ============================================================ */
+
+:root {
+  /* Base palette — deep navy + teal, warm whites, amber for the ask */
+  --ink-900: #07111f;
+  --ink-800: #0a1628;
+  --ink-700: #0d2034;
+  --ink-600: #14304a;
+  --teal-700: #0d3b4f;
+  --teal-600: #115b6e;
+  --teal-500: #1c7a8c;
+
+  --emerald: #10b981;
+  --emerald-soft: #34d399;
+  --emerald-glow: rgba(16, 185, 129, 0.45);
+
+  --amber: #f59e0b;
+  --amber-soft: #fbbf24;
+  --amber-glow: rgba(245, 158, 11, 0.5);
+
+  --paper: #f5f0e6;          /* warm cream */
+  --paper-soft: #ece4d3;
+  --paper-dim: #d8cdb6;
+
+  --text-on-dark: #f0e9da;
+  --text-on-dark-muted: rgba(240, 233, 218, 0.62);
+  --text-on-dark-faint: rgba(240, 233, 218, 0.32);
+  --rule-dark: rgba(240, 233, 218, 0.14);
+
+  --text-on-light: #0a1628;
+  --text-on-light-muted: rgba(10, 22, 40, 0.62);
+  --rule-light: rgba(10, 22, 40, 0.14);
+
+  /* Type */
+  --font-display: "Fraunces", "Source Serif Pro", Georgia, serif;
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* ----- Stage ---------------------------------------------- */
+deck-stage {
+  background: var(--ink-900);
+  color: var(--text-on-dark);
+  font-family: var(--font-body);
+}
+
+deck-stage > section {
+  width: 1920px;
+  height: 1080px;
+  background: var(--ink-800);
+  color: var(--text-on-dark);
+  position: relative;
+  overflow: hidden;
+  font-family: var(--font-body);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ----- Slide variants ------------------------------------- */
+deck-stage > section.slide-paper {
+  background: var(--paper);
+  color: var(--text-on-light);
+}
+
+
+
+/* ----- Reusable scaffolds --------------------------------- */
+.slide-pad {
+  position: absolute;
+  inset: 0;
+  padding: 96px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-num {
+  position: absolute;
+  bottom: 48px;
+  right: 56px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: var(--text-on-dark-faint);
+  text-transform: uppercase;
+}
+.slide-paper .slide-num { color: rgba(10, 22, 40, 0.34); }
+
+.slide-tag {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--emerald-soft);
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.slide-tag::before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 1px;
+  background: currentColor;
+}
+.slide-paper .slide-tag { color: var(--teal-600); }
+
+/* ----- Type ----------------------------------------------- */
+h1.display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144;
+  margin: 0;
+  text-wrap: balance;
+}
+h1.title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  font-variation-settings: "SOFT" 50, "opsz" 96;
+  margin: 0;
+  text-wrap: balance;
+}
+h2.kicker {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  font-variation-settings: "SOFT" 50, "opsz" 60;
+  margin: 0;
+}
+.lede {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+  color: var(--text-on-dark-muted);
+  text-wrap: pretty;
+  max-width: 1100px;
+}
+.slide-paper .lede { color: var(--text-on-light-muted); }
+
+.body {
+  font-size: 26px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.mono { font-family: var(--font-mono); }
+
+.pull {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 88px;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-variation-settings: "SOFT" 100, "opsz" 88;
+  text-wrap: balance;
+}
+
+.attrib {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-faint);
+  margin-top: 40px;
+}
+
+/* ----- Decorative rules ----------------------------------- */
+.rule {
+  width: 100%;
+  height: 1px;
+  background: var(--rule-dark);
+}
+.slide-paper .rule { background: var(--rule-light); }
+
+/* ----- Generic dot ---------------------------------------- */
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--emerald);
+  vertical-align: middle;
+}
+.dot.amber { background: var(--amber); }
+
+/* ----- Header band on slides ------------------------------ */
+.header-band {
+  position: absolute;
+  top: 56px;
+  left: 120px;
+  right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-faint);
+}
+.slide-paper .header-band { color: rgba(10, 22, 40, 0.42); }
+
+/* ----- Buttons / chips ------------------------------------ */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border: 1px solid var(--rule-dark);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: var(--text-on-dark-muted);
+  background: rgba(255, 255, 255, 0.02);
+}
+.chip.amber {
+  border-color: var(--amber);
+  color: var(--amber);
+  background: rgba(245, 158, 11, 0.06);
+}
+
+/* ----- Staggered entrance for .rise containers ------------ */
+@keyframes slideRise {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.rise > * { opacity: 0; }
+
+section[data-deck-active] .rise > *:nth-child(1) {
+  animation: slideRise 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.05s forwards;
+}
+section[data-deck-active] .rise > *:nth-child(2) {
+  animation: slideRise 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.22s forwards;
+}
+section[data-deck-active] .rise > *:nth-child(3) {
+  animation: slideRise 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.42s forwards;
+}
+section[data-deck-active] .rise > *:nth-child(4) {
+  animation: slideRise 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.60s forwards;
+}
+
+/* Subtle paper grain on light slides */
+.slide-paper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(10,22,40,0.04) 1px, transparent 1px);
+  background-size: 4px 4px;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+
+/* Sidebar content fade transition */
+#sidebar-content {
+  transition: opacity 0.18s ease;
+}
+#sidebar-content.fading {
+  opacity: 0;
+}

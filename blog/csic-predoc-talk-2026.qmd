@@ -1,0 +1,31 @@
+---
+title: "Alternative publishing models and evaluation: talk at the CSIC Predoctoral Network"
+date: 2026-05-06
+description: "On May 6 I gave an online talk at the CSIC Predoctoral Network's open session on scholarly communication, arguing that Europe has already built every piece of an alternative system."
+categories: [News & Events, Scholarly Communication]
+image: assets/csic-predoc-2026-talk.svg
+---
+
+<img src="assets/csic-predoc-2026-talk.svg" alt="Interactive diagram: The pieces of the puzzle already exist" style="display:block; width:100%; max-width:800px; margin: 1.5rem auto; border-radius:8px;" />
+
+On **6 May 2026** I gave an online talk at an open session organised by the **CSIC Predoctoral Network** on scholarly communication and open access.
+
+My talk argued that Europe has **already built every piece** of an open, community-governed scholarly communication system — institutional repositories, national infrastructures like DIGITAL.CSIC, generalist archives like Zenodo, open review services like PCI, aggregators like OpenAIRE, and open metrics projects like GraspOS. What could accelerate the process towards a wider adoption of this alternative publication route are two policy mandates: requiring that evaluated outputs be deposited in open repositories, and mandating open peer review.
+
+The argument is developed in an interactive diagram you can explore here:
+
+<div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.15);">
+  <iframe
+    src="/talks/csic-predoc-2026/"
+    style="width: 100%; aspect-ratio: 16/9; border: none; display: block;"
+    title="The pieces of the puzzle already exist — interactive diagram"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p style="font-size:0.85em; color: var(--bs-secondary-color); text-align:center; margin-top:-1rem;">
+  <em>Click the workflow steps (A → B → C → D) and the policy mandates to explore the argument. Use the narrative panel on the left to navigate.</em>
+</p>
+
+Many thanks to the CSIC Predoctoral Network for the invitation and for organising the event.

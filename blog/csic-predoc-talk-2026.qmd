@@ -1,12 +1,12 @@
 ---
 title: "Alternative publishing models and evaluation: talk at the CSIC Predoctoral Network"
 date: 2026-05-06
-description: "On May 6 I gave an online talk at the CSIC Predoctoral Network's open session on scholarly communication, arguing that Europe has already built every piece of an alternative system."
+description: "Online talk at the CSIC Predoctoral Network's session on alternative evaluation models."
 categories: [News & Events, Scholarly Communication]
 image: assets/csic-predoc-2026-talk.svg
 ---
 
-On **6 May 2026** I gave an online talk at an open session organised by the **CSIC Predoctoral Network** on scholarly communication and open access.
+On 6 May 2026 I gave an online talk at organised by the **CSIC Predoctoral Network** on alternative models of academic pubishing.
 
 My talk argued that the necessary pieces for an alternative, open, community-governed scholarly communication system **already exist**: institutional repositories, national infrastructures like DIGITAL.CSIC, generalist archives like Zenodo, open review services like PCI, aggregators like OpenAIRE, and open metrics projects like GraspOS. What could accelerate the process towards a wider adoption of this alternative publication route are two policy mandates: requiring that evaluated outputs be deposited in open repositories, and mandating open peer review.
 

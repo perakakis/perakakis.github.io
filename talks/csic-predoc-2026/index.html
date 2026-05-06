@@ -210,6 +210,15 @@ window.addEventListener("DOMContentLoaded", () => {
   const { SIDEBAR } = window.INFRA_DATA;
   const deckStage = document.querySelector("deck-stage");
 
+  // Single-slide deck: tapzones (position:fixed, z-index 2147482000 in shadow DOM)
+  // intercept all touches on iPad, breaking SVG node clicks. Disable them — step panel
+  // buttons handle reveal navigation on touch devices.
+  if (deckStage.shadowRoot) {
+    deckStage.shadowRoot.querySelectorAll('.tapzone').forEach(el => {
+      el.style.pointerEvents = 'none';
+    });
+  }
+
   Sidebar.render(sidebarEl, SIDEBAR.__default);
 
   // Force all links inside the sidebar to open in a new tab

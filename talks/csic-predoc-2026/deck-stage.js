@@ -476,7 +476,7 @@
       // Keep the iframe's own hash in sync so an in-iframe location.reload()
       // (reload banner path in viewer-handle.ts) lands on the current slide,
       // not the stale deep-link hash from initial load.
-      try { history.replaceState(null, '', '#' + (curr + 1)); } catch (e) {}
+      if (this._slides.length > 1) try { history.replaceState(null, '', '#' + (curr + 1)); } catch (e) {}
       this._slides.forEach((s, i) => {
         if (i === curr) s.setAttribute('data-deck-active', '');
         else s.removeAttribute('data-deck-active');

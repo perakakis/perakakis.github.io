@@ -159,7 +159,7 @@ window.INFRA_DATA = (function () {
           { k: "Protocol",   v: "Uses COAR Notify to communicate with external review services like Peer Community In" },
           { k: "Diamond Open Access",    v: "Hosts journals published with no costs for authors and readers" },
         ]},
-        { kind: "example", html: `DIGITAL.CSIC publishes <a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> — the journal of the Spanish Society for Experimental Psychology (SEPEX) and offers a <a href=https://digital.csic.es/bitstream/10261/361230/14/diamante-en-verde-dc.pdf" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Diamond Open Access publication service</a> to other journals in need of publication infrastructure. It is equiped with the <a href="https://infogram.com/oprm-1h1749wv0rjrl2z" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Open Peer Review Module</a> that allows any hosted digital object to be reviewed and evaluated by expert peers.` },
+        { kind: "example", html: `DIGITAL.CSIC publishes <a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> — the journal of the Spanish Society for Experimental Psychology (SEPEX) and offers a <a href="https://digital.csic.es/bitstream/10261/361230/14/diamante-en-verde-dc.pdf" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Diamond Open Access publication service</a> to other journals in need of publication infrastructure. It is equiped with the <a href="https://infogram.com/oprm-1h1749wv0rjrl2z" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Open Peer Review Module</a> that allows any hosted digital object to be reviewed and evaluated by expert peers.` },
       ],
     },
     zenodo: {
@@ -194,7 +194,7 @@ window.INFRA_DATA = (function () {
           { k: "Current state",  v: "Largely depend on commercial publishing infrastructure" },
           { k: "What needs to change", v: "Any scientific society can leverage the existing open infrastructures afforded by institutional repositories to offer diamond OA today" },
         ]},
-        { kind: "example", html: `In 2022, the Spanish Society for Experimental Psychology (SEPEX), broke its contract with its commercial publisher and now publishes its journal, <a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> exclusively on <a https://digital.csic.es/handle/10261/228593" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">DIGITAL.CSIC</a>, the institutional repository of the Spanish National Research Council (CSIC).` },
+        { kind: "example", html: `In 2022, the Spanish Society for Experimental Psychology (SEPEX), broke its contract with its commercial publisher and now publishes its journal, <a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> exclusively on <a href="https://digital.csic.es/handle/10261/228593" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">DIGITAL.CSIC</a>, the institutional repository of the Spanish National Research Council (CSIC).` },
       ],
     },
     funders: {

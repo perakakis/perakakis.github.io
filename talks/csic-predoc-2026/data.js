@@ -146,6 +146,7 @@ window.INFRA_DATA = (function () {
           { k: "Examples", v: "DIGITAL.CSIC, Zenodo, HAL, arXiv, institutional DSpace/EPrints" },
           { k: "What needs to change", v: "Wide adoption of self-archiving practices by researchers." },
         ]},
+        { kind: "example", html: `ANECA (Spain's national accreditation agency) now requires publications to be accessible in an open repository to count toward academic accreditation. This policy has dramatically increased self-archiving.` }
       ],
     },
     csic: {
@@ -158,6 +159,7 @@ window.INFRA_DATA = (function () {
           { k: "Protocol",   v: "Uses COAR Notify to communicate with external review services like Peer Community In" },
           { k: "Diamond Open Access",    v: "Hosts journals published with no costs for authors and readers" },
         ]},
+        { kind: "example", html: `DIGITAL.CSIC publishes <a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> — the journal of the Spanish Society for Experimental Psychology (SEPEX) and offers a <a href=https://digital.csic.es/bitstream/10261/361230/14/diamante-en-verde-dc.pdf" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Diamond Open Access publication service</a> to other journals in need of publication infrastructure. It is equiped with the <a href="https://infogram.com/oprm-1h1749wv0rjrl2z" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Open Peer Review Module</a> that allows any hosted digital object to be reviewed and evaluated by expert peers.` },
       ],
     },
     zenodo: {
@@ -169,6 +171,7 @@ window.INFRA_DATA = (function () {
           { k: "Scope",    v: "All disciplines, all output types" },
           { k: "Scale",    v: "Millions of records; fully harvested by OpenAIRE" },
         ]},
+        { kind: "example", html: `Zenodo hosts reviews for conference papers and other digital objects using appropriate metadata that enable proper harvesting and linking by OpenAIRE.` }
       ],
     },
     pci: {
@@ -176,9 +179,8 @@ window.INFRA_DATA = (function () {
         { kind: "header", tag: "Infrastructure · Review", title: "Peer Community In", role: "Open peer review service" },
         { kind: "lede",   text: "PCI organises rigorous, transparent peer review of preprints entirely outside journals. Recommenders (reviewers) evaluate directly from repository deposits. Reviews become open, citable objects." },
         { kind: "facts",  rows: [
-          { k: "Model",    v: "Preprint → open review → recommendation — no journal needed" },
+          { k: "Model",    v: "Preprint → open review → recommendation" },
           { k: "Linked to", v: "HAL (France), DIGITAL.CSIC (Spain) via COAR Notify" },
-          { k: "Output",   v: "Open review objects with DOIs, harvestable by OpenAIRE" },
           { k: "Coverage", v: "20+ scientific communities across disciplines" },
         ]},
       ],
@@ -192,6 +194,7 @@ window.INFRA_DATA = (function () {
           { k: "Current state",  v: "Largely depend on commercial publishing infrastructure" },
           { k: "What needs to change", v: "Any scientific society can leverage the existing open infrastructures afforded by institutional repositories to offer diamond OA today" },
         ]},
+        { kind: "example", html: `In 2022, the Spanish Society for Experimental Psychology (SEPEX), broke its contract with its commercial publisher and now publishes its journal, <a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> exclusively on <a https://digital.csic.es/handle/10261/228593" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">DIGITAL.CSIC</a>, the institutional repository of the Spanish National Research Council (CSIC).` },
       ],
     },
     funders: {
@@ -213,6 +216,8 @@ window.INFRA_DATA = (function () {
           { k: "The gap",   v: "Reviews produced here are not deposited — they exist only as internal documents" },
           { k: "Policy role", v: "Can mandate open deposit of any review produced in their processes" },
         ]},
+        { kind: "example", html: `ANECA (Spain's national accreditation agency) now requires publications to be accessible in an open repository to count toward academic accreditation. This policy has dramatically increased self-archiving.` },
+
       ],
     },
     openaire: {
@@ -262,7 +267,7 @@ window.INFRA_DATA = (function () {
           { k: "What",      v: "Manuscripts, datasets, code, software" },
           { k: "Effect",    v: "Creates an open, persistent record that becomes the source of truth in the system" },
         ]},
-        { kind: "example", html: `ANECA (Spain's national accreditation agency) now requires publications to be accessible in an open repository to count toward academic accreditation.` },
+        { kind: "example", html: `ANECA (Spain's national accreditation agency) now requires publications to be accessible in an open repository to count toward academic accreditation. This policy has dramatically increased self-archiving.` },
       ],
     },
     flow_B: {
@@ -273,7 +278,7 @@ window.INFRA_DATA = (function () {
           { k: "Organisers",  v: "PCI, scientific societies, funders, evaluation committees" },
           { k: "Output",      v: "Open review object with DOI, linked to the archived record — aggregatable by OpenAIRE once Mandate 2 is active" },
         ]},
-        { kind: "example", html: `<a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> — the journal of the Spanish Society for Experimental Psychology (SEPEX) is published at DIGITAL.CSIC. <a href="https://peercommunityin.org/" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Peer Community In (PCI)</a> organises community peer review, and the review objects are linked back to the original records in the open access repositories.` },
+        { kind: "example", html: `<a href="https://psicologicajournal.com" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Psicológica</a> — the journal of the Spanish Society for Experimental Psychology (SEPEX) is <a href="https://doi.org/10.1038/d41586-023-02315-z" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">published at DIGITAL.CSIC</a>. <a href="https://peercommunityin.org/" style="color:var(--teal-600);text-decoration:underline;text-underline-offset:3px;">Peer Community In (PCI)</a> organises community peer review, and the review objects are linked back to the original records in the open access repositories.` },
       ],
     },
     flow_C: {

@@ -250,7 +250,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function applyRevealState() {
     REVEAL_STEPS.forEach((step, i) => {
-      const on = i < revealStep;
+      // Flows are exclusive: only the currently active step's arrows are shown.
+      // Policies accumulate.
+      const on = step.type === "flow" ? (i === revealStep - 1) : (i < revealStep);
       if (step.type === "flow") puzzle.setFlow(step.id, on);
       else puzzle.setPolicy(step.id, on);
 

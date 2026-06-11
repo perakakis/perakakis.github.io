@@ -93,7 +93,7 @@ window.INFRA_DATA = (function () {
       tag: "MANDATE 01",
       title: "Mandate open peer reviews",
       authors: "EU · CoARA",
-      targets: [],
+      targets: ["funders", "evals"],
       side: "right",
       slot: 0,
     },
@@ -103,7 +103,7 @@ window.INFRA_DATA = (function () {
       tag: "MANDATE 02",
       title: "Evaluate only content in OA repositories",
       authors: "EU · CoARA",
-      targets: [],
+      targets: ["evals", "csic"],
       side: "right",
       slot: 1,
     },
@@ -274,7 +274,7 @@ window.INFRA_DATA = (function () {
         { kind: "facts",  rows: [
           { k: "Organisers", v: "scientific societies, funders, evaluation committees" },
           { k: "Output",     v: "An open review object with a persistent identifier, linked to the archived record" },
-          // { k: "Unlocks",    v: "Aggregatable by OpenAIRE once Mandate 2 is active" },
+          { k: "Unlocks",    v: "Review objects become aggregatable, open evidence for assessment (see Mandates 1 and 2)" },
         ]},
         { kind: "example", html: `In 2022 the Spanish Society for Experimental Psychology (SEPEX) left its commercial publisher and now publishes its journal, <a href="https://psicologicajournal.com" target="_blank" rel="noopener">Psicológica</a>, exclusively on <a href="https://digital.csic.es/handle/10261/228593" target="_blank" rel="noopener">DIGITAL.CSIC</a>. Its peer reviews are now openly deposited alongside the articles and costs dropped to an estimated <a href="https://doi.org/10.1038/d41586-023-02315-z" target="_blank" rel="noopener">€30 per article</a>.` },
       ],
@@ -298,7 +298,7 @@ window.INFRA_DATA = (function () {
         { kind: "header",  tag: "Policy mandate 01", title: "Mandate open\npeer reviews", role: "EU · CoARA · Funders · Evaluation Committees" },
         { kind: "mandate", text: "Any peer review produced in an EU-funded evaluation (grants, hiring, promotion, accreditation) must be deposited as an open, citable, PID-assigned object, harvestable by OpenAIRE." },
         { kind: "lede",    text: "Research assessment reform asks to base assessment on peer reviews, but reviews themselves are currently not part of the system. There can be no transparent assessment reform without open access to the review data it is built on." },
-        { kind: "example", html: `Already happening at smaller scale: scientific-society journals like Psicológica and scholarly communities like PCI produce open, citable reviews (see Workflow B).` },
+        { kind: "example", html: `Scientific-society journals like Psicológica and communities like PCI already produce open, citable reviews (see Workflow B). The mandate generalises proven practice.` },
       ],
     },
     P2: {
@@ -306,7 +306,20 @@ window.INFRA_DATA = (function () {
         { kind: "header",  tag: "Policy mandate 02", title: "Evaluate only content\nin OA repositories", role: "CoARA · EU · Funders · Evaluation Committees" },
         { kind: "mandate", text: "Evaluation processes (grants, hiring, promotion, tenure) must consider only the archived repository version of an output." },
         { kind: "lede",    text: "This makes the open repository the single locus of evaluation and becomes the lever that drives deposit across the whole system." },
-        { kind: "example", html: `Already happening at smaller scale: ANECA evaluates only outputs openly accessible in an open access repository (see Workflow A).` },
+        { kind: "example", html: `ANECA already evaluates only outputs deposited in an open access repository (see Workflow A). One rule transformed self-archiving across Spain.` },
+      ],
+    },
+
+    // --- Closing state (all flows + both mandates active) ---
+    loop: {
+      blocks: [
+        { kind: "header", tag: "Synthesis", title: "The loop,\nclosed", role: "All workflows running under the two mandates" },
+        { kind: "lede",   text: "With the two mandates in place, every workflow runs at once: outputs are archived, reviews flow back as citable objects, and OpenAIRE aggregates the complete record. Nothing on this map needs to be built." },
+        { kind: "facts",  rows: [
+          { k: "Researchers", v: "Publish, get reviewed, and earn credit for reviewing, at a fraction of current costs (Psicológica: ~€30 per article)" },
+          { k: "Evaluators",  v: "Funders and committees ground their decisions in open, citable review data, as research assessment reform requires" },
+          { k: "The EU",      v: "An alternative scholarly communication system assembled entirely from infrastructure it already funds" },
+        ]},
       ],
     },
 

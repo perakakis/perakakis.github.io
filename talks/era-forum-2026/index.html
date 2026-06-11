@@ -172,6 +172,13 @@
             <span class="step-letter">2</span>
             <span>OA-only evaluation</span>
           </div>
+          <div class="step-divider"></div>
+
+          <div class="step-item" data-step="5">
+            <span class="step-swatch" style="background:#2780e3;"></span>
+            <span class="step-letter"></span>
+            <span>The loop, closed</span>
+          </div>
 
           <div class="reveal-hint" id="reveal-hint">→ to reveal</div>
         </div>
@@ -239,22 +246,28 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // ---- Sequential reveal ----
   const REVEAL_STEPS = [
-    { type: "flow",   id: "A",  sidebarKey: "flow_A" },
-    { type: "flow",   id: "B",  sidebarKey: "flow_B" },
-    { type: "flow",   id: "C",  sidebarKey: "flow_C" },
-    { type: "policy", id: "P1", sidebarKey: "P1"     },
-    { type: "policy", id: "P2", sidebarKey: "P2"     },
+    { type: "flow",   id: "A",    sidebarKey: "flow_A" },
+    { type: "flow",   id: "B",    sidebarKey: "flow_B" },
+    { type: "flow",   id: "C",    sidebarKey: "flow_C" },
+    { type: "policy", id: "P1",   sidebarKey: "P1"     },
+    { type: "policy", id: "P2",   sidebarKey: "P2"     },
+    { type: "all",    id: "LOOP", sidebarKey: "loop"   },
   ];
 
   let revealStep = 0;
 
   function applyRevealState() {
+    // Final "all" step shows the assembled system: every flow at once
+    // (dimmed) plus both mandates. Before that, flows are exclusive and
+    // policies accumulate.
+    const active = REVEAL_STEPS[revealStep - 1];
+    const assembled = !!active && active.type === "all";
     REVEAL_STEPS.forEach((step, i) => {
-      // Flows are exclusive: only the currently active step's arrows are shown.
-      // Policies accumulate.
-      const on = step.type === "flow" ? (i === revealStep - 1) : (i < revealStep);
-      if (step.type === "flow") puzzle.setFlow(step.id, on);
-      else puzzle.setPolicy(step.id, on);
+      if (step.type === "flow") {
+        puzzle.setFlow(step.id, assembled ? true : (i === revealStep - 1));
+      } else if (step.type === "policy") {
+        puzzle.setPolicy(step.id, i < revealStep);
+      }
 
       const el = document.querySelector(`.step-item[data-step="${i}"]`);
       if (!el) return;
@@ -262,6 +275,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (i === revealStep - 1) el.classList.add("active");
       else if (i < revealStep - 1) el.classList.add("done");
     });
+    puzzle.setDimFlows(assembled);
 
     const hint = document.getElementById("reveal-hint");
     if (hint) hint.textContent = revealStep < REVEAL_STEPS.length ? "→ to reveal" : "";

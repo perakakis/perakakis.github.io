@@ -369,15 +369,18 @@
         const tc = nodeCenter(target);
         const ax = noteX + 6;
         const ay = noteY + noteH / 2;
-        const dx = tc.cx - ax;
+        // End the thread at the node edge facing the note, not the centre,
+        // so the dot does not sit on top of the node label.
+        const te = nodeEdge(tc, { cx: ax, cy: ay });
+        const dx = te.x - ax;
         const cx = ax + dx * 0.4;
         const path = el("path", {
-          d: `M ${ax} ${ay} Q ${cx} ${ay} ${tc.cx} ${tc.cy}`,
+          d: `M ${ax} ${ay} Q ${cx} ${ay} ${te.x} ${te.y}`,
           fill: "none", stroke: "#2780e3", "stroke-width": "1.2",
           "stroke-dasharray": "4 4", opacity: "0.7",
         });
         g.appendChild(path);
-        g.appendChild(el("circle", { cx: tc.cx, cy: tc.cy, r: 4, fill: "#2780e3" }));
+        g.appendChild(el("circle", { cx: te.x, cy: te.y, r: 4, fill: "#2780e3" }));
       });
 
       g.addEventListener("click", () => opts.onSelect && opts.onSelect("policy", pol.id));
@@ -406,6 +409,11 @@
       policyState[id] = on;
       const g = policyGroups[id];
       if (g) g.style.display = on ? "" : "none";
+    }
+    function setDimFlows(on) {
+      // Assembled state: all flows visible at once, dimmed so the map reads
+      // as a quiet running system rather than competing arrows.
+      gFlows.style.opacity = on ? "0.45" : "";
     }
     function setLayer(kind, on) {
       if (kind === "infra") gInfra.style.opacity = on ? "1" : "0.18";
@@ -439,7 +447,7 @@
       if (on) { rect.setAttribute("stroke", "#2780e3"); rect.setAttribute("stroke-width", "3"); }
       else { rect.setAttribute("stroke", baseStroke); rect.setAttribute("stroke-width", baseWidth); }
     }
-    return { svg, setLayer, setFlow, setPolicy, highlightPiece, flowState, policyState };
+    return { svg, setLayer, setFlow, setPolicy, setDimFlows, highlightPiece, flowState, policyState };
   }
 
   function wrapText(text, maxChars) {

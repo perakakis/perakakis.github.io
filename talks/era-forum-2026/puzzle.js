@@ -148,8 +148,7 @@
       });
 
       const fill = "#ffffff";
-      const stroke = p.cluster === "authors" ? "rgba(71,85,105,0.45)" :
-                     "rgba(26,36,51,0.16)";
+      const stroke = "rgba(26,36,51,0.16)";
       const strokeWidth = "1.3";
 
       // Invisible hit-padding rect — expands touch target on iOS/iPadOS
@@ -165,7 +164,6 @@
         filter: "url(#cardShadow)",
         class: "piece-shape",
       });
-      if (p.cluster === "authors") rect.setAttribute("stroke-dasharray", "7 3");
       g.appendChild(rect);
 
       // Cluster tag
@@ -339,7 +337,7 @@
         "font-family": "ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace",
         "font-size": "11", "letter-spacing": "0.18em", fill: "#2780e3",
       });
-      num.textContent = pol.tag || `MANDATE 0${pol.number}`;
+      num.textContent = pol.tag || `ACTION 0${pol.number}`;
       wrap.appendChild(num);
 
       const titleLines = wrapText(pol.title, 26);

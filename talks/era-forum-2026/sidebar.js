@@ -116,7 +116,7 @@
         wrap.style.cssText = "margin: 16px 0 18px 0; padding: 15px 17px; background: rgba(39,128,227,0.07); border: 1px solid rgba(39,128,227,0.22); border-radius: 8px;";
         const label = document.createElement("div");
         label.style.cssText = "font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.20em; text-transform: uppercase; color: var(--teal-600); margin-bottom: 9px; display: flex; align-items: center; gap: 7px;";
-        label.innerHTML = `<span style="display:inline-block;width:18px;height:1px;background:currentColor;"></span>The mandate`;
+        label.innerHTML = `<span style="display:inline-block;width:18px;height:1px;background:currentColor;"></span>The policy action`;
         const text = document.createElement("div");
         text.style.cssText = "font-size: 16px; line-height: 1.45; color: var(--text-on-light); font-weight: 500; text-wrap: pretty;";
         text.innerHTML = b.html || escape(b.text || "");

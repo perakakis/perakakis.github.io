@@ -90,20 +90,20 @@ window.INFRA_DATA = (function () {
     {
       id: "P1",
       number: "1",
-      tag: "MANDATE 01",
-      title: "Mandate open peer reviews",
+      tag: "ACTION 01",
+      title: "Evaluate only content in OA repositories",
       authors: "EU · CoARA",
-      targets: ["funders", "evals"],
+      targets: ["evals", "csic"],
       side: "right",
       slot: 0,
     },
     {
       id: "P2",
       number: "2",
-      tag: "MANDATE 02",
-      title: "Evaluate only content in OA repositories",
+      tag: "ACTION 02",
+      title: "Mandate open peer reviews",
       authors: "EU · CoARA",
-      targets: ["evals", "csic"],
+      targets: ["funders", "evals"],
       side: "right",
       slot: 1,
     },
@@ -142,7 +142,7 @@ window.INFRA_DATA = (function () {
     ir: {
       blocks: [
         { kind: "header", tag: "Infrastructure · Archive", title: "Institutional\nRepositories", role: "The open version of record" },
-        { kind: "lede",   text: "Where researchers deposit all their scholarly outputs directly at their home institutions." },
+        { kind: "lede",   text: "Where researchers can deposit all their scholarly outputs, directly at their home institutions." },
         { kind: "facts",  rows: [
           { k: "Function", v: "Host and provide open access to all scholarly outputs" },
           { k: "Examples", v: "DIGITAL.CSIC, Zenodo, HAL, arXiv, institutional DSpace/EPrints" },
@@ -153,7 +153,7 @@ window.INFRA_DATA = (function () {
     csic: {
       blocks: [
         { kind: "header", tag: "Infrastructure · Archive · Proof of concept", title: "DIGITAL.CSIC", role: "Repository of the Spanish National Research Council" },
-        { kind: "lede",   text: "Live proof that a publicly funded repository can perform every function a commercial publisher provides: archiving, peer review, and journal hosting." },
+        { kind: "lede",   text: "Live proof that a publicly funded repository can perform every function a commercial publisher provides: persistent archiving, peer review, and journal hosting." },
         { kind: "facts",  rows: [
           { k: "Archive",       v: "Metadata curation and persistent identifiers" },
           { k: "Open review",   v: `Its <a href="https://infogram.com/oprm-1h1749wv0rjrl2z" target="_blank" rel="noopener">Open Peer Review Module</a> turns reviews into persistent, citable items linked to the original objects` },
@@ -200,9 +200,9 @@ window.INFRA_DATA = (function () {
         { kind: "header", tag: "Infrastructure · Review · Policy actor", title: "Funding Agencies", role: "Grant evaluation and policy author" },
         { kind: "lede",   text: "Funding agencies organise peer review of grant applications, and author the policy mandates that can activate the whole system." },
         { kind: "facts",  rows: [
-          { k: "Review role", v: "Evaluate grant applications and individual researcher profiles, producing assessments that are currently unavailable in the system" },
-          { k: "Policy role", v: "Author the mandates that incentivise open deposit across the system" },
-          { k: "Reach",       v: "National and EU funders across the ERA" },
+          { k: "Review role", v: "Evaluate grant applications and individual researcher profiles, producing assessments that are currently unavailable" },
+          { k: "Policy role", v: "Author the policy actions that incentivise open deposit across the system" },
+          { k: "Reach",       v: "National and EU funding agencies" },
         ]},
       ],
     },
@@ -211,8 +211,8 @@ window.INFRA_DATA = (function () {
         { kind: "header", tag: "Infrastructure · Review · Policy actor", title: "Evaluation\nCommittees", role: "Hiring · promotion · accreditation" },
         { kind: "lede",   text: "Bodies like ANECA (Spain) and HCERES (France) make career-defining decisions about researchers yet the reviews they produce are kept private and inaccessible." },
         { kind: "facts",  rows: [
-          { k: "Function", v: "Hiring, promotion, tenure, and accreditation across Europe" },
-          { k: "Today",    v: "Reviews are never deposited and exist only as internal documents" },
+          { k: "Review role", v: "Evaluate applications for hiring, promotion, tenure, and accreditation across Europe" },
+          { k: "Policy role",    v: "Author the policy actions that incentivise open deposit across the system" },
           { k: "Reach",    v: "ANECA, HCERES, and national equivalents EU-wide" },
         ]},
       ],
@@ -272,9 +272,9 @@ window.INFRA_DATA = (function () {
         { kind: "header", tag: "Workflow B", title: "Review", role: "Quality assessment flows back to the repositories" },
         { kind: "lede",   text: "Review is organised by communities (scientific societies, funders, evaluation committees, initiatives like PCI) and flows back to the repository record as open, citable objects." },
         { kind: "facts",  rows: [
-          { k: "Organisers", v: "scientific societies, funders, evaluation committees" },
-          { k: "Output",     v: "An open review object with a persistent identifier, linked to the archived record" },
-          { k: "Unlocks",    v: "Review objects become aggregatable, open evidence for assessment (see Mandates 1 and 2)" },
+          { k: "Who", v: "scientific societies, funders, evaluation committees" },
+          { k: "What",     v: "An open review object with a persistent identifier, linked to the archived record" },
+          { k: "Effect",    v: "Review objects become aggregatable, open evidence for assessment (see Policy Actions 1 and 2)" },
         ]},
         { kind: "example", html: `In 2022 the Spanish Society for Experimental Psychology (SEPEX) left its commercial publisher and now publishes its journal, <a href="https://psicologicajournal.com" target="_blank" rel="noopener">Psicológica</a>, exclusively on <a href="https://digital.csic.es/handle/10261/228593" target="_blank" rel="noopener">DIGITAL.CSIC</a>. Its peer reviews are now openly deposited alongside the articles and costs dropped to an estimated <a href="https://doi.org/10.1038/d41586-023-02315-z" target="_blank" rel="noopener">€30 per article</a>.` },
       ],
@@ -295,30 +295,33 @@ window.INFRA_DATA = (function () {
     // --- Policies (the two mandates — the only asks) ---
     P1: {
       blocks: [
-        { kind: "header",  tag: "Policy mandate 01", title: "Mandate open\npeer reviews", role: "EU · CoARA · Funders · Evaluation Committees" },
-        { kind: "mandate", text: "Any peer review produced in an EU-funded evaluation (grants, hiring, promotion, accreditation) must be deposited as an open, citable, PID-assigned object, harvestable by OpenAIRE." },
-        { kind: "lede",    text: "Research assessment reform asks to base assessment on peer reviews, but reviews themselves are currently not part of the system. There can be no transparent assessment reform without open access to the review data it is built on." },
-        { kind: "example", html: `Scientific-society journals like Psicológica and communities like PCI already produce open, citable reviews (see Workflow B). The mandate generalises proven practice.` },
+        { kind: "header",  tag: "Policy Action 01", title: "Evaluate only content\nin OA repositories", role: "CoARA · EU · Funders · Evaluation Committees" },
+        { kind: "mandate", text: "Evaluation processes (grants, hiring, promotion, tenure) must consider only the archived repository version of an output." },
+        { kind: "lede",    text: "This makes the open repository the single locus of evaluation and becomes the lever that drives self-archiving." },
+        { kind: "example", html: `ANECA already evaluates only outputs deposited in an open access repository (see Workflow A). One rule transformed self-archiving across Spain.` },
       ],
     },
     P2: {
       blocks: [
-        { kind: "header",  tag: "Policy mandate 02", title: "Evaluate only content\nin OA repositories", role: "CoARA · EU · Funders · Evaluation Committees" },
-        { kind: "mandate", text: "Evaluation processes (grants, hiring, promotion, tenure) must consider only the archived repository version of an output." },
-        { kind: "lede",    text: "This makes the open repository the single locus of evaluation and becomes the lever that drives deposit across the whole system." },
-        { kind: "example", html: `ANECA already evaluates only outputs deposited in an open access repository (see Workflow A). One rule transformed self-archiving across Spain.` },
+        { kind: "header",  tag: "Policy Action 02", title: "Mandate open\npeer reviews", role: "EU · CoARA · Funders · Evaluation Committees" },
+        { kind: "mandate", text: "Any peer review produced in an EU-funded evaluation (grants, hiring, promotion, accreditation) must be deposited as an open, citable, PID-assigned object, harvestable by OpenAIRE." },
+        { kind: "lede",    text: "Research assessment reform asks to base assessment on peer reviews, but reviews themselves are currently not part of the system. There can be no transparent assessment reform without open access to the review data it is built on." },
+        { kind: "example", html: `Scientific-society journals like Psicológica and communities like PCI already produce open, citable reviews (see Workflow B). This policy action generalises proven practice.` },
       ],
     },
 
     // --- Closing state (all flows + both mandates active) ---
     loop: {
       blocks: [
-        { kind: "header", tag: "Synthesis", title: "The loop,\nclosed", role: "All workflows running under the two mandates" },
-        { kind: "lede",   text: "With the two mandates in place, every workflow runs at once: outputs are archived, reviews flow back as citable objects, and OpenAIRE aggregates the complete record. Nothing on this map needs to be built." },
+        { kind: "header", tag: "Synthesis", title: "Open Science\nwe can trust", role: "Research assessment reform powered by two concrete policy actions" },
+        { kind: "lede",   text: "The proposed policy actions set in motion an efficient research assessment system based on the open infrastructures the EU has heavily invested in for the past two decades." },
+        { kind: "lede",   text: "Research products are archived, reviews flow back as citable objects, and OpenAIRE aggregates the complete record." },
+        { kind: "lede",   text: "Nothing on this map needs to be built." },
         { kind: "facts",  rows: [
           { k: "Researchers", v: "Publish, get reviewed, and earn credit for reviewing, at a fraction of current costs (Psicológica: ~€30 per article)" },
-          { k: "Evaluators",  v: "Funders and committees ground their decisions in open, citable review data, as research assessment reform requires" },
-          { k: "The EU",      v: "An alternative scholarly communication system assembled entirely from infrastructure it already funds" },
+          { k: "Funders & evaluators",  v: "Ground their decisions in open, citable review data, as research assessment reform requires" },
+          { k: "The EU",      v: "Sees a clear return on two decades of infrastructure investment, with no further system to build" },
+          { k: "Society",      v: "Gains open access to the evidence and reasoning behind every publicly funded scientific claim" },
         ]},
       ],
     },
@@ -343,7 +346,7 @@ window.INFRA_DATA = (function () {
         { kind: "header", tag: "Infrastructure map", title: "Existing infrastructures.\nAvailable workflows.\nRelevant policies.", role: "Click any element to read more" },
         { kind: "rule" },
         { kind: "spacer", size: 10 },
-        { kind: "html", html: `<p style="font-size: 18px; line-height: 1.55; color: var(--text-on-light-muted); margin: 0 0 18px 0; text-wrap: pretty;">How can existing open infrastructures, supported by institutions and policy mandates, enable an alternative scholarly communication system, in line with the model we set out in <a href="https://pandelisperakakis.info/research/scholarly-communication/assets/NSAP_Perakakis_2010.pdf" target="_blank" rel="noopener">Natural Selection of Academic Papers</a> (Perakakis et al., 2010)? Every piece of the puzzle already exists. The gap is to glue it together with two policy mandates.</p>` },
+        { kind: "html", html: `<p style="font-size: 18px; line-height: 1.55; color: var(--text-on-light-muted); margin: 0 0 18px 0; text-wrap: pretty;">How can existing open infrastructures, supported by institutions and policy mandates, enable an alternative scholarly communication system, in line with the model we set out in <a href="https://pandelisperakakis.info/research/scholarly-communication/assets/NSAP_Perakakis_2010.pdf" target="_blank" rel="noopener">Natural Selection of Academic Papers</a> (Perakakis et al., 2010)? Every piece of the puzzle already exists. The gap is to glue them together with two concrete policy actions.</p>` },
       ],
     },
   };

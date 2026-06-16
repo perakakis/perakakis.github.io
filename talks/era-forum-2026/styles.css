@@ -76,18 +76,6 @@ deck-stage > section.slide-paper {
   flex-direction: column;
 }
 
-.slide-num {
-  position: absolute;
-  bottom: 48px;
-  right: 56px;
-  font-family: var(--font-mono);
-  font-size: 14px;
-  letter-spacing: 0.12em;
-  color: var(--text-on-dark-faint);
-  text-transform: uppercase;
-}
-.slide-paper .slide-num { color: rgba(10, 22, 40, 0.34); }
-
 .slide-tag {
   font-family: var(--font-mono);
   font-size: 16px;

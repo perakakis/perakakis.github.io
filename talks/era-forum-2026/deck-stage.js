@@ -356,30 +356,15 @@
       tzFwd.addEventListener('click', this._onTapForward);
       tapzones.append(tzBack, tzMid, tzFwd);
 
-      // Overlay: compact, solid black, with clickable controls.
-      const overlay = document.createElement('div');
-      overlay.className = 'overlay export-hidden';
-      overlay.setAttribute('role', 'toolbar');
-      overlay.setAttribute('aria-label', 'Deck controls');
-      overlay.setAttribute('data-noncommentable', '');
-      overlay.innerHTML = `
-        <button class="btn prev" type="button" aria-label="Previous slide" title="Previous (←)">
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>
-        </button>
-        <span class="count" aria-live="polite"><span class="current">1</span><span class="sep">/</span><span class="total">1</span></span>
-        <span class="divider"></span>
-        <button class="btn reset" type="button" aria-label="Reset to first slide" title="Reset (R)">Reset<span class="kbd">R</span></button>
-      `;
-
-      overlay.querySelector('.prev').addEventListener('click', () => this._go(this._index - 1, 'click'));
-      overlay.querySelector('.reset').addEventListener('click', () => this._go(0, 'click'));
-
-      this._root.append(style, stage, tapzones, overlay);
+      // Overlay (prev / counter / reset) intentionally not built: this is a
+      // single-slide interactive deck, so the nav chrome has nothing to do.
+      // All downstream references are null-guarded.
+      this._root.append(style, stage, tapzones);
       this._canvas = canvas;
       this._slot = slot;
-      this._overlay = overlay;
-      this._countEl = overlay.querySelector('.current');
-      this._totalEl = overlay.querySelector('.total');
+      this._overlay = null;
+      this._countEl = null;
+      this._totalEl = null;
     }
 
     /** @page must live in the document stylesheet — it's a no-op inside

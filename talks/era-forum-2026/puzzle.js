@@ -83,7 +83,7 @@
     const bands = [
       { row: -1, label: "AUTHORS" },
       { row: 0,  label: "ARCHIVE" },
-      { row: 1,  label: "REVIEW" },
+      { row: 1,  label: "EVALUATE" },
       { row: 2,  label: "AGGREGATE" },
     ];
     bands.forEach((b) => {
@@ -169,7 +169,7 @@
       // Cluster tag
       const tagText = p.cluster === "authors" ? "AUTHORS" :
                       p.cluster === "deposit" ? "ARCHIVE" :
-                      p.cluster === "review" ? "REVIEW" :
+                      p.cluster === "review" ? "EVALUATE" :
                       p.cluster === "top" ? (p.id === "openaire" ? "AGGREGATION" : "METRICS") : "";
       const tag = el("text", {
         x: 16, y: 22,

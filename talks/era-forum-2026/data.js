@@ -23,11 +23,10 @@ window.INFRA_DATA = (function () {
     { id: "csic",     label: "DIGITAL.CSIC",                role: "National repository", col: 1.5, row: 0, cluster: "deposit", accent: true },
     { id: "zenodo",   label: "Zenodo",                      role: "Generalist archive",  col: 3,   row: 0, cluster: "deposit" },
 
-    // Review organisers row (row 1)
-    { id: "funders",  label: "Funding Agencies",            role: "Grant evaluation",                   col: 0, row: 1, cluster: "review" },
-    { id: "evals",    label: "Evaluation\nCommittees",       role: "Hiring · promotion · accreditation", col: 1, row: 1, cluster: "review" },
-    { id: "pci",      label: "Peer Community In",           role: "Open review service",                col: 2, row: 1, cluster: "review" },
-    { id: "societies",label: "Scientific Societies",        role: "Editorial governance",               col: 3, row: 1, cluster: "review" },
+    // Review organisers row (row 1) — mirrors the deposit row (cols 0 / 1.5 / 3)
+    { id: "funders",  label: "Funding Agencies",            role: "Grant evaluation",                   col: 0,   row: 1, cluster: "review" },
+    { id: "evals",    label: "Evaluation\nCommittees",       role: "Hiring · promotion · accreditation", col: 1.5, row: 1, cluster: "review" },
+    { id: "societies",label: "Scientific Societies",        role: "Editorial governance",               col: 3,   row: 1, cluster: "review" },
 
     // Top row — Aggregation (row 2)
     { id: "openaire", label: "OpenAIRE",                    role: "Aggregation layer",   col: 1.5, row: 2, cluster: "top" },
@@ -37,7 +36,6 @@ window.INFRA_DATA = (function () {
   // CONNECTIONS — the "glue" between specific pieces
   // -----------------------------------------------------------
   const CONNECTIONS = [
-    { id: "notify-pci-csic", from: "pci",       to: "csic", label: "COAR NOTIFY", flow: "B" },
     { id: "notify-soc-csic", from: "societies", to: "csic", label: "COAR NOTIFY", flow: "B" },
   ];
 
@@ -59,13 +57,12 @@ window.INFRA_DATA = (function () {
       ],
     },
     {
-      id: "B", letter: "B", label: "Review",
-      blurb: "Reviews organised by PCI, scientific societies, funders and evaluation committees flow back to all three repositories.",
+      id: "B", letter: "B", label: "Evaluate",
+      blurb: "Reviews organised by scientific societies, funders and evaluation committees flow back to all three repositories.",
       color: "#0d9488",        // teal-green
       paths: [
         ["funders",   "ir"],
         ["evals",     "ir"],
-        ["pci",       "csic"],
         ["societies", "csic"],
         ["societies", "zenodo"],
       ],
@@ -173,17 +170,6 @@ window.INFRA_DATA = (function () {
         ]},
       ],
     },
-    pci: {
-      blocks: [
-        { kind: "header", tag: "Infrastructure · Review", title: "Peer Community In", role: "Open peer review service" },
-        { kind: "lede",   text: "PCI organises rigorous, transparent peer review of preprints entirely outside journals. Reviewers evaluate directly from repository deposits, and the recommendations become open, citable objects." },
-        { kind: "facts",  rows: [
-          { k: "Model",     v: "Preprint → open review → public recommendation" },
-          { k: "Linked to", v: "HAL (France), DIGITAL.CSIC (Spain) via COAR Notify" },
-          { k: "Coverage",  v: "20+ scientific communities across disciplines" },
-        ]},
-      ],
-    },
     societies: {
       blocks: [
         { kind: "header", tag: "Infrastructure · Review", title: "Scientific Societies", role: "Editorial governance" },
@@ -231,18 +217,7 @@ window.INFRA_DATA = (function () {
     },
 
     // --- Connections (glue) ---
-    // Both COAR Notify arrows (PCI → CSIC and Societies → CSIC) share one
-    // panel: the protocol is general, not PCI-specific.
-    "notify-pci-csic": {
-      blocks: [
-        { kind: "header", tag: "Connection · Protocol", title: "COAR Notify", role: "Review services ↔ Institutional repositories" },
-        { kind: "lede",   text: "A protocol that lets a repository and an external review service interact." },
-        { kind: "facts",  rows: [
-          { k: "What it does", v: "Sends structured notifications between repositories and review services" },
-          { k: "Result",       v: "Open, PID-assigned review objects linked to deposit records" },
-        ]},
-      ],
-    },
+    // COAR Notify arrow (Societies → CSIC): the protocol is general.
     "notify-soc-csic": {
       blocks: [
         { kind: "header", tag: "Connection · Protocol", title: "COAR Notify", role: "Review services ↔ Institutional repositories" },
@@ -269,10 +244,10 @@ window.INFRA_DATA = (function () {
     },
     flow_B: {
       blocks: [
-        { kind: "header", tag: "Workflow B", title: "Review", role: "Quality assessment flows back to the repositories" },
-        { kind: "lede",   text: "Review is organised by communities (scientific societies, funders, evaluation committees, initiatives like PCI) and flows back to the repository record as open, citable objects." },
+        { kind: "header", tag: "Workflow B", title: "Evaluate", role: "Quality assessment flows back to the repositories" },
+        { kind: "lede",   text: "Evaluation is organised by communities — scientific societies, funders, and evaluation committees — and the resulting reviews flow back to the repository record as open, citable objects." },
         { kind: "facts",  rows: [
-          { k: "Who", v: "scientific societies, funders, evaluation committees" },
+          { k: "Who", v: "Scientific societies, funders, evaluation committees" },
           { k: "What",     v: "An open review object with a persistent identifier, linked to the archived record" },
           { k: "Effect",    v: "Review objects become aggregatable, open evidence for assessment (see Policy Actions 1 and 2)" },
         ]},
@@ -306,7 +281,7 @@ window.INFRA_DATA = (function () {
         { kind: "header",  tag: "Policy Action 02", title: "Mandate open\npeer reviews", role: "EU · CoARA · Funders · Evaluation Committees" },
         { kind: "mandate", text: "Any peer review produced in an EU-funded evaluation (grants, hiring, promotion, accreditation) must be deposited as an open, citable, PID-assigned object, harvestable by OpenAIRE." },
         { kind: "lede",    text: "Research assessment reform asks to base assessment on peer reviews, but reviews themselves are currently not part of the system. There can be no transparent assessment reform without open access to the review data it is built on." },
-        { kind: "example", html: `Scientific-society journals like Psicológica and communities like PCI already produce open, citable reviews (see Workflow B). This policy action generalises proven practice.` },
+        { kind: "example", html: `Scientific-society journals like Psicológica already produce open, citable reviews (see Workflow B). This policy action generalises proven practice.` },
       ],
     },
 

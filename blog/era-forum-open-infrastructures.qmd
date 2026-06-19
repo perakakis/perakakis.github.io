@@ -1,6 +1,7 @@
 ---
 title: "Europe built the parts. Nobody assembled the car"
 date: 2026-06-19
+draft: true
 description: "Adapted from my EU ERA Forum talk: Europe has already funded every piece of open-science infrastructure it needs. Two policy actions — not more technology — would turn those parts into a system that can actually reform research assessment."
 categories: [Opinions, Scholarly Communication, Science policy]
 ---

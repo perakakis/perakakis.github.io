@@ -1,0 +1,31 @@
+---
+title: "The case for open infrastructures in research assessment: talk at the EU ERA Forum"
+date: 2026-06-19
+description: "Opening talk at the European Commission's ERA Forum session on the synergies between research assessment reform and open infrastructures."
+categories: [News & Events, Talks & Presentations, Scholarly Communication]
+image: assets/era-forum-2026-talk.svg
+---
+
+On 19 June 2026 I gave the opening talk at the European Commission's **ERA Forum** session on *"Synergies between Research Assessment Reform and Open Infrastructures"*, held online as part of the structural policy on reforming research assessment under the ERA Policy Agenda 2025–2027. I was invited by Cristina Martínez (European Commission, Head of Research Assessment Policy) to offer a researcher's perspective.
+
+My argument was that the pieces of an open, repository-based system for scholarly communication and evaluation **already exist** — institutional repositories, generalist archives like Zenodo, aggregators like OpenAIRE, COAR Notify, ORE, and the CoARA reform process — but that decades of sustained European investment have funded them as disconnected projects rather than assembling them into a system that researchers can actually use. The gap is not technology; it is two policy actions that would switch the whole thing on: evaluating only research deposited in open repositories (as ANECA has already begun to do in Spain), and mandating that peer reviews produced in publicly funded evaluations be deposited as open, citable objects.
+
+The argument is laid out in an interactive diagram you can explore here:
+
+<div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.15);">
+  <iframe
+    src="/talks/era-forum-2026/"
+    style="width: 100%; aspect-ratio: 16/9; border: none; display: block;"
+    title="From open infrastructures to research assessment — interactive diagram"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p style="font-size:0.85em; color: var(--bs-secondary-color); text-align:center; margin-top:-1rem;">
+  <em>Click the workflow steps (A. Archive → B. Evaluate → C. Aggregate) and the two policy actions to follow the argument. Use the narrative panel on the left to navigate.</em>
+  &ensp;·&ensp;
+  <a href="/talks/era-forum-2026/" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+</p>
+
+Many thanks to Cristina Martínez and the European Commission for the invitation, and to Natalia Manola (OpenAIRE), whose presentation on the open infrastructures themselves followed mine.

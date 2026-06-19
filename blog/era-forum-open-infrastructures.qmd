@@ -1,0 +1,81 @@
+---
+title: "Europe built the parts. Nobody assembled the car"
+date: 2026-06-19
+description: "Adapted from my EU ERA Forum talk: Europe has already funded every piece of open-science infrastructure it needs. Two policy actions — not more technology — would turn those parts into a system that can actually reform research assessment."
+categories: [Opinions, Scholarly Communication, Science policy]
+---
+
+I am a professional scientist. Science is my passion, but it is also what pays my bills, so I do not say this lightly: today, I do not trust a piece of science simply because I read it in an academic journal.
+
+That is not cynicism. It is the honest conclusion of someone who has watched, for two decades, how we decide what counts as good research. For most of that time we have assessed science not by what scientists say, but by where they say it — not by the content, but by the package. We have rewarded quantity over quality, and we have built a publishing industry whose business model depends on us continuing to do so. The result is a flood of journal articles in which the quality signal is so easily lost in the noise that the only honest thing a working scientist can say is that most of what gets published cannot be trusted on the strength of its venue alone.
+
+This is why I think the research assessment reform now underway — driven by initiatives like CoARA — is not a bureaucratic exercise. It is our best chance to build a science that deserves the trust of the people who pay for it.
+
+What I want to argue here is that we are much closer to being able to do this than almost anyone realises. The obstacle is not technology. We already have the technology. The obstacle is that we have never bothered to connect it.
+
+## The good news, and the bad news
+
+The good news is genuinely good. Decades of sustained European investment have produced an extraordinary range of open-science infrastructure: institutional repositories at nearly every university; Zenodo, a generalist archive for anyone without one; OpenAIRE, which aggregates and links it all; COAR Notify, ORE, and a series of open-metrics projects. Whatever piece you might want for an open, repository-based system of scholarly communication and evaluation, Europe has already funded it.
+
+The bad news is that almost none of it is visible. Ask researchers in any discipline and most will not recognise a single one of these names. They do not know OpenAIRE. They do not know they have a repository in their own institution. And the reason is embarrassingly simple: at this moment, none of these infrastructures matter for how researchers are evaluated. They are invisible because they are irrelevant to the one thing that governs a scientific career.
+
+Here is the metaphor I keep returning to. It is as if we built all the parts of a car — the engine, the wheels, the seats, the steering wheel — and then never assembled them. We laid the shiny components out on the floor and admired them, but we never built the thing that actually takes you somewhere. That is roughly where European open-science policy stands. We have spent a fortune on parts and produced no car.
+
+The fix is not another part. It is assembly. And assembly turns out to be a question of policy, not engineering.
+
+## Where the commercial publishers fit in
+
+Before I get to the policy, it is worth being honest about why the parts were never assembled — because there is a clear answer, and it is not an accident of bureaucracy.
+
+When an obsolete system keeps winning despite better alternatives, it is usually because someone profits from the *status quo* and has the means to protect it. In scholarly publishing that someone is the small group of commercial publishers who have captured the function of quality certification and turned it into one of the most profitable businesses on earth. We hand them our manuscripts, our editorial labour, and our peer reviews for free; they sell the result back to our own libraries at margins most industries can only dream of. Crucially, the value they sell is not access — our work is already public the moment it leaves the lab — but prestige. The journal name is a certificate, and they own the certificate.
+
+This is not a story about wicked capitalists and virtuous scholars. It is simpler than that: an outdated intermediary is sitting between research and its evaluation, extracting rent and, worse, shaping what we study and how we report it to fit what sells. Every part of the open infrastructure Europe has built is, in effect, a piece of the machine that would make that intermediary unnecessary. Which is precisely why leaving the parts unassembled is so convenient for everyone who benefits from things as they are. Assembling the car is not a neutral technical upgrade. It is the act that removes the toll booth.
+
+## Assembling the car: three workflows, two actions
+
+So how do the parts fit together? The interactive diagram below — the one I used at the ERA Forum — lays out the whole system on a single screen. It is worth a few minutes of clicking.
+
+<div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.15);">
+  <iframe
+    src="/talks/era-forum-2026/"
+    style="width: 100%; aspect-ratio: 16/9; border: none; display: block;"
+    title="From open infrastructures to research assessment — interactive diagram"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p style="font-size:0.85em; color: var(--bs-secondary-color); text-align:center; margin-top:-1rem;">
+  <em>Three workflows — <strong>A. Archive</strong>, <strong>B. Evaluate</strong>, <strong>C. Aggregate</strong> — built on the research community at the base and topped by OpenAIRE; the two policy actions are the boxes that switch the whole thing on. Click the nodes and the example boxes to follow the argument.</em>
+  &ensp;·&ensp;
+  <a href="/talks/era-forum-2026/" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+</p>
+
+The diagram shows three layers — one to **archive** research, one to **evaluate** it, one to **aggregate** everything into a single portal — sitting on a foundation that matters more than any of them: the research community itself. The scholars who actually produce the science are the ones who will have to drive the car. Without them on board, nothing above them means anything.
+
+The system runs on three workflows.
+
+**A — Archive.** Researchers deposit their outputs — manuscripts, but also data, code, protocols, figures, anything that documents a result — into an open repository: their institution's, or Zenodo if they have none. Nothing works unless this happens. Think of self-archiving as the fuel that moves the entire system.
+
+The hard part has always been getting it to happen. The European Commission and national governments have issued mandate after mandate requiring deposit of publicly funded research, and adoption has stayed stubbornly low. Then Spain ran an unintended experiment. In 2024 the national evaluation and accreditation agency, ANECA, declared that only research deposited in open repositories would count in its assessments. Deposit rates were transformed almost overnight. No new technology, no new infrastructure — a single change to the rules of evaluation, and the fuel started flowing.
+
+**B — Evaluate.** Funding agencies, evaluation committees, and scholarly societies assess research and researchers. Today, those assessments are made and then thrown away. The review of a paper, or of a candidate, is written, used once, and locked in a drawer; the next committee that needs to evaluate the same work starts again from zero. For a system that runs on bibliometrics that may not matter. But CoARA's central commitment is to base assessment on expert peer review rather than on journal proxies — and if that is the goal, then the reviews themselves have to flow through the system as openly as the works they assess.
+
+This, too, already exists at small scale. The Spanish Society for Experimental Psychology publishes *Psicológica*, a journal whose entire content lives in DIGITAL.CSIC, the repository of the Spanish National Research Council and one of the largest in Europe. The society's members review submissions and deposit the full text of their reviews back into the same repository that holds the articles. The result is a diamond open-access journal — free to read, free to publish in — with open reviews, no commercial publisher anywhere in the chain, and a cost we estimated at roughly thirty euros per article in a *Nature* correspondence. The whole cycle, end to end, with the publisher removed and nothing essential lost.
+
+**C — Aggregate.** Repository contents are harvested and exposed through a portal like OpenAIRE, which can already identify peer reviews and link them to the works they assess through appropriate metadata. Once reviews flow openly through the system, this layer becomes the foundation for genuinely new forms of assessment — qualitative and quantitative — built on expert judgement rather than on journal metrics. But it only works when the system is connected and powered by freely flowing works and reviews.
+
+Three workflows, then. To switch them on, two policy actions:
+
+1. **Evaluate only what is openly deposited.** Funding, hiring, and promotion decisions should consider only outputs deposited in OpenAIRE-compliant open repositories. This is not speculative — ANECA showed it works, and works fast. It is the lever that drives self-archiving.
+2. **Mandate open peer review.** Any review produced in a publicly funded evaluation — of a grant, a hire, a promotion — must be deposited as an open, citable, PID-assigned object. This asks nothing new in kind; *Psicológica* already does it. It simply generalises a proven practice.
+
+Note who I am addressing here. These are levers for funders and institutions — the people who already hold the power to change the rules. I am not asking early-career researchers to be heroes. They are the most exposed people in the system, and the right thing for them to do is whatever it takes to survive within the rules as they stand. Reform is owed by those who set the rules, not by those who are punished by them.
+
+The first action is something any funder or agency could mandate tomorrow, alongside the journal system as it stands — authors can still submit wherever they like; evaluation simply looks at the open version. The second begins to make the open version self-sufficient: once the quality signal lives openly on the deposited work, the journal's certificate becomes redundant, and venues like *Psicológica*, where review is open from day one, stop being curiosities and start being the obvious way to do things.
+
+## Give the parts a reason to exist
+
+I have spent twenty years arguing for this, with concrete projects rather than manifestos, and I have come to a plain conclusion. These two actions are enough to give meaning to everything Europe has already built. Without them — without researchers committing their works and their reviews to the open system — that infrastructure stays invisible and effectively useless, no matter how much more we spend on it.
+
+We can keep funding new infrastructure and polishing the old. None of it will matter until we give the parts a reason to be used. Two policy actions assemble the car. The destination — a science we can actually trust — is the whole point of the exercise, and for the first time in my career it is genuinely within reach.

@@ -28,4 +28,4 @@ The argument is laid out in an interactive diagram you can explore here:
   <a href="/talks/era-forum-2026/" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
 </p>
 
-Many thanks to Cristina Martínez and the European Commission for the invitation, and to Natalia Manola (OpenAIRE), whose presentation on the open infrastructures themselves followed mine.
+Many thanks to Cristina Martínez and the European Commission for the invitation, to Natalia Manola (OpenAIRE) for her detailed presentation off existing open infrastructures, and to all the participants for the constructive discussion that followed.

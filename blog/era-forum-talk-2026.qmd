@@ -28,4 +28,6 @@ The argument is laid out in an interactive diagram you can explore here:
   <a href="/talks/era-forum-2026/" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
 </p>
 
+I have set out the full argument — including where the commercial publishers fit in, which I could not address in the Commission's own forum — in a longer piece here: [The infrastructure already exists. Europe never connected it](era-forum-open-infrastructures.qmd).
+
 Many thanks to Cristina Martínez and the European Commission for the invitation, to Natalia Manola (OpenAIRE) for her detailed presentation off existing open infrastructures, and to all the participants for the constructive discussion that followed.

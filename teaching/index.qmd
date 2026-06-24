@@ -26,3 +26,29 @@ Teaching materials and course resources will be added here.
 A practical introduction to the tools and workflows for reproducible and open research — from R and VS Code to GitHub, OSF, and Zenodo — framed within the ongoing international reform of research evaluation. Includes hands-on experience with preregistration, preprints, and open data practices.
 
 [Course details →](open-science-reproducibility/index.qmd){.btn .btn-outline-primary .btn-sm}
+
+## Doctoral Courses & Workshops
+
+Postgraduate courses on open science, research integrity, and the reform of research evaluation, delivered within doctoral programmes in Spain.
+
+### Ética e integridad en la investigación científica
+*Doctoral programme in Psychology — Complutense University of Madrid (12 h)*
+
+Annual doctoral course on ethics and integrity in research, including a dedicated session on the responsible use of evaluation metrics. Editions: 2023–2024, 2024–2025, 2025–2026.
+
+---
+
+### Prácticas para una ciencia más abierta, ética y reproducible
+*Doctoral programme — University of Málaga*
+
+Doctoral course on open, ethical, and reproducible research practices, covering the historical context and the current transformation of the validation, evaluation, and communication of scientific work. Editions: 2023–2024, 2024–2025.
+
+---
+
+### Introducción a la Ciencia Abierta
+*Doctoral programme — University of Jaén*
+
+Doctoral course introducing open science and its role in building a more sustainable research ecosystem (2023–2024).
+
+<!-- TODO (Pandelis to provide full info): add remaining doctoral courses — University of Granada course(s); joint Jaén–Málaga–Granada open-science doctoral course (2026); any other missing editions. -->
+

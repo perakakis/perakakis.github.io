@@ -421,56 +421,6 @@
       url: "http://digital.csic.es/handle/10261/103993"
       icon: "bi bi-file-earmark-slides"
 
-- title: "Prácticas para una ciencia más abierta, ética y reproducible"
-  date: "2024-01-01"
-  authors: "Perakakis, P."
-  year: 2024
-  journal: "PhD Course 2024–2025, University of Malaga"
-  volume: "Malaga, Spain"
-  description: "PhD course on open, ethical and reproducible science practices."
-  section: "Conferences"
-  categories:
-    - Open science
-  links: []
-
-- title: "Ética e integridad en la Investigación Científica"
-  date: "2024-05-22"
-  authors: "Perakakis, P."
-  year: 2024
-  journal: "PhD Courses, Complutense University of Madrid"
-  volume: "Madrid, Spain"
-  description: "PhD course on ethics and integrity in scientific research. May 22–23, 2024 and March 7 & 14, 2024."
-  section: "Conferences"
-  categories:
-    - Research evaluation
-    - Open science
-  links: []
-
-- title: "Ciencia abierta: contexto histórico y cambios actuales en la validación, evaluación y comunicación de la producción científica"
-  date: "2023-01-01"
-  authors: "Perakakis, P."
-  year: 2023
-  journal: "PhD Course 2023–2024, University of Malaga"
-  volume: "Malaga, Spain"
-  description: "PhD course covering the historical context and current changes in scholarly validation, evaluation, and communication."
-  section: "Conferences"
-  categories:
-    - Open science
-    - Research evaluation
-  links: []
-
-- title: "Introducción a la Ciencia Abierta: Transformando la Investigación para un Futuro Sostenible"
-  date: "2023-01-02"
-  authors: "Perakakis, P."
-  year: 2023
-  journal: "PhD Course 2023–2024, University of Jaen"
-  volume: "Jaen, Spain"
-  description: "PhD course introducing open science and its role in building a more sustainable research ecosystem."
-  section: "Conferences"
-  categories:
-    - Open science
-  links: []
-
 - title: "Innovación en prácticas de revisión por pares"
   date: "2023-09-04"
   authors: "Perakakis, P."
@@ -737,6 +687,52 @@
     - name: "Slides"
       url: "../../blog/assets/Negocio_CoARA_UCM.pdf"
       icon: "bi bi-file-earmark-slides"
+
+- title: "The case for open infrastructures in research assessment"
+  date: "2026-06-19"
+  authors: "Perakakis, P."
+  year: 2026
+  journal: "EU ERA Forum (European Commission)"
+  volume: "Online"
+  description: "Opening talk at the European Commission's ERA Forum session on the synergies between research assessment reform and open infrastructures."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Open access
+    - Infrastructure
+  links:
+    - name: "Interactive talk"
+      url: "/talks/era-forum-2026/"
+      icon: "bi bi-easel"
+
+- title: "Alternative publishing models and evaluation"
+  date: "2026-05-06"
+  authors: "Perakakis, P."
+  year: 2026
+  journal: "CSIC Predoctoral Network"
+  volume: "Online"
+  description: "Online talk at the CSIC Predoctoral Network's session on alternative evaluation models."
+  section: "Conferences"
+  categories:
+    - Publishing reform
+    - Research evaluation
+  links:
+    - name: "Interactive talk"
+      url: "/talks/csic-predoc-2026/"
+      icon: "bi bi-easel"
+
+- title: "Replacing Academic Journals"
+  date: "2026-02-16"
+  authors: "Perakakis, P."
+  year: 2026
+  journal: "University of Montpellier"
+  volume: "Montpellier, France"
+  description: "Invited seminar on replacing commercial journals with scholar-governed, repository-based open infrastructure."
+  section: "Conferences"
+  categories:
+    - Publishing reform
+    - Open access
+  links: []
 
 
 

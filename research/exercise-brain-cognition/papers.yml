@@ -192,8 +192,8 @@
     - name: "Journal Article"
       url: "https://doi.org/10.1249/MSS.0000000000000857"
       icon: "bi bi-journal-text"
-    - name: "OA version"
-      url: "https://pandelisperakakis.info/wp-content/uploads/2016/07/luque-casado_2016.pdf"
+    - name: "OA PDF"
+      url: "assets/luque-casado_2016.pdf"
       icon: "bi bi-file-earmark-pdf"
 
 
@@ -286,5 +286,5 @@
       url: "https://doi.org/10.1038/srep27556"
       icon: "bi bi-journal-text"
     - name: "OA PDF"
-      url: "https://pandelisperakakis.info/wp-content/uploads/2016/07/luque-casado_2016_scirep.pdf"
+      url: "assets/luque-casado_2016_scirep.pdf"
       icon: "bi bi-file-earmark-pdf"

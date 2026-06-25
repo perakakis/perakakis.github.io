@@ -50,6 +50,12 @@ A long engagement with scholarly communication and research evaluation led to th
 :::{#conferences}
 :::
 
+## Courses & Workshops
+
+An invited doctoral course on **open science, research integrity, and the reform of research evaluation**, delivered within doctoral programmes across Spain — Complutense University of Madrid, University of Málaga, University of Jaén, and others. The course translates this research line into hands-on training for early-career researchers.
+
+[<i class="bi bi-mortarboard"></i> Reproducible Research & Open Science — details, editions & venues](../../teaching/open-science-reproducibility/index.qmd){.btn .btn-outline-primary .btn-sm}
+
 ## In the News
 
 :::{#news}

@@ -59,3 +59,13 @@ Pandelis Perakakis es Profesor de Psicología en la Universidad Complutense de M
 [<i class="bi bi-envelope"></i> Solicitar este curso](mailto:pperakakis@ucm.es){.btn .btn-outline-primary .btn-sm}
 
 :::
+
+## Editions
+
+This course has been delivered as a postgraduate course within several doctoral programmes in Spain, adapted to each programme:
+
+- **Complutense University of Madrid** — *Ética e integridad en la investigación científica* (12 h), with a dedicated session on the responsible use of evaluation metrics. Editions: 2023–24, 2024–25, 2025–26.
+- **University of Málaga** — *Prácticas para una ciencia más abierta, ética y reproducible*. Editions: 2023–24, 2024–25.
+- **University of Jaén** — *Introducción a la Ciencia Abierta*. Edition: 2023–24.
+<!-- TODO (Pandelis to provide full info): University of Granada edition(s); joint Jaén–Málaga–Granada open-science doctoral course (2026); any missing editions. -->
+

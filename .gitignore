@@ -3,9 +3,6 @@ _site/
 /.quarto/
 **/*.quarto_ipynb
 
-# Python virtual environment
-.venv/
-
 # R
 .Rproj.user/
 .Rhistory

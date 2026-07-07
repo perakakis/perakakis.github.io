@@ -4,6 +4,18 @@
     "items": []
   },
   {
+    "listing": "/research/affect-dynamics/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/era-forum-talk-2026.html",
+      "/blog/coara-forum-2026.html",
+      "/blog/jornadas-investigacion-ccpp-ucm.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/era-forum-talk-2026.html",
@@ -70,18 +82,6 @@
       "/blog/open-scholar-press-release.html",
       "/blog/universidad-a-la-calle.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/era-forum-talk-2026.html",
-      "/blog/coara-forum-2026.html",
-      "/blog/jornadas-investigacion-ccpp-ucm.html"
-    ]
-  },
-  {
-    "listing": "/research/affect-dynamics/index.html",
-    "items": []
   },
   {
     "listing": "/research/hep/index.html",

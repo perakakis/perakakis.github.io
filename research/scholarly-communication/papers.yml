@@ -742,13 +742,56 @@
 - title: "New forms of open peer review will allow academics to separate scholarly evaluation from academic journals"
   date: "2013"
   year: 2013
-  url: "http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis"
-  source: "LSE Impact Blog"
-  description: "Optional summary sentence."
+  url: "https://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/"
+  source: "LSE Impact of Social Sciences"
+  description: "Feature on the LIBRE project and journal-independent open peer review."
   section: "News"
   categories:
     - Open access
     - Peer review
+
+- title: "Open-access platform Libre launched"
+  date: "2013"
+  year: 2013
+  url: "https://www.timeshighereducation.co.uk/news/open-access-platform-libre-launched/2005548.article"
+  source: "Times Higher Education"
+  description: "News story by Paul Jump on the launch of the LIBRE open peer review platform."
+  section: "News"
+  categories:
+    - Open access
+    - Peer review
+
+- title: "Too complex for the jury?"
+  date: "2013"
+  year: 2013
+  url: "https://www.timeshighereducation.co.uk/414431.article"
+  source: "Times Higher Education"
+  description: "Times Higher Education piece by Paul Jump on research evaluation."
+  section: "News"
+  categories:
+    - Research evaluation
+
+- title: "Are University ratings useful?"
+  date: "2014"
+  year: 2014
+  url: "https://www.tovima.gr/science/article/?aid=610392"
+  source: "To Vima"
+  description: "Commentary on the usefulness of university rankings."
+  section: "News"
+  categories:
+    - Research evaluation
+    - University rankings
+
+- title: "Non-profit organisation 'Open Scholar C.I.C.' urges scientists to join their forces against a flawed academic publishing model"
+  date: "2013"
+  year: 2013
+  url: "https://www.journalism.co.uk/press-releases/non-profit-organisation-open-scholar-c-i-c--urges-scientists-to-join-their-forces-against-flawed-academic-publishing-model/s66/a552352/"
+  source: "Journalism.co.uk"
+  description: "Press release announcing Open Scholar C.I.C. and the LIBRE project."
+  section: "News"
+  categories:
+    - Open access
+    - Publishing reform
 
 
 #     [New forms of open peer review will allow academics to separate scholarly evaluation from academic journals.](http://blogs.lse.ac.uk/impactofsocialsciences/2013/08/20/libre-project-open-peer-review-perakakis/) Impact of Social Sciences, London School of Economics.

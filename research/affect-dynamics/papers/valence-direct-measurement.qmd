@@ -24,7 +24,6 @@ Author-accepted manuscript, self-archived on this server. The version of record 
 We replicate and extend our previous findings, providing robust evidence that how individuals move between affective states may be more diagnostic of psychological functioning than the typical intensity or variability of those states.
 
 [<i class="bi bi-file-earmark-pdf"></i> Download PDF](../assets/Goicoechea_2026_Feel_direct_valence_measurement.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
-[<i class="bi bi-journal-text"></i> Version of record](https://doi.org/10.1007/s42761-026-00382-9){.btn .btn-outline-primary .btn-sm target="_blank"}
 
 ```{=html}
 <object data="../assets/Goicoechea_2026_Feel_direct_valence_measurement.pdf" type="application/pdf" width="100%" height="800" style="margin-top:1.5rem;border:1px solid var(--bs-border-color);">

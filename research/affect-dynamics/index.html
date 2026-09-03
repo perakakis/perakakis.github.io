@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e3adbaa939bcd423dddc8c8a834270b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,9 +114,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-authors','listing-year','listing-journal','listing-volume','listing-pages','listing-doi','listing-image','listing-description','listing-section','listing-categories','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-authors","listing-year","listing-journal","listing-volume","listing-pages","listing-doi","listing-image","listing-description","listing-section","listing-categories","listing-links"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -370,7 +370,7 @@ window.Quarto = {
   <li><a href="#funded-projects" id="toc-funded-projects" class="nav-link" data-scroll-target="#funded-projects">Funded projects</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGlua2VkJTIwY29tbXVuaXRpZXM=">Linked communities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMGxlYXJuaW5n">Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsJTIwaGVhbHRo">Mental health <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VFMtQm9ydXRh">TS-Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="QWZmZWN0JTIwc2hpZnQlMjByYXRpbw==">Affect shift ratio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmlzdGFiaWxpdHk=">Bistability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Qm9ydXRh">Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q09WSUQtMTk=">COVID-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3Jvc3MtY3VsdHVyYWw=">Cross-cultural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGluayUyMGNvbW11bml0aWVz">Link communities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMGxlYXJuaW5n">Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVudGFsJTIwaGVhbHRo">Mental health <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV0d29yayUyMGFuYWx5c2lz">Network analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UEJBVA==">PBAT <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U21hcnRwaG9uZSUyMGFwcA==">Smartphone app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VFMtQm9ydXRh">TS-Boruta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VsbC1iZWluZw==">Well-being <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -482,7 +482,89 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="1" data-categories="QmlzdGFiaWxpdHklMkNBZmZlY3QlMjBzaGlmdCUyMHJhdGlvJTJDV2VsbC1iZWluZw==" data-listing-date-sort="1735689600000">
+        <li class="pub-item" data-index="1" data-categories="UEJBVCUyQ0JvcnV0YSUyQ0xpbmslMjBjb21tdW5pdGllcyUyQ05ldHdvcmslMjBhbmFseXNpcyUyQ0Nyb3NzLWN1bHR1cmFs" data-listing-date-sort="1767225600000">
+            <div class="pub-row">
+                
+                <div class="pub-thumbnail">
+                    <img src="assets/spain-net.png" alt="Spanish validation of the PBAT and cross-country mapping of process-outcome networks using link community analysis">
+                </div>
+                
+
+                <div class="pub-body">
+                    <div class="pub-content listing-pub-info">
+                        <p>
+                            Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S. C., Hofmann, S. G., &amp; Perakakis, P. (2026).
+                            <strong>Spanish validation of the PBAT and cross-country mapping of process-outcome networks using link community analysis.</strong>
+                            <em>Journal of Contextual Behavioral Science</em>, 41, 101021.
+                            
+                            doi: <a href="https://doi.org/10.1016/j.jcbs.2026.101021">10.1016/j.jcbs.2026.101021</a>
+                            
+                        </p>
+                        
+                        <p class="pub-description">We validate the Spanish version of the Process-Based Assessment Tool in 602 adults and map process-outcome networks across Spain, the U.S., Sweden and Poland. Link community analysis reveals country-specific differences in which psychological processes most strongly predict distress.</p>
+                        
+                    </div>
+
+                    
+                    <div class="pub-categories">
+                        
+                            <span class="pub-category"><a href="#category=PBAT">
+                                PBAT
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Boruta">
+                                Boruta
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Link communities">
+                                Link communities
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Network analysis">
+                                Network analysis
+                            </a></span>
+                        
+                            <span class="pub-category"><a href="#category=Cross-cultural">
+                                Cross-cultural
+                            </a></span>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="pub-links-bar">
+                        
+                        <a href="https://doi.org/10.1016/j.jcbs.2026.101021" class="pub-link" target="_blank">
+                            <i class="bi bi-journal-text"></i> Journal Article
+                        </a>
+                        
+                        <a href="https://doi.org/10.31234/osf.io/sxhwt_v4" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-text"></i> PsyArXiv
+                        </a>
+                        
+                        <a href="https://hdl.handle.net/20.500.14352/139442" class="pub-link" target="_blank">
+                            <i class="bi bi-archive"></i> DOCTA
+                        </a>
+                        
+                        <a href="papers/spanish-pbat-link-communities.html" class="pub-link" target="_blank">
+                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                        </a>
+                        
+                        <a href="https://github.com/perakakis/spanish-pbat" class="pub-link" target="_blank">
+                            <i class="bi bi-github"></i> Data and Code
+                        </a>
+                        
+                        <a href="https://doi.org/10.17605/OSF.IO/UJ65Z" class="pub-link" target="_blank">
+                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+    
+        <li class="pub-item" data-index="2" data-categories="QmlzdGFiaWxpdHklMkNBZmZlY3QlMjBzaGlmdCUyMHJhdGlvJTJDV2VsbC1iZWluZw==" data-listing-date-sort="1735689600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -560,7 +642,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="2" data-categories="Q09WSUQtMTk=" data-listing-date-sort="1604188800000">
+        <li class="pub-item" data-index="3" data-categories="Q09WSUQtMTk=" data-listing-date-sort="1604188800000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -618,7 +700,7 @@ window.Quarto = {
             </div>
         </li>
     
-        <li class="pub-item" data-index="3" data-categories="U21hcnRwaG9uZSUyMGFwcA==" data-listing-date-sort="1564617600000">
+        <li class="pub-item" data-index="4" data-categories="U21hcnRwaG9uZSUyMGFwcA==" data-listing-date-sort="1564617600000">
             <div class="pub-row">
                 
                 <div class="pub-thumbnail">
@@ -674,76 +756,6 @@ window.Quarto = {
 <div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-list">
 <ul class="list">
-    
-        <li class="pub-item" data-index="0" data-categories="UEJBVCUyQ0JvcnV0YSUyQ0xpbmtlZCUyMGNvbW11bml0aWVzJTJDTmV0d29yayUyMGFuYWx5c2lzJTJDQ3Jvc3MtY3VsdHVyYWw=" data-listing-date-sort="1735689600000">
-            <div class="pub-row">
-                
-                <div class="pub-thumbnail">
-                    <img src="assets/spain-net.png" alt="PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives">
-                </div>
-                
-
-                <div class="pub-body">
-                    <div class="pub-content listing-pub-info">
-                        <p>
-                            Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., &amp; Perakakis, P. (2025).
-                            <strong>PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives.</strong>
-                            <em>Preprint</em>.
-                            
-                            doi: <a href="https://doi.org/https://doi.org/10.31234/osf.io/sxhwt_v1">https://doi.org/10.31234/osf.io/sxhwt_v1</a>
-                            
-                        </p>
-                        
-                        <p class="pub-description">Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US.</p>
-                        
-                    </div>
-
-                    
-                    <div class="pub-categories">
-                        
-                            <span class="pub-category"><a href="#category=PBAT">
-                                PBAT
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Boruta">
-                                Boruta
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Linked communities">
-                                Linked communities
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Network analysis">
-                                Network analysis
-                            </a></span>
-                        
-                            <span class="pub-category"><a href="#category=Cross-cultural">
-                                Cross-cultural
-                            </a></span>
-                        
-                    </div>
-                    
-
-                    
-                    <div class="pub-links-bar">
-                        
-                        <a href="https://doi.org/10.31234/osf.io/sxhwt_v1" class="pub-link" target="_blank">
-                            <i class="bi bi-file-earmark-pdf"></i> Preprint PDF
-                        </a>
-                        
-                        <a href="https://github.com/perakakis/spanish-pbat" class="pub-link" target="_blank">
-                            <i class="bi bi-github"></i> Data and Code
-                        </a>
-                        
-                        <a href="https://osf.io/uj65z" class="pub-link" target="_blank">
-                            <i class="bi bi-box-arrow-up-right"></i> OSF Project
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-        </li>
     
 </ul>
 </div>

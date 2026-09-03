@@ -1,0 +1,46 @@
+---
+title: "Spanish validation of the PBAT and cross-country mapping of process-outcome networks using link community analysis"
+author:
+  - name:
+      given: Carmen
+      family: Goicoechea
+  - name:
+      given: Amie
+      family: Wallman-Jones
+  - name:
+      given: Joseph
+      family: Ciarrochi
+  - name:
+      given: Steven C.
+      family: Hayes
+  - name:
+      given: Stefan G.
+      family: Hofmann
+  - name:
+      given: Pandelis
+      family: Perakakis
+date: "2026"
+citation:
+  type: article-journal
+  container-title: "Journal of Contextual Behavioral Science"
+  volume: 41
+  page: 101021
+  doi: 10.1016/j.jcbs.2026.101021
+  url: https://pandelisperakakis.info/research/affect-dynamics/papers/spanish-pbat-link-communities.html
+  pdf-url: https://pandelisperakakis.info/research/affect-dynamics/assets/Goicoechea_2026_PBAT_Spanish_validation.pdf
+  issued: 2026
+google-scholar: true
+toc: false
+---
+
+Author's version, self-archived on this server. The version of record is published in the *Journal of Contextual Behavioral Science*.
+
+We validate the Spanish version of the Process-Based Assessment Tool in 602 adults and map process-outcome networks across Spain, the U.S., Sweden and Poland. Link community analysis reveals country-specific differences in which psychological processes most strongly predict distress: difficulty finding an appropriate emotional outlet is most central in Spain, perceived inability to change ineffective behaviour in the U.S., and cognitive interference and attentional difficulty in Sweden, while Poland shows a more distributed pattern.
+
+[<i class="bi bi-file-earmark-pdf"></i> Download PDF](../assets/Goicoechea_2026_PBAT_Spanish_validation.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+
+```{=html}
+<object data="../assets/Goicoechea_2026_PBAT_Spanish_validation.pdf" type="application/pdf" width="100%" height="800" style="margin-top:1.5rem;border:1px solid var(--bs-border-color);">
+  <p>Your browser cannot display the embedded PDF. <a href="../assets/Goicoechea_2026_PBAT_Spanish_validation.pdf">Download it here</a>.</p>
+</object>
+```

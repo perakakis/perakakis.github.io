@@ -87,6 +87,43 @@
     icon: "bi bi-box-arrow-up-right"
 
 
+- title: "Spanish validation of the PBAT and cross-country mapping of process-outcome networks using link community analysis"
+  date: "2026"
+  authors: "Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S. C., Hofmann, S. G., & Perakakis, P."
+  year: 2026
+  journal: "Journal of Contextual Behavioral Science"
+  volume: "41"
+  pages: "101021"
+  doi: "10.1016/j.jcbs.2026.101021"
+  image: assets/spain-net.png
+  description: "We validate the Spanish version of the Process-Based Assessment Tool in 602 adults and map process-outcome networks across Spain, the U.S., Sweden and Poland. Link community analysis reveals country-specific differences in which psychological processes most strongly predict distress."
+  section: "Journal Articles"
+  categories:
+    - PBAT
+    - Boruta
+    - Link communities
+    - Network analysis
+    - Cross-cultural
+  links:
+  - name: "Journal Article"
+    url: "https://doi.org/10.1016/j.jcbs.2026.101021"
+    icon: "bi bi-journal-text"
+  - name: "PsyArXiv"
+    url: "https://doi.org/10.31234/osf.io/sxhwt_v4"
+    icon: "bi bi-file-earmark-text"
+  - name: "DOCTA"
+    url: "https://hdl.handle.net/20.500.14352/139442"
+    icon: "bi bi-archive"
+  - name: "PDF"
+    url: "papers/spanish-pbat-link-communities.html"
+    icon: "bi bi-file-earmark-pdf"
+  - name: "Data and Code"
+    url: "https://github.com/perakakis/spanish-pbat"
+    icon: "bi bi-github"
+  - name: "OSF Project"
+    url: "https://doi.org/10.17605/OSF.IO/UJ65Z"
+    icon: "bi bi-box-arrow-up-right"
+
 - title: "CoVidAffect, real-time monitoring of mood variations following the COVID-19 outbreak in Spain"
   date: "2020-11-01"
   authors: "Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanabria, D., & Perakakis, P."
@@ -132,36 +169,6 @@
       url: "https://doi.org/10.3390/s19153430"
       icon: "bi bi-journal-text"
 
-
-#### Preprints
-
-- title: "PBAT Network Analysis: Spanish Validation And Cross-Cultural Perspectives"
-  date: "2025"
-  authors: "Goicoechea, C., Wallman-Jones, A., Ciarrochi, J., Hayes, S., Hofmann, S., & Perakakis, P."
-  year: 2025
-  journal: "Preprint"
-  volume: ""
-  pages: ""
-  doi: "https://doi.org/10.31234/osf.io/sxhwt_v1"
-  image: assets/spain-net.png
-  description: "Network analysis of the Spanish validation of the Process-Based Assessment Tool (PBAT) and cross-cultural comparisons with samples from Sweden, Poland and the US."
-  section: "Preprints"
-  categories:
-    - PBAT
-    - Boruta
-    - Linked communities
-    - Network analysis
-    - Cross-cultural
-  links:
-    - name: "Preprint PDF"
-      url: "https://doi.org/10.31234/osf.io/sxhwt_v1"
-      icon: "bi bi-file-earmark-pdf"    
-    - name: "Data and Code"
-      url: "https://github.com/perakakis/spanish-pbat"
-      icon: "bi bi-github"
-    - name: "OSF Project"
-      url: "https://osf.io/uj65z"
-      icon: "bi bi-box-arrow-up-right"
 
 - title: "Análisis de casos con la herramienta de evaluación basada en procesos: predicción de cambios afectivos en el trastorno depresivo persistente y el trastorno límite de la personalidad"
   date: "2025-04-05"

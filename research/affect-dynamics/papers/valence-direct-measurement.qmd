@@ -19,7 +19,7 @@ google-scholar: true
 toc: false
 ---
 
-Author-accepted manuscript, self-archived on this server. The version of record is published in *Affective Science*.
+Author-submitted manuscript, self-archived on this server. The version of record is published in *Affective Science*.
 
 We replicate and extend our previous findings, providing robust evidence that how individuals move between affective states may be more diagnostic of psychological functioning than the typical intensity or variability of those states.
 

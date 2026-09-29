@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --citeproc --bibliography references.bib --csl apa-date-desc.csl --from markdown --to json index.qmd)",
+      "Bash(python3 -c \":*)",
+      "Bash(quarto render publications/index.qmd)",
+      "Bash(chmod +x /Users/pandelis/Repos/perakakis.github.io/publications/fix-note-links.sh)",
+      "Bash(ls /Users/pandelis/Repos/perakakis.github.io/research/*/)",
+      "Bash(quarto render research/index.qmd)",
+      "Bash",
+      "Edit",
+      "Bash(quarto render *)"
+    ]
+  }
+}

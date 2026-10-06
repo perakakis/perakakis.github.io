@@ -212,6 +212,20 @@
     url: "assets/Cascais_2024_EHPS.pdf"
     icon: "bi bi-file-earmark-slides"
 
+- title: "Process-Based Prediction of Affect Shift Dynamics for Personalized Well-Being (SHIFT)"
+  date: "2026"
+  funder: "Spanish Ministry of Science, Innovation and Universities (MICIU/AEI)"
+  grant-id: "PID2025-170231NB-I00"
+  role: "PI"
+  period: "2026–2029"
+  description: "This project continues BAD. It examines how affect-shift metrics relate to established measures of affect dynamics, which psychological processes drive affect shifts in particular individuals, and under what conditions approaching negative transitions can be detected in advance."
+  section: "Funding"
+  categories:
+    - Affect shift ratio
+    - Well-being
+    - PBAT
+  links: []
+
 - title: "Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)"
   date: "2022"
   funder: "Spanish Ministry of Science and Innovation"

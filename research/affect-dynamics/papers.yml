@@ -1,3 +1,17 @@
+- title: "Affect-shift metrics versus intensity- and variability-based measures as predictors of depression and neuroticism: a preregistered analysis of the Cloos, Ceulemans, and Kuppens (2023) dataset"
+  date: "2026-10-06"
+  authors: "Perakakis, P., Goicoechea, C., & Cloos, L."
+  year: 2026
+  description: "This preregistered secondary analysis tests whether the affect-shift ratios P2N and N2P, derived from a single bipolar valence item, predict depression and neuroticism as well as or better than the mean and standard deviation of positive and negative affect. Intensity and variability are computed twice in the Cloos et al. (2023) dataset, from multi-item discrete-emotion scales and from direct single-item measures of positive and negative affect."
+  section: "Preregistration"
+  categories:
+    - Affect shift ratio
+    - Secondary data analysis
+  links:
+    - name: "OSF Registration"
+      url: "https://doi.org/10.17605/OSF.IO/VH95B"
+      icon: "bi bi-box-arrow-up-right"
+
 - title: "Predicting Affect Shifts Using TS-Boruta With Process-Based Assessment Tool Items: Idionomic Analyses In An Ecological Momentary Assessment Dataset"
   date: "2025-08-19"
   authors: "Perakakis, P., Ciarrochi, J., Goicoechea, C., & Sahdra, B.K."
@@ -201,7 +215,7 @@
 - title: "Beyond Positive and Negative: Uncovering Bistability in Affect Dynamics and their Impact on Well-being and Mental Health (BAD)"
   date: "2022"
   funder: "Spanish Ministry of Science and Innovation"
-  grant-id: "PID2021-122271NA-I00"
+  grant-id: "PID2022-138249NB-I00"
   role: "PI"
   period: "2022–2026"
   # image: bad.png

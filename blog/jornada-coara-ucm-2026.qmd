@@ -18,5 +18,4 @@ Tras el café, la vicerrectora presenta el Plan de Acción y la participación d
 Estas son las diapositivas de mi intervención:
 
 [<i class="bi bi-file-earmark-pdf"></i> Diapositivas (PDF)](assets/CoARA_UCM_Pandelis_2026-10-29.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
-[<i class="bi bi-file-earmark-slides"></i> Diapositivas (PowerPoint)](assets/CoARA_UCM_Pandelis_2026-10-29.pptx){.btn .btn-outline-primary .btn-sm}
 [<i class="bi bi-file-earmark-text"></i> El Plan de Acción en Zenodo](https://doi.org/10.5281/zenodo.18860418){.btn .btn-outline-primary .btn-sm target="_blank"}

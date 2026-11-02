@@ -47,7 +47,6 @@ Drawing on concepts from dynamical systems theory and ecology, this line of rese
 Having established that shift dynamics are robust predictors of well-being, we now aim to understand what drives these transitions at the individual level. We use process-based assessment to map the psychological processes underlying affect shifts, with the goal of informing tailored therapeutic interventions.
 
 [<i class="bi bi-box-arrow-up-right"></i> OSF Project](https://osf.io/w8e72/overview){.btn .btn-outline-primary .btn-sm target="_blank"}
-[<i class="bi bi-github"></i> GitHub](https://github.com/perakakis/affect-dynamics){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 :::
 

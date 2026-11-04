@@ -10,6 +10,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/brainhack-donostia-2026.html",
       "/blog/jornada-coara-ucm-2026.html",
       "/blog/era-forum-talk-2026.html",
       "/blog/coara-forum-2026.html"
@@ -18,6 +19,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/brainhack-donostia-2026.html",
       "/blog/jornada-coara-ucm-2026.html",
       "/blog/era-forum-talk-2026.html",
       "/blog/csic-predoc-talk-2026.html",

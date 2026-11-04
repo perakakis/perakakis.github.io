@@ -6,6 +6,7 @@ listing:
   - id: recent-posts
     contents:
       # - blog/rethinking-affect.qmd
+      - blog/brainhack-donostia-2026.qmd
       - blog/jornada-coara-ucm-2026.qmd
       # - blog/jornadas-investigacion-ccpp-ucm.qmd
       - blog/coara-forum-2026.qmd

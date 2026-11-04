@@ -198,6 +198,22 @@
 
 # ── Conferences / Invited Talks ───────────────────────────────────────────────
 
+- title: "Replacing academic journals with repositories and peer communities"
+  date: "2026-11-04"
+  authors: "Perakakis, P."
+  year: 2026
+  journal: "BrainHack Donostia 2026, BCBL"
+  volume: "San Sebastián, Spain"
+  description: "Keynote on replacing journal-based publishing with repositories and peer communities."
+  section: "Conferences"
+  categories:
+    - Publishing reform
+    - Peer review
+  links:
+    - name: "Slides"
+      url: "/talks/brainhack-donostia-2026/"
+      icon: "bi bi-easel"
+
 - title: "Reforma de la evaluación impulsada por CoARA en la UCM"
   date: "2025-11-18"
   authors: "Perakakis, P."

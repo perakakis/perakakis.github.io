@@ -1,0 +1,30 @@
+---
+title: "Replacing academic journals: keynote at BrainHack Donostia 2026"
+date: 2026-11-04
+description: "Keynote at BrainHack Donostia 2026 on replacing journal-based publishing with repositories and peer communities, and a hackathon project on automated reproducibility checks. Slides included."
+categories: [News & Events, Talks & Presentations, Scholarly Communication, Slides]
+image: assets/brainhack-donostia-2026.png
+---
+
+Today, 4 November, I give a keynote at [BrainHack Donostia 2026](https://brainhack-donostia.github.io/){target="_blank"}, organised by the Basque Center on Cognition, Brain and Language (BCBL) in San Sebastián from 3 to 6 November. The talk, *Replacing academic journals with repositories and peer communities*, is at 14:00.
+
+Journals were built to distribute and certify research when both depended on paper and were scarce. Today research is published in repositories at almost no cost, and communities of peers can evaluate it and deposit their reviews in the same repositories as open, citable research objects. The talk follows the three processes that journals now bundle into one product: validation, evaluation and dissemination. It then shows projects and infrastructures that already perform each of them outside journals, and closes with Psicológica, a diamond open access journal run by its academic community and published in the CSIC institutional repository.
+
+The slides are below; use the arrow keys to move through them, or open them in a new tab to view them full screen.
+
+<div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.15);">
+  <iframe
+    src="/talks/brainhack-donostia-2026/"
+    style="width: 100%; aspect-ratio: 16/9; border: none; display: block;"
+    title="Replacing academic journals with repositories and peer communities: slides"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+
+[<i class="bi bi-easel"></i> Open the slides in a new tab](/talks/brainhack-donostia-2026/){.btn .btn-outline-primary .btn-sm target="_blank"}
+[<i class="bi bi-file-earmark-pdf"></i> Slides (PDF)](/talks/brainhack-donostia-2026/brainhack-donostia-2026.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+
+This morning I also pitched a hackathon project, [reprocheck](https://github.com/perakakis/reprocheck){target="_blank"}, an automated reproducibility check that a journal can run on GitHub. It rebuilds the authors' R environment as it was on the date of their deposit, runs their code unchanged and produces a report that an editor compares with the article. The participants who join the project will test it on published deposits and work on its weaknesses during the hackathon.
+
+Many thanks to Manuela Ruzzoli, Iria Nieto Rebollo and the BrainHack Donostia organisers for the invitation.

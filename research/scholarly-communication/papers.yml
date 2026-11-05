@@ -214,6 +214,29 @@
       url: "/talks/brainhack-donostia-2026/"
       icon: "bi bi-easel"
 
+- title: "Por qué es necesario reformar la evaluación de la investigación: el contexto internacional y la respuesta de CoARA"
+  date: "2026-10-29"
+  authors: "Perakakis, P."
+  year: 2026
+  journal: "Jornada «La UCM ante la reforma europea de la evaluación de la investigación», Universidad Complutense de Madrid"
+  volume: "Madrid, Spain"
+  description: "Charla de apertura en la jornada de presentación del Plan de Acción CoARA 2025-2027 de la UCM, compartida con Antonio Calderón-Rehecho (Biblioteca UCM)."
+  section: "Conferences"
+  categories:
+    - Research evaluation
+    - Publishing reform
+    - Slides
+  links:
+    - name: "Slides"
+      url: "../../blog/assets/CoARA_UCM_Pandelis_2026-10-29.pdf"
+      icon: "bi bi-file-earmark-slides"
+    - name: "Post"
+      url: "../../blog/jornada-coara-ucm-2026.html"
+      icon: "bi bi-journal-text"
+    - name: "Tribuna Complutense"
+      url: "https://tribuna.ucm.es/news/la-universidad-complutense-plan-accion-coara"
+      icon: "bi bi-newspaper"
+
 - title: "Reforma de la evaluación impulsada por CoARA en la UCM"
   date: "2025-11-18"
   authors: "Perakakis, P."

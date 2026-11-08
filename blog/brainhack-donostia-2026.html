@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-11-04">
-<meta name="description" content="Keynote at BrainHack Donostia 2026 on replacing journal-based publishing with repositories and peer communities, and a hackathon project on automated reproducibility checks. Slides included.">
+<meta name="description" content="Keynote at BrainHack Donostia 2026 on replacing journal-based publishing with repositories and peer communities, and reprocheck, the automated reproducibility check developed during the hackathon. Slides included.">
 
 <title>Replacing academic journals: keynote at BrainHack Donostia 2026 – Pandelis Perakakis</title>
 <style>
@@ -206,7 +206,7 @@ gtag('config', 'G-YBLEE7645S', { 'anonymize_ip': true});
 
 <div>
   <div class="description">
-    Keynote at BrainHack Donostia 2026 on replacing journal-based publishing with repositories and peer communities, and a hackathon project on automated reproducibility checks. Slides included.
+    Keynote at BrainHack Donostia 2026 on replacing journal-based publishing with repositories and peer communities, and reprocheck, the automated reproducibility check developed during the hackathon. Slides included.
   </div>
 </div>
 
@@ -229,17 +229,27 @@ gtag('config', 'G-YBLEE7645S', { 'anonymize_ip': true});
 </header>
 
 
-<p>Today, 4 November, I give a keynote at <a href="https://brainhack-donostia.github.io/" target="_blank">BrainHack Donostia 2026</a>, organised by the Basque Center on Cognition, Brain and Language (BCBL) in San Sebastián from 3 to 6 November. The talk, <em>Replacing academic journals with repositories and peer communities</em>, is at 14:00.</p>
-<p>Journals were built to distribute and certify research when both depended on paper and were scarce. Today research is published in repositories at almost no cost, and communities of peers can evaluate it and deposit their reviews in the same repositories as open, citable research objects. The talk follows the three processes that journals now bundle into one product: validation, evaluation and dissemination. It then shows projects and infrastructures that already perform each of them outside journals, and closes with Psicológica, a diamond open access journal run by its academic community and published in the CSIC institutional repository.</p>
-<p>The slides are below; use the arrow keys to move through them, or open them in a new tab to view them full screen.</p>
+<p>I gave a keynote at <a href="https://brainhack-donostia.github.io/" target="_blank">BrainHack Donostia 2026</a>, organised by the Basque Center on Cognition, Brain and Language (BCBL) in San Sebastián from 3 to 6 November. The talk, <em>Replacing academic journals with repositories and peer communities</em>, took place on 4 November. It argued that validation, evaluation and dissemination, the three processes journals bundle into one product, can each be done in repositories and by communities of peers, and it closed with the example of Psicológica, a diamond open access journal run by its academic community in collaboration with the institutional repository of the Spanish National Research Council (CSIC).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/brainhack-donostia-2026-collage.jpg" class="img-fluid figure-img" alt="Collage of three photographs: the BrainHack BCBL 2026 poster with the keynote speakers, and two photos of Pandelis Perakakis smiling inside the WeHack Hard photo frame."></p>
+<figcaption>WeHack Hard!</figcaption>
+</figure>
+</div>
+<p>Here are my slides to view, open in a new tab or download as PDF:</p>
 <div style="margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.15);">
 <p><iframe src="../talks/brainhack-donostia-2026/" style="width: 100%; aspect-ratio: 16/9; border: none; display: block;" title="Replacing academic journals with repositories and peer communities: slides" loading="lazy" allowfullscreen=""> </iframe></p>
 </div>
 <p><a href="../talks/brainhack-donostia-2026/" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-easel"></i> Open the slides in a new tab</a> <a href="../talks/brainhack-donostia-2026/brainhack-donostia-2026.pdf" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-file-earmark-pdf"></i> Slides (PDF)</a></p>
-<p>This morning I also pitched a hackathon project, <a href="https://github.com/perakakis/reprocheck" target="_blank">reprocheck</a>, an automated reproducibility check that a journal can run on GitHub. It rebuilds the authors’ R environment as it was on the date of their deposit, runs their code unchanged and produces a report that an editor compares with the article. The participants who join the project will test it on published deposits and work on its weaknesses during the hackathon.</p>
-<p>Many thanks to Manuela Ruzzoli, Iria Nieto Rebollo and the BrainHack Donostia organisers for the invitation.</p>
+<section id="reprocheck-a-reproducibility-check-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="reprocheck-a-reproducibility-check-on-github">reprocheck: a reproducibility check on GitHub</h2>
+<p>On the morning of the keynote I pitched a hackathon project, <a href="https://github.com/perakakis/reprocheck" target="_blank">reprocheck</a>, an automated reproducibility check that a journal can run before peer review. The checker copies the authors’ code and data, exactly as deposited, into a copy of the reprocheck template on GitHub and starts the workflow from the Actions tab. The workflow rebuilds the R environment as it was on the date of the deposit, with the R version and package versions of that date, runs each script unchanged in its own R session and produces an HTML report. For each script the report shows the files it wrote, compared with the files of the same name in the deposit, its figures, the tables it saved and its full console output. Two optional steps call <a href="https://github.com/scienceverse/metacheck" target="_blank">metacheck</a> to inspect the deposited files and to match the statistical tests reported in the manuscript with those the code reproduces. The checker then compares the reproduced values with the article and records a verdict in an issue. reprocheck follows the principles of <a href="https://codecheck.org.uk" target="_blank">CODECHECK</a>: the checker runs the code without fixing it and records what happened.</p>
+<p>A wonderful, enthusiastic hackathon team formed around the project and extended reprocheck so that it runs several scripts in order, each passing its results to the next through the files it writes. We tested this version on a simulated deposit and on the deposit of a recently published article. The code is open under the MIT licence, and any journal or research group can copy the template and run its own checks.</p>
+<p><a href="https://github.com/perakakis/reprocheck" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> reprocheck on GitHub</a></p>
+<p>Many thanks to Manuela Ruzzoli, Iria Nieto Rebollo and the BrainHack Donostia organisers for the invitation, and to the team that worked on reprocheck.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

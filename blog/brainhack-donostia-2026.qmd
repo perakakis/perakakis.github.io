@@ -3,7 +3,7 @@ title: "Replacing academic journals: keynote at BrainHack Donostia 2026"
 date: 2026-11-04
 description: "Keynote at BrainHack Donostia 2026 on replacing journal-based publishing with repositories and peer communities, and reprocheck, the automated reproducibility check developed during the hackathon. Slides included."
 categories: [News & Events, Talks & Presentations, Scholarly Communication, Slides]
-image: assets/brainhack-donostia-2026.png
+image: assets/brainhack-donostia-2026-poster.jpg
 ---
 
 I gave a keynote at [BrainHack Donostia 2026](https://brainhack-donostia.github.io/){target="_blank"}, organised by the Basque Center on Cognition, Brain and Language (BCBL) in San Sebastián from 3 to 6 November. The talk, *Replacing academic journals with repositories and peer communities*, took place on 4 November. It argued that validation, evaluation and dissemination, the three processes journals bundle into one product, can each be done in repositories and by communities of peers, and it closed with the example of Psicológica, a diamond open access journal run by its academic community in collaboration with the institutional repository of the Spanish National Research Council (CSIC).

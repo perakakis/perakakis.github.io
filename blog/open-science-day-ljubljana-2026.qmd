@@ -6,7 +6,7 @@ categories: [News & Events, Talks & Presentations, Scholarly Communication]
 image: assets/open-science-day-ljubljana-2026.png
 ---
 
-On 19 November I will give a keynote at the [Slovenian Open Science Day 2026](https://mrezaznanja.si/en/open-science/){target="_blank"}, the EOSC National Tripartite Event, held in Ljubljana as part of The Knowledge Network 2026 (Mreža znanja). The talk belongs to the session *Research Career Assessment Reform in Practice: From Rules on Research Titles to Responsible Career Evaluation*, moderated by Sebastian Dahle (University of Ljubljana). I will speak after Pilar García Gómez (Erasmus School of Economics), and a round table with Dean Korošak (University of Maribor), Anže Županič (National Institute of Biology) and Leon Cizelj (Jožef Stefan Institute) will follow.
+On 19 November I will give a keynote at the [Slovenian Open Science Day 2026](https://mrezaznanja.si/en/open-science/){target="_blank"}, the EOSC National Tripartite Event, held in Ljubljana as part of The Knowledge Network 2026 (Mreža znanja). The talk belongs to the session *Research Career Assessment Reform in Practice: From Rules on Research Titles to Responsible Career Evaluation*, moderated by Sebastian Dahle (University of Ljubljana).
 
 ## The talk
 

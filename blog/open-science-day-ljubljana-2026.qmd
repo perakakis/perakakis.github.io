@@ -1,0 +1,17 @@
+---
+title: "What it takes for a university to change research assessment: keynote at the Slovenian Open Science Day 2026"
+date: 2026-11-11
+description: "On 19 November I will speak in Ljubljana, at the Slovenian Open Science Day 2026, about how Complutense University of Madrid is changing the way it assesses research."
+categories: [News & Events, Talks & Presentations, Scholarly Communication]
+image: assets/open-science-day-ljubljana-2026.png
+---
+
+On 19 November I will give a keynote at the [Slovenian Open Science Day 2026](https://mrezaznanja.si/en/open-science/){target="_blank"}, the EOSC National Tripartite Event, held in Ljubljana as part of The Knowledge Network 2026 (Mreža znanja). The talk belongs to the session *Research Career Assessment Reform in Practice: From Rules on Research Titles to Responsible Career Evaluation*, moderated by Sebastian Dahle (University of Ljubljana). I will speak after Pilar García Gómez (Erasmus School of Economics), and a round table with Dean Korošak (University of Maribor), Anže Županič (National Institute of Biology) and Leon Cizelj (Jožef Stefan Institute) will follow.
+
+## The talk
+
+*What it takes for a university to change research assessment: the case of Complutense University of Madrid*
+
+Many universities have signed the CoARA Agreement, but the reform reaches researchers only when an institution changes the rules it controls: the criteria of its own calls for positions, the evaluation of its research units and the awards it grants. Drawing on the experience of Complutense University of Madrid (UCM), the talk discusses what this work requires and where its limits lie. It also considers the place of open infrastructures, such as institutional repositories and research information systems, and of the collaboration between academics and librarians that makes research assessment reform possible. Concrete changes adopted at UCM illustrate each point.
+
+I will add the slides here after the event. Many thanks to Klemen Miklavič, of the Slovenian Research and Innovation Agency, and to the organisers for the invitation.
